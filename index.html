@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  </head>
+
+<body>
+  <div id="app-1630" class="container">
+    <div v-if="(loading)">
+      <h2 class="text-center">{{loadingMsg}}
+        <!-- <i class="fas fa-spinner fa-spin"></i> -->
+      </h2>
+    </div>
+    <div class="unit" v-if="(!loading)" v-for="(unit, index_unit) in notes.units">
+      <h2 class="unittitle">{{index_unit + 1 + '. '}}{{unit.title}}</h2>
+      <div class="section" v-for="(section, index_section) in unit.sections">
+        <h3 class="sectiontitle">{{index_unit + 1 + '.'}}{{(index_section + 1) + '. '}}{{section.title}}</h3>
+        <p class="sectionintro">{{section.intro}}</p>
+        <div class="problemset" v-for="(problemset, index_problemset) in section.problemsets">
+          <p class="problemsetintro">{{problemset.intro}}</p>
+          <ol>
+            <li class="problem" v-for="(problem, index_problem) in problemset.problems"> {{problem.text}}
+              <ul class="solutions">
+                <li class="solution" v-for="(solution, index_solution) in problem.solutions">{{solution}}</li>
+                <li class="answer">{{problem.answer}}</li>
+              </ul>
+              <!--end of a solution and answer -->
+            </li>
+            <!--end of a problem -->
+          </ol>
+        </div>
+        <!--end of a problem set -->
+      </div>
+      <!--end of a section -->
+    </div>
+    <!--end of a unit -->
+  </div>
+  <!--end of app container -->
+  <script>
+
+    var app = new Vue({
+      el: "#app-1630",
+      data: {
+        loading: true,
+        loadingMsg: "Loading...",
+        notes: {},
+      }, // end of vue data object
+      created: function () {
+        this.fetchUnits();
+      }, //end of created function
+      watch: {
+        notes: function () {
+          MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        }
+      },
+      methods: {
+        fetchUnits: function () {
+          let self = this;
+
+          let xhr = new XMLHttpRequest();
+          let servicelink = './scripts/units.json?nocache' + (new Date()).getTime(); //todo remove no cache when production
+          xhr.open('GET', servicelink)
+          xhr.onload = function () {
+            self.notes = JSON.parse(xhr.responseText)
+            this.notes = self.notes
+            self.loading = false
+            // MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+          }
+          xhr.send()
+        } //end of fetch units function
+      }//end of methods object
+    }); // end of vue app
+  </script> 
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
