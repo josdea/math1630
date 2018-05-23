@@ -6,7 +6,8 @@ var urlsToCache = [
   './css/printing.css',
   './js/vue.min.js',
   './js/units.json',
-  './manifest.json'
+  './manifest.json',
+  'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML'
 ];
 
 self.addEventListener('install', function (event) {
