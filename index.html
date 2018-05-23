@@ -5,15 +5,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <meta name="Description" content="Math 1630, pscc, pellissippi state, pscc">
+  <meta name="theme-color" content="#001cb8" />
+  <title>Math 1630</title>
+  <link rel="manifest" href="manifest.json">
+  <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+  
+  <noscript>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/styles.css">
-  <link rel="stylesheet" href="./css/printing.css">
+  </noscript>
+  <!-- <link rel="stylesheet" href="./css/printing.css" media="print"> -->
+  
+ 
   </head>
 
 <body>
+
+<div class="banner">
+  <h1>Math 1630</h1>
+</div>
+
   <div id="app-1630" class="container">
     <div v-if="(loading)">
       <h2 class="text-center">{{loadingMsg}}
@@ -45,7 +58,10 @@
     <!--end of a unit -->
   </div>
   <!--end of app container -->
+  <script src="./js/vue.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
   <script>
+
 
     var app = new Vue({
       el: "#app-1630",
@@ -67,7 +83,8 @@
           let self = this;
 
           let xhr = new XMLHttpRequest();
-          let servicelink = './scripts/units.json?nocache' + (new Date()).getTime(); //todo remove no cache when production
+          let servicelink = './js/units.json';
+          //let servicelink = './js/units.json?nocache' + (new Date()).getTime(); //todo remove no cache when production
           xhr.open('GET', servicelink)
           xhr.onload = function () {
             self.notes = JSON.parse(xhr.responseText)
@@ -81,9 +98,23 @@
       }//end of methods object
     }); // end of vue app
   </script> 
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
-  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ"
-    crossorigin="anonymous"></script>
+       <script src="./js/app.js" async></script>
+<script type="text/javascript" async>
+  var giftofspeed = document.createElement('link');
+  giftofspeed.rel = 'stylesheet';
+  giftofspeed.href = 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css';
+  giftofspeed.type = 'text/css';
+  var godefer = document.getElementsByTagName('link')[0];
+  godefer.parentNode.insertBefore(giftofspeed, godefer);
+
+  var giftofspeed2 = document.createElement('link');
+  giftofspeed2.rel = 'stylesheet';
+  giftofspeed2.href = './css/styles.css';
+  giftofspeed2.type = 'text/css';
+  var godefer2 = document.getElementsByTagName('link')[0];
+  godefer2.parentNode.insertBefore(giftofspeed2, godefer2);
+</script>
+
 </body>
 
 </html>
