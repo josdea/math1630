@@ -7,12 +7,12 @@
   "manifest_version": 2,
   "icons": [
     {
-      "src": "iconchart256.png",
+      "src": "iconmath256.png",
       "sizes": "256x256",
       "type": "image/png"
     },
       {
-        "src": "iconchart512.png",
+        "src": "iconmath512.png",
         "sizes": "512x512",
         "type": "image/png"
       }
