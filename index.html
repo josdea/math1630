@@ -9,29 +9,20 @@
   <meta name="theme-color" content="#001cb8" />
   <title>Math 1630</title>
   <link rel="manifest" href="manifest.json">
-  <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
-  
   <noscript>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/styles.css">
-  </noscript>
-  <!-- <link rel="stylesheet" href="./css/printing.css" media="print"> -->
-  
- 
-  </head>
+  <link rel="stylesheet" href="./css/printing.css" media="print">
+</noscript>
+
+</head>
 
 <body>
-
-<div class="banner">
-  <h1>Math 1630</h1>
-</div>
-
+  <div class="banner">
+    <h1>Math 1630</h1>
+  </div>
   <div id="app-1630" class="container">
     <div v-if="(loading)">
-      <h2 class="text-center">{{loadingMsg}}
-        <!-- <i class="fas fa-spinner fa-spin"></i> -->
-      </h2>
+      <h2 class="text-center">{{loadingMsg}} </h2>
     </div>
     <div class="unit" v-if="(!loading)" v-for="(unit, index_unit) in notes.units">
       <h2 class="unittitle">{{index_unit + 1 + '. '}}{{unit.title}}</h2>
@@ -90,31 +81,28 @@
             self.notes = JSON.parse(xhr.responseText)
             this.notes = self.notes
             self.loading = false
-            // MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
             MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
           }
           xhr.send()
         } //end of fetch units function
       }//end of methods object
     }); // end of vue app
-  </script> 
-       <script src="./js/app.js" async></script>
-<script type="text/javascript" async>
+  </script>
+  <script src="./js/app.js"></script>
+  <script type="text/javascript">
   var giftofspeed = document.createElement('link');
   giftofspeed.rel = 'stylesheet';
-  giftofspeed.href = 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css';
+  giftofspeed.href = './css/styles.css';
   giftofspeed.type = 'text/css';
   var godefer = document.getElementsByTagName('link')[0];
   godefer.parentNode.insertBefore(giftofspeed, godefer);
 
   var giftofspeed2 = document.createElement('link');
   giftofspeed2.rel = 'stylesheet';
-  giftofspeed2.href = './css/styles.css';
+  giftofspeed2.href = './css/printing.css';
   giftofspeed2.type = 'text/css';
   var godefer2 = document.getElementsByTagName('link')[0];
   godefer2.parentNode.insertBefore(giftofspeed2, godefer2);
-</script>
-
-</body>
+  </script> </body>
 
 </html>

@@ -1,0 +1,15 @@
+@page {
+    margin: 0.5in !important;
+    size: letter portrait;
+}
+
+@media print {
+  html{
+    font-size: 16px;
+  }
+    .container {
+        margin: 0px !important;
+        padding: 0px !important;
+        page-break-after: always;
+    }
+}
