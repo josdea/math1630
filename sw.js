@@ -5,7 +5,8 @@ var urlsToCache = [
   './css/styles.css',
   './css/printing.css',
   './js/vue.min.js',
-  './js/units.json'
+  './js/units.json',
+  './manifest.json'
 ];
 
 self.addEventListener('install', function (event) {
