@@ -25,7 +25,7 @@
       "web_url": "http://localhost:8888/math1630/"
     }
   },
-    "start_url": "/index.html",
+    "start_url": "./index.html",
     "background_color": "#dbdbdb",
     "theme_color": "#001cb8",
     "display": "fullscreen"
