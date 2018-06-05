@@ -1,0 +1,90 @@
+{
+  "units": [
+    {
+      "title": "The title of the first unit in the json file 5",
+      "sections": [
+        {
+          "title": "title of the first section",
+          "intro": "This is an intro",
+          "problemsets": [
+            {
+              "intro": "this is a problem set intro",
+              "problems": [
+                {
+                  "text": "Ursula borrows $600 for 5 months at a simple interest rate of 15% per year. Find the interest, and the total amount she is obligated to pay?",
+                  "solutions": [
+                    "solution \\(x^2+14 = 2\\) line 1",
+                    "solution \\[x^2+14 = 2\\] line 2",
+                    "solution line 3"
+                  ],
+                  "answer": "answer to this problem"
+                },
+                {
+                  "text": "Jose deposited $2500 in an account that pays 6% simple interest. How much money will he have at the end of 3 years?",
+                  "solutions": [
+                    "solution line 1",
+                    "solution line 2",
+                    "solution line 3"
+                  ],
+                  "answer": "answer to another problem"
+                },
+                {
+                  "text": "Darnel owes a total of $3060 which includes 12% interest for the three years he borrowed the money. How much did he originally borrow?",
+                  "solutions": [
+                    "solution line 1",
+                    "solution line 2",
+                    "solution line 3"
+                  ],
+                  "answer": "answer to another problem"
+                },
+                {
+                  "text": "A Visa credit card company charges a 1.5% finance charge each month on the unpaid balance. If Martha owes $2350 and has not paid her bill for three months, how much does she owe?",
+                  "solutions": [
+                    "solution line 1",
+                    "solution line 2",
+                    "solution line 3"
+                  ],
+                  "answer": "answer to another problem"
+                },
+                {
+                  "text": "If an amount of $2,\r\n000 is borrowed at a simple interest rate of 10% for 3 years, how much is the interest?",
+                  "solutions": [
+                    "solution line 1",
+                    "solution line 2",
+                    "solution line 3"
+                  ],
+                  "answer": "answer to another problem"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "another title of a unit",
+      "sections": [
+        {
+          "title": "another title of a section",
+          "intro": "This is an intro",
+          "problemsets": [
+            {
+              "intro": "this is a problem set intro",
+              "problems": [
+                {
+                  "text": "this is problem 1 text",
+                  "solutions": [
+                    "solution line 1",
+                    "solution line 2",
+                    "solution line 3"
+                  ],
+                  "answer": "answer to a problem in another unit"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

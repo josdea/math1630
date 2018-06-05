@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Math 1630, pscc, pellissippi state, pscc">
+  <meta name="theme-color" content="#001cb8" />
+  <title>Math 1630</title>
+  <link rel="manifest" href="manifest.json">
+  <noscript>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/printing.css" media="print">
+</noscript>
+
+</head>
+
+<body>
+  <div class="banner">
+    <h1>Math 1630</h1>
+  </div>
+  <div id="app-1630" class="container">
+    <div v-if="(loading)">
+      <h2 class="text-center">{{loadingMsg}} </h2>
+    </div>
+    <div class="unit" v-if="(!loading)" v-for="(unit, index_unit) in notes.units">
+      <h2 class="unittitle">{{index_unit + 1 + '. '}}{{unit.title}}</h2>
+      <div class="section" v-for="(section, index_section) in unit.sections">
+        <h3 class="sectiontitle">{{index_unit + 1 + '.'}}{{(index_section + 1) + '. '}}{{section.title}}</h3>
+        <p class="sectionintro">{{section.intro}}</p>
+        <div class="problemset" v-for="(problemset, index_problemset) in section.problemsets">
+          <p class="problemsetintro">{{problemset.intro}}</p>
+          <ol>
+            <li class="problem" v-for="(problem, index_problem) in problemset.problems"> {{problem.text}}
+              <ul class="solutions">
+                <li class="solution" v-for="(solution, index_solution) in problem.solutions">{{solution}}</li>
+                <li class="answer">{{problem.answer}}</li>
+              </ul>
+              <!--end of a solution and answer -->
+            </li>
+            <!--end of a problem -->
+          </ol>
+        </div>
+        <!--end of a problem set -->
+      </div>
+      <!--end of a section -->
+    </div>
+    <!--end of a unit -->
+  </div>
+  <!--end of app container -->
+  
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
+  <script src="./js/vue.min.js"></script>
+  
+  <script>
+
+
+    var app = new Vue({
+      el: "#app-1630",
+      data: {
+        loading: true,
+        loadingMsg: "Loading...",
+        notes: {},
+      }, // end of vue data object
+      created: function () {
+        this.fetchUnits();
+      }, //end of created function
+      watch: {
+        notes: function () {
+          MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        }
+      },
+      methods: {
+        fetchUnits: function () {
+          let self = this;
+
+          let xhr = new XMLHttpRequest();
+          let servicelink = './js/units.json';
+          // let servicelink = './js/units.json?nocache' + (new Date()).getTime(); //todo remove no cache when production
+          xhr.open('GET', servicelink)
+          xhr.onload = function () {
+            self.notes = JSON.parse(xhr.responseText)
+            this.notes = self.notes
+            self.loading = false
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+          }
+          xhr.send()
+        } //end of fetch units function
+      }//end of methods object
+    }); // end of vue app
+  </script>
+  <script src="./js/app.js"></script>
+  <script type="text/javascript">
+  var giftofspeed = document.createElement('link');
+  giftofspeed.rel = 'stylesheet';
+  giftofspeed.href = './css/styles.css';
+  giftofspeed.type = 'text/css';
+  var godefer = document.getElementsByTagName('link')[0];
+  godefer.parentNode.insertBefore(giftofspeed, godefer);
+
+  var giftofspeed2 = document.createElement('link');
+  giftofspeed2.rel = 'stylesheet';
+  giftofspeed2.href = './css/printing.css';
+  giftofspeed2.type = 'text/css';
+  var godefer2 = document.getElementsByTagName('link')[0];
+  godefer2.parentNode.insertBefore(giftofspeed2, godefer2);
+  </script> </body>
+
+</html>

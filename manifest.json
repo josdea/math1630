@@ -1,0 +1,32 @@
+
+{
+  "name": "Math 1630 PSCC",
+  "short_name": "Math 1630",
+  "description": "Math 1630 Pellissippi State",
+  "version": "0.0.0.1",
+  "manifest_version": 2,
+  "icons": [
+    {
+      "src": "iconmath256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+      {
+        "src": "iconmath512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+  ],
+  "app": {
+    "urls": [
+      "http://localhost:8888/math1630/"
+    ],
+    "launch": {
+      "web_url": "http://localhost:8888/math1630/"
+    }
+  },
+    "start_url": "./index.html",
+    "background_color": "#314A84",
+    "theme_color": "#314A84",
+    "display": "minimal-ui"
+}

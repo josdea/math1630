@@ -1,0 +1,94 @@
+    html,
+    html * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: -apple-system, Lato, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    div.banner {
+        background-color: #314A84;
+        padding: .5em;
+        padding-left: 1em;
+        color: white;
+    }
+
+    div.container {
+        padding: .5em 1em;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-weight: 500;
+    }
+
+    h1 {
+        font-size: 1.3em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    h3 {
+        font-size: 1.1em;
+    }
+
+    h4 {
+        font-size: 1.1em;
+    }
+
+    p {
+        line-height: 1.8em;
+    }
+
+    ul li {
+        list-style-type: disc;
+    }
+
+    li {
+        line-height: 1.6em;
+        margin-left: 1.2em;
+    }
+
+    li ul li,
+    li ol li {
+        margin-left: 1.2em;
+    }
+
+    @media (min-width: 775px) {
+        html,
+        html * {
+            font-size: 16px;
+        }
+        div.container {
+            padding: 1em 3em;
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+        h2 {
+            font-size: 2em;
+        }
+        h3 {
+            font-size: 1.7em;
+        }
+        h4 {
+            font-size: 1.2em;
+        }
+        p {
+            line-height: 2.8em;
+        }
+        li {
+            line-height: 1.6em;
+            margin-left: 2em;
+        }
+        li ul li,
+        li ol li {
+            margin-left: 2.2em;
+        }
+    }
