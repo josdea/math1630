@@ -1,8 +1,345 @@
 {
   "units": [
     {
-      "title": "The title of the first unit in the json file 5",
+      "title": "Finance Unit",
       "sections": [
+        {
+          "title": "Simple Interest",
+          "intro": "",
+          "problemsets": [
+            {
+              "intro": "Use the simple interest formulas to answer the following questions.  Write all of your answers in complete sentences.",
+              "problems": [
+                {
+                  "text": "Ursula borrows $600 for 5 months at a simple interest rate of 15% per year. Find the interest, and the total amount she is obligated to pay?",
+                  "solutions": [
+                    "\\(I=Prt\\)",
+                    " \\(I=600(0.15)(5/12)\\)",
+                    "\\(I=37.50\\)"
+                  ],
+                  "answer": "Ursula's interest will be $37.50, and the total amount she must pay is $637.50"
+                },
+                {
+                  "text": "Jose deposited $2500 in an account that pays 6% simple interest. How much money will he have at the end of 3 years?",
+                  "solutions": [
+                    "\\(A=P(1+rt)\\)",
+                    "\\(A=2500(1+.06*3)\\)",
+                    "\\(A=2950\\)"
+                  ],
+                  "answer": "At the end of three years, Jose will have $2950."
+                },
+                {
+                  "text": "Darnel owes a total of $3060 which includes 12% interest for the three years he borrowed the money. How much did he originally borrow?",
+                  "solutions": [
+                    "\\(A=P(1+rt)\\)",
+                    "\\(3060=P(1+.12*3)\\)",
+                    "\\(3060=P(1.36)\\)",
+                    "\\(3060/1.36=P\\)"
+                  ],
+                  "answer": "Darnel borrowed $2250."
+                },
+                {
+                  "text": "A Visa credit card company charges a 1.5% finance charge each month on the unpaid balance. If Martha owes $2350 and has not paid her bill for three months, how much does she owe?",
+                  "solutions": [
+                    "\\(A=P(1+rt)\\)",
+                    "\\(A=2350(1+.015*3)\\)",
+                    "\\(A=2455.75\\)"
+                  ],
+                  "answer": "Martha owes $2455.75."
+                },
+                {
+                  "text": "If an amount of $2,000 is borrowed at a simple interest rate of 10% for 3 years, how much is the interest?",
+                  "solutions": [
+                    "\\(I=Prt\\)",
+                    "\\(I=2000(0.10)(3)\\)",
+                    "\\(I=600\\)"
+                  ],
+                  "answer": "The interest is $600."
+                },
+                {
+                  "text": "You borrow $4,500 for six months at a simple interest rate of 8%. How much is the interest?",
+                  "solutions": [
+                    "\\(I=Prt\\)",
+                    "\\(I=4500(0.08)(1/2)\\)",
+                    "\\(I=180\\)"
+                  ],
+                  "answer": "The interest is $180."
+                },
+                {
+                  "text": "John borrows $2400 for 3 years at 9% simple interest. How much will he owe at the end of 3 years?",
+                  "solutions": [
+                    "\\(A=P(1+rt)\\)",
+                    "\\(A=2400(1+.09*3)\\)",
+                    "\\(A=3048\\)"
+                  ],
+                  "answer": "John will owe $3048."
+                },
+                {
+                  "text": "Jessica takes a loan of $800 for 4 months at 12% simple interest. How much does she owe at the end of the 4-month period?",
+                  "solutions": [
+                    "\\(A=P(1+rt)\\)",
+                    "\\(A=800(1+0.12*1/3)\\)",
+                    "\\(A=832\\)"
+                  ],
+                  "answer": "Jessica owes $832."
+                },
+                {
+                  "text": "If an amount of $2,160, which includes a 10% simple interest for 2 years, is paid back, how much was borrowed 2 years earlier?",
+                  "solutions": [
+                    "\\(A=P(1+rt)\\)",
+                    "\\(2160=P(1+0.10*2)\\)",
+                    "\\(2160=P(1.20)\\)",
+                    "\\(1800=P\\)"
+                  ],
+                  "answer": "Two years earlier, $800 was borrowed."
+                },
+                {
+                  "text": "Jamie just paid off a loan of $2,544, the principal and simple interest. If he took out the loan six months ago at 12% simple interest, what was the amount borrowed?",
+                  "solutions": [
+                    "\\(A=P(1+rt)\\)",
+                    "\\(2544=P(1+0.12*1/2)\\)",
+                    "\\(2544=P(1.06)\\)",
+                    "\\(P=2400\\)"
+                  ],
+                  "answer": "Jamie borrowed $2400."
+                },
+                {
+                  "text": "Shanti charged $800 on her charge card and did not make a payment for six months. If there is a monthly charge of 1.5%, how much does she owe?",
+                  "solutions": [
+                    "\\(A=P(1+rt)\\)",
+                    "\\(A=800(1+0.015*6)\\)",
+                    "\\(A=872\\)"
+                  ],
+                  "answer": "Shanti owes $872."
+                },
+                {
+                  "text": "A credit card company charges 18% interest on the unpaid balance. If you owed $2000 three months ago and have been delinquent since, how much do you owe?",
+                  "solutions": [
+                    "\\(A=P(1+rt)\\)",
+                    "\\(A=2000(1+0.18*1/4)\\)",
+                    "\\(A=2090\\)"
+                  ],
+                  "answer": "You owe $2090."
+                },
+                {
+                  "text": "An amount of $2000 is borrowed for 3 years. At the end of the three years, $2660 is paid back. What was the simple interest rate?",
+                  "solutions": [
+                    "\\(A=P(1+rt)\\)",
+                    "\\(2660=2000(1+3r)\\)",
+                    "\\(2660=2000+60000r\\)",
+                    "\\(660=6000r\\)",
+                    "\\(0.11=r\\)"
+                  ],
+                  "answer": "The simple interest rate is 11%."
+                  },
+                {
+                  "text": "Nancy borrowed $1,800 and paid back $1,920, four months later. What was the simple interest rate?",
+                  "solutions": [
+                    "\\(A=P(1+rt)\\)",
+                    "\\(1920=1800(1+(1/3)r)\\)",
+                    "\\(1920=1800+600r\\)",
+                    "\\(120=600r\\)",
+                    "\\(0.2=r\\)"
+                  ],
+                  "answer": "The simple interest rate is 20%."
+                }
+              ]
+            }
+          ]
+        },
+
+        {
+          "title": "Compound and Continuous Interest",
+          "intro": "Compound Interest",
+
+          "problemsets": [
+            {
+              "intro": "Use a compound or continuous interest formula to answer the following questions.  Write all of your answers in complete sentences",
+              "problems": [
+                {
+                  "text": "If $3500 is invested at 9% compounded monthly, how much will be in the account in four years?",
+                  "solutions": [
+                    "\\(A=P(1+\frac{r}{n})^{nt}\\)",
+                    "\\(A=3000(1+\frac{.09}{12})^{12*4}\\)",
+                    "\\(A=5009.92\\)"
+                  ],
+                  "answer": "In four years, there will be $5009.92 in the account."
+                },
+                {
+                  "text": "How much should be invested in an account paying 9% compounded daily for it to accumulate to $5,000 in five years?",
+                  "solutions": [
+                    "\\(A=P(1+\frac{r}{n})^{nt}\\)",
+                    "\\(5000=P(1+\frac{.09}{360})^{360*5}\\)",
+                    "\\(P=3188.32\\)"
+                  ],
+                  "answer": "To accumulate $5000 in five years, $3188.32 should be invested."
+                },
+                {
+                  "text": "If $3500 is invested at 9% compounded continuously, what will the future value be in four years?",
+                  "solutions": [
+                    "\\(A=Pe^{rt}\\)",
+                    "\\(A=3500e^{.09*4}\\)",
+                    "\\(A=5016.65\\)"
+                  ],
+                  "answer": "In four years, the account will be worth $5016.65."
+                },
+                {
+                  "text": "If an amount is invested at 7% compounded monthly, estimate how long will it take to double if compounded monthly? (The Law of 70 (used to estimate how long it will take to double):  The number of years to double money = 70 ÷ interest rate)",
+                  "solutions": [
+                    "\\(A=P(1+\frac{r}{n})^{nt}\\)",
+                    "\\(2=1(1+\frac{.07}{12})^{12t}\\)",
+                    "\\(2=(\frac{1207}{1200})^{12t}\\)",
+                    "\\(ln2=ln(\frac{1207}{1200})^{12t}\\)",
+                    "\\(ln2=12t*ln(\frac{1207}{1200})\\)",
+                    "\\(\frac{ln2}{12ln(\frac{1207}{1200})}=t",
+                    "\\(9.93=t\\)"
+                  ],
+                  "answer": "It will take approximately 9.93 years for the amount to double."
+                },
+                {
+                  "text": "If, at the end of two years, a savings account has a balance of $1172.60, and the interest rate is compounded monthly at 3.2%, then what is the original amount deposited two years ago?",
+                  "solutions": [
+                    "\\(A=P(1+\frac{r}{n})^{nt}\\)",
+                    "\\(1172.60=P(1+\frac{.032}{12})^{12*2}\\)",
+                    "\\(1172.60=P(1.066001591....)",
+                    "\\(P=1100\\)"
+                  ],
+                  "answer": "The original amount deposited two years ago was $1100."
+                },
+                {
+                  "text": "An initial deposit of $5,000.00 is made into a savings account that compounds 7.1% interest annually. How much is in the account at the end of five years?",
+                  "solutions": [
+                    "\\(A=P(1+\frac{r}{n})^{nt}\\)",
+                    "\\(A=5000(1+\frac{.071}{1})^{1*5}\\)",
+                    "\\(A=7045.59\\)"
+                  ],
+                  "answer": "At the end of 5 years, there is $7045.59 in the account."
+                },
+                {
+                  "text": "After 80 years of 5.8% interest compounded monthly, an account has $102,393.44. What was the original deposit amount?",
+                  "solutions": [
+                    "\\(A=P(1+\frac{r}{n})^{nt}\\)",
+                    "\\(102,393.44=P(1+\frac{.058}{12})^{12*80}\\)",
+                    "\\(102,393.44=P(102.393....)\\)",
+                    "\\(P=1000\\)"
+                  ],
+                  "answer": "The original amount deposited into the account 80 years ago was $1000."
+                },
+                {
+                  "text": "Bank A is offering a 2.7%, compounded annually, savings account guaranteed for three years. Bank B is offering a 1.9%, compounded monthly, savings account guaranteed for two years. Which bank would yield the most on a principal of $500.00? What is the dollar amount difference between the two bank accounts?",
+                  "solutions": [
+                    "\\(A=P(1+\frac{r}{n})^{nt}\\)",
+                    "\\(A=500(1+\frac{.027}{1})^{1*3}\\)",
+                    "\\(A=541.60\\)",
+                    "\\(A=P(1+\frac{r}{n})^{nt})\\)",
+                    "\\(A=500(1+\frac{.019}{12})^{12*2}\\)",
+                    "\\(A=519.35\\)"
+                  ],
+                  "answer": "The difference between the accounts is $22.25."
+                },
+                {
+                  "text": "How much would need to be deposited into an account earning 4.7%, compounded quarterly, so that the balance will be $1,000,000.00 in 20 years?",
+                  "solutions": [
+                    "\\(A=P(1+\frac{r}{n})^{nt}\\)",
+                    "\\(1,000,000=P(1+\frac{.047}{4})^{4*20})\\)",
+                    "\\(1,000,000=P(2.545....)\\)",
+                    "\\(P=392,774.20\\)"
+                  ],
+                  "answer": "To have $1,000,000 in 20 years, $392,774.20 should be deposited."
+                },
+                {
+                  "text": "Mary discovers a bank account her parents left for her that was opened when she was born 50 years ago. The statement she found states the deposit amount of $100.00 into an account earning 1.8% compounded quarterly. What is the balance of her account now?",
+                  "solutions": [
+                    "\\(A=P(1+\frac{r}{n})^{nt}\\)",
+                    "\\(A=100(1+\frac{.018}{4})^{4*50}\\)",
+                    "\\(A=245.46\\)"
+                  ],
+                  "answer": "The balance in the account is $245.46."
+                },
+                {
+                  "text": "In the same box, Mary discovers another statement for an account her grandparents opened for her when she was born. This statement shows a deposit amount of $100.00 into a 3.6%, compounded quarterly, account. How much is in this account now?",
+                  "solutions": [
+                    "\\(A=P(1+\frac{r}{n})^{nt}\\)",
+                    "\\(A=100(1+\frac{.036}{4})^{4*50}\\)",
+                    "\\(A=600.11\\)"
+                  ],
+                  "answer": "The balance in the account is $600.11."
+                },
+                {
+                  "text": "Luckily, Mary finds a third statement for an account her Aunt opened for her. This was also $100.00 at 1.8%, but it is compounded monthly. How much is in this account now? Based on the answers for each of the accounts Mary discovered, is it better to compound more often or earn a higher interest rate?",
+                  "solutions": [
+                    "\\(A=P(1+\frac{r}{n})^{nt}\\)",
+                    "\\(A=100(1+\frac{.018}{12})^{12*50}\\)",
+                    "\\(A=245.79\\)"
+                  ],
+                  "answer": "It is better to earn a higher interest rate."
+                },
+                {
+                  "text": "An account earning 6.6% interest compounded continuously for 10 years would have a balance of how much if the principal was $550.00?",
+                  "solutions": [
+                    "\\(A=Pe^{rt}\\)",
+                    "\\(A=550e^{.066*10}\\)",
+                    "\\(A=1064.14\\)"
+                  ],
+                  "answer": "The balance after 10 years would be $1064.14."
+                },
+                {
+                  "text": "What was the principal for a continuously compounded account earning 3.9% for 15 years that now has a balance of $2,500,000.00?",
+                  "solutions": [
+                    "\\(A=Pe^{rt}\\)",
+                    "\\(2,500,000=Pe^{.039*15}\\)",
+                    "\\(\frac{2500000}{e^{.039*15}}=P\\)",
+                    "\\(P=1,392,764,66\\)"
+                  ],
+                  "answer": "The principal invested 15 years ago was $1,392,764.66."
+                },
+                {
+                  "text": "A teenager saved small dollar amounts throughout the school year and now has $712.00. He can choose from two bank offers. The first is 5.3% compounded continuously for six years. The second is compounded quarterly for five years at 6.0%. Which account will yield the most money? What is the dollar amount difference between the accounts at the end of their terms?",
+                  "solutions": [
+                    "\\(A=Pe^{rt}\\)",
+                    "\\(A=712e^{.053*6t}\\)",
+                    "\\(A=978.56\\)",
+                    "\\(A=P(1+\frac{r}{n})^{nt}\\)",
+                    "\\(A=712(1+\frac{.06}{4})^{4*5}\\)",
+                    "\\(A=958.96\\)"
+                  ],
+                  "answer": "The difference in the accounts at the end of their terms is $19.60."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Future Value of an Annuity",
+          "intro": "Definitions",
+          "problemsets": [
+            {
+              "intro": "Use an Annuity formula to answer the following questions.  Write all of your answers in complete sentences.",
+              "problems": [
+                {
+                  "text": "If at the end of each month a deposit of $500 is made in an account that pays 8% compounded monthly, what will the final amount be after five years?",
+                  "solutions": [
+                    "\\(FV=PMT\frac{[( 1+\frac{r}{n})^{nt}]}{\frac{r}{n}}\\)",
+                    "solution \\[x^2+14 = 2\\] line 2",
+                    "solution line 3"
+                  ],
+                  "answer": "answer to this problem"
+                },
+                {
+                  "text": "Jose deposited $2500 in an account that pays 6% simple interest. How much money will he have at the end of 3 years?",
+                  "solutions": [
+                    "solution line 1",
+                    "solution line 2",
+                    "solution line 3"
+                  ],
+                  "answer": "answer to another problem"
+                }
+             
+                
+              ]
+            }
+          ]
+        },
         {
           "title": "title of the first section",
           "intro": "This is an intro",
@@ -27,34 +364,9 @@
                     "solution line 3"
                   ],
                   "answer": "answer to another problem"
-                },
-                {
-                  "text": "Darnel owes a total of $3060 which includes 12% interest for the three years he borrowed the money. How much did he originally borrow?",
-                  "solutions": [
-                    "solution line 1",
-                    "solution line 2",
-                    "solution line 3"
-                  ],
-                  "answer": "answer to another problem"
-                },
-                {
-                  "text": "A Visa credit card company charges a 1.5% finance charge each month on the unpaid balance. If Martha owes $2350 and has not paid her bill for three months, how much does she owe?",
-                  "solutions": [
-                    "solution line 1",
-                    "solution line 2",
-                    "solution line 3"
-                  ],
-                  "answer": "answer to another problem"
-                },
-                {
-                  "text": "If an amount of $2,\r\n000 is borrowed at a simple interest rate of 10% for 3 years, how much is the interest?",
-                  "solutions": [
-                    "solution line 1",
-                    "solution line 2",
-                    "solution line 3"
-                  ],
-                  "answer": "answer to another problem"
                 }
+             
+                
               ]
             }
           ]
