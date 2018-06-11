@@ -26,16 +26,17 @@
     </div>
     <div class="unit" v-if="(!loading)" v-for="(unit, index_unit) in notes.units">
       <h2 class="unittitle">{{index_unit + 1 + '. '}}{{unit.title}}</h2>
+      <div class="unitintro" v-if="(unit.intro)" v-html="unit.intro"></div>
       <div class="section" v-for="(section, index_section) in unit.sections">
         <h3 class="sectiontitle">{{index_unit + 1 + '.'}}{{(index_section + 1) + '. '}}{{section.title}}</h3>
-        <p class="sectionintro">{{section.intro}}</p>
+        <div class="sectionintro" v-if="(section.intro)" v-html="section.intro"></div>
         <div class="problemset" v-for="(problemset, index_problemset) in section.problemsets">
           <p class="problemsetintro">{{problemset.intro}}</p>
           <ol>
-            <li class="problem" v-for="(problem, index_problem) in problemset.problems"> {{problem.text}}
+            <li class="problem" v-for="(problem, index_problem) in problemset.problems" > <span v-if="(problem.text)" v-html="problem.text"></span>
               <ul class="solutions">
                 <li class="solution" v-for="(solution, index_solution) in problem.solutions">{{solution}}</li>
-                <li class="answer">{{problem.answer}}</li>
+                <li class="answer">{{problem.answer.text}}</li>
               </ul>
               <!--end of a solution and answer -->
             </li>
