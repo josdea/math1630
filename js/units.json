@@ -182,7 +182,7 @@
         },
         {
           "title": "Compound and Continuous Interest",
-          "intro": " <h3>Compound Interest</h3><p>Simple interest is charged when the lending period is short and often less than a year. When the money is loaned or borrowed for a longer time period, the interest is paid (or charged) not only on the principal, but also on the past interest, and we say the interest is compounded.</p><p>Suppose $200 is deposited in an account that pays 8% interest. At the end of one year, the account will have </p><p>\\($200+$200(0.08)=$200(1+0.08/1)^{1*1}=$216\\)</p><p>Now suppose this amount, $216, remains in the account. After the second year, it will have</p><p>\\($200(1+0.08)(1+0.08)=$200(1+0.08/1)^{1*2}=$233.28\\)</p><p>After three years, it will have</p><p>\\($200(1+0.08)(1+0.08)(1+0.08)=$200(1+0.08/1)^{1*3}=$251.94\\)</p><p>at the end of 5 years, it will have</p><p>\\(200(1+0.08/1)^{1*5}=$293.87\\)</p><p>Compound Interest Formula:  </p><p>\\(A=P(1+\\frac rn)^{nt}\\)</p>TODO PIC<h3>Compounding Frequency</h3><h4>Yearly:</h4><p>\\(1000(1+\\frac {0.08}1)^{1*1}=1080\\)</p><h4>Quarterly:</h4><p>\\(1000(1+\\frac {0.08}4)^{4*1}=1082.43\\)</p><h4>Monthly:</h4><p>1000(1+0.08/12)^(12*1)=1083</p><h4>Daily:</h4><p>\\(1000(1+\\frac {0.08}{365})^{365*1}=1083.28\\)</p><h4>Continuously (at every instant):</h4><p>\\(1000\\left[\\lim_{n\\rightarrow\\infty}\\;\\left(1+\\frac{0.08}n\\right)^n\\right]=1083.29\\)</p><p>And since \\(e=\\lim_{n\\rightarrow\\infty}\\;\\left(1+\\frac1n\\right)^n\\approx2.718281829\\)</p><p>The continuous compounding formula is:  \\(A=Pe^{rt}\\)</p>",  
+          "intro": " <h3>Compound Interest</h3><p>Simple interest is charged when the lending period is short and often less than a year. When the money is loaned or borrowed for a longer time period, the interest is paid (or charged) not only on the principal, but also on the past interest, and we say the interest is compounded.</p><p>Suppose $200 is deposited in an account that pays 8% interest. At the end of one year, the account will have </p><p>\\($200+$200(0.08)=$200(1+0.08/1)^{1*1}=$216\\)</p><p>Now suppose this amount, $216, remains in the account. After the second year, it will have</p><p>\\($200(1+0.08)(1+0.08)=$200(1+0.08/1)^{1*2}=$233.28\\)</p><p>After three years, it will have</p><p>\\($200(1+0.08)(1+0.08)(1+0.08)=$200(1+0.08/1)^{1*3}=$251.94\\)</p><p>at the end of 5 years, it will have</p><p>\\(200(1+0.08/1)^{1*5}=$293.87\\)</p><p>Compound Interest Formula:  </p><p>\\(A=P(1+\\frac rn)^{nt}\\)</p><img src=\"./images/u1s2i.png\" alt=\"Graph of Amount of Money in an account when compounded at various compounding frequencies.  4 graphs--one each for compounding yearly, quarterly, monthly, and continuously\"><h3>Compounding Frequency</h3><h4>Yearly:</h4><p>\\(1000(1+\\frac {0.08}1)^{1*1}=1080\\)</p><h4>Quarterly:</h4><p>\\(1000(1+\\frac {0.08}4)^{4*1}=1082.43\\)</p><h4>Monthly:</h4><p>1000(1+0.08/12)^(12*1)=1083</p><h4>Daily:</h4><p>\\(1000(1+\\frac {0.08}{365})^{365*1}=1083.28\\)</p><h4>Continuously (at every instant):</h4><p>\\(1000\\left[\\lim_{n\\rightarrow\\infty}\\;\\left(1+\\frac{0.08}n\\right)^n\\right]=1083.29\\)</p><p>And since \\(e=\\lim_{n\\rightarrow\\infty}\\;\\left(1+\\frac1n\\right)^n\\approx2.718281829\\)</p><p>The continuous compounding formula is:  \\(A=Pe^{rt}\\)</p>",
           "problemsets": [
             {
               "intro": "Use a compound or continuous interest formula to answer the following questions.  Write all of your answers in complete sentences",
@@ -382,7 +382,6 @@
                   "solutions": [
                     "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
                     "\\(FV=500\\frac{\\left[\\left(1+{\\displaystyle\\frac{.08}{12}}\\right)^{12\\ast5}-1\\right]}{\\displaystyle\\frac{.08}{12}}\\)"
-                    
                   ],
                   "answer": {
                     "text": "After five years, there will be $36,738.43."
@@ -393,7 +392,6 @@
                   "solutions": [
                     "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
                     "\\(FV=300\\frac{\\left[\\left(1+{\\displaystyle\\frac{.0575}{4}}\\right)^{4\\ast4}-1\\right]}{\\displaystyle\\frac{.0575}{4}}\\)"
-                    
                   ],
                   "answer": {
                     "text": "Tanya will have $5353.89 in four years."
@@ -403,8 +401,7 @@
                   "text": "Robert needs $5000 in three years. How much should he deposit each month in an account that pays 8% in order to achieve his goal?",
                   "solutions": [
                     "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
-                  "\\(5000=PMT\\frac{[( 1+\\frac{.08}{12})^{12*3}-1]}{\\frac{.08}{12}}\\)"
-                    
+                    "\\(5000=PMT\\frac{[( 1+\\frac{.08}{12})^{12*3}-1]}{\\frac{.08}{12}}\\)"
                   ],
                   "answer": {
                     "text": "Robert needs to deposit $123.35 each month."
@@ -499,7 +496,6 @@
                     "\\(A=4005.03(1+\\frac{.072}{12})^{12*44}=94,262.64\\)",
                     "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
                     "\\(FV=400\\frac{[( 1+\\frac{.072}{12})^{12*3}-1]}{\\frac{.072}{12}}=1,292,557.30\\)"
-
                   ],
                   "answer": {
                     "text": "You will have $1,386,819.94 when you retire."
@@ -521,7 +517,6 @@
                   "solutions": [
                     "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
                     "\\(PV=1000\\;\\left[\\frac{1-\\left(1+\\frac {.08}{12}\\right)^{-12*20}}{\\displaystyle\\frac {.08}{12}}\\right]\\)"
-                   
                   ],
                   "answer": {
                     "text": "Your lump sum payment will be $119,554.29."
@@ -612,7 +607,6 @@
                   "solutions": [
                     "\\(1755.14*12*30=631,850.40\\)",
                     "\\(2149.21*12*15=386,857.84\\)"
-                   
                   ],
                   "answer": {
                     "text": "The total amount for the 30-year loan is $631,850.40, and the total amount for the 15-year loan is $386,857.84."
@@ -639,7 +633,8 @@
                   "answer": {
                     "text": "The monthly payment is $1354.45."
                   }
-                }, {
+                },
+                {
                   "text": "Mr. and Mrs. Wong purchased their new house for $350,000. They made a down payment of 15%, and amortized the rest over 30 years. If the interest rate is 9%, find their monthly payment.",
                   "solutions": [
                     "Down Payment: \\(350,000*0.15=52,500\\)",
@@ -699,8 +694,6 @@
                     "text": "Glen's monthly payment is $263.27."
                   }
                 }
-              
-              
               ]
             }
           ]
@@ -727,13 +720,318 @@
                     "text": "I will have $20,766.41 more than I need to retire."
                   }
                 }
-            
               ]
             }
           ]
         },
         {
-          "title": "title of the first section",
+          "title": "Amortization",
+          "intro": "This is an intro",
+          "problemsets": [
+            {
+              "intro": "The Federal Reserve Bank of St. Louis reports that in November 2017, the median sale price of an existing home in the United States was $248,800.  The average interest rate on a 30- year fixed-rate mortgage was approximately 3.95%.  The median interest rate on a 15-year fixed-rate mortgage was about 3.38%.",
+              "citation": "https://fred.stlouisfed.org/series/HSFMEDUSM052N",
+              "problems": [
+                {
+                  "text": "Imagine you are an average consumer and you’re going to buy a home.  You’ll make a down payment of 20% of the home’s value on a 30-year loan. What are your scheduled monthly payments?",
+                  "solutions": [
+                    "\\(248,800*0.20=49,760\\) for the down payment",
+                    "\\(248,800-49,760=199,040\\) amount financed",
+                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
+                    "\\(199,040=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.0395}{12}\\right)^{-12*30}}{\\displaystyle\\frac {.0395}{12}}\\right]\\)",
+                    "\\(199,040=PMT(210.73....)\\)",
+                    "\\(PMT=944.52\\)"
+                  ],
+                  "answer": {
+                    "text": "The monthly payment is $944.52."
+                  }
+                },
+                {
+                  "text": "//TODO? Complete the amortization schedule for the first 6 months of your loan.<p><table class=\"table table-bordered table-sm\"><caption>Amortization Schedule for Home Loan</caption><tbody><tr><td><br /><p></p></td><th scope=\"col\"><p>Payment</p></th><th scope=\"col\"><p>Amount of payment going toward interest</p></th><th scope=\"col\"><p>Amount of payment going toward unpaid balance</p></th><th scope=\"col\"><p>Unpaid Balance</p></th></tr><tr><th scope=\"row\"><p>Payment Number 0</p></th><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment Number 1</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment Number 2</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment Number 3</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment Number 4</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment Number 5</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment Number 6</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Totals</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td class=\"table-dark\"><p>N/A</p></td></tr></tbody></table></p>",
+                  "solutions": [],
+                  "answer": {
+                    "text": "<table class=\"table table-bordered table-sm\"><caption>Amortization Schedule for Home Loan</caption><tbody><tr><td><br /><p></p></td><th scope=\"col\"><p>Payment</p></th><th scope=\"col\"><p>Amount of payment going toward interest</p></th><th scope=\"col\"><p>Amount of payment going toward unpaid balance</p></th><th scope=\"col\"><p>Unpaid Balance</p></th></tr><tr><th scope=\"row\"><p>Payment Number 0</p></th><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td><p>199,040</p></td></tr><tr><th scope=\"row\"><p>Payment Number 1</p></th><td><p>944.52</p></td><td><p>655.17</p></td><td><p>289.35</p></td><td><p>198,750.62</p></td></tr><tr><th scope=\"row\"><p>Payment Number 2</p></th><td><p>944.52</p></td><td><p>654.22</p></td><td><p>290.30</p></td><td><p>198,460.35</p></td></tr><tr><th scope=\"row\"><p>Payment Number 3</p></th><td><p>944.52</p></td><td><p>653.27</p></td><td><p>291.25</p></td><td><p>198,169.10</p></td></tr><tr><th scope=\"row\"><p>Payment Number 4</p></th><td><p>944.52</p></td><td><p>652.31</p></td><td><p>292.21</p></td><td><p>197,876.89</p></td></tr><tr><th scope=\"row\"><p>Payment Number 5</p></th><td><p>944.52</p></td><td><p>651.34</p></td><td><p>293.18</p></td><td><p>197,583.71</p></td></tr><tr><th scope=\"row\"><p>Payment Number 6</p></th><td><p>944.52</p></td><td><p>650.38</p></td><td><p>294.14</p></td><td><p>197,289.57</p></td></tr><tr><th scope=\"row\"><p>Totals</p></th><td><p>5667.12</p></td><td><p>3916.69</p></td><td><p>1750.43</p></td><td class=\"table-dark\"><p>N/A</p></td></tr></tbody></table>"
+                  }
+                },
+                {
+                  "text": "What is the total amount you pay for your house?",
+                  "solutions": [
+                    "\\(944.52*12*30=340,027.20+49,760.00=389,787.20\\)"
+                  ],
+                  "answer": {
+                    "text": "The total amount paid for the house is $389787.20"
+                  }
+                },
+                {
+                  "text": "How much do you pay in interest?",
+                  "solutions": [
+                    "\\(389,787.20-248,800=140,987.20\\)"
+                  ],
+                  "answer": {
+                    "text": "The total amount of interest paid is $140,987.20"
+                  }
+                },
+                {
+                  "text": "You talk to your friend who tells you to make a down payment of only 10% (after all, you’ll need some cash to buy some nice new furniture for your house), and you decided to get a 15-year loan at 3.38% interest.  What are your scheduled monthly payments?",
+                  "solutions": [
+                    "\\(248,800*0.10=24,880\\) for the down payment",
+                    "\\(248,800-24,880=223,920\\) amount financed",
+                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
+                    "\\(223,920=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.0338}{12}\\right)^{-12*15}}{\\displaystyle\\frac {.0338}{12}}\\right]\\)",
+                    "\\(223,920=PMT(141.04....)\\)",
+                    "\\(PMT=1587.60\\)"
+                  ],
+                  "answer": {
+                    "text": "The monthly payment for the 15-year loan is $1587.60"
+                  }
+                },
+                {
+                  "text": "Complete the amortization schedule for the first 6 months of your loan.<table class=\"table table-bordered table-sm\"><caption>Amortization Schedule for Home Loan</caption><tbody><tr><td><br /></td><th scope=\"col\">Payment</th><th scope=\"col\">Amount of payment going toward interest</th><th scope=\"col\">Amount of payment going toward unpaid balance</th><th scope=\"col\">Unpaid Balance</th></tr><tr><th scope=\"row\">Payment Number 0</th><td class=\"table-dark\">N/A</td><td class=\"table-dark\">N/A</td><td class=\"table-dark\">N/A</td><td></td></tr><tr><th scope=\"row\">Payment Number 1</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Payment Number 2</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Payment Number 3</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Payment Number 4</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Payment Number 5</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Payment Number 6</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Totals</th><td></td><td></td><td></td><td class=\"table-dark\">N/A</td></tr></tbody></table>",
+                  "solutions": [],
+                  "answer": {
+                    "text": "<table class=\"table table-bordered\"><caption>Amortization Schedule for Home Loan</caption><tbody><tr><td><br /><p></p></td><th scope=\"col\"><p>Payment</p></th><th scope=\"col\"><p>Amount of payment going toward interest</p></th><th scope=\"col\"><p>Amount of payment going toward unpaid balance</p></th><th scope=\"col\"><p>Unpaid Balance</p></th></tr><tr><th scope=\"row\"><p>Payment Number 0</p></th><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td><p>223,920</p></td></tr><tr><th scope=\"row\"><p>Payment Number 1</p></th><td><p>1587.60</p></td><td><p>630.71</p></td><td><p>956.89</p></td><td><p>222,963.11</p></td></tr><tr><th scope=\"row\"><p>Payment Number 2</p></th><td><p>1587.60</p></td><td><p>628.01</p></td><td><p>959.59</p></td><td><p>222,003.52</p></td></tr><tr><th scope=\"row\"><p>Payment Number 3</p></th><td><p>1587.60</p></td><td><p>625.31</p></td><td><p>962.29</p></td><td><p>221,041.23</p></td></tr><tr><th scope=\"row\"><p>Payment Number 4</p></th><td><p>1587.60</p></td><td><p>622.60</p></td><td><p>965.00</p></td><td><p>220,076.23</p></td></tr><tr><th scope=\"row\"><p>Payment Number 5</p></th><td><p>1587.60</p></td><td><p>619.88</p></td><td><p>967.72</p></td><td><p>219,108.51</p></td></tr><tr><th scope=\"row\"><p>Payment Number 6</p></th><td><p>1587.60</p></td><td><p>617.16</p></td><td><p>970.44</p></td><td><p>218,138.07</p></td></tr><tr><th scope=\"row\"><p>Totals</p></th><td><p>9525.60</p></td><td><p>3743.67</p></td><td>5781.93</td><td class=\"table-dark\"><p>N/A</p></td></tr></tbody></table>"
+                  }
+                },
+                {
+                  "text": "What is the total amount you pay for your house?",
+                  "solutions": [
+                    "\\(1587.60*12*15=285,768+24,880=310,648\\)"
+                  ],
+                  "answer": {
+                    "text": "the total amount paid for the house is $310,648."
+                  }
+                },
+                {
+                  "text": "How much do you pay in interest?",
+                  "solutions": [
+                    "\\(310,648-248,800=61,848\\)"
+                  ],
+                  "answer": {
+                    "text": "the total amount of interest paid is ^61,848."
+                  }
+                },
+                {
+                  "text": "Why would you choose one loan over the other?",
+                  "solutions": [],
+                  "answer": {
+                    "text": "You will pay less overall for the 15-year loan, but you might not be able to afford the higher monthly payments."
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Financial Decisions Activity",
+          "intro": "As an adult you are constantly faced with financial choices.  It is up to you to make informed decisions.<p>Do work & answer questions on your own paper and attach to this sheet.</p><p>All numbers must be justified.  If formulas are needed, you must write the formula and show substitutions.</p><p>Answers should be labeled and clearly written.</p><p>Work must be labeled and easy to follow.  Any explanations need to be thorough.</p>",
+          "problemsets": [
+            {
+              "intro": "this is a problem set intro",
+              "problems": [
+                {
+                  "text": "Car purchase options:<p>Option 1:  Purchase price is $23,500 and you are offered 4.2% financing for 60 months if you put $5,000 down.</p><p>Option 2:  Purchase price of $23,500 and you are offered 3.75% financing for 72 months with $0 down.<p>Which option would you choose and why?</p>  </p><p>For each option, determine the following:</p><table class=\"table table-bordered table-sm\"><tbody><tr><td width=\"189\"> </td><th scope=\"col\" width=\"235\">Option 1</th><th scope=\"col\" width=\"235\">Option 2</th></tr><tr><th scope=\"row\" width=\"189\">Purchase Price</th><td width=\"235\"> </td><td width=\"235\"> </td></tr><tr><th scope=\"row\" width=\"189\">Amount of Down Payment</th><td width=\"235\"> </td><td width=\"235\"> </td></tr><tr><th scope=\"row\" width=\"189\">Amount to be Financed</th><td width=\"235\"> </td><td width=\"235\"> </td></tr><tr><th scope=\"row\" width=\"189\">Monthly Payment</th><td width=\"235\"> </td><td width=\"235\"> </td></tr><tr><th scope=\"row\" width=\"189\">Total Paid for the Car</th><td width=\"235\"> </td><td width=\"235\"> </td></tr><tr><th scope=\"row\" width=\"189\">Total Paid in Interest</th><td width=\"235\"> </td><td width=\"235\"> </td></tr></tbody></table>",
+                  "solutions": [
+                    "Option 1:",
+                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
+                    "\\(18,500=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.042}{12}\\right)^{-12*5}}{\\displaystyle\\frac {.042}{12}}\\right]\\)",
+                    "\\(PMT=342.38\\)",
+                    "Option 2:",
+                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
+                    "\\(23,500=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.0375}{12}\\right)^{-12*6}}{\\displaystyle\\frac {.0375}{12}}\\right]\\)",
+                    "\\(PMT=364.99\\)"
+                  ],
+                  "answer": {
+                    "text": "<table class=\"table table-bordered table-sm\"><tbody><tr><td width=\"189\"> </td><th scope=\"col\" width=\"235\">Option 1</th><th scope=\"col\" width=\"235\">Option 2</th></tr><tr><th scope=\"row\" width=\"189\">Purchase Price</th><td width=\"235\"> 23,500</td><td width=\"235\"> 23,500</td></tr><tr><th scope=\"row\" width=\"189\">Amount of Down Payment</th><td width=\"235\"> 5000</td><td width=\"235\">0</td></tr><tr><th scope=\"row\" width=\"189\">Amount to be Financed</th><td width=\"235\"> 18,500</td><td width=\"235\">23,500</td></tr><tr><th scope=\"row\" width=\"189\">Monthly Payment</th><td width=\"235\"> 342.38</td><td width=\"235\"> 364.99</td></tr><tr><th scope=\"row\" width=\"189\">Total Paid for the Car</th><td width=\"235\"> 25,542.80</td><td width=\"235\"> 26,279.28</td></tr><tr><th scope=\"row\" width=\"189\">Total Paid in Interest</th><td width=\"235\"> 2042.80</td><td width=\"235\"> 2779.28</td></tr></tbody></table>"
+                  }
+                },
+                {
+                  "text": "As a graduation gift, grandma said she will be sending you a very large check and told you to use it well.  You plan to invest it and have researched and found these three options:<p>Option 1:  3% compounded quarterly</p><p>Option 2:  3.15% compounded annually</p><p>Option 3:  2.8% compounded continuously</p><p>Which should you chose and why?",
+                  "solutions": [
+                    "Option1:1",
+                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
+                    "\\(A=P(1+\\frac{.03}{4})^{4*t}\\)",
+                    "Option 2",
+                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
+                    "\\(A=P(1+\\frac{.0315}{1})^{1*t}\\)",
+                    "Option 3",
+                    "\\(A=Pe^{rt}\\)",
+                    "\\(A=Pe^{.028t}\\)"
+                  ],
+                  "answer": {
+                    "text": "You should chose option 2 because it has the highest interest rate."
+                  }
+                },
+                {
+                  "text": "You made a mistake with your bank account and find you are a little short this month.  You are considering going to a payday lender to borrow the money.  You are told that if you borrow $500 for 2 weeks, you must repay $591.36 at the end of the 2 weeks. Interest is compounded continuously.  Find the interest rate you will be paying. Write answer to the nearest hundredth of a percent.",
+                  "solutions": [
+                    "\\(A=Pe^{rt}\\)",
+                    "\\(591.36=500e^{\\frac{1}{26}*r}\\)",
+                    "\\(\\frac{591.36}{500}=e^{\\frac{1}{26}*r}\\)",
+                    "\\(ln\\frac{591.36}{500}=\\frac{1}{26}rlne\\)",
+                    "\\(r=26ln\\frac{591.36}{500}\\)",
+                    "\\(r=4.3632\\)"
+                  ],
+                  "answer": {
+                    "text": "You will be paying 436.32% interest on your payday loan."
+                  }
+                },
+                {
+                  "text": "Rental costs for office space have been going up at 4.8% per year compounded annually for the past 5 years.  If office space rent is now $25 per square foot per month, what were the rental rates 5 years ago? ?",
+                  "solutions": [
+                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
+                    "\\(25=P(1+\\frac{.048}{1})^{1*5}\\)",
+                    "\\(P=19.78\\)"
+                  ],
+                  "answer": {
+                    "text": "Five years ago the rental rates were $19.78 per square foot per month."
+                  }
+                },
+                {
+                  "text": "Complete the following amortization schedule for a $1,000 debt that is to be amortized in six monthly payments at 1.25% interest per month. Use the numbered hints to get you started.<ol><li>What is the unpaid balance to begin?</li><li>Find the monthly payment and record that amount. In theory, all payments will be the same amount.</li><li>Amount of payment going toward interest:  (Unpaid Balance) x (the interest rate per month)</li><li>Amount of payment going toward unpaid balance:  (payment) – (amount going toward interest)</li><li>Updated Unpaid Balance:  (previous unpaid balance) – (most recent amount going toward unpaid balance)</li><li>Follow pattern above to complete for Payment Number 2, etc.</li><li>Find the totals for the columns.</li></ol><table class=\"table-bordered table-sm\"><tbody><tr><td width=\"71\"> </td><th scope=\"col\" width=\"118\"> Payment </th><th scope=\"col\" width=\"122\">Amount of payment going toward interest</th><th scope=\"col\" width=\"131\">Amount of payment going toward unpaid balance</th><th scope=\"col\" width=\"133\"> Unpaid Balance</th></tr><tr><th scope=\"row\" width=\"71\">  Payment Number 0</th><td width=\"118\" class=\"table-dark\"><p>N/A</p> </td><td width=\"122\" class=\"table-dark\"><p>N/A</p> </td><td width=\"131\" class=\"table-dark\"><p>N/A</p> </td><td width=\"133\">(1)</td></tr><tr><th scope=\"row\" width=\"71\">  Payment Number 1</th><td width=\"118\">(2)</td><td width=\"122\">(3)</td><td width=\"131\">(4)</td><td width=\"133\">(5)</td></tr><tr><th scope=\"row\" width=\"71\">  Payment Number 2</th><td width=\"118\">(6)</td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\"> </td></tr><tr><th scope=\"row\" width=\"71\">  Payment Number 3</th><td width=\"118\"> </td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\"> </td></tr><tr><th scope=\"row\" width=\"71\">  Payment Number 4</th><td width=\"118\"> </td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\"> </td></tr><tr><th scope=\"row\" width=\"71\">  Payment Number 5</th><td width=\"118\"> </td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\"> </td></tr><tr><th scope=\"row\" width=\"71\">  Payment Number 6</th><td width=\"118\"> </td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\"> </td></tr><tr><th scope=\"row\" width=\"71\">Totals</th><td width=\"118\">(7)</td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\" class=\"table-dark\"><p>N/A</p> </td></tr></tbody></table>",
+                  "solutions": [],
+                  "answer": {
+                    "text": "<table class=\"table-bordered table-sm\"><tbody><tr><td width=\"71\"> </td><th scope=\"col\" width=\"118\">  Payment  </th><th scope=\"col\" width=\"122\">Amount of payment going toward interest</th><th scope=\"col\" width=\"131\">Amount of payment going toward unpaid balance</th><th scope=\"col\" width=\"133\">  Unpaid Balance</th></tr><tr><th scope=\"row\" width=\"71\">    Payment Number 0</th><td width=\"118\" class=\"table-dark\"><p>N/A</p> </td><td width=\"122\" class=\"table-dark\"><p>N/A</p> </td><td width=\"131\" class=\"table-dark\"><p>N/A</p> </td><td width=\"133\">(1) 1000</td></tr><tr><th scope=\"row\" width=\"71\">    Payment Number 1</th><td width=\"118\">(2) 174.03</td><td width=\"122\">(3) 12.50</td><td width=\"131\">(4) 161.53</td><td width=\"133\">(5) 838.47</td></tr><tr><th scope=\"row\" width=\"71\">    Payment Number 2</th><td width=\"118\">(6) 174.03</td><td width=\"122\"> 10.48</td><td width=\"131\"> 163.55</td><td width=\"133\"> 674.92</td></tr><tr><th scope=\"row\" width=\"71\">    Payment Number 3</th><td width=\"118\"> 174.03</td><td width=\"122\"> 8.44</td><td width=\"131\"> 165.59</td><td width=\"133\"> 509.33</td></tr><tr><th scope=\"row\" width=\"71\">    Payment Number 4</th><td width=\"118\"> 174.03</td><td width=\"122\"> 6.37</td><td width=\"131\"> 167.66</td><td width=\"133\"> 341.67</td></tr><tr><th scope=\"row\" width=\"71\">    Payment Number 5</th><td width=\"118\"> 174.03</td><td width=\"122\"> 4.27</td><td width=\"131\"> 169.76</td><td width=\"133\"> 171.91</td></tr><tr><th scope=\"row\" width=\"71\">    Payment Number 6</th><td width=\"118\"> 174.03</td><td width=\"122\"> 2.15</td><td width=\"131\"> 171.88</td><td width=\"133\"> 0.03</td></tr><tr><th scope=\"row\" width=\"71\">Totals</th><td width=\"118\">(7) 1044.18</td><td width=\"122\"> 44.21</td><td width=\"131\"> 999.97</td><td width=\"133\" class=\"table-dark\"><p>N/A</p> </td></tr></tbody></table>"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Matrices",
+      "sections": [
+        {
+          "title": "Linear Function Review",
+          "intro": "",
+          "problemsets": [
+            {
+              "intro": "A new automobile plant opened 25 days ago.  Three days ago the plant had 450 cars on hand, and yesterday it had 480 cars on hand.  Some of these cars came from previous inventory.  Assume that the plant produces cars at the same rate every day and has produced them at this rate since it opened. Define “x” to be the time from today and “y” to be the number of cars on hand.  Therefore, an ordered pair (x, y) will represent (time from today, number of cars on hand).",
+              "problems": [
+                {
+                  "text": "Write an ordered pair using the information about the cars on hand three days ago.",
+                  "solutions": [
+                    
+                  ],
+                  "answer": {
+                    "text": "\\((-3,450)\\)"
+                  }
+                },
+                {
+                  "text": "Write a second ordered pair using the information about the cars on hand yesterday.",
+                  "solutions": [
+                  
+                  ],
+                  "answer": {
+                    "text": "\\(-1,480\\)"
+                  }
+                },
+                {
+                  "text": "You need to know the rate at which the plant is producing cars.  Another name for this rate of change is “slope.”  Use the two ordered pairs to find the rate of change.",
+                  "solutions": [
+                    "\\(m=\\frac{y_2-y_1}{x_2-x_1}\\)",
+                    "\\(m=\\frac{480-450}{-1+3}\\)",
+                    "\\(m=\\frac{30}{2}\\)"
+                  ],
+                  "answer": {
+                    "text": "The plant is producing 15 cars per day."
+                  }
+                },
+                {
+                  "text": "Jose deposited $2500 in an account that pays 6% simple interest. How much money will he have at the end of 3 years?",
+                  "solutions": [
+                    "solution line 1",
+                    "solution line 2",
+                    "solution line 3"
+                  ],
+                  "answer": {
+                    "text": "answer to another problem"
+                  }
+                },
+                {
+                  "text": "Jose deposited $2500 in an account that pays 6% simple interest. How much money will he have at the end of 3 years?",
+                  "solutions": [
+                    "solution line 1",
+                    "solution line 2",
+                    "solution line 3"
+                  ],
+                  "answer": {
+                    "text": "answer to another problem"
+                  }
+                },
+                {
+                  "text": "Jose deposited $2500 in an account that pays 6% simple interest. How much money will he have at the end of 3 years?",
+                  "solutions": [
+                    "solution line 1",
+                    "solution line 2",
+                    "solution line 3"
+                  ],
+                  "answer": {
+                    "text": "answer to another problem"
+                  }
+                },
+                {
+                  "text": "Jose deposited $2500 in an account that pays 6% simple interest. How much money will he have at the end of 3 years?",
+                  "solutions": [
+                    "solution line 1",
+                    "solution line 2",
+                    "solution line 3"
+                  ],
+                  "answer": {
+                    "text": "answer to another problem"
+                  }
+                },
+                {
+                  "text": "Jose deposited $2500 in an account that pays 6% simple interest. How much money will he have at the end of 3 years?",
+                  "solutions": [
+                    "solution line 1",
+                    "solution line 2",
+                    "solution line 3"
+                  ],
+                  "answer": {
+                    "text": "answer to another problem"
+                  }
+                },
+                {
+                  "text": "Jose deposited $2500 in an account that pays 6% simple interest. How much money will he have at the end of 3 years?",
+                  "solutions": [
+                    "solution line 1",
+                    "solution line 2",
+                    "solution line 3"
+                  ],
+                  "answer": {
+                    "text": "answer to another problem"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Systems of Linear Equations",
+          "intro": "This is an intro",
+          "problemsets": [
+            {
+              "intro": "this is a problem set intro",
+              "problems": [
+                {
+                  "text": "this is problem 1 text",
+                  "solutions": [
+                    "solution line 1",
+                    "solution line 2",
+                    "solution line 3"
+                  ],
+                  "answer": {
+                    "text": "answer to a problem in another unit"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Augmented Matrices",
           "intro": "This is an intro",
           "problemsets": [
             {
@@ -766,7 +1064,73 @@
           ]
         },
         {
-          "title": "title of the first section",
+          "title": "Gauss-Jordan Elimination",
+          "intro": "This is an intro",
+          "problemsets": [
+            {
+              "intro": "this is a problem set intro",
+              "problems": [
+                {
+                  "text": "Ursula borrows $600 for 5 months at a simple interest rate of 15% per year. Find the interest, and the total amount she is obligated to pay?",
+                  "solutions": [
+                    "solution \\(x^2+14 = 2\\) line 1",
+                    "solution \\[x^2+14 = 2\\] line 2",
+                    "solution line 3"
+                  ],
+                  "answer": {
+                    "text": "answer to this problem"
+                  }
+                },
+                {
+                  "text": "Jose deposited $2500 in an account that pays 6% simple interest. How much money will he have at the end of 3 years?",
+                  "solutions": [
+                    "solution line 1",
+                    "solution line 2",
+                    "solution line 3"
+                  ],
+                  "answer": {
+                    "text": "answer to another problem"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Operations with Matrices",
+          "intro": "This is an intro",
+          "problemsets": [
+            {
+              "intro": "this is a problem set intro",
+              "problems": [
+                {
+                  "text": "Ursula borrows $600 for 5 months at a simple interest rate of 15% per year. Find the interest, and the total amount she is obligated to pay?",
+                  "solutions": [
+                    "solution \\(x^2+14 = 2\\) line 1",
+                    "solution \\[x^2+14 = 2\\] line 2",
+                    "solution line 3"
+                  ],
+                  "answer": {
+                    "text": "answer to this problem"
+                  }
+                },
+                {
+                  "text": "Jose deposited $2500 in an account that pays 6% simple interest. How much money will he have at the end of 3 years?",
+                  "solutions": [
+                    "solution line 1",
+                    "solution line 2",
+                    "solution line 3"
+                  ],
+                  "answer": {
+                    "text": "answer to another problem"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Inverse Matrices",
           "intro": "This is an intro",
           "problemsets": [
             {
@@ -798,12 +1162,170 @@
             }
           ]
         }
-
+      ]
+    },
+    {
+      "title": "Linear Programming",
+      "sections": [
+        {
+          "title": "Linear Inequalities in Two Variables",
+          "intro": "This is an intro",
+          "problemsets": [
+            {
+              "intro": "this is a problem set intro",
+              "problems": [
+                {
+                  "text": "Ursula borrows $600 for 5 months at a simple interest rate of 15% per year. Find the interest, and the total amount she is obligated to pay?",
+                  "solutions": [
+                    "solution \\(x^2+14 = 2\\) line 1",
+                    "solution \\[x^2+14 = 2\\] line 2",
+                    "solution line 3"
+                  ],
+                  "answer": {
+                    "text": "answer to this problem"
+                  }
+                },
+                {
+                  "text": "Jose deposited $2500 in an account that pays 6% simple interest. How much money will he have at the end of 3 years?",
+                  "solutions": [
+                    "solution line 1",
+                    "solution line 2",
+                    "solution line 3"
+                  ],
+                  "answer": {
+                    "text": "answer to another problem"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Systems of Linear Inequalities",
+          "intro": "This is an intro",
+          "problemsets": [
+            {
+              "intro": "this is a problem set intro",
+              "problems": [
+                {
+                  "text": "this is problem 1 text",
+                  "solutions": [
+                    "solution line 1",
+                    "solution line 2",
+                    "solution line 3"
+                  ],
+                  "answer": {
+                    "text": "answer to a problem in another unit"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Linear Programming in Two Variables",
+          "intro": "This is an intro",
+          "problemsets": [
+            {
+              "intro": "this is a problem set intro",
+              "problems": [
+                {
+                  "text": "this is problem 1 text",
+                  "solutions": [
+                    "solution line 1",
+                    "solution line 2",
+                    "solution line 3"
+                  ],
+                  "answer": {
+                    "text": "answer to a problem in another unit"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Simplex Method: Maximization",
+          "intro": "This is an intro",
+          "problemsets": [
+            {
+              "intro": "this is a problem set intro",
+              "problems": [
+                {
+                  "text": "this is problem 1 text",
+                  "solutions": [
+                    "solution line 1",
+                    "solution line 2",
+                    "solution line 3"
+                  ],
+                  "answer": {
+                    "text": "answer to a problem in another unit"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Simplex Method: Minimization",
+          "intro": "This is an intro",
+          "problemsets": [
+            {
+              "intro": "this is a problem set intro",
+              "problems": [
+                {
+                  "text": "this is problem 1 text",
+                  "solutions": [
+                    "solution line 1",
+                    "solution line 2",
+                    "solution line 3"
+                  ],
+                  "answer": {
+                    "text": "answer to a problem in another unit"
+                  }
+                }
+              ]
+            }
+          ]
+        }
       ]
     },
     {
       "title": "another title of a unit",
       "sections": [
+        {
+          "title": "title of the first section",
+          "intro": "This is an intro",
+          "problemsets": [
+            {
+              "intro": "this is a problem set intro",
+              "problems": [
+                {
+                  "text": "Ursula borrows $600 for 5 months at a simple interest rate of 15% per year. Find the interest, and the total amount she is obligated to pay?",
+                  "solutions": [
+                    "solution \\(x^2+14 = 2\\) line 1",
+                    "solution \\[x^2+14 = 2\\] line 2",
+                    "solution line 3"
+                  ],
+                  "answer": {
+                    "text": "answer to this problem"
+                  }
+                },
+                {
+                  "text": "Jose deposited $2500 in an account that pays 6% simple interest. How much money will he have at the end of 3 years?",
+                  "solutions": [
+                    "solution line 1",
+                    "solution line 2",
+                    "solution line 3"
+                  ],
+                  "answer": {
+                    "text": "answer to another problem"
+                  }
+                }
+              ]
+            }
+          ]
+        },
         {
           "title": "another title of a section",
           "intro": "This is an intro",

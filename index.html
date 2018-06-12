@@ -9,6 +9,7 @@
   <meta name="theme-color" content="#001cb8" />
   <title>Math 1630</title>
   <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <noscript>
   <link rel="stylesheet" href="./css/styles.css">
   <link rel="stylesheet" href="./css/printing.css" media="print">
@@ -36,12 +37,13 @@
             <li class="problem" v-for="(problem, index_problem) in problemset.problems" > <span v-if="(problem.text)" v-html="problem.text"></span>
               <ul class="solutions">
                 <li class="solution" v-for="(solution, index_solution) in problem.solutions">{{solution}}</li>
-                <li class="answer">{{problem.answer.text}}</li>
+                <li class="answer" v-html="problem.answer.text"></li>
               </ul>
               <!--end of a solution and answer -->
             </li>
             <!--end of a problem -->
           </ol>
+          <p><a :href="problemset.citation" target="_blank">{{problemset.citation}}</a></p>
         </div>
         <!--end of a problem set -->
       </div>
