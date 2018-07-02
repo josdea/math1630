@@ -9,6 +9,7 @@
   <meta name="theme-color" content="#001cb8" />
   <title>Math 1630</title>
   <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <noscript>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/printing.css" media="print"> </noscript>
@@ -22,32 +23,33 @@
     <div v-if="(loading)">
       <h2 class="text-center">{{loadingMsg}} </h2>
     </div>
-    <main role="main">
-      <article class="unit" :id="unit.title" v-if="(!loading)" v-for="(unit, index_unit) in notes.units">
-        <h2 class="unittitle">{{index_unit + 1 + '. '}}{{unit.title}}</h2>
-        <article class="section" role="document" :id="section.title"
-          v-for="(section, index_section) in unit.sections">
-          <h3 class="sectiontitle">{{index_unit + 1 + '.'}}{{(index_section + 1) + '. '}}{{section.title}}</h3>
-          <p class="sectionintro">{{section.intro}}</p>
-          <section class="problemset" v-for="(problemset, index_problemset) in section.problemsets">
-            <p class="problemsetintro">{{problemset.intro}}</p>
-            <ol>
-              <li class="problem" v-for="(problem, index_problem) in problemset.problems"> {{problem.text}}
-                <ul class="solutions">
-                  <li class="solution" v-for="(solution, index_solution) in problem.solutions">{{solution}}</li>
-                  <li class="answer">{{problem.answer}}</li>
-                </ul>
-                <!--end of a solution and answer -->
-              </li>
-              <!--end of a problem -->
-            </ol>
-          </section>
-          <!--end of a problem set -->
-        </article>
-        <!--end of a section -->
-      </article>
-      <!--end of a unit -->
-    </main>
+
+    <div class="unit" v-if="(!loading)" v-for="(unit, index_unit) in notes.units">
+      <h2 class="unittitle">{{index_unit + 1 + '. '}}{{unit.title}}</h2>
+      <div class="unitintro" v-if="(unit.intro)" v-html="unit.intro"></div>
+      <div class="section" v-for="(section, index_section) in unit.sections">
+        <h3 class="sectiontitle">{{index_unit + 1 + '.'}}{{(index_section + 1) + '. '}}{{section.title}}</h3>
+        <div class="sectionintro" v-if="(section.intro)" v-html="section.intro"></div>
+        <div class="problemset" v-for="(problemset, index_problemset) in section.problemsets">
+          <p class="problemsetintro">{{problemset.intro}}</p>
+          <ol>
+            <li class="problem" v-for="(problem, index_problem) in problemset.problems" > <span v-if="(problem.text)" v-html="problem.text"></span>
+              <ul class="solutions">
+                <li class="solution" v-for="(solution, index_solution) in problem.solutions" v-html="solution"></li>
+                <li class="answer" v-html="problem.answer.text"></li>
+              </ul>
+              <!--end of a solution and answer -->
+            </li>
+            <!--end of a problem -->
+          </ol>
+          <p><a :href="problemset.citation" target="_blank">{{problemset.citation}}</a></p>
+        </div>
+        <!--end of a problem set -->
+      </div>
+      <!--end of a section -->
+    </div>
+    <!--end of a unit -->
+
   </div>
   <!--end of app container -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
@@ -89,7 +91,7 @@
       }//end of methods object
     }); // end of vue app
   </script>
-  <script src="./js/app.js"></script>
+  <!-- <script src="./js/app.js"></script> -->
   <script type="text/javascript">
     var giftofspeed = document.createElement('link');
     giftofspeed.rel = 'stylesheet';
