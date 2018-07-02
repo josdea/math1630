@@ -36,7 +36,7 @@
           <ol>
             <li class="problem" v-for="(problem, index_problem) in problemset.problems" > <span v-if="(problem.text)" v-html="problem.text"></span>
               <ul class="solutions">
-                <li class="solution" v-for="(solution, index_solution) in problem.solutions">{{solution}}</li>
+                <li class="solution" v-for="(solution, index_solution) in problem.solutions" v-html="solution"></li>
                 <li class="answer" v-html="problem.answer.text"></li>
               </ul>
               <!--end of a solution and answer -->
