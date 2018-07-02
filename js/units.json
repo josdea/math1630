@@ -911,18 +911,14 @@
               "problems": [
                 {
                   "text": "Write an ordered pair using the information about the cars on hand three days ago.",
-                  "solutions": [
-                    
-                  ],
+                  "solutions": [],
                   "answer": {
                     "text": "\\((-3,450)\\)"
                   }
                 },
                 {
                   "text": "Write a second ordered pair using the information about the cars on hand yesterday.",
-                  "solutions": [
-                  
-                  ],
+                  "solutions": [],
                   "answer": {
                     "text": "\\(-1,480\\)"
                   }
@@ -939,69 +935,76 @@
                   }
                 },
                 {
-                  "text": "Jose deposited $2500 in an account that pays 6% simple interest. How much money will he have at the end of 3 years?",
-                  "solutions": [
-                    "solution line 1",
-                    "solution line 2",
-                    "solution line 3"
-                  ],
+                  "text": "Use the slope and one of the ordered pairs (doesn’t matter which one!) to write a linear equation describing this problem.  Use point-slope form: \\(y-y_1=m(x-x_1)\\).",
+                  "solutions": [],
                   "answer": {
-                    "text": "answer to another problem"
+                    "text": "\\(y-450=15(x+3)\\)"
                   }
                 },
                 {
-                  "text": "Jose deposited $2500 in an account that pays 6% simple interest. How much money will he have at the end of 3 years?",
+                  "text": "Write the equation in slope-intercept form:  \\(y=mx+b\\).",
                   "solutions": [
-                    "solution line 1",
-                    "solution line 2",
-                    "solution line 3"
+                    "\\(y-450=15x+45\\)",
+                    "\\(y=15x+45+450\\)"
                   ],
                   "answer": {
-                    "text": "answer to another problem"
+                    "text": "\\(y=15x+495\\)"
                   }
                 },
                 {
-                  "text": "Jose deposited $2500 in an account that pays 6% simple interest. How much money will he have at the end of 3 years?",
+                  "text": "Use the equation to find the number of cars the plant had on hand when it opened.",
                   "solutions": [
-                    "solution line 1",
-                    "solution line 2",
-                    "solution line 3"
+                    "\\(x=0\\",
+                    "\\(y=15(0)+495\\)",
+                    "\\(y=495\\)"
                   ],
                   "answer": {
-                    "text": "answer to another problem"
+                    "text": "There were 495 cars on hand when the plant opened."
                   }
                 },
                 {
-                  "text": "Jose deposited $2500 in an account that pays 6% simple interest. How much money will he have at the end of 3 years?",
+                  "text": "Use the equation to find the number of cars the plant will have on hand in five days.",
                   "solutions": [
-                    "solution line 1",
-                    "solution line 2",
-                    "solution line 3"
+                    "\\(x=5\\)",
+                    "\\(y=15(5)+495\\)",
+                    "\\(y=570\\)"
                   ],
                   "answer": {
-                    "text": "answer to another problem"
+                    "text": "In five days there will be 570 cars on hand at the plant."
                   }
                 },
                 {
-                  "text": "Jose deposited $2500 in an account that pays 6% simple interest. How much money will he have at the end of 3 years?",
+                  "text": "Use the equation to find when the plant will have 750 cars on hand.",
                   "solutions": [
-                    "solution line 1",
-                    "solution line 2",
-                    "solution line 3"
+                    "\\(750=15x+495\\)",
+                    "\\(225=15x\\)",
+                    "\\(x=15\\)"
                   ],
                   "answer": {
-                    "text": "answer to another problem"
+                    "text": "In 15 days the plant will have 750 cars on hand."
                   }
                 },
                 {
-                  "text": "Jose deposited $2500 in an account that pays 6% simple interest. How much money will he have at the end of 3 years?",
+                  "text": "Graph the equation using Desmos. ",
+                  "solutions": [],
+                  "answer": {
+                    "text": "<img src=\"./images/u2s1p9.png\" alt=\"Graph y=15x+495 graphed with number of days since today on the x-axis on the interval from -5 to 20 and number of cars on hand at the plant on the y-axis on the interval from -100 to 1000\">"
+                  }
+                }
+              ]
+            },
+            {
+              "intro": "this is a problem set intro",
+              "problems": [
+                {
+                  "text": "this is problem 1 text",
                   "solutions": [
                     "solution line 1",
                     "solution line 2",
                     "solution line 3"
                   ],
                   "answer": {
-                    "text": "answer to another problem"
+                    "text": "answer to a problem in another unit"
                   }
                 }
               ]
