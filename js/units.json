@@ -1400,20 +1400,190 @@
         },
         {
           "title": "Augmented Matrices",
-          "intro": "This is an intro",
+          "intro": "A matrix is a rectangular array of numbers that is useful in organizing and manipulating large amount of data.  Matrices serve as a shorthand for solving systems of linear equations.<p>Matrices:  Size and position</p><p>\\(A=\\begin{bmatrix}1&-2&6\\\\5&-4&1\\end{bmatrix}\\) is a 2 x 3 matrix (# of rows x # of columns)</p><p>\\(B=\\begin{bmatrix}-2&1&0&3\\\\-6&5&8&1\\\\0&-2&-3&7\\end{bmatrix}\\) is a 3 x 4 matrix </p><p> Each number in a matrix is an element.  The position of each element is given by the row and the column containing the element</p><p> In matrix A, the 6 is in position \\(a_{13}\\)</p> ",
           "problemsets": [
             {
-              "intro": "this is a problem set intro",
+              "intro": "Given: \\(\\begin{array}{l}x+3y=7\\\\3x+4y=11\\end{array}\\)",
               "problems": [
                 {
-                  "text": "Ursula borrows $600 for 5 months at a simple interest rate of 15% per year. Find the interest, and the total amount she is obligated to pay?",
+                  "text": "The coefficient matrix is:",
                   "solutions": [
-                    "solution \\(x^2+14 = 2\\) line 1",
-                    "solution \\[x^2+14 = 2\\] line 2",
-                    "solution line 3"
+                   
                   ],
                   "answer": {
-                    "text": "answer to this problem"
+                    "text": "\\(\\begin{bmatrix}1&3\\\\3&4\\end{bmatrix}\\)"
+                  }
+                },
+                {
+                  "text": "The constant matrix is:",
+                  "solutions": [
+                  
+                  ],
+                  "answer": {
+                    "text": "\\(\\begin{bmatrix}7\\\\11\\end{bmatrix}\\)"
+                  }
+                },
+                {
+                  "text": "The augmented matrix is:",
+                  "solutions": [
+                  
+                  ],
+                  "answer": {
+                    "text": "\\(\\left[\\left.\\begin{array}{cc}1&3\\\\3&4\\end{array}\\right|\\begin{array}{c}7\\\\11\\end{array}\\right]\\)"
+                  }
+                }
+              ]
+            },
+            {
+              "intro": "Using Row Operations to Produce Equivalent Matrices Row operations. <ol><li>Any two rows can be interchanged.</li><li>Any row many be multiplied by a non-zero constant.</li><li>A constant multiple of a row may be added to another row.</li><ol> <p>The goal is to produce a matrix in the form \\(\\left[\\left.\\begin{array}{cc}1&0\\\\0&1\\end{array}\\right|\\begin{array}{c}m\\\\n\\end{array}\\right]\\) </p> <p>Use matrix operations to solve the augmented matrix.</p>",
+              "problems": [
+                {
+                  "text": "\\(\\left[\\left.\\begin{array}{cc}1&3\\\\3&4\\end{array}\\right|\\begin{array}{c}7\\\\11\\end{array}\\right]\\)",
+                  "solutions": [
+                   "\\(-3R_1+R_2\\rightarrow R_2\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&3\\\\0&-5\\end{array}\\right|\\begin{array}{c}7\\\\-10\\end{array}\\right]\\)",
+                   "\\(-\\frac15R_2\\rightarrow R_2\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&3\\\\0&1\\end{array}\\right|\\begin{array}{c}7\\\\2\\end{array}\\right]\\)",
+                   "\\(-3R_2+R_1\\rightarrow R_1\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&0\\\\0&1\\end{array}\\right|\\begin{array}{c}1\\\\2\\end{array}\\right]\\)"
+                  ],
+                  "answer": {
+                    "text": "(1, 2)"
+                  }
+                }
+               
+                
+              ]
+            },
+            {
+              "intro": "Use matrix operations to solve the systems of equations.",
+              "problems": [
+                {
+                  "text": "\\(\\begin{array}{l}3x-2y=14\\\\x+3y=1\\end{array}\\)",
+                  "solutions": [
+                    "\\(\\left[\\left.\\begin{array}{cc}3&-2\\\\1&3\\end{array}\\right|\\begin{array}{c}14\\\\1\\end{array}\\right]\\)",
+                    "\\(R_1\\leftrightarrow R_2\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&3\\\\3&-2\\end{array}\\right|\\begin{array}{c}1\\\\14\\end{array}\\right]\\)",
+                   "\\(-3R_1+R_2\\rightarrow R_2\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&3\\\\0&-11\\end{array}\\right|\\begin{array}{c}1\\\\11\\end{array}\\right]\\)",
+                   "\\(-\\frac{1}{11}R_2\\rightarrow R_2\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&3\\\\0&1\\end{array}\\right|\\begin{array}{c}1\\\\-1\\end{array}\\right]\\)",
+                   "\\(-3R_2+R_1\\rightarrow R_1\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&0\\\\0&1\\end{array}\\right|\\begin{array}{c}4\\\\-1\\end{array}\\right]\\)"
+                  ],
+                  "answer": {
+                    "text": "(4, -1)"
+                  }
+                },
+                {
+                  "text": "\\(\\begin{array}{l}-2x+y=-3\\\\x-4y=-2\\end{array}\\)",
+                  "solutions": [
+                    "\\(\\left[\\left.\\begin{array}{cc}-2&1\\\\1&-4\\end{array}\\right|\\begin{array}{c}-3\\\\-2\\end{array}\\right]\\)",
+                    "\\(R_1\\leftrightarrow R_2\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&-4\\\\-2&1\\end{array}\\right|\\begin{array}{c}-2\\\\-3\\end{array}\\right]\\)",
+                   "\\(2R_1+R_2\\rightarrow R_2\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&-4\\\\0&-7\\end{array}\\right|\\begin{array}{c}-2\\\\-7\\end{array}\\right]\\)",
+                   "\\(-\\frac{1}{7}R_2\\rightarrow R_2\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&-4\\\\0&1\\end{array}\\right|\\begin{array}{c}-2\\\\1\\end{array}\\right]\\)",
+                   "\\(4R_2+R_1\\rightarrow R_1\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&0\\\\0&1\\end{array}\\right|\\begin{array}{c}2\\\\1\\end{array}\\right]\\)"
+                  ],
+                  "answer": {
+                    "text": "(2, 1)"
+                  }
+                },
+                {
+                  "text": "\\(\\begin{array}{l}3x-6y=-9\\\\-2x-2y=12\\end{array}\\)",
+                  "solutions": [
+                    "\\(\\left[\\left.\\begin{array}{cc}3&-6\\\\-2&-2\\end{array}\\right|\\begin{array}{c}-9\\\\12\\end{array}\\right]\\)",
+                    "\\(\\frac{1}{3}R_1\\rightarrow R_1\\)",
+                    "\\(\\frac{1}{2}R_2\\rightarrow R_2\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&-2\\\\-1&-1\\end{array}\\right|\\begin{array}{c}-3\\\\6\\end{array}\\right]\\)",
+                   "\\(R_1+R_2\\rightarrow R_2\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&-2\\\\0&-3\\end{array}\\right|\\begin{array}{c}-3\\\\3\\end{array}\\right]\\)",
+                   "\\(-\\frac{1}{3}R_2\\rightarrow R_2\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&-2\\\\0&1\\end{array}\\right|\\begin{array}{c}-3\\\\-1\\end{array}\\right]\\)",
+                   "\\(2R_2+R_1\\rightarrow R_1\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&0\\\\0&1\\end{array}\\right|\\begin{array}{c}-5\\\\-1\\end{array}\\right]\\)"
+                  ],
+                  "answer": {
+                    "text": "(-5, -1)"
+                  }
+                },
+                {
+                  "text": "\\(\\begin{array}{l}2x-y=4\\\\-6x+3y=-12\\end{array}\\)",
+                  "solutions": [
+                    "\\(\\left[\\left.\\begin{array}{cc}2&-1\\\\-6&3\\end{array}\\right|\\begin{array}{c}4\\\\-12\\end{array}\\right]\\)",
+                    "\\(\\frac{1}{2}R_1\\rightarrow R_1\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&-\\frac{1}{2}\\\\-6&3\\end{array}\\right|\\begin{array}{c}2\\\\-12\\end{array}\\right]\\)",
+                   "\\(6R_1+R_2\\rightarrow R_2\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&-\\frac{1}{2}\\\\0&0\\end{array}\\right|\\begin{array}{c}2\\\\0\\end{array}\\right]\\)",
+                   "Zeros across the bottom indicate an infinite number of solutions.",
+                   "Let \\(y=t\\)",
+                   "Then from the first row of the matrix \\(2x-t=4\\)",
+                   "\\(2x=t+4\\)",
+                   "\\(x=\\frac12t+2\\)"
+                  ],
+                  "answer": {
+                    "text": "\\((\\frac12t+2, t)\\)"
+                  }
+                },
+                {
+                  "text": "\\(\\begin{array}{l}-x+3y=-2\\\\3x-9y=1\\end{array}\\)",
+                  "solutions": [
+                    "\\(\\left[\\left.\\begin{array}{cc}-1&3\\\\3&-9\\end{array}\\right|\\begin{array}{c}-2\\\\1\\end{array}\\right]\\)",
+                    "\\(-1R_1\\rightarrow R_1\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&-3\\\\3&-9\\end{array}\\right|\\begin{array}{c}2\\\\1\\end{array}\\right]\\)",
+                   "\\(-3R_1+R_2\\rightarrow R_2\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&-3\\\\0&0\\end{array}\\right|\\begin{array}{c}-2\\\\7\\end{array}\\right]\\)",
+                   "\\(0\\neq7\\)"
+                  ],
+                  "answer": {
+                    "text": "No solution"
+                  }
+                }
+               
+                
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Gauss-Jordan Elimination",
+          "intro": "",
+          "problemsets": [
+            {
+              "intro": "A florist is making 5 identical bridesmaid bouquets for a wedding.  She has $610 to spend (including tax) and wants 24 flowers for each bouquet.  Roses cost $6 each, tulips cost $4 each, and lilies cost $3 each.  She wants to have twice as many roses as the other 2 flowers combined in each bouquet.  How many roses, tulips, and lilies are in each bouquet? "
+             
+            },
+            {
+              "intro": "<h4>Reduced Row Echelon Form</h4><ol><li>Each row that is entirely zeros is below any row having nonzero element.</li><li>The leftmost element in each row is 1.</li><li>All other elements in the column containing the leftmost 1 are zeros.</li><li>The leftmost 1 in any row is to the right of the leftmost 1 in the row above.</li></ol><h4>Examples of reduced form matrices.</h4><p>\\(\\left[\\left.\\begin{array}{cc}1&0\\\\0&1\\end{array}\\right|\\begin{array}{c}5\\\\-3\\end{array}\\right]\\)</p><p>\\(\\left[\\left.\\begin{array}{cc}1&0&0\\\\0&1&0\\\\0&0&1\\end{array}\\right|\\begin{array}{c}-1\\\\5\\\\0.5\\end{array}\\right]\\)</p><p>\\(\\left[\\left.\\begin{array}{cc}1&0\\\\0&1\\\\0&0\\end{array}\\right|\\begin{array}{c}4\\\\-3\\\\0\\end{array}\\right]\\)</p><p>\\(\\left[\\left.\\begin{array}{cc}1&3&0&0\\\\0&0&1&0\\\\0&0&0&0\\end{array}\\right|\\begin{array}{c}-1\\\\5\\\\0.5\\end{array}\\right]\\)</p><p>\\(\\left[\\left.\\begin{array}{cc}1&0&4\\\\0&1&3\\\\0&0&0\\end{array}\\right|\\begin{array}{c}0\\\\0\\\\1\\end{array}\\right]\\)</p><h4>Gauss-Jordan Elimination transforms an augmented matrix into reduced form using row operations.</h4><p>Use Gauss-Jordan Elimination to solve the following problems.</p>",
+              "problems": [
+                {
+                  "text": "\\(\\begin{array}{l}3x_1+x_2-2x_3=2\\\\x_1-2x_2+x_3=3\\\\2x_1-x_2-3x_3=3\\end{array}\\)",
+                  "solutions": [
+                    "\\(\\left[\\left.\\begin{array}{cc}3&1&-2\\\\1&-2&1\\\\2&-1&-3\\end{array}\\right|\\begin{array}{c}2\\\\3\\\\3\\end{array}\\right]\\)",
+                    "\\(R_1\\leftrightarrow R_2\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&-2&1\\\\3&1&-2\\\\2&-1&-3\\end{array}\\right|\\begin{array}{c}3\\\\2\\\\3\\end{array}\\right]\\)",
+                    "\\(-3R_1+R_2\\rightarrow R_2\\)",
+                    "\\(-2R_1+R_3\\rightarrow R_3\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&-2&1\\\\0&7&-5\\\\0&3&-5\\end{array}\\right|\\begin{array}{c}3\\\\-7\\\\-3\\end{array}\\right]\\)",
+                    "\\(\\frac17R_2\\rightarrow R_2\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&-2&1\\\\0&1&-\\frac57\\\\0&3&-5\\end{array}\\right|\\begin{array}{c}3\\\\-1\\\\-3\\end{array}\\right]\\)",
+                    "\\(-3R_2+R_3\\rightarrow R_3\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&-2&1\\\\0&1&-\\frac57\\\\0&0&-\\frac{20}{7}\\end{array}\\right|\\begin{array}{c}3\\\\-1\\\\0\\end{array}\\right]\\)",
+                    "\\(-\\frac{7}{20}R_3\\rightarrow R_3\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&-2&1\\\\0&1&-\\frac57\\\\0&0&1\\end{array}\\right|\\begin{array}{c}3\\\\-1\\\\0\\end{array}\\right]\\)",
+                    "\\(\\frac57R_3+R_2\\rightarrow R_2\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&-2&1\\\\0&1&0\\\\0&0&1\\end{array}\\right|\\begin{array}{c}3\\\\-1\\\\0\\end{array}\\right]\\)",
+                    "\\(-R_3+R_1\\rightarrow R_1\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&-2&0\\\\0&1&0\\\\0&0&1\\end{array}\\right|\\begin{array}{c}3\\\\-1\\\\0\\end{array}\\right]\\)",
+                    "\\(2R_2+R_1\\rightarrow R_1\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&0&0\\\\0&1&0\\\\0&0&1\\end{array}\\right|\\begin{array}{c}1\\\\-1\\\\0\\end{array}\\right]\\)"
+                
+                  ],
+                  "answer": {
+                    "text": "(1, -1, 0)"
                   }
                 },
                 {
@@ -1428,13 +1598,7 @@
                   }
                 }
               ]
-            }
-          ]
-        },
-        {
-          "title": "Gauss-Jordan Elimination",
-          "intro": "This is an intro",
-          "problemsets": [
+            },
             {
               "intro": "this is a problem set intro",
               "problems": [
