@@ -31,7 +31,7 @@
         <h3 class="sectiontitle">{{index_unit + 1 + '.'}}{{(index_section + 1) + '. '}}{{section.title}}</h3>
         <div class="sectionintro" v-if="(section.intro)" v-html="section.intro"></div>
         <div class="problemset" v-for="(problemset, index_problemset) in section.problemsets">
-          <p class="problemsetintro">{{problemset.intro}}</p>
+          <p class="problemsetintro" v-html="problemset.intro"></p>
           <ol>
             <li class="problem" v-for="(problem, index_problem) in problemset.problems" > <span v-if="(problem.text)" v-html="problem.text"></span>
               <ul class="solutions">
