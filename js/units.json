@@ -1587,14 +1587,14 @@
                   }
                 },
                 {
-                  "text": "Jose deposited $2500 in an account that pays 6% simple interest. How much money will he have at the end of 3 years?",
+                  "text": "\\(\\begin{array}{l}3x_1+x_2-2x_3=-7\\\\2x_1+2x_2+x_3=9\\\\-1x_1-x_2+3x_3=6\\end{array}\\)",
                   "solutions": [
                     "solution line 1",
                     "solution line 2",
                     "solution line 3"
                   ],
                   "answer": {
-                    "text": "answer to another problem"
+                    "text": "(-2, 5, 3)"
                   }
                 }
               ]
