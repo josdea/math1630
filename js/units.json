@@ -2375,20 +2375,117 @@
         },
         {
           "title": "Linear Programming in Two Variables",
-          "intro": "This is an intro",
+          "intro": "",
           "problemsets": [
             {
-              "intro": "this is a problem set intro",
+              "intro": "",
               "problems": [
                 {
-                  "text": "this is problem 1 text",
+                  "text": "Niki holds two part-time jobs, Job I and Job II. She never wants to work more than a total of 12 hours a week. She has determined that for every hour she works at Job I, she needs 2 hours of preparation time, and for every hour she works at Job II, she needs one hour of preparation time, and she cannot spend more than 16 hours for preparation. If she makes $40 an hour at Job I, and $30 an hour at Job II, how many hours should she work per week at each job to maximize her income?",
                   "solutions": [
-                    "solution line 1",
-                    "solution line 2",
-                    "solution line 3"
+                    "x: # of hours worked at Job 1",
+                    "y: # of hours worked at Job II",
+                    "Maximize: \\(P=40x+30y\\)",
+                    "\\(x+y\\leq 12\\)",
+                    "\\(2x+y\\leq 16\\)",
+                    "\\(x\\geq 0\\)",
+                    "\\(y\\geq 0\\)",
+                    "<img src=\"./images/u3s3p1.png\" alt=\"Graph of region bounded by x+y<=12, 2x+y<=16, x>=0, and y>=0.  The bounded region is shaded below x+y<=12 from x=0 to x=4, by 2x+y<=16 from x=4 to x=8.\">",
+                    "Plug corner points into the maximization equation \\(P=40x+30y\\).",
+                    "\\((0,0): 40(0)+30(0)=0\\)",
+                    "\\((0,12): 40(0)+30(12)=360\\)",
+                    "\\((8,0): 40(8)+30(0)=320\\)",
+                    "\\((4,8): 40(4)+30(8)=400\\)"
                   ],
                   "answer": {
-                    "text": "answer to a problem in another unit"
+                    "text": "Nikki should work 4 hours per week at Job 1 and 8 hours per week at Job II to maximize her income."
+                  }
+                },
+                {
+                  "text": "A factory manufactures two types of gadgets, regular and premium. Each gadget requires the use of two operations, assembly and finishing, and there are at most 12 hours available for each operation. A regular gadget requires 1 hour of assembly and 2 hours of finishing, while a premium gadget needs 2 hours of assembly and 1 hour of finishing. Due to other restrictions, the company can make at most 7 gadgets a day. If a profit of $20 is realized for each regular gadget and $30 for a premium gadget, how many of each should be manufactured to maximize profit?",
+                  "solutions": [
+                    "x: # of regular gadgets manufactured",
+                    "y: # of premium gadgets manufactured",
+                    "Maximize: \\(P=20x+30y\\)",
+                    "\\(x+2y\\leq 12\\)",
+                    "\\(2x+y\\leq 12\\)",
+                    "\\(x+y\\leq 7\\)",
+                    "\\(x\\geq 0\\)",
+                    "\\(y\\geq 0\\)",
+                    "<img src=\"./images/u3s3p2.png\" alt=\"Graph of region bounded by x+2y<=12, 2x+y<=12, x+y<=7, x>=0, and y>=0.  The bounded region is shaded below x+2y<=12 from x=0 to x=2, by x+y<=7 from x-2 to x=5, and by 2x+y<=12 from x=5 to x=6.\">",
+                    "Plug corner points into the maximization equation \\(P=20x+30y\\).",
+                    "\\((0,0): 20(0)+30(0)=0\\)",
+                    "\\((0,6): 20(0)+30(6)=180\\)",
+                    "\\((2,5): 20(2)+30(5)=190\\)",
+                    "\\((5,2): 20(5)+30(2)=160\\)",
+                    "\\((6,0): 20(6)+30(0)=120\\)"
+                  ],
+                  "answer": {
+                    "text": "To maximize the profit, the company should make 2 regular and 5 premium gadgets."
+                  }
+                },
+                {
+                  "text": "Professor Symons wishes to employ two students, John and Mary, to grade the homework papers for his classes. John can mark 20 papers per hour and charges $5 per hour, and Mary can mark 30 papers per hour and charges $8 per hour. Each student must be employed at least one hour a week to justify their employment. If Mr. Symons has at least 110 homework papers to be marked each week, how many hours per week should he employ each student to minimize his cost?",
+                  "solutions": [
+                    "x: # of hours John grades",
+                    "y: # of hours Mary grades",
+                    "Minimize: \\(C=5x+8y\\)",
+                    "\\(20x+30y\\geq 110\\)",
+                    "\\(x\\geq 1\\)",
+                    "\\(y\\geq 1\\)",
+                    "<img src=\"./images/u3s3p3.png\" alt=\"Graph of region bounded by 20x+30y>=110,  x>=1, and y>=1.  The unbounded region has corner points at (1,3) and (4,1).\">",
+                    "Plug corner points into the maximization equation \\(C=5x+8y\\).",
+                   
+                    "\\((1,3): 5(1)+8(3)=29\\)",
+                    "\\((4,1): 5(4)+8(1)=28\\)"
+                  ],
+                  "answer": {
+                    "text": "To minimize costs, Professor Symons should employ John 4 hours a week and Mary 1 hour per week."
+                  }
+                },
+                {
+                  "text": "Professor Hamer is on a low cholesterol diet. During lunch at the college cafeteria, he always chooses between two meals, Pasta or Tofu. The table below lists the amount of protein, carbohydrates, and vitamins each meal provides along with the amount of cholesterol he is trying to minimize. Mr. Hamer needs at least 200 grams of protein, 960 grams of carbohydrates, and 40 grams of vitamins for lunch each month. Over this time period, how many days should he have the Pasta meal, and how many days the Tofu meal so that he gets the adequate amount of protein, carbohydrates, and vitamins and at the same time minimizes his cholesterol intake?",
+                  "solutions": [
+                    "x: # of pasta lunches",
+                    "y: # of tofu lunches",
+                    "Minimize: \\(C=60x+50y\\)",
+                    "\\(8x+16y\\geq 200\\)",
+                    "\\(60x+40y\\geq 960\\)",
+                    "\\(2x+2y\\geq 40\\)",
+                    
+                    "<img src=\"./images/u3s3p4.png\" alt=\"Graph of unbounded region above 8x+16y>=200, 60x+40y>=960, 2x+2y>=40.  The corner points are (0,24), (8,12), (15,5) and (25,0).\">",
+                    "Plug corner points into the maximization equation \\(C=60x+50y\\).",
+                    "\\((0,24): 60(0)+50(24)=1200\\)",
+                    "\\((8,212): 60(8)+50(12)=1080\\)",
+                    "\\((15,5): 60(15)+50(5)=1150\\)",
+                    "\\((25,0): 60(25)+50(0)=1500\\)"
+                   
+                  ],
+                  "answer": {
+                    "text": "To minimize his cholesterol intake, Professor Hamer should eat 8 pasta and 12 tofu lunches per month."
+                  }
+                },
+                {
+                  "text": "A farmer has 100 acres of land on which she plans to grow wheat and corn. Each acre of wheat requires 4 hours of labor and $20 of capital, and each acre of corn requires 16 hours of labor and $40 of capital. The farmer has at most 800 hours of labor and $2400 of capital available. If the profit from an acre of wheat is $80 and from an acre of corn is $100, how many acres of each crop should she plant to maximize her profit?",
+                  "solutions": [
+                    "x: # of acres of wheat",
+                    "y: # of acres of corn",
+                    "Maximize: \\(P=80x+100y\\)",
+                    "\\(x+y\\leq 100\\)",
+                    "\\(4x+16y\\leq 800\\)",
+                    "\\(20x+40y\\leq 2400\\)",
+                    "\\(x\\geq 0\\)",
+                    "\\(y\\geq 0\\)",
+                    "<img src=\"./images/u3s3p5.png\" alt=\"Graph of region bounded by x+y<=100, 4x+16y<=800, 20x+40y<=2400, x>=0, and y>=0.  The corner points for the region are (0,0), (0,50), (40,40), (80,20), and (100,0).\">",
+                    "Plug corner points into the maximization equation \\(P=80x+100y\\).",
+                    "\\((0,0): 80(0)+100(0)=0\\)",
+                    "\\((0,50): 80(0)+100(50)=5000\\)",
+                    "\\((40,40): 80(40)+100(40)=7200\\)",
+                    "\\((80,20): 80(80)+100(20)=8400\\)",
+                    "\\((100,0): 80(100)+100(0)=8000\\)"
+                  ],
+                  "answer": {
+                    "text": "In order to maximize her profit, the farmer should plant 80 acres of wheat and 20 acres of corn."
                   }
                 }
               ]
@@ -2397,20 +2494,34 @@
         },
         {
           "title": "Simplex Method: Maximization",
-          "intro": "This is an intro",
+          "intro": "",
           "problemsets": [
             {
-              "intro": "this is a problem set intro",
+              "intro": "<h4>Maximize the following.</h4>",
               "problems": [
                 {
-                  "text": "this is problem 1 text",
+                  "text": "Maximize: \\(P=5x_1+20x_2\\)<p>subject to: \\(5x_1+x_2\\leq 15\\)</p><p>\\(x_1+x_2\\leq 7\\)</p><p>\\(x_1,x_2\\geq 0\\)</p>",
                   "solutions": [
-                    "solution line 1",
-                    "solution line 2",
-                    "solution line 3"
+                   "Rewrite the equations using slack variables",
+                   "\\(5x_1+x_2+s_1\\;\\;\\;\\;\\;\\;=15\\) ",
+                   "\\(x_1+x_2\\;\\;\\;\\;\\;+s_2\\;\\;\\;\\;\\;=7\\)",
+                   "\\(-5x_1-20x_2\\;\\;\\;\\;\\;\\;+P=0\\)",
+                   "Create the Simplex Tableau",
+                    "\\(\\begin{array}{l}\\begin{array}{ccccc}\\;\\;\\;\\;x_1&x_2&s_1&s_2&P\\end{array}\\left[\\left.\\begin{array}{ccccc}5&1&1&0&0\\\\1&1&0&1&0\\\\-5&-20&0&0&1\\end{array}\\right|\\begin{array}{c}15\\\\7\\\\0\\end{array}\\right]\\end{array}\\)",
+                    "The smallest negative number in the bottom row gives you the pivot column",
+                    "To find the pivot row, divide the each of the last numbers in the tableau by the number in that same row of the pivot column.  The smallest of these gives you the pivot row.  The pivot element is the element in the intersection of the pivot row and the pivot column.",
+                    "\\(15\\div1=15\\)",
+                    "\\(7\\div 1=7\\)",
+                    "Since 7 is less than 15, row 2 is the pivot row.",
+                    "The pivot element is at the intersection of Row 2 and Column 2, so the pivot element is the 1 in row 2/column 2.",
+                    "Make the pivot element 1 (it already is in this problem).",
+                    "Make every other element in the pivot column 0 using row operations with the pivot element.",
+                    "\\(-R_2+R_1\\rightarrow R_1\\)",
+                    "\\(20R_2+R_3\\rightarrow R_3\\)",
+                    "When there are no more negative numbers in the bottom row, you can read your solution from the Simplex Tableau."
                   ],
                   "answer": {
-                    "text": "answer to a problem in another unit"
+                    "text": "\\(x_1=0,\\; x_2=7,\\; s_1=8,\\; s_2=0,\\) and \\(Max\\; P=140\\)"
                   }
                 }
               ]
