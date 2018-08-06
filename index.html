@@ -11,20 +11,26 @@
   <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <noscript>
-  <link rel="stylesheet" href="./css/styles.css?id=2">
+
+  <link rel="stylesheet" href="./css/styles.css">
   <link rel="stylesheet" href="./css/printing.css" media="print">
 </noscript>
+
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/printing.css" media="print"> </noscript>
 
 </head>
 
 <body>
-  <div class="banner">
+  <header class="banner">
     <h1>Math 1630</h1>
-  </div>
+  </header>
   <div id="app-1630" class="container">
     <div v-if="(loading)">
       <h2 class="text-center">{{loadingMsg}} </h2>
     </div>
+
     <div class="unit" v-if="(!loading)" v-for="(unit, index_unit) in notes.units">
       <h2 class="unittitle">{{index_unit + 1 + '. '}}{{unit.title}}</h2>
       <div class="unitintro" v-if="(unit.intro)" v-html="unit.intro"></div>
@@ -50,12 +56,11 @@
       <!--end of a section -->
     </div>
     <!--end of a unit -->
+
   </div>
   <!--end of app container -->
-  
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
   <script src="./js/vue.min.js"></script>
-  
   <script>
 
 
@@ -95,19 +100,19 @@
   </script>
   <!-- <script src="./js/app.js"></script> -->
   <script type="text/javascript">
-  var giftofspeed = document.createElement('link');
-  giftofspeed.rel = 'stylesheet';
-  giftofspeed.href = './css/styles.css';
-  giftofspeed.type = 'text/css';
-  var godefer = document.getElementsByTagName('link')[0];
-  godefer.parentNode.insertBefore(giftofspeed, godefer);
+    var giftofspeed = document.createElement('link');
+    giftofspeed.rel = 'stylesheet';
+    giftofspeed.href = './css/styles.css';
+    giftofspeed.type = 'text/css';
+    var godefer = document.getElementsByTagName('link')[0];
+    godefer.parentNode.insertBefore(giftofspeed, godefer);
 
-  var giftofspeed2 = document.createElement('link');
-  giftofspeed2.rel = 'stylesheet';
-  giftofspeed2.href = './css/printing.css';
-  giftofspeed2.type = 'text/css';
-  var godefer2 = document.getElementsByTagName('link')[0];
-  godefer2.parentNode.insertBefore(giftofspeed2, godefer2);
+    var giftofspeed2 = document.createElement('link');
+    giftofspeed2.rel = 'stylesheet';
+    giftofspeed2.href = './css/printing.css';
+    giftofspeed2.type = 'text/css';
+    var godefer2 = document.getElementsByTagName('link')[0];
+    godefer2.parentNode.insertBefore(giftofspeed2, godefer2);
   </script> </body>
 
 </html>
