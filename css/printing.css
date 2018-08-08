@@ -1,5 +1,5 @@
 @page {
-    margin: 0.5in !important;
+    margin: 1.25in !important;
     size: letter portrait;
 }
 
@@ -8,8 +8,15 @@
     font-size: 16px;
   }
     .container {
-        margin: 0px !important;
-        padding: 0px !important;
+        margin: 0.4px !important;
+        padding: 0.4px !important;
+        page-break-after: always;
+    }
+    .solutions, .answer{
+        visibility: hidden;
+    }
+
+    .unit, .section{
         page-break-after: always;
     }
 }

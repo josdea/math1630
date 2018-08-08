@@ -1,0 +1,60 @@
+{
+    "title": "another title of a unit",
+    "sections": [
+      {
+        "title": "title of the first section",
+        "intro": "This is an intro",
+        "problemsets": [
+          {
+            "intro": "this is a problem set intro",
+            "problems": [
+              {
+                "text": "Ursula borrows $600 for 5 months at a simple interest rate of 15% per year. Find the interest, and the total amount she is obligated to pay?",
+                "solutions": [
+                  "solution \\(x^2+14 = 2\\) line 1",
+                  "solution \\[x^2+14 = 2\\] line 2",
+                  "solution line 3"
+                ],
+                "answer": {
+                  "text": "answer to this problem"
+                }
+              },
+              {
+                "text": "Jose deposited $2500 in an account that pays 6% simple interest. How much money will he have at the end of 3 years?",
+                "solutions": [
+                  "solution line 1",
+                  "solution line 2",
+                  "solution line 3"
+                ],
+                "answer": {
+                  "text": "answer to another problem"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "another title of a section",
+        "intro": "This is an intro",
+        "problemsets": [
+          {
+            "intro": "this is a problem set intro",
+            "problems": [
+              {
+                "text": "this is problem 1 text",
+                "solutions": [
+                  "solution line 1",
+                  "solution line 2",
+                  "solution line 3"
+                ],
+                "answer": {
+                  "text": "answer to a problem in another unit"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

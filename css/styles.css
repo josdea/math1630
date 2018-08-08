@@ -88,6 +88,9 @@ table td {
           border-bottom: 1px dashed black;
         
       }
+      tr.solid td{
+          border-bottom: 1px solid black;
+      }
       td.bright{
         border-right: 1px solid black;
       }
@@ -100,6 +103,9 @@ table td {
           margin-right: auto;
           max-width: 60%;
       }
+      .solution{
+        list-style-type: none;
+    }
     @media (min-width: 775px) {
         html,
         html * {
