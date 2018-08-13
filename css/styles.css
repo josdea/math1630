@@ -1,8 +1,11 @@
-    html,
-    html * {
+    html {
         padding: 0;
         margin: 0;
         box-sizing: border-box;
+       
+    }
+
+    html{
         font-family: -apple-system, Lato, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
         font-size: 18px;
         font-weight: 400;
@@ -62,21 +65,22 @@
     table,
 th,
 td {
-  /* border: 1px solid rgba(0, 0, 0, 0.19);
+  border: 1px solid rgba(0, 0, 0, 0.19);
   border-collapse: collapse;
-  background-color: white; */
+  background-color: white;
 }
 
 table {
+
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 table th {
   background-color: rgba(219, 219, 219, 0.2);
 }
 table th,
 table td {
-  padding: 16px;
+  padding: 8px;
 }
     td.bleft{
         border-left: 1px solid black;
@@ -106,13 +110,12 @@ table td {
       .solution{
         list-style-type: none;
     }
-    @media (min-width: 775px) {
-        html,
-        html * {
-            font-size: 16px;
+    @media only screen and (min-width: 775px) {
+        html {
+            /* font-size: 16px; */
         }
         div.container {
-            padding: 1em 3em;
+            padding: 1em 7em;
         }
         h1 {
             font-size: 2.5em;
