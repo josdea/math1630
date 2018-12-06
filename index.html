@@ -59,8 +59,7 @@
       <h2 class="unittitle" :id="unit.title">{{index_unit + 1 + '. '}}{{unit.title}}</h2>
       <div class="unitintro" v-if="(unit.intro)" v-html="unit.intro"></div>
       <div id="section" class="section" v-for="(section, index_section) in unit.sections" v-show="((currentSection==section || currentSection ==''))">
-        <h3 class="sectiontitle" :id="section.title">{{index_unit + 1 + '.'}}{{(index_section + 1) + '.
-          '}}{{section.title}}</h3>
+        <h3 class="sectiontitle" :id="section.title">{{index_unit + 1 + '.'}}{{(index_section + 1) + '. '}}{{section.title}}</h3>
         <div class="sectionintro" v-if="(section.intro)" v-html="section.intro"></div>
         <div class="problemset" v-for="(problemset, index_problemset) in section.problemsets">
           <p class="problemsetintro" v-html="problemset.intro"></p>
@@ -86,8 +85,8 @@
   <!--end of app container -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
   <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_SVG"></script> -->
-  <script src="./js/vue.min.js"></script>
-  <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script> -->
+  <!-- <script src="./js/vue.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
 
   <script>
 
