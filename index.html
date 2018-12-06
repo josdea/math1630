@@ -17,12 +17,13 @@
 </noscript> -->
 
   <link rel="stylesheet" href="./css/styles.css">
-  <link rel="stylesheet" href="./css/printing.css?id=8" media="print">
+  <link rel="stylesheet" href="./css/printing.css?id=9" media="print">
 
   <style>
     .toc li{
   list-style-type: none;
  }
+ 
 
     </style>
 </head>
@@ -42,12 +43,12 @@
     <div v-if="(!loading)">
 
       <ul class="toc">
-        <li v-on:click="setSection('','')" v-show="(currentUnit!='' || currentSection!='')"><a href="#" title="Show all notes and sections">Show
+        <li id="showall" v-on:click="setSection('','')" v-show="(currentUnit!='' || currentSection!='')"><a href="#" title="Show all notes and sections">Show
             All</a></li>
         <li v-for="(unit, index_unit) in notes.units" v-show="((!loading)&&(currentUnit==unit || currentUnit ==''))"><a
             href='#' v-on:click="setUnit(unit)">{{index_unit + 1 + '. '}}{{unit.title}}</a>
           <ul>
-            <li v-for="(section, index_section) in unit.sections"><a href='#' v-on:click="setSection(unit,section)">{{index_unit
+            <li v-for="(section, index_section) in unit.sections" v-show="((currentSection==section || currentSection ==''))"><a href='#' v-on:click="setSection(unit,section)">{{index_unit
                 + 1 + '.'}}{{(index_section + 1) + '. '}}{{section.title}}</a>
           </ul>
         </li>
