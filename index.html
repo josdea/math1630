@@ -19,10 +19,13 @@
 
 
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/printing.css?id=6" media="print"> 
+    <link rel="stylesheet" href="./css/printing.css?id=8" media="print"> 
 
     <style>
- 
+ .toc li{
+  list-style-type: none;
+ }
+
     </style>
 </head>
 
@@ -38,11 +41,23 @@
       <h2 class="text-center">{{loadingMsg}} </h2>
     </div>
 
-    <div class="unit" v-if="(!loading)" v-for="(unit, index_unit) in notes.units">
-      <h2 class="unittitle">{{index_unit + 1 + '. '}}{{unit.title}}</h2>
+    <div v-if="(!loading)" >
+
+       <ul class="toc">
+        <li v-on:click="setSection('','')"><a href="#" title="Show all notes and sections">Show All</a></li>
+        <li v-for="(unit, index_unit) in notes.units" v-show="((!loading)&&(currentUnit==unit || currentUnit ==''))" ><a href='#' v-on:click="setUnit(unit)" >{{index_unit + 1 + '. '}}{{unit.title}}</a>
+        <ul>
+            <li v-for="(section, index_section) in unit.sections" ><a href='#' v-on:click="setSection(unit,section)">{{index_unit + 1 + '.'}}{{(index_section + 1) + '. '}}{{section.title}}</a>
+        </ul></li>
+      </ul>
+
+    </div>
+
+    <div id="unit" class="unit" v-show="((!loading)&&(currentUnit==unit || currentUnit ==''))" v-for="(unit, index_unit) in notes.units">
+      <h2 class="unittitle" :id="unit.title">{{index_unit + 1 + '. '}}{{unit.title}}</h2>
       <div class="unitintro" v-if="(unit.intro)" v-html="unit.intro"></div>
-      <div class="section" v-for="(section, index_section) in unit.sections">
-        <h3 class="sectiontitle">{{index_unit + 1 + '.'}}{{(index_section + 1) + '. '}}{{section.title}}</h3>
+      <div id="section" class="section" v-for="(section, index_section) in unit.sections" v-show="((currentSection==section || currentSection ==''))">
+        <h3 class="sectiontitle" :id="section.title">{{index_unit + 1 + '.'}}{{(index_section + 1) + '. '}}{{section.title}}</h3>
         <div class="sectionintro" v-if="(section.intro)" v-html="section.intro"></div>
         <div class="problemset" v-for="(problemset, index_problemset) in section.problemsets">
           <p class="problemsetintro" v-html="problemset.intro"></p>
@@ -63,12 +78,13 @@
       <!--end of a section -->
     </div>
     <!--end of a unit -->
-
   </div>
   <!--end of app container -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
+  <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script> -->
   <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_SVG"></script> -->
-  <script src="./js/vue.min.js"></script>
+  <!-- <script src="./js/vue.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+
   <script>
 
 
@@ -78,6 +94,8 @@
         loading: true,
         loadingMsg: "Loading...",
         notes: {},
+        currentUnit: '',
+        currentSection: ''
       }, // end of vue data object
       created: function () {
         this.fetchUnits();
@@ -102,7 +120,15 @@
             MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
           }
           xhr.send()
-        } //end of fetch units function
+        }, //end of fetch units function
+        setUnit: function(unit){
+          this.currentUnit = unit
+          this.currentSection = ''
+        },//end of set unit function
+        setSection: function(unit, section){
+          this.currentUnit = unit
+          this.currentSection = section
+        }//end of set section function
       }//end of methods object
     }); // end of vue app
   </script>
