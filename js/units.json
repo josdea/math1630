@@ -2,7 +2,7 @@
   "units": [
     {
       "title": "Finance Unit",
-      "intro": "<h3 id=\"simple-interest\">Simple Interest</h3><p>\\(I=Prt\\)</p><p>\\(A=P(1+rt)\\)</p><h3 id=\"compound-interest\">Compound Interest</h3><p>\\(A=P(1+\\frac{r}{n})^{nt}\\)</p><h3 id=\"continuous-compounding\">Continuous Compounding</h3><p>\\(A=Pe^{rt}\\)</p><h3 id=\"future-value-of-an-ordinary-annuity\">Future Value of an Ordinary Annuity</h3><p>\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\displaystyle\\frac rn}\\)</p><h3 id=\"present-value-of-an-annuity\">Present Value of an Annuity</h3><p>\\(PV=PMT\\frac{\\left[1-\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}\\right]}{\\displaystyle\\frac rn}\\)</p><p><strong>A:</strong> amount (future value)</p><p><strong>P:</strong> principal (present value)</p><p><strong>PV:</strong> preset value of all payments</p><p><strong>FV:</strong> future value of all payments</p><p><strong>PMT:</strong> periodic payments</p><p><strong>r:</strong> annual interest rate</p><p><strong>t:</strong> time in years</p><p><strong>n:</strong> numbering of compounding periods per year</p>",
+      "intro": "<h3 id=\"simple-interest\">Simple Interest</h3><p>\\(I=Prt\\)</p><p>\\(A=P(1+rt)\\)</p><h3 id=\"compound-interest\">Compound Interest</h3><p>\\(A=P(1+\\frac{r}{n})^{nt}\\)</p><h3 id=\"continuous-compounding\">Continuous Compounding</h3><p>\\(A=Pe^{rt}\\)</p><h3 id=\"future-value-of-an-ordinary-annuity\">Future Value of an Ordinary Annuity</h3><p>\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\displaystyle\\frac rn}\\)</p><h3 id=\"present-value-of-an-annuity\">Present Value of an Annuity</h3><p>\\(PV=PMT\\frac{\\left[1-\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}\\right]}{\\displaystyle\\frac rn}\\)</p><p><strong>A:</strong> amount (future value)</p><p><strong>P:</strong> principal (present value)</p><p><strong>PV:</strong> preset value of all payments</p><p><strong>FV:</strong> future value of all payments</p><p><strong>PMT:</strong> periodic payments</p><p><strong>r:</strong> annual interest rate</p><p><strong>t:</strong> time in years</p><p><strong>n:</strong> numbering of compounding periods per year</p><br>",
       "sections": [
         {
           "title": "Simple Interest",
@@ -21,8 +21,8 @@
                   "answer": {
                     "text": "Ursula's interest will be $37.50, and the total amount she must pay is $637.50",
                     "image": {
-                      "url": "u2s1.png",
-                      "alt": "this is a description of the image TODO remove when done"
+                      "url": 
+                      "alt"
                     }
                   }
                 },
@@ -182,7 +182,7 @@
         },
         {
           "title": "Compound and Continuous Interest",
-          "intro": " <h3>Compound Interest</h3><p>Simple interest is charged when the lending period is short and often less than a year. When the money is loaned or borrowed for a longer time period, the interest is paid (or charged) not only on the principal, but also on the past interest, and we say the interest is compounded.</p><p>Suppose $200 is deposited in an account that pays 8% interest. At the end of one year, the account will have </p><p>\\($200+$200(0.08)=$200(1+0.08/1)^{1*1}=$216\\)</p><p>Now suppose this amount, $216, remains in the account. After the second year, it will have</p><p>\\($200(1+0.08)(1+0.08)=$200(1+0.08/1)^{1*2}=$233.28\\)</p><p>After three years, it will have</p><p>\\($200(1+0.08)(1+0.08)(1+0.08)=$200(1+0.08/1)^{1*3}=$251.94\\)</p><p>at the end of 5 years, it will have</p><p>\\(200(1+0.08/1)^{1*5}=$293.87\\)</p><p>Compound Interest Formula:  </p><p>\\(A=P(1+\\frac rn)^{nt}\\)</p><img src=\"./images/u1s2i.png\" alt=\"Graph of Amount of Money in an account when compounded at various compounding frequencies.  4 graphs--one each for compounding yearly, quarterly, monthly, and continuously\"><h3>Compounding Frequency</h3><h4>Yearly:</h4><p>\\(1000(1+\\frac {0.08}1)^{1*1}=1080\\)</p><h4>Quarterly:</h4><p>\\(1000(1+\\frac {0.08}4)^{4*1}=1082.43\\)</p><h4>Monthly:</h4><p>1000(1+0.08/12)^(12*1)=1083</p><h4>Daily:</h4><p>\\(1000(1+\\frac {0.08}{365})^{365*1}=1083.28\\)</p><h4>Continuously (at every instant):</h4><p>\\(1000\\left[\\lim_{n\\rightarrow\\infty}\\;\\left(1+\\frac{0.08}n\\right)^n\\right]=1083.29\\)</p><p>And since \\(e=\\lim_{n\\rightarrow\\infty}\\;\\left(1+\\frac1n\\right)^n\\approx2.718281829\\)</p><p>The continuous compounding formula is:  \\(A=Pe^{rt}\\)</p>",
+          "intro": " <h3>Compound Interest</h3><p>Simple interest is charged when the lending period is short and often less than a year. When the money is loaned or borrowed for a longer time period, the interest is paid (or charged) not only on the principal, but also on the past interest, and we say the interest is compounded.</p><p>Suppose $200 is deposited in an account that pays 8% interest. At the end of one year, the account will have </p><p>\\($200+$200(0.08)=$200(1+0.08/1)^{1*1}=$216\\)</p><p>Now suppose this amount, $216, remains in the account. After the second year, it will have</p><p>\\($200(1+0.08)(1+0.08)=$200(1+0.08/1)^{1*2}=$233.28\\)</p><p>After three years, it will have</p><p>\\($200(1+0.08)(1+0.08)(1+0.08)=$200(1+0.08/1)^{1*3}=$251.94\\)</p><p>at the end of 5 years, it will have</p><p>\\(200(1+0.08/1)^{1*5}=$293.87\\)</p><p>Compound Interest Formula:  </p><p>\\(A=P(1+\\frac rn)^{nt}\\)</p><img src=\"./images/u1s2i.png\" alt=\"Graph of Amount of Money in an account when compounded at various compounding frequencies.  4 graphs--one each for compounding yearly, quarterly, monthly, and continuously\"><h3><br><br><br><br><br><br>Compounding Frequency</h3><h4>Yearly:</h4><p>\\(1000(1+\\frac {0.08}1)^{1*1}=1080\\)</p><h4>Quarterly:</h4><p>\\(1000(1+\\frac {0.08}4)^{4*1}=1082.43\\)</p><h4>Monthly:</h4><p>1000(1+0.08/12)^(12*1)=1083</p><h4>Daily:</h4><p>\\(1000(1+\\frac {0.08}{365})^{365*1}=1083.28\\)</p><h4>Continuously (at every instant):</h4><p>\\(1000\\left[\\lim_{n\\rightarrow\\infty}\\;\\left(1+\\frac{0.08}n\\right)^n\\right]=1083.29\\)</p><p>And since \\(e=\\lim_{n\\rightarrow\\infty}\\;\\left(1+\\frac1n\\right)^n\\approx2.718281829\\)</p><p>The continuous compounding formula is:  \\(A=Pe^{rt}\\)</p>",
           "problemsets": [
             {
               "intro": "Use a compound or continuous interest formula to answer the following questions.  Write all of your answers in complete sentences",
@@ -726,7 +726,7 @@
         },
         {
           "title": "Amortization",
-          "intro": "This is an intro",
+          "intro": "",
           "problemsets": [
             {
               "intro": "The Federal Reserve Bank of St. Louis reports that in November 2017, the median sale price of an existing home in the United States was $248,800.  The average interest rate on a 30- year fixed-rate mortgage was approximately 3.95%.  The median interest rate on a 15-year fixed-rate mortgage was about 3.38%.",
@@ -747,10 +747,10 @@
                   }
                 },
                 {
-                  "text": "//TODO? Complete the amortization schedule for the first 6 months of your loan.<p><table class=\"table table-bordered table-sm\"><caption>Amortization Schedule for Home Loan</caption><tbody><tr><td><br /><p></p></td><th scope=\"col\"><p>Payment</p></th><th scope=\"col\"><p>Amount of payment going toward interest</p></th><th scope=\"col\"><p>Amount of payment going toward unpaid balance</p></th><th scope=\"col\"><p>Unpaid Balance</p></th></tr><tr><th scope=\"row\"><p>Payment Number 0</p></th><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment Number 1</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment Number 2</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment Number 3</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment Number 4</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment Number 5</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment Number 6</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Totals</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td class=\"table-dark\"><p>N/A</p></td></tr></tbody></table></p>",
+                  "text": "Complete the amortization schedule for the first 6 months of your loan.<p><table class=\"table table-bordered table-sm\"><caption>Amortization Schedule for Home Loan</caption><tbody><tr><td><br /><p></p></td><th scope=\"col\"><p>Payment</p></th><th scope=\"col\"><p>Amount going toward interest</p></th><th scope=\"col\"><p>Amount going toward unpaid balance</p></th><th scope=\"col\"><p>Unpaid Balance</p></th></tr><tr><th scope=\"row\"><p>Payment 0</p></th><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment 1</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment 2</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment 3</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment 4</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment 5</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment 6</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Totals</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td class=\"table-dark\"><p>N/A</p></td></tr></tbody></table></p>",
                   "solutions": [],
                   "answer": {
-                    "text": "<table class=\"table table-bordered table-sm\"><caption>Amortization Schedule for Home Loan</caption><tbody><tr><td><br /><p></p></td><th scope=\"col\"><p>Payment</p></th><th scope=\"col\"><p>Amount of payment going toward interest</p></th><th scope=\"col\"><p>Amount of payment going toward unpaid balance</p></th><th scope=\"col\"><p>Unpaid Balance</p></th></tr><tr><th scope=\"row\"><p>Payment Number 0</p></th><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td><p>199,040</p></td></tr><tr><th scope=\"row\"><p>Payment Number 1</p></th><td><p>944.52</p></td><td><p>655.17</p></td><td><p>289.35</p></td><td><p>198,750.62</p></td></tr><tr><th scope=\"row\"><p>Payment Number 2</p></th><td><p>944.52</p></td><td><p>654.22</p></td><td><p>290.30</p></td><td><p>198,460.35</p></td></tr><tr><th scope=\"row\"><p>Payment Number 3</p></th><td><p>944.52</p></td><td><p>653.27</p></td><td><p>291.25</p></td><td><p>198,169.10</p></td></tr><tr><th scope=\"row\"><p>Payment Number 4</p></th><td><p>944.52</p></td><td><p>652.31</p></td><td><p>292.21</p></td><td><p>197,876.89</p></td></tr><tr><th scope=\"row\"><p>Payment Number 5</p></th><td><p>944.52</p></td><td><p>651.34</p></td><td><p>293.18</p></td><td><p>197,583.71</p></td></tr><tr><th scope=\"row\"><p>Payment Number 6</p></th><td><p>944.52</p></td><td><p>650.38</p></td><td><p>294.14</p></td><td><p>197,289.57</p></td></tr><tr><th scope=\"row\"><p>Totals</p></th><td><p>5667.12</p></td><td><p>3916.69</p></td><td><p>1750.43</p></td><td class=\"table-dark\"><p>N/A</p></td></tr></tbody></table>"
+                    "text": "<table class=\"table table-bordered table-sm\"><caption>Amortization Schedule for Home Loan</caption><tbody><tr><td><br /><p></p></td><th scope=\"col\"><p>Payment</p></th><th scope=\"col\"><p>Amount going toward interest</p></th><th scope=\"col\"><p>Amount going toward unpaid balance</p></th><th scope=\"col\"><p>Unpaid Balance</p></th></tr><tr><th scope=\"row\"><p>Payment 0</p></th><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td><p>199,040</p></td></tr><tr><th scope=\"row\"><p>Payment 1</p></th><td><p>944.52</p></td><td><p>655.17</p></td><td><p>289.35</p></td><td><p>198,750.62</p></td></tr><tr><th scope=\"row\"><p>Payment 2</p></th><td><p>944.52</p></td><td><p>654.22</p></td><td><p>290.30</p></td><td><p>198,460.35</p></td></tr><tr><th scope=\"row\"><p>Payment 3</p></th><td><p>944.52</p></td><td><p>653.27</p></td><td><p>291.25</p></td><td><p>198,169.10</p></td></tr><tr><th scope=\"row\"><p>Payment 4</p></th><td><p>944.52</p></td><td><p>652.31</p></td><td><p>292.21</p></td><td><p>197,876.89</p></td></tr><tr><th scope=\"row\"><p>Payment 5</p></th><td><p>944.52</p></td><td><p>651.34</p></td><td><p>293.18</p></td><td><p>197,583.71</p></td></tr><tr><th scope=\"row\"><p>Payment 6</p></th><td><p>944.52</p></td><td><p>650.38</p></td><td><p>294.14</p></td><td><p>197,289.57</p></td></tr><tr><th scope=\"row\"><p>Totals</p></th><td><p>5667.12</p></td><td><p>3916.69</p></td><td><p>1750.43</p></td><td class=\"table-dark\"><p>N/A</p></td></tr></tbody></table>"
                   }
                 },
                 {
@@ -786,10 +786,10 @@
                   }
                 },
                 {
-                  "text": "Complete the amortization schedule for the first 6 months of your loan.<table class=\"table table-bordered table-sm\"><caption>Amortization Schedule for Home Loan</caption><tbody><tr><td><br /></td><th scope=\"col\">Payment</th><th scope=\"col\">Amount of payment going toward interest</th><th scope=\"col\">Amount of payment going toward unpaid balance</th><th scope=\"col\">Unpaid Balance</th></tr><tr><th scope=\"row\">Payment Number 0</th><td class=\"table-dark\">N/A</td><td class=\"table-dark\">N/A</td><td class=\"table-dark\">N/A</td><td></td></tr><tr><th scope=\"row\">Payment Number 1</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Payment Number 2</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Payment Number 3</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Payment Number 4</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Payment Number 5</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Payment Number 6</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Totals</th><td></td><td></td><td></td><td class=\"table-dark\">N/A</td></tr></tbody></table>",
+                  "text": "Complete the amortization schedule for the first 6 months of your loan.<table class=\"table table-bordered table-sm\"><caption>Amortization Schedule for Home Loan</caption><tbody><tr><td><br /></td><th scope=\"col\">Payment</th><th scope=\"col\">Amount going toward interest</th><th scope=\"col\">Amount going toward unpaid balance</th><th scope=\"col\">Unpaid Balance</th></tr><tr><th scope=\"row\">Payment  0</th><td class=\"table-dark\">N/A</td><td class=\"table-dark\">N/A</td><td class=\"table-dark\">N/A</td><td></td></tr><tr><th scope=\"row\">Payment 1</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Payment 2</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Payment 3</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Payment 4</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Payment 5</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Payment 6</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Totals</th><td></td><td></td><td></td><td class=\"table-dark\">N/A</td></tr></tbody></table>",
                   "solutions": [],
                   "answer": {
-                    "text": "<table class=\"table table-bordered\"><caption>Amortization Schedule for Home Loan</caption><tbody><tr><td><br /><p></p></td><th scope=\"col\"><p>Payment</p></th><th scope=\"col\"><p>Amount of payment going toward interest</p></th><th scope=\"col\"><p>Amount of payment going toward unpaid balance</p></th><th scope=\"col\"><p>Unpaid Balance</p></th></tr><tr><th scope=\"row\"><p>Payment Number 0</p></th><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td><p>223,920</p></td></tr><tr><th scope=\"row\"><p>Payment Number 1</p></th><td><p>1587.60</p></td><td><p>630.71</p></td><td><p>956.89</p></td><td><p>222,963.11</p></td></tr><tr><th scope=\"row\"><p>Payment Number 2</p></th><td><p>1587.60</p></td><td><p>628.01</p></td><td><p>959.59</p></td><td><p>222,003.52</p></td></tr><tr><th scope=\"row\"><p>Payment Number 3</p></th><td><p>1587.60</p></td><td><p>625.31</p></td><td><p>962.29</p></td><td><p>221,041.23</p></td></tr><tr><th scope=\"row\"><p>Payment Number 4</p></th><td><p>1587.60</p></td><td><p>622.60</p></td><td><p>965.00</p></td><td><p>220,076.23</p></td></tr><tr><th scope=\"row\"><p>Payment Number 5</p></th><td><p>1587.60</p></td><td><p>619.88</p></td><td><p>967.72</p></td><td><p>219,108.51</p></td></tr><tr><th scope=\"row\"><p>Payment Number 6</p></th><td><p>1587.60</p></td><td><p>617.16</p></td><td><p>970.44</p></td><td><p>218,138.07</p></td></tr><tr><th scope=\"row\"><p>Totals</p></th><td><p>9525.60</p></td><td><p>3743.67</p></td><td>5781.93</td><td class=\"table-dark\"><p>N/A</p></td></tr></tbody></table>"
+                    "text": "<table class=\"table table-bordered table-sm\"><caption>Amortization Schedule for Home Loan</caption><tbody><tr><td><br /><p></p></td><th scope=\"col\"><p>Payment</p></th><th scope=\"col\"><p>Amount going toward interest</p></th><th scope=\"col\"><p>Amount going toward unpaid balance</p></th><th scope=\"col\"><p>Unpaid Balance</p></th></tr><tr><th scope=\"row\"><p>Payment 0</p></th><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td><p>223,920</p></td></tr><tr><th scope=\"row\"><p>Payment 1</p></th><td><p>1587.60</p></td><td><p>630.71</p></td><td><p>956.89</p></td><td><p>222,963.11</p></td></tr><tr><th scope=\"row\"><p>Payment 2</p></th><td><p>1587.60</p></td><td><p>628.01</p></td><td><p>959.59</p></td><td><p>222,003.52</p></td></tr><tr><th scope=\"row\"><p>Payment 3</p></th><td><p>1587.60</p></td><td><p>625.31</p></td><td><p>962.29</p></td><td><p>221,041.23</p></td></tr><tr><th scope=\"row\"><p>Payment 4</p></th><td><p>1587.60</p></td><td><p>622.60</p></td><td><p>965.00</p></td><td><p>220,076.23</p></td></tr><tr><th scope=\"row\"><p>Payment 5</p></th><td><p>1587.60</p></td><td><p>619.88</p></td><td><p>967.72</p></td><td><p>219,108.51</p></td></tr><tr><th scope=\"row\"><p>Payment 6</p></th><td><p>1587.60</p></td><td><p>617.16</p></td><td><p>970.44</p></td><td><p>218,138.07</p></td></tr><tr><th scope=\"row\"><p>Totals</p></th><td><p>9525.60</p></td><td><p>3743.67</p></td><td>5781.93</td><td class=\"table-dark\"><p>N/A</p></td></tr></tbody></table>"
                   }
                 },
                 {
@@ -887,10 +887,10 @@
                   }
                 },
                 {
-                  "text": "Complete the following amortization schedule for a $1,000 debt that is to be amortized in six monthly payments at 1.25% interest per month. Use the numbered hints to get you started.<ol><li>What is the unpaid balance to begin?</li><li>Find the monthly payment and record that amount. In theory, all payments will be the same amount.</li><li>Amount of payment going toward interest:  (Unpaid Balance) x (the interest rate per month)</li><li>Amount of payment going toward unpaid balance:  (payment) – (amount going toward interest)</li><li>Updated Unpaid Balance:  (previous unpaid balance) – (most recent amount going toward unpaid balance)</li><li>Follow pattern above to complete for Payment Number 2, etc.</li><li>Find the totals for the columns.</li></ol><table class=\"table-bordered table-sm\"><tbody><tr><td width=\"71\"> </td><th scope=\"col\" width=\"118\"> Payment </th><th scope=\"col\" width=\"122\">Amount of payment going toward interest</th><th scope=\"col\" width=\"131\">Amount of payment going toward unpaid balance</th><th scope=\"col\" width=\"133\"> Unpaid Balance</th></tr><tr><th scope=\"row\" width=\"71\">  Payment Number 0</th><td width=\"118\" class=\"table-dark\"><p>N/A</p> </td><td width=\"122\" class=\"table-dark\"><p>N/A</p> </td><td width=\"131\" class=\"table-dark\"><p>N/A</p> </td><td width=\"133\">(1)</td></tr><tr><th scope=\"row\" width=\"71\">  Payment Number 1</th><td width=\"118\">(2)</td><td width=\"122\">(3)</td><td width=\"131\">(4)</td><td width=\"133\">(5)</td></tr><tr><th scope=\"row\" width=\"71\">  Payment Number 2</th><td width=\"118\">(6)</td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\"> </td></tr><tr><th scope=\"row\" width=\"71\">  Payment Number 3</th><td width=\"118\"> </td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\"> </td></tr><tr><th scope=\"row\" width=\"71\">  Payment Number 4</th><td width=\"118\"> </td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\"> </td></tr><tr><th scope=\"row\" width=\"71\">  Payment Number 5</th><td width=\"118\"> </td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\"> </td></tr><tr><th scope=\"row\" width=\"71\">  Payment Number 6</th><td width=\"118\"> </td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\"> </td></tr><tr><th scope=\"row\" width=\"71\">Totals</th><td width=\"118\">(7)</td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\" class=\"table-dark\"><p>N/A</p> </td></tr></tbody></table>",
+                  "text": "Complete the following amortization schedule for a $1,000 debt that is to be amortized in six monthly payments at 1.25% interest per month. Use the numbered hints to get you started.<ol><li>What is the unpaid balance to begin?</li><li>Find the monthly payment and record that amount. In theory, all payments will be the same amount.</li><li>Amount of payment going toward interest:  (Unpaid Balance) x (the interest rate per month)</li><li>Amount of payment going toward unpaid balance:  (payment) – (amount going toward interest)</li><li>Updated Unpaid Balance:  (previous unpaid balance) – (most recent amount going toward unpaid balance)</li><li>Follow pattern above to complete for Payment Number 2, etc.</li><li>Find the totals for the columns.</li></ol><table class=\"table-bordered table-sm\"><tbody><tr><td width=\"71\"> </td><th scope=\"col\" width=\"118\"> Payment </th><th scope=\"col\" width=\"122\">Amount going toward interest</th><th scope=\"col\" width=\"131\">Amount going toward unpaid balance</th><th scope=\"col\" width=\"133\"> Unpaid Balance</th></tr><tr><th scope=\"row\" width=\"71\">  Payment 0</th><td width=\"118\" class=\"table-dark\"><p>N/A</p> </td><td width=\"122\" class=\"table-dark\"><p>N/A</p> </td><td width=\"131\" class=\"table-dark\"><p>N/A</p> </td><td width=\"133\">(1)</td></tr><tr><th scope=\"row\" width=\"71\">  Payment 1</th><td width=\"118\">(2)</td><td width=\"122\">(3)</td><td width=\"131\">(4)</td><td width=\"133\">(5)</td></tr><tr><th scope=\"row\" width=\"71\">  Payment 2</th><td width=\"118\">(6)</td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\"> </td></tr><tr><th scope=\"row\" width=\"71\">  Payment 3</th><td width=\"118\"> </td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\"> </td></tr><tr><th scope=\"row\" width=\"71\">  Payment 4</th><td width=\"118\"> </td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\"> </td></tr><tr><th scope=\"row\" width=\"71\">  Payment 5</th><td width=\"118\"> </td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\"> </td></tr><tr><th scope=\"row\" width=\"71\">  Payment 6</th><td width=\"118\"> </td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\"> </td></tr><tr><th scope=\"row\" width=\"71\">Totals</th><td width=\"118\">(7)</td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\" class=\"table-dark\"><p>N/A</p> </td></tr></tbody></table>",
                   "solutions": [],
                   "answer": {
-                    "text": "<table class=\"table-bordered table-sm\"><tbody><tr><td width=\"71\"> </td><th scope=\"col\" width=\"118\">  Payment  </th><th scope=\"col\" width=\"122\">Amount of payment going toward interest</th><th scope=\"col\" width=\"131\">Amount of payment going toward unpaid balance</th><th scope=\"col\" width=\"133\">  Unpaid Balance</th></tr><tr><th scope=\"row\" width=\"71\">    Payment Number 0</th><td width=\"118\" class=\"table-dark\"><p>N/A</p> </td><td width=\"122\" class=\"table-dark\"><p>N/A</p> </td><td width=\"131\" class=\"table-dark\"><p>N/A</p> </td><td width=\"133\">(1) 1000</td></tr><tr><th scope=\"row\" width=\"71\">    Payment Number 1</th><td width=\"118\">(2) 174.03</td><td width=\"122\">(3) 12.50</td><td width=\"131\">(4) 161.53</td><td width=\"133\">(5) 838.47</td></tr><tr><th scope=\"row\" width=\"71\">    Payment Number 2</th><td width=\"118\">(6) 174.03</td><td width=\"122\"> 10.48</td><td width=\"131\"> 163.55</td><td width=\"133\"> 674.92</td></tr><tr><th scope=\"row\" width=\"71\">    Payment Number 3</th><td width=\"118\"> 174.03</td><td width=\"122\"> 8.44</td><td width=\"131\"> 165.59</td><td width=\"133\"> 509.33</td></tr><tr><th scope=\"row\" width=\"71\">    Payment Number 4</th><td width=\"118\"> 174.03</td><td width=\"122\"> 6.37</td><td width=\"131\"> 167.66</td><td width=\"133\"> 341.67</td></tr><tr><th scope=\"row\" width=\"71\">    Payment Number 5</th><td width=\"118\"> 174.03</td><td width=\"122\"> 4.27</td><td width=\"131\"> 169.76</td><td width=\"133\"> 171.91</td></tr><tr><th scope=\"row\" width=\"71\">    Payment Number 6</th><td width=\"118\"> 174.03</td><td width=\"122\"> 2.15</td><td width=\"131\"> 171.88</td><td width=\"133\"> 0.03</td></tr><tr><th scope=\"row\" width=\"71\">Totals</th><td width=\"118\">(7) 1044.18</td><td width=\"122\"> 44.21</td><td width=\"131\"> 999.97</td><td width=\"133\" class=\"table-dark\"><p>N/A</p> </td></tr></tbody></table>"
+                    "text": "<table class=\"table-bordered table-sm\"><tbody><tr><td width=\"71\"> </td><th scope=\"col\" width=\"118\">  Payment  </th><th scope=\"col\" width=\"122\">Amount going toward interest</th><th scope=\"col\" width=\"131\">Amount going toward unpaid balance</th><th scope=\"col\" width=\"133\">  Unpaid Balance</th></tr><tr><th scope=\"row\" width=\"71\">    Payment 0</th><td width=\"118\" class=\"table-dark\"><p>N/A</p> </td><td width=\"122\" class=\"table-dark\"><p>N/A</p> </td><td width=\"131\" class=\"table-dark\"><p>N/A</p> </td><td width=\"133\">(1) 1000</td></tr><tr><th scope=\"row\" width=\"71\">    Payment 1</th><td width=\"118\">(2) 174.03</td><td width=\"122\">(3) 12.50</td><td width=\"131\">(4) 161.53</td><td width=\"133\">(5) 838.47</td></tr><tr><th scope=\"row\" width=\"71\">    Payment 2</th><td width=\"118\">(6) 174.03</td><td width=\"122\"> 10.48</td><td width=\"131\"> 163.55</td><td width=\"133\"> 674.92</td></tr><tr><th scope=\"row\" width=\"71\">    Payment 3</th><td width=\"118\"> 174.03</td><td width=\"122\"> 8.44</td><td width=\"131\"> 165.59</td><td width=\"133\"> 509.33</td></tr><tr><th scope=\"row\" width=\"71\">    Payment 4</th><td width=\"118\"> 174.03</td><td width=\"122\"> 6.37</td><td width=\"131\"> 167.66</td><td width=\"133\"> 341.67</td></tr><tr><th scope=\"row\" width=\"71\">    Payment 5</th><td width=\"118\"> 174.03</td><td width=\"122\"> 4.27</td><td width=\"131\"> 169.76</td><td width=\"133\"> 171.91</td></tr><tr><th scope=\"row\" width=\"71\">    Payment 6</th><td width=\"118\"> 174.03</td><td width=\"122\"> 2.15</td><td width=\"131\"> 171.88</td><td width=\"133\"> 0.03</td></tr><tr><th scope=\"row\" width=\"71\">Totals</th><td width=\"118\">(7) 1044.18</td><td width=\"122\"> 44.21</td><td width=\"131\"> 999.97</td><td width=\"133\" class=\"table-dark\"><p>N/A</p> </td></tr></tbody></table>"
                   }
                 }
               ]
@@ -1400,134 +1400,615 @@
         },
         {
           "title": "Augmented Matrices",
-          "intro": "This is an intro",
+          "intro": "A matrix is a rectangular array of numbers that is useful in organizing and manipulating large amount of data.  Matrices serve as a shorthand for solving systems of linear equations.<p>Matrices:  Size and position</p><p>\\(A=\\begin{bmatrix}1&-2&6\\\\5&-4&1\\end{bmatrix}\\) is a 2 x 3 matrix (# of rows x # of columns)</p><p>\\(B=\\begin{bmatrix}-2&1&0&3\\\\-6&5&8&1\\\\0&-2&-3&7\\end{bmatrix}\\) is a 3 x 4 matrix </p><p> Each number in a matrix is an element.  The position of each element is given by the row and the column containing the element</p><p> In matrix A, the 6 is in position \\(a_{13}\\)</p> ",
           "problemsets": [
             {
-              "intro": "this is a problem set intro",
+              "intro": "Given: \\(\\begin{array}{l}x+3y=7\\\\3x+4y=11\\end{array}\\)",
               "problems": [
                 {
-                  "text": "Ursula borrows $600 for 5 months at a simple interest rate of 15% per year. Find the interest, and the total amount she is obligated to pay?",
+                  "text": "The coefficient matrix is:",
                   "solutions": [
-                    "solution \\(x^2+14 = 2\\) line 1",
-                    "solution \\[x^2+14 = 2\\] line 2",
-                    "solution line 3"
+                   
                   ],
                   "answer": {
-                    "text": "answer to this problem"
+                    "text": "\\(\\begin{bmatrix}1&3\\\\3&4\\end{bmatrix}\\)"
                   }
                 },
                 {
-                  "text": "Jose deposited $2500 in an account that pays 6% simple interest. How much money will he have at the end of 3 years?",
+                  "text": "The constant matrix is:",
                   "solutions": [
-                    "solution line 1",
-                    "solution line 2",
-                    "solution line 3"
+                  
                   ],
                   "answer": {
-                    "text": "answer to another problem"
+                    "text": "\\(\\begin{bmatrix}7\\\\11\\end{bmatrix}\\)"
+                  }
+                },
+                {
+                  "text": "The augmented matrix is:",
+                  "solutions": [
+                  
+                  ],
+                  "answer": {
+                    "text": "\\(\\left[\\left.\\begin{array}{cc}1&3\\\\3&4\\end{array}\\right|\\begin{array}{c}7\\\\11\\end{array}\\right]\\)"
                   }
                 }
+              ]
+            },
+            {
+              "intro": "Using Row Operations to Produce Equivalent Matrices Row operations. <ol><li>Any two rows can be interchanged.</li><li>Any row many be multiplied by a non-zero constant.</li><li>A constant multiple of a row may be added to another row.</li><ol> <p>The goal is to produce a matrix in the form \\(\\left[\\left.\\begin{array}{cc}1&0\\\\0&1\\end{array}\\right|\\begin{array}{c}m\\\\n\\end{array}\\right]\\) </p> <br><br><br><br><br><br><p>Use matrix operations to solve the augmented matrix.</p>",
+              "problems": [
+                {
+                  "text": "\\(\\left[\\left.\\begin{array}{cc}1&3\\\\3&4\\end{array}\\right|\\begin{array}{c}7\\\\11\\end{array}\\right]\\)",
+                  "solutions": [
+                   "\\(-3R_1+R_2\\rightarrow R_2\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&3\\\\0&-5\\end{array}\\right|\\begin{array}{c}7\\\\-10\\end{array}\\right]\\)",
+                   "\\(-\\frac15R_2\\rightarrow R_2\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&3\\\\0&1\\end{array}\\right|\\begin{array}{c}7\\\\2\\end{array}\\right]\\)",
+                   "\\(-3R_2+R_1\\rightarrow R_1\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&0\\\\0&1\\end{array}\\right|\\begin{array}{c}1\\\\2\\end{array}\\right]\\)"
+                  ],
+                  "answer": {
+                    "text": "(1, 2)"
+                  }
+                }
+               
+                
+              ]
+            },
+            {
+              "intro": "Use matrix operations to solve the systems of equations.",
+              "problems": [
+                {
+                  "text": "\\(\\begin{array}{l}3x-2y=14\\\\x+3y=1\\end{array}\\)",
+                  "solutions": [
+                    "\\(\\left[\\left.\\begin{array}{cc}3&-2\\\\1&3\\end{array}\\right|\\begin{array}{c}14\\\\1\\end{array}\\right]\\)",
+                    "\\(R_1\\leftrightarrow R_2\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&3\\\\3&-2\\end{array}\\right|\\begin{array}{c}1\\\\14\\end{array}\\right]\\)",
+                   "\\(-3R_1+R_2\\rightarrow R_2\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&3\\\\0&-11\\end{array}\\right|\\begin{array}{c}1\\\\11\\end{array}\\right]\\)",
+                   "\\(-\\frac{1}{11}R_2\\rightarrow R_2\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&3\\\\0&1\\end{array}\\right|\\begin{array}{c}1\\\\-1\\end{array}\\right]\\)",
+                   "\\(-3R_2+R_1\\rightarrow R_1\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&0\\\\0&1\\end{array}\\right|\\begin{array}{c}4\\\\-1\\end{array}\\right]\\)"
+                  ],
+                  "answer": {
+                    "text": "(4, -1)"
+                  }
+                },
+                {
+                  "text": "\\(\\begin{array}{l}-2x+y=-3\\\\x-4y=-2\\end{array}\\)",
+                  "solutions": [
+                    "\\(\\left[\\left.\\begin{array}{cc}-2&1\\\\1&-4\\end{array}\\right|\\begin{array}{c}-3\\\\-2\\end{array}\\right]\\)",
+                    "\\(R_1\\leftrightarrow R_2\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&-4\\\\-2&1\\end{array}\\right|\\begin{array}{c}-2\\\\-3\\end{array}\\right]\\)",
+                   "\\(2R_1+R_2\\rightarrow R_2\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&-4\\\\0&-7\\end{array}\\right|\\begin{array}{c}-2\\\\-7\\end{array}\\right]\\)",
+                   "\\(-\\frac{1}{7}R_2\\rightarrow R_2\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&-4\\\\0&1\\end{array}\\right|\\begin{array}{c}-2\\\\1\\end{array}\\right]\\)",
+                   "\\(4R_2+R_1\\rightarrow R_1\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&0\\\\0&1\\end{array}\\right|\\begin{array}{c}2\\\\1\\end{array}\\right]\\)"
+                  ],
+                  "answer": {
+                    "text": "(2, 1)"
+                  }
+                },
+                {
+                  "text": "\\(\\begin{array}{l}3x-6y=-9\\\\-2x-2y=12\\end{array}\\)",
+                  "solutions": [
+                    "\\(\\left[\\left.\\begin{array}{cc}3&-6\\\\-2&-2\\end{array}\\right|\\begin{array}{c}-9\\\\12\\end{array}\\right]\\)",
+                    "\\(\\frac{1}{3}R_1\\rightarrow R_1\\)",
+                    "\\(\\frac{1}{2}R_2\\rightarrow R_2\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&-2\\\\-1&-1\\end{array}\\right|\\begin{array}{c}-3\\\\6\\end{array}\\right]\\)",
+                   "\\(R_1+R_2\\rightarrow R_2\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&-2\\\\0&-3\\end{array}\\right|\\begin{array}{c}-3\\\\3\\end{array}\\right]\\)",
+                   "\\(-\\frac{1}{3}R_2\\rightarrow R_2\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&-2\\\\0&1\\end{array}\\right|\\begin{array}{c}-3\\\\-1\\end{array}\\right]\\)",
+                   "\\(2R_2+R_1\\rightarrow R_1\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&0\\\\0&1\\end{array}\\right|\\begin{array}{c}-5\\\\-1\\end{array}\\right]\\)"
+                  ],
+                  "answer": {
+                    "text": "(-5, -1)"
+                  }
+                },
+                {
+                  "text": "\\(\\begin{array}{l}2x-y=4\\\\-6x+3y=-12\\end{array}\\)",
+                  "solutions": [
+                    "\\(\\left[\\left.\\begin{array}{cc}2&-1\\\\-6&3\\end{array}\\right|\\begin{array}{c}4\\\\-12\\end{array}\\right]\\)",
+                    "\\(\\frac{1}{2}R_1\\rightarrow R_1\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&-\\frac{1}{2}\\\\-6&3\\end{array}\\right|\\begin{array}{c}2\\\\-12\\end{array}\\right]\\)",
+                   "\\(6R_1+R_2\\rightarrow R_2\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&-\\frac{1}{2}\\\\0&0\\end{array}\\right|\\begin{array}{c}2\\\\0\\end{array}\\right]\\)",
+                   "Zeros across the bottom indicate an infinite number of solutions.",
+                   "Let \\(y=t\\)",
+                   "Then from the first row of the matrix \\(2x-t=4\\)",
+                   "\\(2x=t+4\\)",
+                   "\\(x=\\frac12t+2\\)"
+                  ],
+                  "answer": {
+                    "text": "\\((\\frac12t+2, t)\\)"
+                  }
+                },
+                {
+                  "text": "\\(\\begin{array}{l}-x+3y=-2\\\\3x-9y=1\\end{array}\\)",
+                  "solutions": [
+                    "\\(\\left[\\left.\\begin{array}{cc}-1&3\\\\3&-9\\end{array}\\right|\\begin{array}{c}-2\\\\1\\end{array}\\right]\\)",
+                    "\\(-1R_1\\rightarrow R_1\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&-3\\\\3&-9\\end{array}\\right|\\begin{array}{c}2\\\\1\\end{array}\\right]\\)",
+                   "\\(-3R_1+R_2\\rightarrow R_2\\)",
+                   "\\(\\left[\\left.\\begin{array}{cc}1&-3\\\\0&0\\end{array}\\right|\\begin{array}{c}-2\\\\7\\end{array}\\right]\\)",
+                   "\\(0\\neq7\\)"
+                  ],
+                  "answer": {
+                    "text": "No solution"
+                  }
+                }
+               
+                
               ]
             }
           ]
         },
         {
           "title": "Gauss-Jordan Elimination",
-          "intro": "This is an intro",
+          "intro": "",
           "problemsets": [
             {
-              "intro": "this is a problem set intro",
+              "intro": "A florist is making 5 identical bridesmaid bouquets for a wedding.  She has $610 to spend (including tax) and wants 24 flowers for each bouquet.  Roses cost $6 each, tulips cost $4 each, and lilies cost $3 each.  She wants to have twice as many roses as the other 2 flowers combined in each bouquet.  How many roses, tulips, and lilies are in each bouquet? "
+             
+            },
+            {
+              "intro": "<h4>Reduced Row Echelon Form</h4><ol><li>Each row that is entirely zeros is below any row having nonzero element.</li><li>The leftmost element in each row is 1.</li><li>All other elements in the column containing the leftmost 1 are zeros.</li><li>The leftmost 1 in any row is to the right of the leftmost 1 in the row above.</li></ol><h4>Examples of reduced form matrices.</h4><p>\\(\\left[\\left.\\begin{array}{cc}1&0\\\\0&1\\end{array}\\right|\\begin{array}{c}5\\\\-3\\end{array}\\right]\\)</p><p>\\(\\left[\\left.\\begin{array}{cc}1&0&0\\\\0&1&0\\\\0&0&1\\end{array}\\right|\\begin{array}{c}-1\\\\5\\\\0.5\\end{array}\\right]\\)</p><p>\\(\\left[\\left.\\begin{array}{cc}1&0\\\\0&1\\\\0&0\\end{array}\\right|\\begin{array}{c}4\\\\-3\\\\0\\end{array}\\right]\\)</p><p>\\(\\left[\\left.\\begin{array}{cc}1&3&0&0\\\\0&0&1&0\\\\0&0&0&0\\end{array}\\right|\\begin{array}{c}-1\\\\5\\\\0.5\\end{array}\\right]\\)</p><p>\\(\\left[\\left.\\begin{array}{cc}1&0&4\\\\0&1&3\\\\0&0&0\\end{array}\\right|\\begin{array}{c}0\\\\0\\\\1\\end{array}\\right]\\)</p><h4>Gauss-Jordan Elimination transforms an augmented matrix into reduced form using row operations.</h4><br><br><br><br><br><br><p>Use Gauss-Jordan Elimination to solve the following problems.</p>",
               "problems": [
                 {
-                  "text": "Ursula borrows $600 for 5 months at a simple interest rate of 15% per year. Find the interest, and the total amount she is obligated to pay?",
+                  "text": "\\(\\begin{array}{l}3x_1+x_2-2x_3=2\\\\x_1-2x_2+x_3=3\\\\2x_1-x_2-3x_3=3\\end{array}\\)",
                   "solutions": [
-                    "solution \\(x^2+14 = 2\\) line 1",
-                    "solution \\[x^2+14 = 2\\] line 2",
-                    "solution line 3"
+                    "\\(\\left[\\left.\\begin{array}{cc}3&1&-2\\\\1&-2&1\\\\2&-1&-3\\end{array}\\right|\\begin{array}{c}2\\\\3\\\\3\\end{array}\\right]\\)",
+                    "\\(R_1\\leftrightarrow R_2\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&-2&1\\\\3&1&-2\\\\2&-1&-3\\end{array}\\right|\\begin{array}{c}3\\\\2\\\\3\\end{array}\\right]\\)",
+                    "\\(-3R_1+R_2\\rightarrow R_2\\)",
+                    "\\(-2R_1+R_3\\rightarrow R_3\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&-2&1\\\\0&7&-5\\\\0&3&-5\\end{array}\\right|\\begin{array}{c}3\\\\-7\\\\-3\\end{array}\\right]\\)",
+                    "\\(\\frac17R_2\\rightarrow R_2\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&-2&1\\\\0&1&-\\frac57\\\\0&3&-5\\end{array}\\right|\\begin{array}{c}3\\\\-1\\\\-3\\end{array}\\right]\\)",
+                    "\\(-3R_2+R_3\\rightarrow R_3\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&-2&1\\\\0&1&-\\frac57\\\\0&0&-\\frac{20}{7}\\end{array}\\right|\\begin{array}{c}3\\\\-1\\\\0\\end{array}\\right]\\)",
+                    "\\(-\\frac{7}{20}R_3\\rightarrow R_3\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&-2&1\\\\0&1&-\\frac57\\\\0&0&1\\end{array}\\right|\\begin{array}{c}3\\\\-1\\\\0\\end{array}\\right]\\)",
+                    "\\(\\frac57R_3+R_2\\rightarrow R_2\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&-2&1\\\\0&1&0\\\\0&0&1\\end{array}\\right|\\begin{array}{c}3\\\\-1\\\\0\\end{array}\\right]\\)",
+                    "\\(-R_3+R_1\\rightarrow R_1\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&-2&0\\\\0&1&0\\\\0&0&1\\end{array}\\right|\\begin{array}{c}3\\\\-1\\\\0\\end{array}\\right]\\)",
+                    "\\(2R_2+R_1\\rightarrow R_1\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&0&0\\\\0&1&0\\\\0&0&1\\end{array}\\right|\\begin{array}{c}1\\\\-1\\\\0\\end{array}\\right]\\)"
+                
                   ],
                   "answer": {
-                    "text": "answer to this problem"
+                    "text": "(1, -1, 0)"
                   }
                 },
                 {
-                  "text": "Jose deposited $2500 in an account that pays 6% simple interest. How much money will he have at the end of 3 years?",
+                  "text": "\\(\\begin{array}{l}3x_1+x_2-2x_3=-7\\\\2x_1+2x_2+x_3=9\\\\-1x_1-x_2+3x_3=6\\end{array}\\)",
                   "solutions": [
-                    "solution line 1",
-                    "solution line 2",
-                    "solution line 3"
+                    "\\(\\left[\\left.\\begin{array}{cc}3&1&-2\\\\2&2&1\\\\-1&-1&3\\end{array}\\right|\\begin{array}{c}-7\\\\9\\\\6\\end{array}\\right]\\)",
+                    "\\(-R_3\\leftrightarrow R_1\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&1&-3\\\\2&2&1\\\\3&1&-2\\end{array}\\right|\\begin{array}{c}-6\\\\9\\\\-7\\end{array}\\right]\\)",
+                    "\\(-2R_1+R_2\\rightarrow R_2\\)",
+                    "\\(-3R_1+R_3\\rightarrow R_3\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&1&-3\\\\0&0&7\\\\0&-2&7\\end{array}\\right|\\begin{array}{c}-6\\\\21\\\\11\\end{array}\\right]\\)",
+                    "\\(R_3\\leftrightarrow R_2\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&1&-3\\\\0&-2&-7\\\\0&0&7\\end{array}\\right|\\begin{array}{c}-6\\\\11\\\\21\\end{array}\\right]\\)",
+                    "\\(\\frac17R_3\\rightarrow R_3\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&1&-3\\\\0&-2&7\\\\0&0&1\\end{array}\\right|\\begin{array}{c}-6\\\\11\\\\3\\end{array}\\right]\\)",
+                    "\\(-7R_3+R_2\\rightarrow R_2\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&1&-3\\\\0&-2&0\\\\0&0&1\\end{array}\\right|\\begin{array}{c}-6\\\\-10\\\\3\\end{array}\\right]\\)",
+                    "\\(-\\frac12R_2\\rightarrow R_2\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&1&-3\\\\0&1&0\\\\0&0&1\\end{array}\\right|\\begin{array}{c}-6\\\\5\\\\3\\end{array}\\right]\\)",
+                    "\\(3R_3+R_1\\rightarrow R_1\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&1&0\\\\0&1&0\\\\0&0&1\\end{array}\\right|\\begin{array}{c}3\\\\5\\\\3\\end{array}\\right]\\)",
+                    "\\(-R_2+R_1\\rightarrow R_1\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&0&0\\\\0&1&0\\\\0&0&1\\end{array}\\right|\\begin{array}{c}-2\\\\5\\\\3\\end{array}\\right]\\)"
                   ],
                   "answer": {
-                    "text": "answer to another problem"
+                    "text": "(-2, 5, 3)"
+                  }
+                },
+                {
+                  "text": "\\(\\begin{array}{l}x_1-x_2+2x_3=-1\\\\-3x_1+3x_2+5x_3=3\\\\2x_1-2x_2=-2\\end{array}\\)",
+                  "solutions": [
+                    "\\(\\left[\\left.\\begin{array}{cc}1&-1&2\\\\-3&3&5\\\\2&-2&0\\end{array}\\right|\\begin{array}{c}-1\\\\3\\\\-2\\end{array}\\right]\\)",
+                   
+                    "\\(3R_1+R_2\\rightarrow R_2\\)",
+                    "\\(-2R_1+R_3\\rightarrow R_3\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&-1&2\\\\0&0&11\\\\0&0&-4\\end{array}\\right|\\begin{array}{c}-1\\\\0\\\\0\\end{array}\\right]\\)",
+                    
+                    "\\(-\\frac14R_3\\rightarrow R_3\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&-1&2\\\\0&0&11\\\\0&0&1\\end{array}\\right|\\begin{array}{c}-1\\\\0\\\\0\\end{array}\\right]\\)",
+                    "\\(-R_3+R_2\\rightarrow R_2\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&-1&2\\\\0&0&0\\\\0&0&1\\end{array}\\right|\\begin{array}{c}-1\\\\0\\\\0\\end{array}\\right]\\)",
+                    "Infinitely many solutions",
+                    "\\(x_3=0\\)",
+                    "\\(x_2=t\\)",
+                    "\\(x_1-x_2+2x_3=-1\\rightarrow x_1=x_2-2x_3-1\\)",
+                    "\\(x_1=t-2(0)-1\\)",
+                    "\\(x_1=t-1\\)"
+                  ],
+                  "answer": {
+                    "text": "(t-1, t, 0)"
+                  }
+                },
+                {
+                  "text": "\\(\\begin{array}{l}3x_1+3x_2=-12\\\\-4x_1-2x_2+2x_3=-14\\\\x_1+3x_2+2x_3=11\\end{array}\\)",
+                  "solutions": [
+                    "\\(\\left[\\left.\\begin{array}{cc}3&3&0\\\\-4&-2&2\\\\1&3&2\\end{array}\\right|\\begin{array}{c}-12\\\\-14\\\\11\\end{array}\\right]\\)",
+                   
+                    "\\(-\\frac13R_1\\rightarrow R_1\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&1&0\\\\-4&-2&2\\\\1&3&2\\end{array}\\right|\\begin{array}{c}-4\\\\-14\\\\11\\end{array}\\right]\\)",
+                    "\\(4R_1+R_2\\rightarrow R_2\\)",
+                    "\\(-R_1+R_3\\rightarrow R_3\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&1&0\\\\0&2&2\\\\0&2&2\\end{array}\\right|\\begin{array}{c}-4\\\\-30\\\\15\\end{array}\\right]\\)",
+                    "\\(-R_2+R_3\\rightarrow R_3\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&1&0\\\\0&2&2\\\\0&0&0\\end{array}\\right|\\begin{array}{c}-4\\\\-30\\\\45\\end{array}\\right]\\)",
+                    
+                    "\\(0\\neq45\\)"
+                 
+                  ],
+                  "answer": {
+                    "text": "No solution"
+                  }
+                },
+                {
+                  "text": "A florist is making 5 identical bridesmaid bouquets for a wedding.  She has $610 to spend (including tax) and wants 24 flowers for each bouquet.  Roses cost $6 each, tulips cost $4 each, and lilies cost $3 each.  She wants to have twice as many roses as the other 2 flowers combined in each bouquet.  How many roses, tulips, and lilies are in each bouquet?",
+                  "solutions": [
+                    "Let \\(x_1=\\)the number of roses, \\(x_2=\\)the number of tulips, and \\(x_3=\\)the number of lilies.",
+                    "\\(\\begin{array}{l}x_1+x_2+x_3=120\\\\6x_1+4x_2+3x_3=610\\\\x_1=2(x_2+x_3)\\end{array}\\)",
+                    "\\(\\begin{array}{l}x_1+x_2+x_3=120\\\\6x_1+4x_2+3x_3=610\\\\x_1-2x_2-2x_3=0\\end{array}\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&1&1\\\\6&4&3\\\\1&-2&-2\\end{array}\\right|\\begin{array}{c}120\\\\610\\\\0\\end{array}\\right]\\)",
+                    "\\(-6R_1+R_2\\rightarrow R_2\\)",
+                    "\\(R_1-R_3\\rightarrow R_3\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&1&1\\\\0&-2&-3\\\\0&3&3\\end{array}\\right|\\begin{array}{c}120\\\\-110\\\\120\\end{array}\\right]\\)",
+                    "\\(\\frac13R_3\\leftrightarrow R_3\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&1&1\\\\0&-2&-3\\\\0&1&1\\end{array}\\right|\\begin{array}{c}120\\\\-110\\\\40\\end{array}\\right]\\)",
+                    "\\(2R_3+R_2\\rightarrow R_3\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&1&1\\\\0&-2&-3\\\\0&0&-1\\end{array}\\right|\\begin{array}{c}120\\\\-110\\\\-30\\end{array}\\right]\\)",
+                    "\\(-R_3\\leftrightarrow R_3\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&1&1\\\\0&-2&-3\\\\0&0&1\\end{array}\\right|\\begin{array}{c}120\\\\-110\\\\30\\end{array}\\right]\\)",
+                    "\\(3R_3+R_2\\rightarrow R_2\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&1&1\\\\0&-2&0\\\\0&0&1\\end{array}\\right|\\begin{array}{c}120\\\\-20\\\\30\\end{array}\\right]\\)",
+                    "\\(-\\frac12R_2\\leftrightarrow R_2\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&1&1\\\\0&1&0\\\\0&0&1\\end{array}\\right|\\begin{array}{c}120\\\\10\\\\30\\end{array}\\right]\\)",
+                    "\\(R_1-R_3\\rightarrow R_1\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&1&0\\\\0&1&0\\\\0&0&1\\end{array}\\right|\\begin{array}{c}90\\\\10\\\\30\\end{array}\\right]\\)",
+                    "\\(R_1-R_2\\rightarrow R_1\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&0&0\\\\0&1&0\\\\0&0&1\\end{array}\\right|\\begin{array}{c}80\\\\10\\\\30\\end{array}\\right]\\)"
+
+                  ],
+                  "answer": {
+                    "text": "The florist needs 80 roses, 10 tulips, and 30 lilies."
+                  }
+                },
+                {
+                  "text": "An apple, a banana and three oranges or two apples, two bananas, and an orange, or four bananas and two oranges cost $2. Find the price of each. ",
+                  "solutions": [
+                    "Let \\(x_1=\\)the number of apples, \\(x_2=\\)the number of bananas, and \\(x_3=\\)the number of oranges.",
+                    "\\(\\begin{array}{l}x_1+x_2+3x_3=2\\\\2x_1+2x_2+x_3=2\\\\4x_2+2x_3=2\\end{array}\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&1&3\\\\2&2&1\\\\0&4&2\\end{array}\\right|\\begin{array}{c}2\\\\2\\\\2\\end{array}\\right]\\)",
+                    "\\(-2R_1+R_2\\rightarrow R_2\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&1&3\\\\0&0&-5\\\\0&4&2\\end{array}\\right|\\begin{array}{c}2\\\\-2\\\\2\\end{array}\\right]\\)",
+                    "\\(R_2\\leftrightarrow R_3\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&1&3\\\\0&4&2\\\\0&0&-5\\end{array}\\right|\\begin{array}{c}2\\\\2\\\\-2\\end{array}\\right]\\)",
+                    "\\(-\\frac15R_3\\leftrightarrow R_3\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&1&3\\\\0&4&2\\\\0&0&1\\end{array}\\right|\\begin{array}{c}2\\\\2\\\\.40\\end{array}\\right]\\)",
+                    "\\(-2R_3+R_2\\rightarrow R_2\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&1&3\\\\0&4&0\\\\0&0&1\\end{array}\\right|\\begin{array}{c}2\\\\1.20\\\\.40\\end{array}\\right]\\)",
+                    "\\(\\frac14R_2\\leftrightarrow R_2\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&1&3\\\\0&1&0\\\\0&0&1\\end{array}\\right|\\begin{array}{c}2\\\\.30\\\\.40\\end{array}\\right]\\)",
+                    "\\(-3R_3+R_1\\rightarrow R_1\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&1&0\\\\0&1&0\\\\0&0&1\\end{array}\\right|\\begin{array}{c}.80\\\\.30\\\\.40\\end{array}\\right]\\)",
+                    "\\(R_1-R_2\\rightarrow R_1\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&0&0\\\\0&1&0\\\\0&0&1\\end{array}\\right|\\begin{array}{c}.50\\\\.30\\\\.40\\end{array}\\right]\\)"
+
+                  ],
+                  "answer": {
+                    "text": "Apples are 50 cents each, bananas are 30 cents each, and oranges are 40 cents each."
+                  }
+                },
+                {
+                  "text": "A company that rents small moving trucks wants to purchase 25 trucks with a combined capacity of 28,000 cubic feet.  Three different types of trucks are available:  a 10-foot truck with a capacity of 350 cubic feet, a 14-foot truck with a capacity of 700 cubic feet, and a 24-foot truck with a capacity of 1,400 cubic feet.  How many of each type of truck should the company purchase? ",
+                  "solutions": [
+                    "Let \\(x_1=\\)the number of 10-ft trucks, \\(x_2=\\)the number of 14-ft trucks, and \\(x_3=\\)the number of 24-ft trucks.",
+                    "\\(\\begin{array}{l}x_1+x_2+x_3=25\\\\350x_1+700x_2+1400x_3=28,000\\end{array}\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&1&1\\\\350&700&1400\\end{array}\\right|\\begin{array}{c}25\\\\28,000\\end{array}\\right]\\)",
+                    "\\(\\frac{1}{350}R_2\\leftrightarrow R_2\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&1&1\\\\1&2&4\\end{array}\\right|\\begin{array}{c}25\\\\80\\end{array}\\right]\\)",
+                    "\\(R_1-R_2\\rightarrow R_2\\)",
+                    "\\(\\left[\\left.\\begin{array}{cc}1&1&1\\\\0&1&3\\end{array}\\right|\\begin{array}{c}25\\\\55\\end{array}\\right]\\)",
+                    "Let \\(x_3=t\\), so from the 2nd row in the matrix we get",
+                    "\\(x_2+3x_3=55\\)",
+                    "\\(x_2+3t=55\\)",
+                    "\\(x_2=-3t+55\\)",
+                    "\\(-3t+55\\geq 0\\)",
+                    "\\(-3t\\geq -55\\)",
+                    "\\(t\\leq18.3\\)",
+                    " From the first row of the matrix we get \\(x_1+x_2+x_3=25\\)",
+                    "\\(x_1+(-3t+55)+t=25\\)",
+                    "\\(x_1-2t+55=25\\)",
+                    "\\(x_1=2t-30\\)",
+                    "\\(2t-30\\geq 0\\)",
+                    "\\(2t\\geq 30\\)",
+                    "\\(t\\geq 15\\)",
+                    "Therefore, \\(15\\leq t \\leq 18.33\\)",
+                    "Since \\(x_3=t\\), we can have 15, 16, 17, or 18 24-ft trucks.",
+                    "Since \\(x_2=-3x_3+55\\) and \\(x_1=2x_3-30\\), we must calculate how many 14-ft and 10-ft trucks based on each of these possibilities."
+
+             
+
+                  ],
+                  "answer": {
+                    "text": "If we have 15 24-ft trucks, we must have 10 14-ft trucks and 0 10-ft trucks. If we have 16 24-ft trucks, we must have 7 14-ft trucks and 2 10-ft trucks. If we have 17 24-ft trucks, we must have 4 14-ft trucks and 4 10-ft trucks. If we have 18 24-ft trucks, we must have 1 14-ft trucks and 6 10-ft trucks."
                   }
                 }
+
               ]
             }
+          
           ]
         },
         {
           "title": "Operations with Matrices",
-          "intro": "This is an intro",
+          "intro": "<h4>Adding, Subtracting, and Scalar Multiplication of Matrices</h4><p>Notes</p><p>We can multiply any matrix by a scalar (a constant number).</p><p>Matrices must be the same size to add or subtract.</p>",
           "problemsets": [
             {
-              "intro": "this is a problem set intro",
+              "intro": "Fine Furniture Company makes chairs and tables at its San Jose, Hayward, and Oakland factories.  The total production, in hundreds, from the three factories for the years 2004 and 2005 is listed in the table below. <table class='center'><thead><tr><td><td>2014<td><td>2015<td><tr><td><td>Chairs<td>Tables<td>Chairs<td>Tables<tbody><tr><th>San Jose<td>30<td>18<td>36<td>20<tr><th>Hayward<td>20<td>12<td>24<td>18<tr><th>Oakland<td>16<td>10<td>20<td>12</table>",
               "problems": [
                 {
-                  "text": "Ursula borrows $600 for 5 months at a simple interest rate of 15% per year. Find the interest, and the total amount she is obligated to pay?",
+                  "text": "Represent the production for the years 2014 and 2015 as the matrices A and B.",
                   "solutions": [
-                    "solution \\(x^2+14 = 2\\) line 1",
-                    "solution \\[x^2+14 = 2\\] line 2",
-                    "solution line 3"
+                    
                   ],
                   "answer": {
-                    "text": "answer to this problem"
+                    "text": "<p>\\(A=\\begin{bmatrix}30&18\\\\20&12\\\\16&10\\end{bmatrix}\\)</p><p>\\(B=\\begin{bmatrix}36&20\\\\24&18\\\\20&12\\end{bmatrix}\\)</p>"
                   }
                 },
                 {
-                  "text": "Jose deposited $2500 in an account that pays 6% simple interest. How much money will he have at the end of 3 years?",
+                  "text": "Find the difference in production between 2014 and 2015.",
                   "solutions": [
-                    "solution line 1",
-                    "solution line 2",
-                    "solution line 3"
+                    "\\(B-A=\\begin{bmatrix}36-30&20-18\\\\24-20&18-12\\\\20-16&12-10\\end{bmatrix}\\)"
+                    
                   ],
                   "answer": {
-                    "text": "answer to another problem"
+                    "text": "\\(B-A=\\begin{bmatrix}6&2\\\\4&6\\\\4&2\\end{bmatrix}\\)"
+                  }
+                },
+                {
+                  "text": "The company predicts that in the year 2020 the production at these facilities will double the production in 2014.  What will the expected production be for 2020?",
+                  "solutions": [
+                    "\\(2A=\\begin{bmatrix}2*30&2*18\\\\2*20&2*12\\\\2*16&2*10\\end{bmatrix}\\)"
+                    
+                  ],
+                  "answer": {
+                    "text": "\\(2A=\\begin{bmatrix}60&36\\\\40&24\\\\32&20\\end{bmatrix}\\)"
+                  }
+                }
+             
+              ]
+            },
+            {
+              "intro": "<p><h4>Given the matrices A, B, C, and D</h4>,</p><p>\\(A=\\begin{bmatrix}1&2&4\\\\2&3&1\\\\5&0&3\\end{bmatrix}\\;\\;\\;B=\\begin{bmatrix}2&-1&3\\\\2&4&2\\\\3&6&1\\end{bmatrix}\\;\\;\\;C=\\begin{bmatrix}4\\\\2\\\\3\\end{bmatrix}\\;\\;\\;D=\\begin{bmatrix}-2\\\\-3\\\\4\\end{bmatrix}\\)</p><p>Find if possible,</p>",
+              "problems": [
+                {
+                  "text": "\\(A+B\\)",
+                  "solutions": [
+                    "\\(A+B=A=\\begin{bmatrix}1+2&2-1&4+3\\\\2+2&3+4&1+2\\\\5+3&0+6&3+1\\end{bmatrix}\\)"
+               
+                  ],
+                  "answer": {
+                    "text": "\\(A+B=\\begin{bmatrix}3&1&7\\\\4&7&3\\\\8&6&4\\end{bmatrix}\\)"
+                  }
+                },
+                {
+                  "text": "\\(C-D\\)",
+                  "solutions": [
+                    "\\(C-D=\\begin{bmatrix}4+2\\\\2+3\\\\3-4\\end{bmatrix}\\)"
+                   
+                  ],
+                  "answer": {
+                    "text": "\\(C-D=\\begin{bmatrix}6\\\\5\\\\-1\\end{bmatrix}\\)"
+                  }
+                },
+                {
+                  "text": "\\(A+D\\)",
+                  "solutions": [
+                  
+                    "A & D are not the same size."
+                  ],
+                  "answer": {
+                    "text": "undefined"
+                  }
+                },
+                {
+                  "text": "\\(-3C\\)",
+                  "solutions": [
+                    "\\(-3C=\\begin{bmatrix}-3*4\\\\-3*2\\\\-3*3\\end{bmatrix}\\)"
+                   
+                  ],
+                  "answer": {
+                    "text": "\\(-3C=\\begin{bmatrix}-12\\\\-6\\\\-9\\end{bmatrix}\\)<br><br><br>"
+                  }
+                }
+              ]
+            },
+            {
+              "intro": "<h4>Multiplication of Two Matrices</h4><p>In order to multiply two matrices, the number of columns in the first matrix MUST equal the number of rows in the second.</p>",
+              "problems": [
+                {
+                  "text": "Find the product AB given \\(A=\\begin{bmatrix}2&3&4\\end{bmatrix}\\) and \\(B=\\begin{bmatrix}5\\\\6\\\\7\\end{bmatrix}\\)",
+                  "solutions": [
+                    "A=1x3 and B=3x1 so AB=1x1",
+                    "\\(AB=\\begin{bmatrix}2*5+3*6+4*7\\end{bmatrix}\\)",
+                    "\\(AB=\\begin{bmatrix}10+18+28\\end{bmatrix}\\)"
+                  ],
+                  "answer": {
+                    "text": "\\(AB=\\begin{bmatrix}56\\end{bmatrix}\\)"
+                  }
+                },
+                {
+                  "text": "Find the product AB given \\(A=\\begin{bmatrix}2&3&4\\end{bmatrix}\\) and \\(B=\\begin{bmatrix}5&3\\\\6&4\\\\7&5\\end{bmatrix}\\)",
+                  "solutions": [
+                    "A=1x3 and B=3x2 so AB=1x2",
+                  "\\(AB=\\begin{bmatrix}2*5+3*6+4*7&2*3+3*4+4*5\\end{bmatrix}\\)",
+                  "\\(AB=\\begin{bmatrix}10+18+28&6+12+20\\end{bmatrix}\\)"
+                   
+                  ],
+                  "answer": {
+                    "text": "\\(AB=\\begin{bmatrix}56&38\\end{bmatrix}\\)"
+                  }
+                },
+                {
+                  "text": "Find the product AB given \\(A=\\begin{bmatrix}2&3&4\\\\1&2&3\\end{bmatrix}\\) and \\(B=\\begin{bmatrix}5&3\\\\6&4\\\\7&5\\end{bmatrix}\\)",
+                  "solutions": [
+                    "A=2x3 and B=3x2 so AB=2x2",
+                    "\\(AB=\\begin{bmatrix}2*5+3*6+4*7&2*3+3*4+4*5\\\\1*5+2*6+3*7&1*3+2*4+3*5\\end{bmatrix}\\) ",
+                    "\\(AB=\\begin{bmatrix}10+18+28&6+12+20\\\\5+12+21&3+8+15\\end{bmatrix}\\) "
+                  ],
+                  "answer": {
+                    "text": "\\(AB=\\begin{bmatrix}56&38\\\\38&26\\end{bmatrix}\\) "
+                  }
+                }
+              
+               
+              ]
+            },
+            {
+              "intro": "<h4>Given the matrices E, F, G, and H, find the following, if possible.</h4><p>\\(E=\\begin{bmatrix}1&2\\\\4&2\\\\3&1\\end{bmatrix}\\;\\;\\;F=\\begin{bmatrix}2&-1\\\\3&2\\end{bmatrix}\\;\\;\\;G=\\begin{bmatrix}4&1\\end{bmatrix}\\;\\;\\;H=\\begin{bmatrix}-3\\\\-1\\end{bmatrix}\\)</p>",
+              "problems": [
+                {
+                  "text": "EF",
+                  "solutions": [
+                    "(3x2)(2x2)=(3x2)",
+                    "\\(EF=\\begin{bmatrix}1*2+2*3&1*-1+2*2\\\\4*2+2*3&4*-1+2*2\\\\3*2+1*3&3*-1+1*2\\end{bmatrix}\\)",
+                    "\\(EF=\\begin{bmatrix}2+6&-1+4\\\\8+6&-4+4\\\\6+3&-3+2\\end{bmatrix}\\)"
+                  ],
+                  "answer": {
+                    "text": "\\(EF=\\begin{bmatrix}8&3\\\\14&0\\\\9&-1\\end{bmatrix}\\)"
+                  }
+                },
+                {
+                  "text": "FE",
+                  "solutions": [
+                    "(2x2)(3x2)"
+                  ],
+                  "answer": {
+                    "text": "Cannot multiply these matrices."
+                  }
+                },
+                {
+                  "text": "FH",
+                  "solutions": [
+                    "(2x2)(2x1)=2x1",
+                    "\\(FH=\\begin{bmatrix}2*-3+-1*-1\\\\3*-3+2*-1\\end{bmatrix}\\)",
+                    "\\(FH=\\begin{bmatrix}-6+1\\\\-9-2\\end{bmatrix}\\)"
+                  ],
+                  "answer": {
+                    "text": "\\(FH=\\begin{bmatrix}-5\\\\-11\\end{bmatrix}\\)"
+                  }
+                },
+                {
+                  "text": "GH",
+                  "solutions": [
+                    "(1x2)(2x1)=1x1",
+                    "\\(GH=\\begin{bmatrix}4*-3+1*-1\\end{bmatrix}\\)",
+                    "\\(G=\\begin{bmatrix}-12-1\\end{bmatrix}\\)"
+                  
+                  ],
+                  "answer": {
+                    "text": "\\(GH=\\begin{bmatrix}-13\\end{bmatrix}\\)"
                   }
                 }
               ]
             }
+           
           ]
         },
         {
           "title": "Inverse Matrices",
-          "intro": "This is an intro",
+          "intro": "<h4>Definition of an Inverse:</h4>An \\(n x n\\)  matrix has an inverse if there exists a matrix B such that \\(AB=BA=I_n\\), where \\(n\\)  is an \\(n x n\\) identity matrix.  The inverse of a matrix A, if it exists, is denoted by the symbol \\(A^{-1}\\).<p>For the inverse to exist, the matrix must be square.</p><p>The identity matrix is a square matrix with 1’s on the diagonal and 0’s everywhere else.</p><p> i. e. \\(\\begin{bmatrix}1&0&0\\\\0&1&0\\\\0&0&1\\end{bmatrix}\\)",
           "problemsets": [
             {
-              "intro": "this is a problem set intro",
+              "intro": "Given matrices A & B below, verify that they are inverses (remember to check both ways AB and BA)<p>\\(A=\\begin{bmatrix}4&1\\\\3&1\\end{bmatrix}\\) and \\(B=\\begin{bmatrix}1&-1\\\\-3&4\\end{bmatrix}\\)</p>.",
               "problems": [
                 {
-                  "text": "Ursula borrows $600 for 5 months at a simple interest rate of 15% per year. Find the interest, and the total amount she is obligated to pay?",
+                  "text": "AB",
                   "solutions": [
-                    "solution \\(x^2+14 = 2\\) line 1",
-                    "solution \\[x^2+14 = 2\\] line 2",
-                    "solution line 3"
+                    "\\(\\begin{bmatrix}4&1\\\\3&1\\end{bmatrix}*\\begin{bmatrix}1&-1\\\\-3&4\\end{bmatrix}\\)",
+                    "\\(\\begin{bmatrix}4*1+1*-3&4*-1+1*4\\\\3*1+1*-3&3*-1+1*4\\end{bmatrix}\\)",
+                    "\\(\\begin{bmatrix}4-3&-4+4\\\\3-3&-3+4\\end{bmatrix}\\)"
                   ],
                   "answer": {
-                    "text": "answer to this problem"
+                    "text": "\\(\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}\\)"
                   }
                 },
                 {
-                  "text": "Jose deposited $2500 in an account that pays 6% simple interest. How much money will he have at the end of 3 years?",
+                  "text": "BA",
                   "solutions": [
-                    "solution line 1",
-                    "solution line 2",
-                    "solution line 3"
+                    "\\(\\begin{bmatrix}1&-1\\\\-3&4\\end{bmatrix}*\\begin{bmatrix}4&1\\\\3&1\\end{bmatrix}\\)",
+                    "\\(\\begin{bmatrix}1*4-1*3&1*1-1*1\\\\-3*4+4*3&-3*1+4*1\\end{bmatrix}\\)",
+                    "\\(\\begin{bmatrix}4-3&1-1\\\\-12+12&-3+4\\end{bmatrix}\\)"
                   ],
                   "answer": {
-                    "text": "answer to another problem"
+                    "text": "\\(\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}\\)<br><br><br><br><br><br><br><br><br>"
+                  }
+                }
+              ]
+            },
+            {
+              "intro": "Find the inverse of each the following matrices.",
+              "problems": [
+                {
+                  "text": "\\(A=\\begin{bmatrix}3&1\\\\5&2\\end{bmatrix}\\)",
+                  "solutions": [
+                    "\\(\\left[\\begin{array}{cc}3&1\\\\5&2\\end{array}\\left|\\begin{array}{cc}1&0\\\\0&1\\end{array}\\right.\\right]\\)",
+                    "\\(\\frac13R_1\\rightarrow R_1\\)",
+                    "\\(\\left[\\begin{array}{cc}1&\\frac13\\\\5&2\\end{array}\\left|\\begin{array}{cc}\\frac13&0\\\\0&1\\end{array}\\right.\\right]\\)",
+                    "\\(-5R_1+R_2\\rightarrow R_2\\)",
+                    "\\(\\left[\\begin{array}{cc}1&\\frac13\\\\0&\\frac13\\end{array}\\left|\\begin{array}{cc}\\frac13&0\\\\-\\frac53&3\\end{array}\\right.\\right]\\)",
+                    "\\(3R_2\\rightarrow R_2\\)",
+                    "\\(\\left[\\begin{array}{cc}1&\\frac13\\\\0&1\\end{array}\\left|\\begin{array}{cc}\\frac13&0\\\\-5&3\\end{array}\\right.\\right]\\)",
+                    "\\(-\\frac13R_2+R_1\\rightarrow R_1\\)",
+                   
+                    "\\(\\left[\\begin{array}{cc}1&0\\\\0&1\\end{array}\\left|\\begin{array}{cc}2&-1\\\\-5&3\\end{array}\\right.\\right]\\)"
+                 
+                  ],
+                  "answer": {
+                    "text": "\\(\\left[\\begin{array}{cc}1&0\\\\0&1\\end{array}\\left|\\begin{array}{cc}2&-1\\\\-5&3\\end{array}\\right.\\right]\\)"
+                  }
+                },
+                {
+                  "text": "\\(A=\\begin{bmatrix}1&-1&1\\\\2&3&0\\\\0&-2&1\\end{bmatrix}\\)",
+                  "solutions": [
+                    "\\(\\left[\\begin{array}{cc}1&-1&1\\\\2&3&0\\\\0&-2&1\\end{array}\\left|\\begin{array}{cc}1&0&0\\\\0&1&0\\\\0&0&1\\end{array}\\right.\\right]\\)",
+                    "\\(-2R_1+R_2\\rightarrow R_2\\)",
+                    "\\(\\left[\\begin{array}{cc}1&-1&1\\\\0&-5&-2\\\\0&-2&1\\end{array}\\left|\\begin{array}{cc}1&0&0\\\\-2&1&0\\\\0&0&1\\end{array}\\right.\\right]\\)",
+                    "\\(\\frac15R_2\\rightarrow R_2\\)",
+                    "\\(\\left[\\begin{array}{cc}1&-1&1\\\\0&1&-\\frac25\\\\0&-2&1\\end{array}\\left|\\begin{array}{cc}1&0&0\\\\-\\frac25&\\frac15&0\\\\0&0&1\\end{array}\\right.\\right]\\)",
+                    "\\(2R_2+R_3\\rightarrow R_3\\)",
+                    "\\(\\left[\\begin{array}{cc}1&-1&1\\\\0&1&-\\frac25\\\\0&0&\\frac15\\end{array}\\left|\\begin{array}{cc}1&0&0\\\\-\\frac25&\\frac15&0\\\\-\\frac45&\\frac25&1\\end{array}\\right.\\right]\\)",
+                    "\\(5R_3\\rightarrow R_3\\)",
+                    "\\(\\left[\\begin{array}{cc}1&-1&1\\\\0&1&-\\frac25\\\\0&0&1\\end{array}\\left|\\begin{array}{cc}1&0&0\\\\-\\frac25&\\frac15&0\\\\-4&2&5\\end{array}\\right.\\right]\\)",
+                    "\\(\\frac25R_3+R_2\\rightarrow R_2\\)",
+                    "\\(\\left[\\begin{array}{cc}1&-1&1\\\\0&1&0\\\\0&0&1\\end{array}\\left|\\begin{array}{cc}1&0&0\\\\-2&1&2\\\\-4&2&5\\end{array}\\right.\\right]\\)",
+                    "\\(-R_3+R_1\\rightarrow R_1\\)",
+                    "\\(\\left[\\begin{array}{cc}1&-1&0\\\\0&1&0\\\\0&0&1\\end{array}\\left|\\begin{array}{cc}5&-2&-5\\\\-2&1&2\\\\-4&2&5\\end{array}\\right.\\right]\\)",
+                    "\\(R_1+R_2\\rightarrow R_1\\)",
+                    "\\(\\left[\\begin{array}{cc}1&0&0\\\\0&1&0\\\\0&0&1\\end{array}\\left|\\begin{array}{cc}3&-1&-3\\\\-2&1&2\\\\-4&2&5\\end{array}\\right.\\right]\\)"
+
+                  ],
+                  "answer": {
+                    "text": "\\(\\left[\\begin{array}{cc}1&0&0\\\\0&1&0\\\\0&0&1\\end{array}\\left|\\begin{array}{cc}3&-1&-3\\\\-2&1&2\\\\-4&2&5\\end{array}\\right.\\right]\\)"
                   }
                 }
               ]
             }
+            
           ]
         }
       ]
@@ -1537,31 +2018,261 @@
       "sections": [
         {
           "title": "Linear Inequalities in Two Variables",
-          "intro": "This is an intro",
+          "intro": "",
           "problemsets": [
             {
-              "intro": "this is a problem set intro",
+              "intro": "The dean of Transitional Studies decides to give all students who exit the program PSCC memorabilia.  Each student who successfully completes the program will receive a 3/4” Platinum Woven Lanyard or a Key Tag.    The lanyards are $5 and the key tags are $7.  If the dean has $3500 left to spend for the fiscal year.  How many of each item can be purchased without going over budget?",
               "problems": [
                 {
-                  "text": "Ursula borrows $600 for 5 months at a simple interest rate of 15% per year. Find the interest, and the total amount she is obligated to pay?",
+                  "text": "Write an inequality in standard form that represents the situation.",
                   "solutions": [
-                    "solution \\(x^2+14 = 2\\) line 1",
-                    "solution \\[x^2+14 = 2\\] line 2",
-                    "solution line 3"
+                    "x= # of lanyards",
+                    "y= # of keytags",
+                    "\\(5x+7y\\leq3500\\)"
                   ],
                   "answer": {
-                    "text": "answer to this problem"
+                    "text": "\\(5x+7y\\leq3500\\)"
                   }
                 },
                 {
-                  "text": "Jose deposited $2500 in an account that pays 6% simple interest. How much money will he have at the end of 3 years?",
+                  "text": "Use the following grid to graph the inequality by finding the x- and y- intercepts and use the origin as a possible test point to identify the appropriate region.<p><img src=\"./images/blankgraph.png\" alt=\"Blank 10 by 10 coordinate plane\"></p>",
                   "solutions": [
-                    "solution line 1",
-                    "solution line 2",
-                    "solution line 3"
+                    
                   ],
                   "answer": {
-                    "text": "answer to another problem"
+                    "text": "\\(y-intercept: (0, 500), x-intercept: (700, 0)\\)<p><img src=\"./images/u3s1p1.png\" alt=\"Graph of 5x+7y is less than or equal to 3500.  Shaded below the solid line in the first quadrant\"></p>"
+                  }
+                },
+                {
+                  "text": "How many of each item can be purchased without going over?",
+                  "solutions": [
+                    
+                  ],
+                  "answer": {
+                    "text": "You can purchase 500 key tags and 0 lanyards or 700 lanyards and 0 key tags and not go over.  You can also purchase some combination of the two that falls within the shade region."
+                  }
+                },
+                {
+                  "text": "Graph \\(6x+7y>42\\) using two intercepts and shade the appropriate region.<p><img src=\"./images/blankgraph.png\" alt=\"Blank 10 by 10 coordinate plane\"></p>",
+                  "solutions": [
+                    
+                    
+                  ],
+                  "answer": {
+                    "text": "Intercepts:  (0, 6) & (7, 0)<p><img src=\"./images/u3s1p2.png\" alt=\"Graph of 6x+7y is less greater than 42.  Shaded above the dotted line.\"></p> "
+                  }
+                },
+                {
+                  "text": "Graph \\(3x-10y\\leq -30\\) using two intercepts and shade the appropriate region.<p><img src=\"./images/blankgraph.png\" alt=\"Blank 10 by 10 coordinate plane\"></p>",
+                  "solutions": [
+                   
+                  ],
+                  "answer": {
+                    "text": "Intercepts:  (0, 3) & (-10, 0)<p><img src=\"./images/u3s1p3.png\" alt=\"Graph of 3x-10y is less than or equal to -30.  Shaded above the solid line.\"></p>"
+                  }
+                }
+              ]
+            },
+            {
+              "intro": "Jaron receives a gift card with a $130 balance.  He uses the card to buy lunch at the school cafeteria, where he spends on average $6.50 a day.",
+              "problems": [
+                {
+                  "text": "Write an inequality in slope – intercept form that represents the amount of money he has left to spend.",
+                  "solutions": [
+                  "x=number of days",
+                  "y=balance on the gift card"
+                  ],
+                  "answer": {
+                    "text": "\\(y\\leq 130-6.50x\\)"
+                  }
+                },
+                {
+                  "text": "Use the following grid to graph the inequality by plotting the y-intercept and using the slope to find a second point.  Use the origin as a possible test point to identify the appropriate region to shade.<p><img src=\"./images/blankgraph.png\" alt=\"Blank 10 by 10 coordinate plane\"></p>",
+                  "solutions": [
+                  
+                  ],
+                  "answer": {
+                    "text": "y-intercept:(0, 130) & m=-6.50<p><img src=\"./images/u3s1p4.png\" alt=\"Graph of y is less than or equal to 130-6.50x.  Shaded below the solid line.\"></p>"
+                  }
+                },
+                {
+                  "text": "Use the graph to determine the number of days Jaron can use the card.",
+                  "solutions": [
+                    
+                  ],
+                  "answer": {
+                    "text": "It will take Jaron 20 days to use all the money on is card."
+                  }
+                },
+                {
+                  "text": "Does the ordered pair \\((24, -26)\\) satisfy the inequality?  Justify your answer.  Explain what this would mean in the context of the problem.",
+                  "solutions": [
+                    
+                  ],
+                  "answer": {
+                    "text": "Technically, (24, -26) does satisfy the inequality.  In this problem, that would mean that Jaron used the card for 24 days and owes the cafeteria $26 which means he probably didn't eat on days 21-24."
+                  }
+                },
+                {
+                  "text": "Graph \\(y>\\frac72x+7\\) and shade the appropriate region.<p><img src=\"./images/blankgraph.png\" alt=\"Blank 10 by 10 coordinate plane\"></p>",
+                  "solutions": [
+                  
+                  ],
+                  "answer": {
+                    "text": "y-intercept:(0, 7) & m=7/2<p><img src=\"./images/u3s1p5.png\" alt=\"Graph of y is greater than  \\(\\frac72x+7\\).  Shaded above the dotted line.\"></p>"
+                  }
+                },
+                {
+                  "text": "Graph \\(y\\leq-\\frac37x+6\\) and shade the appropriate region.<p><img src=\"./images/blankgraph.png\" alt=\"Blank 10 by 10 coordinate plane\"></p>",
+                  "solutions": [
+                    
+                  ],
+                  "answer": {
+                    "text": "y-intercept:(0, 6) & m=-3/7<p><img src=\"./images/u3s1p6.png\" alt=\"Graph of y is less than or equal to  \\(-\\frac37x+6\\).  Shaded below the solid line.\"></p>"
+                  }
+                }
+                
+              ]
+            },
+            {
+              "intro": "<h4>Special cases:</h4> Use the following points for the next 5 problems. <p>\\((3, -2), (3, -1), (3, 0), (3, 1)\\)</p>",
+              "problems": [
+                {
+                  "text": "Plot the given points.<p><img src=\"./images/blankgraph.png\" alt=\"Blank 10 by 10 coordinate plane\"></p>",
+                  "solutions": [
+                   
+                  ],
+                  "answer": {
+                    "text": "<p><img src=\"./images/u3s1p7.png\" alt=\"Graph of ordered pairs (3, -2), (3, -1), (3, 0), (3, 1) \"></p>"
+                  }
+                },
+                {
+                  "text": "Ordered pairs are written in the form (x, y).   What do you notice about the ordered pairs in this problem?",
+                  "solutions": [
+                   
+                  ],
+                  "answer": {
+                    "text": "All the x values are the same."
+                  }
+                },
+                {
+                  "text": "When the value of one of the variables in a set of ordered pairs is constant, it indicates a special type of line.  What type of line is formed from the graph of these ordered pairs in the xy-plane?",
+                  "solutions": [
+                   
+                  ],
+                  "answer": {
+                    "text": "A vertical line is formed."
+                  }
+                },
+                {
+                  "text": "The equation of this line is identified by the constant value in the ordered pairs.  Write the equation of this line.",
+                  "solutions": [
+                    
+                  ],
+                  "answer": {
+                    "text": "\\(x=3\\)"
+                  }
+                },
+                {
+                  "text": "An inequality results when the equal symbol is replaced with one of the four inequality symbols \\(<, >, \\leq, \\geq\\).  Use the inequality symbol \\(leq\\)  to rewrite your equation in part (c) as an inequality, and then shade the appropriate region to represent the graph of this inequality.<p><img src=\"./images/blankgraph.png\" alt=\"Blank 10 by 10 coordinate plane\"></p>",
+                  "solutions": [
+                    
+                  ],
+                  "answer": {
+                    "text": "\\(x\\leq3\\)<p><img src=\"./images/u3s1p8.png\" alt=\"Graph of solid vertical line x is less than or equal to 3.  Graph is shaded to the left of the vertical line through x=3\"></p>"
+                  }
+                }
+              ]
+            },
+            {
+              "intro": "<h4>Special cases:</h4> Use the following points for the next 5 problems. <p>\\((-4, 1), (-2, 1), (0, 1), (3, 1)\\)</p>",
+              "problems": [
+                {
+                  "text": "Plot the given points.<p><img src=\"./images/blankgraph.png\" alt=\"Blank 10 by 10 coordinate plane\"></p>",
+                  "solutions": [
+                   
+                  ],
+                  "answer": {
+                    "text": "<p><img src=\"./images/u3s1p9.png\" alt=\"Graph of ordered pairs (-4, 1), (-2, 1), (0, 1), (3, 1)\"></p>"
+                  }
+                },
+                {
+                  "text": "Ordered pairs are written in the form (x, y).   What do you notice about the ordered pairs in this problem?",
+                  "solutions": [
+                   
+                  ],
+                  "answer": {
+                    "text": "The y values are the same."
+                  }
+                },
+                {
+                  "text": "When the value of one of the variables in a set of ordered pairs is constant, it indicates a special type of line.  What type of line is formed from the graph of these ordered pairs in the xy-plane? ",
+                  "solutions": [
+                   
+                  ],
+                  "answer": {
+                    "text": "A horizontal line is formed."
+                  }
+                },
+                {
+                  "text": "The equation of this line is identified by the constant value in the ordered pairs.  Write the equation of this line.",
+                  "solutions": [
+                
+                  ],
+                  "answer": {
+                    "text": "\\(y=1\\)"
+                  }
+                },
+                {
+                  "text": "An inequality results when the equal symbol is replaced with one of the four inequality symbols \\(<, >, \\leq, \\geq\\).  Use the inequality symbol \\(>\\)  to rewrite your equation in part (c) as an inequality, and then shade the appropriate region to represent the graph of this inequality.<p><img src=\"./images/blankgraph.png\" alt=\"Blank 10 by 10 coordinate plane\"></p>",
+                  "solutions": [
+                    
+                  ],
+                  "answer": {
+                    "text": "\\(y>1\\)<p><img src=\"./images/u3s1p10.png\" alt=\"Graph of a dotted horizontal line x that is greater than 1.  Graph is shaded above the horizontal line through y=1\"></p>"
+                  }
+                }
+              ]
+            },
+            {
+              "intro": "<h4>Additional Problems</h4>",
+              "problems": [
+                {
+                  "text": "The local boys and girls club purchased some child and adult tickets from the local movie theater to give away at an event.  Child tickets are $6.50 each and adult tickets are $7.50 each.  The club spent no more than $72. <p>Write an inequality that represents the problem. (Use the standard variables x and y and assume x ≥ 0 and y ≥ 0.)</p>",
+                  "solutions": [
+                    "x= # of child tickets sold",
+                    "y= # of adult tickets sold"
+                    
+                  ],
+                  "answer": {
+                    "text": "\\(6.5x+7.5y\\leq72\\)"
+                  }
+                },
+                {
+                  "text": "Graph the inequality from the previous problem.<p><img src=\"./images/blankgraph.png\" alt=\"Blank 10 by 10 coordinate plane\"></p>",
+                  "solutions": [
+                    
+                  ],
+                  "answer": {
+                    "text": "<img src=\"./images/u3s1p11.png\" alt=\"Graph of solid line through 6.5x+7.5y <=72 shaded below the line.  Only graphed in the first quadrant.\">"
+                  }
+                },
+                {
+                  "text": "Graph \\(y>\\frac32x-9\\)<p><img src=\"./images/blankgraph.png\" alt=\"Blank 10 by 10 coordinate plane\"></p>",
+                  "solutions": [
+                   
+                  ],
+                  "answer": {
+                    "text": "<img src=\"./images/u3s1p12.png\" alt=\"Graph of dotted line through y>3/2x-9 shaded above the line.\">"
+                  }
+                },
+                {
+                  "text": "Graph \\(2x-3\\leq 9\\)<p><img src=\"./images/blankgraph.png\" alt=\"Blank 10 by 10 coordinate plane\"></p>",
+                  "solutions": [
+                   
+                  ],
+                  "answer": {
+                    "text": "<img src=\"./images/u3s1p13.png\" alt=\"Graph of solid vertical line through x=6 shaded to the left of the line.\">"
                   }
                 }
               ]
@@ -1570,20 +2281,92 @@
         },
         {
           "title": "Systems of Linear Inequalities",
-          "intro": "This is an intro",
+          "intro": "",
           "problemsets": [
             {
-              "intro": "this is a problem set intro",
+              "intro": "Solve each system graphically (using Desmos) and indicate whether each solution region is bounded or unbounded.  Find the coordinates of the corner points.",
               "problems": [
                 {
-                  "text": "this is problem 1 text",
+                  "text": "\\(\\begin{array}{l}2x+y\\leq22\\\\x+y\\leq13\\\\2x+5y\\leq50\\\\x\\geq0\\\\y\\geq0\\end{array}\\)",
                   "solutions": [
-                    "solution line 1",
-                    "solution line 2",
-                    "solution line 3"
+                    "Bounded",
+                    "Corner Points: (0,10), (0,0), (11,0), (5,8), & (9,4)"
+                   
                   ],
                   "answer": {
-                    "text": "answer to a problem in another unit"
+                    "text": "<img src=\"./images/u3s2p1.png\" alt=\"Graph of region bounded by 2x+y<=22, x+y<=13, 2x+5y<=50, x>=0, and y>=0.  Region is bounded by the x-axis on the bottom and the y-axis on the left.  It is bounded above by 2x+5y<=50 from x=0 to x=5, by x+y<=13 from x=5 to x=9, and by 2x+y<=22 from x=9 to x=11.\">"
+                  }
+                },
+                {
+                  "text": "\\(\\begin{array}{l}5x+y\\geq20\\\\x+y\\geq12\\\\x+3y\\geq18\\\\x\\geq0\\\\y\\geq0\\end{array}\\)",
+                  "solutions": [
+                    "Unbounded",
+                    "Corner Points: (0,20), (18,0), (2,10), & (9,3)"
+                  
+                  ],
+                  "answer": {
+                    "text": "<img src=\"./images/u3s2p2.png\" alt=\"Graph of region bounded by 5x+y>=20, x+y>=12, x+3y>=18, x>=0, and y>=0.  The unbounded region is shaded above 5x+y>=20 from x=0 to x=2, by x+y>=12 from x=2 to x=9, and by x+3y>=18 from x=9 to x=18.\">"
+                  }
+                },
+                {
+                  "text": "A manufacturer of surfboards makes a standard model and a competition model.  Each standard board required 6 labor-hours for fabricating and 1 labor-hour for finishing.  Each competition board requires 8 labor-hours for fabricating and 3 labor-hours for finishing.  The maximum labor-hours available per week in the fabricating and finishing departments are 120 and 30, respectively.  What combination of boards can be produced each week so as not to exceed the number of labor-hours available in each department?",
+                  "solutions": [
+                    "x: number of standard surfboards",
+                    "y: number of competition surfboards",
+                    "\\(6x+8y\\leq 120\\)",
+                    "\\(1x+3y\\leq 30\\)",
+                    "\\(x\\geq0\\)",
+                    "\\(y\\geq0\\)",
+                    "Corner Points: (0,10), (20,0), and (12,6)",
+                    "<img src=\"./images/u3s2p3.png\" alt=\"Graph of region bounded by 6x+8y<=120, x+3y<=30, x>=0, and y>=0.  The bounded region is shaded below 6x+8y<=120 from x=0 to x=12, by x+3y<=30 from x=12 to x=20.\">"
+                  ],
+                  "answer": {
+                    "text": "The combination of boards that can be produced so as not to exceed the hours available are 20 standard and no competition boards, 10 competition and no standard boards, or 12 standard and 6 competition boards."
+                  }
+                },
+                {
+                  "text": "A city council voted to conduct a study on inner-city community problems.  A nearby university was contracted to provide sociologists and research assistants.  Each sociologist will spend 10 hours per week collecting data in the field and 30 hours per week analyzing data in the research center.  Each research assistant will spend 30 hours per week in the field and 10 hours per week in the research center.  The minimum weekly labor-hour requirements are 280 hours in the field and 360 hours in the research center.  Find the set of feasible solutions graphically.",
+                  "solutions": [
+                    "x: number of sociologists",
+                    "y: number of assistants",
+                    "\\(10x+30y\\geq 280\\)",
+                    "\\(30x+10y\\geq 360\\)",
+                   
+                    "Corner Points: (0,36), (28,0), and (10,6)"
+
+                  ],
+                  "answer": {
+                    "text": "<img src=\"./images/u3s2p4.png\" alt=\"Graph of unbounded region above 30x+10y>=360 and to the right of 10x+30y>=280.  The unbounded region is shaded above 30x+10y>=360 from from x=0 to x=10 and above 10x+30y>=280 from x=10 to x=28.\">"
+                  }
+                },
+                {
+                  "text": "A dietitian in a hospital is to arrange a special diet using two foods.  Each ounce of food M contains 30 units of calcium, 10 units of iron, and 10 units of vitamin A.  Each ounce of food N contains 10 units of calcium, 10 units of iron, and 30 units of vitamin A.  The minimum requirements in the diet are 360 units of calcium, 160 units of iron, and 240 units of vitamin A.  Find the set of feasible solutions graphically.  ",
+                  "solutions": [
+                    "x: ounces of food M",
+                    "y: ounces of food N",
+                    "\\(30x+10y\\geq 360\\)",
+                    "\\(10x+10y\\geq 160\\)",
+                    "\\(10x+30y\\geq 240\\)",
+                    "Corner Points: (0,36), (24,0), (10,6), and (12,4)"
+                  ],
+                  "answer": {
+                    "text": "<img src=\"./images/u3s2p5.png\" alt=\"Graph of unbounded region above the graph of 30x+10y>=360, 10x+30y>=240, and 10x+10y>=160.  The unbounded region is shaded above 30x+10y>=360 from from x=0 to x=10 and above 10x+10y>=160 from x=10 to x=12 and above 10x+30y>=240 from x=12 to x=24.\">"
+                  }
+                },
+                {
+                  "text": "A furniture manufacturing company makes dining room tables and chairs.  A table requires 8 hours for assembling and 2 hours for finishing.  A chair requires 2 hours for assembling and 1 hour for finishing.  The maximum hours per day for assembly and finishing are 400 and 120 hours, respectively.  Find the set of feasible solutions graphically.",
+                  "solutions": [
+                    "x: # of tables",
+                    "y: # of chairs",
+                    "\\(8x+2y\\leq 400\\)",
+                    "\\(2x+1y\\leq 120\\)", 
+                    "\\(x\\geq0\\)",
+                    "\\(y\\geq0\\)",
+                    
+                    "Corner Points: (0,120), (50,0), and (40,40)"
+                  ],
+                  "answer": {
+                    "text": "<img src=\"./images/u3s2p6.png\" alt=\"Graph of region bounded by 8x+2y<=400, 2x+y<=120, x>=0, and y>=0.  The bounded region is shaded below 2x+y<=120 from x=0 to x=40, by 8x+2y<=400 from x=40 to x=50.\">"
                   }
                 }
               ]
@@ -1592,20 +2375,117 @@
         },
         {
           "title": "Linear Programming in Two Variables",
-          "intro": "This is an intro",
+          "intro": "",
           "problemsets": [
             {
-              "intro": "this is a problem set intro",
+              "intro": "",
               "problems": [
                 {
-                  "text": "this is problem 1 text",
+                  "text": "Niki holds two part-time jobs, Job I and Job II. She never wants to work more than a total of 12 hours a week. She has determined that for every hour she works at Job I, she needs 2 hours of preparation time, and for every hour she works at Job II, she needs one hour of preparation time, and she cannot spend more than 16 hours for preparation. If she makes $40 an hour at Job I, and $30 an hour at Job II, how many hours should she work per week at each job to maximize her income?",
                   "solutions": [
-                    "solution line 1",
-                    "solution line 2",
-                    "solution line 3"
+                    "x: # of hours worked at Job 1",
+                    "y: # of hours worked at Job II",
+                    "Maximize: \\(P=40x+30y\\)",
+                    "\\(x+y\\leq 12\\)",
+                    "\\(2x+y\\leq 16\\)",
+                    "\\(x\\geq 0\\)",
+                    "\\(y\\geq 0\\)",
+                    "<img src=\"./images/u3s3p1.png\" alt=\"Graph of region bounded by x+y<=12, 2x+y<=16, x>=0, and y>=0.  The bounded region is shaded below x+y<=12 from x=0 to x=4, by 2x+y<=16 from x=4 to x=8.\">",
+                    "Plug corner points into the maximization equation \\(P=40x+30y\\).",
+                    "\\((0,0): 40(0)+30(0)=0\\)",
+                    "\\((0,12): 40(0)+30(12)=360\\)",
+                    "\\((8,0): 40(8)+30(0)=320\\)",
+                    "\\((4,8): 40(4)+30(8)=400\\)"
                   ],
                   "answer": {
-                    "text": "answer to a problem in another unit"
+                    "text": "Nikki should work 4 hours per week at Job 1 and 8 hours per week at Job II to maximize her income."
+                  }
+                },
+                {
+                  "text": "A factory manufactures two types of gadgets, regular and premium. Each gadget requires the use of two operations, assembly and finishing, and there are at most 12 hours available for each operation. A regular gadget requires 1 hour of assembly and 2 hours of finishing, while a premium gadget needs 2 hours of assembly and 1 hour of finishing. Due to other restrictions, the company can make at most 7 gadgets a day. If a profit of $20 is realized for each regular gadget and $30 for a premium gadget, how many of each should be manufactured to maximize profit?",
+                  "solutions": [
+                    "x: # of regular gadgets manufactured",
+                    "y: # of premium gadgets manufactured",
+                    "Maximize: \\(P=20x+30y\\)",
+                    "\\(x+2y\\leq 12\\)",
+                    "\\(2x+y\\leq 12\\)",
+                    "\\(x+y\\leq 7\\)",
+                    "\\(x\\geq 0\\)",
+                    "\\(y\\geq 0\\)",
+                    "<img src=\"./images/u3s3p2.png\" alt=\"Graph of region bounded by x+2y<=12, 2x+y<=12, x+y<=7, x>=0, and y>=0.  The bounded region is shaded below x+2y<=12 from x=0 to x=2, by x+y<=7 from x-2 to x=5, and by 2x+y<=12 from x=5 to x=6.\">",
+                    "Plug corner points into the maximization equation \\(P=20x+30y\\).",
+                    "\\((0,0): 20(0)+30(0)=0\\)",
+                    "\\((0,6): 20(0)+30(6)=180\\)",
+                    "\\((2,5): 20(2)+30(5)=190\\)",
+                    "\\((5,2): 20(5)+30(2)=160\\)",
+                    "\\((6,0): 20(6)+30(0)=120\\)"
+                  ],
+                  "answer": {
+                    "text": "To maximize the profit, the company should make 2 regular and 5 premium gadgets."
+                  }
+                },
+                {
+                  "text": "Professor Symons wishes to employ two students, John and Mary, to grade the homework papers for his classes. John can mark 20 papers per hour and charges $5 per hour, and Mary can mark 30 papers per hour and charges $8 per hour. Each student must be employed at least one hour a week to justify their employment. If Mr. Symons has at least 110 homework papers to be marked each week, how many hours per week should he employ each student to minimize his cost?",
+                  "solutions": [
+                    "x: # of hours John grades",
+                    "y: # of hours Mary grades",
+                    "Minimize: \\(C=5x+8y\\)",
+                    "\\(20x+30y\\geq 110\\)",
+                    "\\(x\\geq 1\\)",
+                    "\\(y\\geq 1\\)",
+                    "<img src=\"./images/u3s3p3.png\" alt=\"Graph of region bounded by 20x+30y>=110,  x>=1, and y>=1.  The unbounded region has corner points at (1,3) and (4,1).\">",
+                    "Plug corner points into the maximization equation \\(C=5x+8y\\).",
+                   
+                    "\\((1,3): 5(1)+8(3)=29\\)",
+                    "\\((4,1): 5(4)+8(1)=28\\)"
+                  ],
+                  "answer": {
+                    "text": "To minimize costs, Professor Symons should employ John 4 hours a week and Mary 1 hour per week."
+                  }
+                },
+                {
+                  "text": "Professor Hamer is on a low cholesterol diet. During lunch at the college cafeteria, he always chooses between two meals, Pasta or Tofu. The table below lists the amount of protein, carbohydrates, and vitamins each meal provides along with the amount of cholesterol he is trying to minimize. Mr. Hamer needs at least 200 grams of protein, 960 grams of carbohydrates, and 40 grams of vitamins for lunch each month. Over this time period, how many days should he have the Pasta meal, and how many days the Tofu meal so that he gets the adequate amount of protein, carbohydrates, and vitamins and at the same time minimizes his cholesterol intake?<table class='center'><thead><tr><td> <td>Pasta<td>Tofu<tbody><tr><th>Protein<td>8 g<td>16 g<tr><th>Carbohydrates<td>60 g<td>40 g<tr><th>Vitamin C<td>2 g<td>2 g<tr><th>Cholesterol<td>60 mg<td>50 mg</table>",
+                  "solutions": [
+                    "x: # of pasta lunches",
+                    "y: # of tofu lunches",
+                    "Minimize: \\(C=60x+50y\\)",
+                    "\\(8x+16y\\geq 200\\)",
+                    "\\(60x+40y\\geq 960\\)",
+                    "\\(2x+2y\\geq 40\\)",
+                    
+                    "<img src=\"./images/u3s3p4.png\" alt=\"Graph of unbounded region above 8x+16y>=200, 60x+40y>=960, 2x+2y>=40.  The corner points are (0,24), (8,12), (15,5) and (25,0).\">",
+                    "Plug corner points into the maximization equation \\(C=60x+50y\\).",
+                    "\\((0,24): 60(0)+50(24)=1200\\)",
+                    "\\((8,212): 60(8)+50(12)=1080\\)",
+                    "\\((15,5): 60(15)+50(5)=1150\\)",
+                    "\\((25,0): 60(25)+50(0)=1500\\)"
+                   
+                  ],
+                  "answer": {
+                    "text": "To minimize his cholesterol intake, Professor Hamer should eat 8 pasta and 12 tofu lunches per month."
+                  }
+                },
+                {
+                  "text": "A farmer has 100 acres of land on which she plans to grow wheat and corn. Each acre of wheat requires 4 hours of labor and $20 of capital, and each acre of corn requires 16 hours of labor and $40 of capital. The farmer has at most 800 hours of labor and $2400 of capital available. If the profit from an acre of wheat is $80 and from an acre of corn is $100, how many acres of each crop should she plant to maximize her profit?",
+                  "solutions": [
+                    "x: # of acres of wheat",
+                    "y: # of acres of corn",
+                    "Maximize: \\(P=80x+100y\\)",
+                    "\\(x+y\\leq 100\\)",
+                    "\\(4x+16y\\leq 800\\)",
+                    "\\(20x+40y\\leq 2400\\)",
+                    "\\(x\\geq 0\\)",
+                    "\\(y\\geq 0\\)",
+                    "<img src=\"./images/u3s3p5.png\" alt=\"Graph of region bounded by x+y<=100, 4x+16y<=800, 20x+40y<=2400, x>=0, and y>=0.  The corner points for the region are (0,0), (0,50), (40,40), (80,20), and (100,0).\">",
+                    "Plug corner points into the maximization equation \\(P=80x+100y\\).",
+                    "\\((0,0): 80(0)+100(0)=0\\)",
+                    "\\((0,50): 80(0)+100(50)=5000\\)",
+                    "\\((40,40): 80(40)+100(40)=7200\\)",
+                    "\\((80,20): 80(80)+100(20)=8400\\)",
+                    "\\((100,0): 80(100)+100(0)=8000\\)"
+                  ],
+                  "answer": {
+                    "text": "In order to maximize her profit, the farmer should plant 80 acres of wheat and 20 acres of corn."
                   }
                 }
               ]
@@ -1614,102 +2494,422 @@
         },
         {
           "title": "Simplex Method: Maximization",
-          "intro": "This is an intro",
+          "intro": "",
           "problemsets": [
             {
-              "intro": "this is a problem set intro",
+              "intro": "<h4>Maximize the following.</h4>",
               "problems": [
                 {
-                  "text": "this is problem 1 text",
+                  "text": "Maximize: \\(P=5x_1+20x_2\\)<p>subject to: \\(5x_1+x_2\\leq 15\\)</p><p>\\(x_1+x_2\\leq 7\\)</p><p>\\(x_1,x_2\\geq 0\\)</p>",
                   "solutions": [
-                    "solution line 1",
-                    "solution line 2",
-                    "solution line 3"
+                   "Rewrite the equations using slack variables",
+                   "\\(5x_1+x_2+s_1\\;\\;\\;\\;\\;\\;=15\\) ",
+                   "\\(x_1+x_2\\;\\;\\;\\;\\;+s_2\\;\\;\\;\\;\\;=7\\)",
+                   "\\(-5x_1-20x_2\\;\\;\\;\\;\\;\\;+P=0\\)",
+                   "\\(x_1, x_2, s_1, s_2 \\geq 0\\)",
+                   "Create the Simplex Tableau",
+                   "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>5<td>1<td>1<td>0<td>0<td class='bleft bright'>15<tr class='dashed'><td class='bleft'>1<td>1<td>0<td>1<td>0<td class='bleft bright'>7<tr><td class='bleft'>-5<td>-20<td>0<td>0<td>1<td class='bleft bright'>0</table>",
+                    "The smallest negative number in the bottom row gives you the pivot column.  In this problem the pivot column is column 2.",
+                    "To find the pivot row, divide the each of the last numbers in the tableau by the number in that same row of the pivot column.  The smallest of these gives you the pivot row.  The pivot element is the element in the intersection of the pivot row and the pivot column.",
+                    "\\(15\\div1=15\\)",
+                    "\\(7\\div 1=7\\)",
+                    "Since 7 is less than 15, row 2 is the pivot row.",
+                    "The pivot element is at the intersection of Row 2 and Column 2, so the pivot element is the 1 in row 2/column 2.",
+                    "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td><tbody><tr><td class='bleft'>5<td class='highlight'>1<td>1<td>0<td>0<td class='bleft bright'>15<tr class='highlight dashed'><td class='bleft'>1<td class='highlight'>1<td>0<td>1<td>0<td class='bleft bright'>7<tr><td class='bleft'>-5<td class='highlight'>-20<td>0<td>0<td>1<td class='bleft bright'>0</table>",
+                    "Make the pivot element 1 (it already is in this problem).",
+                    "Make every other element in the pivot column 0 using row operations with the pivot element.",
+                    "\\(-R_2+R_1\\rightarrow R_1\\)",
+                    "\\(20R_2+R_3\\rightarrow R_3\\)",
+                    "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>4<td>0<td>1<td>-1<td>0<td class='bleft bright'>8<tr class='dashed'><td class='bleft'>1<td>1<td>0<td>1<td>0<td class='bleft bright'>7<tr><td class='bleft'>15<td>0<td>0<td>20<td>1<td class='bleft bright'>140</table>",
+                    "When there are no more negative numbers in the bottom row, you can read your solution from the Simplex Tableau."
                   ],
                   "answer": {
-                    "text": "answer to a problem in another unit"
+                    "text": "\\(x_1=0,\\; x_2=7,\\; s_1=8,\\; s_2=0,\\) and \\(Max\\; P=140\\)"
+                  }
+                },
+                {
+                  "text": "Maximize: \\(P=40x_1+50x_2\\)<p>subject to: \\(x_1+3x_2\\leq 18\\)</p><p>\\(5x_1+4x_2\\leq 35\\)</p><p>\\(x_1,x_2\\geq 0\\)</p>",
+                  "solutions": [
+                   "Rewrite the equations using slack variables",
+                   "\\(x_1+3x_2+s_1\\;\\;\\;\\;\\;\\;=18\\) ",
+                   "\\(5x_1+4x_2\\;\\;\\;\\;\\;+s_2\\;\\;\\;\\;\\;=35\\)",
+                   "\\(-40x_1-50x_2\\;\\;\\;\\;\\;\\;+P=0\\)",
+                   "\\(x_1, x_2, s_1, s_2 \\geq 0\\)",
+                   "Create the Simplex Tableau",
+                   "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>1<td>3<td>1<td>0<td>0<td class='bleft bright'>18<tr class='dashed'><td class='bleft'>5<td>4<td>0<td>1<td>0<td class='bleft bright'>35<tr><td class='bleft'>-40<td>-50<td>0<td>0<td>1<td class='bleft bright'>0</table>",
+                    "The smallest negative number in the bottom row gives you the pivot column.  In this problem the pivot column is column 2.",
+                    "To find the pivot row, divide the each of the last numbers in the tableau by the number in that same row of the pivot column.  The smallest of these gives you the pivot row.  The pivot element is the element in the intersection of the pivot row and the pivot column.",
+                    "\\(18\\div3=6\\)",
+                    "\\(35\\div 4=8.75\\)",
+                    "Since 6 is less than 8.75, row 1 is the pivot row.",
+                    "The pivot element is at the intersection of Row 1 and Column 2, so the pivot element is the 3 in row 1/column 2.",
+                    "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td><tbody><tr class='highlight'><td class='bleft'>1<td class='highlight'>3<td>1<td>0<td>0<td class='bleft bright'>18<tr class='dashed'><td class='bleft'>5<td class='highlight'>4<td>0<td>1<td>0<td class='bleft bright'>35<tr><td class='bleft'>-40<td class='highlight'>-50<td>0<td>0<td>1<td class='bleft bright'>0</table>",
+                    "Make the pivot element 1.",
+                    "\\(\\frac13R_1\\rightarrow R_1\\)",
+                    "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>\\(\\frac13\\)<td class='highlight'>1<td>\\(\\frac13\\)<td>0<td>0<td class='bleft bright'>6<tr class='dashed'><td class='bleft'>5<td>4<td>0<td>1<td>0<td class='bleft bright'>35<tr><td class='bleft'>-40<td>-50<td>0<td>0<td>1<td class='bleft bright'>0</table>",
+                    "Make every other element in the pivot column 0 using row operations with the pivot element.",
+                    "\\(-4R_1+R_2\\rightarrow R_2\\)",
+                    "\\(50R_1+R_3\\rightarrow R_3\\)",
+                    "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td><tbody><tr><td class='bleft'>\\(\\frac13\\)<td class='highlight'>1<td>\\(\\frac13\\)<td>0<td>0<td class='bleft bright'>6<tr class= dashed'><td class='bleft'>\\(\\frac{11}{3}\\)<td>0<td>\\(-\\frac43\\)<td>1<td>0<td class='bleft bright'>11<tr><td class='bleft'>\\(-\\frac{70}{3}\\)<td>0<td>\\(\\frac{50}{3}\\)<td>0<td>1<td class='bleft bright'>300</table>",
+                    "Find your next pivot element.  The smallest negative number on the bottom row is \\(-\\frac{70}{3}\\), so column 1 is your pivot column.",
+                    "To find the pivot row, divide the each of the last numbers in the tableau by the number in that same row of the pivot column.  The smallest of these gives you the pivot row.  The pivot element is the element in the intersection of the pivot row and the pivot column.",
+                    "\\(6\\div \\frac13=18\\)",
+                    "\\(11\\div \\frac{11}{3}=3\\)",
+                    "Since 3 is less than 18, row 2 is the pivot row.",
+                    "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td><tbody><tr><td class='highlight bleft'>\\(\\frac13\\)<td>1<td>\\(\\frac13\\)<td>0<td>0<td class='bleft bright'>6<tr class= 'highlight dashed'><td class='bleft'>\\(\\frac{11}{3}\\)<td>0<td>\\(-\\frac43\\)<td>1<td>0<td class='bleft bright'>11<tr><td class='highlight bleft'>\\(-\\frac{70}{3}\\)<td>0<td>\\(\\frac{50}{3}\\)<td>0<td>1<td class='bleft bright'>300</table>",
+                    "\\(\\frac{3}{11}R_2\\rightarrow R_2\\)",
+                    "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td><tbody><tr><td class='bleft'>\\(\\frac13\\)<td>1<td>\\(\\frac13\\)<td>0<td>0<td class='bleft bright'>6<tr class= 'dashed'><td class='highlight bleft'>1<td>0<td>\\(-\\frac{4}{11}\\)<td>\\(\\frac{3}{11}\\)<td>0<td class='bleft bright'>3<tr><td class='bleft'>\\(-\\frac{70}{3}\\)<td>0<td>\\(\\frac{50}{3}\\)<td>0<td>1<td class='bleft bright'>300</table>",
+                    "\\(-\\frac13R_2+R_1\\rightarrow R_1\\)",
+                    "\\(-\\frac{70}{3}R_2+R_3\\rightarrow R_3\\)",
+                    "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td><tbody><tr><td class='bleft'>0<td>1<td>\\(\\frac{5}{11}\\)<td>\\(-\\frac{1}{11}\\)<td>0<td class='bleft bright'>5<tr class= 'dashed'><td class='highlight bleft'>1<td>0<td>\\(-\\frac{4}{11}\\)<td>\\(\\frac{3}{11}\\)<td>0<td class='bleft bright'>3<tr><td class='bleft'>0<td>0<td>\\(\\frac{90}{11}\\)<td>\\(\\frac{70}{11}\\)<td>1<td class='bleft bright'>370</table>",
+                    "When there are no more negative numbers in the bottom row, you can read your solution from the Simplex Tableau."
+                  ],
+                  "answer": {
+                    "text": "\\(x_1=3,\\; x_2=5,\\; s_1=0,\\; s_2=0,\\) and \\(Max\\; P=370\\)"
+                  }
+                },
+                {
+                  "text": "Maximize: \\(P=50x_1+80x_2\\)<p>subject to: \\(x_1+2x_2\\leq 32\\)</p><p>\\(3x_1+4x_2\\leq 84\\)</p><p>\\(x_1,x_2\\geq 0\\)</p>",
+                  "solutions": [
+                   "Rewrite the equations using slack variables",
+                   "\\(x_1+2x_2+s_1\\;\\;\\;\\;\\;\\;=32\\) ",
+                   "\\(3x_1+4x_2\\;\\;\\;\\;\\;+s_2\\;\\;\\;\\;\\;=84\\)",
+                   "\\(-50x_1-80x_2\\;\\;\\;\\;\\;\\;+P=0\\)",
+                   "\\(x_1, x_2, s_1, s_2 \\geq 0\\)",
+                   "Create the Simplex Tableau",
+                   "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>1<td>2<td>1<td>0<td>0<td class='bleft bright'>32<tr class='dashed'><td class='bleft'>3<td>4<td>0<td>1<td>0<td class='bleft bright'>84<tr><td class='bleft'>-50<td>-80<td>0<td>0<td>1<td class='bleft bright'>0</table>",
+                    "The smallest negative number in the bottom row gives you the pivot column.  In this problem the pivot column is column 2.",
+                    "To find the pivot row, divide the each of the last numbers in the tableau by the number in that same row of the pivot column.  The smallest of these gives you the pivot row.  The pivot element is the element in the intersection of the pivot row and the pivot column.",
+                    "\\(32\\div2=16\\)",
+                    "\\(84\\div 4=21\\)",
+                    "Since 16 is less than 21, row 1 is the pivot row.",
+                    "The pivot element is at the intersection of Row 1 and Column 2, so the pivot element is the 2 in row 2/column 2.",
+                    "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td> <tbody><tr class='highlight'><td class='bleft'>1<td>2<td>1<td>0<td>0<td class='bleft bright'>32<tr class='dashed'><td class='bleft'>3<td class='highlight'>4<td>0<td>1<td>0<td class='bleft bright'>84<tr><td class='bleft'>-50<td class='highlight'>-80<td>0<td>0<td>1<td class='bleft bright'>0</table>",
+                    "Make the pivot element 1.",
+                    "\\(\\frac12R_1\\rightarrow R_1\\)",
+                    "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>\\(\\frac12\\)<td class='highlight'>1<td>\\(\\frac12\\)<td>0<td>0<td class='bleft bright'>16<tr class='dashed'><td class='bleft'>3<td>4<td>0<td>1<td>0<td class='bleft bright'>84<tr><td class='bleft'>-50<td>-80<td>0<td>0<td>1<td class='bleft bright'>0</table>",
+                    "Make every other element in the pivot column 0 using row operations with the pivot element.",
+                    "\\(-2R_1+R_2\\rightarrow R_2\\)",
+                    "\\(10R_1+R_3\\rightarrow R_3\\)",
+                    "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>\\(\\frac12\\)<td class='highlight'>1<td>\\(\\frac12\\)<td>0<td>0<td class='bleft bright'>16<tr class='dashed'><td class='bleft'>1<td>0<td>-2<td>1<td>0<td class='bleft bright'>20<tr><td class='bleft'>-10<td>0<td>40<td>0<td>1<td class='bleft bright'>1280</table>",
+                    "Find your next pivot element.  The smallest negative number on the bottom row is -10, so column 1 is your pivot column.",
+                    "To find the pivot row, divide the each of the last numbers in the tableau by the number in that same row of the pivot column.  The smallest of these gives you the pivot row.  The pivot element is the element in the intersection of the pivot row and the pivot column.",
+                    "\\(16\\div \\frac12=32\\)",
+                    "\\(20\\div1=20\\)",
+                    "Since 20 is less than 32, row 2 is the pivot row.",
+                    "The pivot element is at the intersection of Row 2 and Column 1, so the pivot element is the 1 in row 2/column 1.",
+                    "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td> <tbody><tr><td class='highlight bleft'>\\(\\frac12\\)<td>1<td>\\(\\frac12\\)<td>0<td>0<td class='bleft bright'>16<tr class='highlight dashed'><td class='bleft'>1<td>0<td>-2<td>1<td>0<td class='bleft bright'>20<tr><td class='highlight bleft'>-10<td>0<td>40<td>0<td>1<td class='bleft bright'>1280</table>",
+                    "Make every other element in the pivot column 0 using row operations with the pivot element.",
+                    "\\(-\\frac12R_2+R_1\\rightarrow R_1\\)",
+                    "\\(10R_2+R_3\\rightarrow R_3\\)",
+                    "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>0<td>1<td>\\(\\frac32\\)<td>\\(-\\frac12\\)<td>0<td class='bleft bright'>6<tr class='dashed'><td class='highlight bleft'>1<td>0<td>-2<td>1<td>0<td class='bleft bright'>20<tr><td class='bleft'>0<td>0<td>0<td>10<td>1<td class='bleft bright'>1480</table>",
+                    "When there are no more negative numbers in the bottom row, you can read your solution from the Simplex Tableau."
+                  ],
+                  "answer": {
+                    "text": "\\(x_1=20,\\; x_2=6,\\; s_1=0,\\; s_2=0,\\) and \\(Max\\; P=1480\\)"
+                  }
+                },
+                {
+                  "text": "Maximize: \\(P=3x_1+2x_2\\)<p>subject to: \\(5x_1+2x_2\\leq 20\\)</p><p>\\(3x_1+2x_2\\leq 16\\)</p><p>\\(x_1,x_2\\geq 0\\)</p>",
+                  "solutions": [
+                   "Rewrite the equations using slack variables",
+                   "\\(5x_1+2x_2+s_1\\;\\;\\;\\;\\;\\;=20\\) ",
+                   "\\(3x_1+2x_2\\;\\;\\;\\;\\;+s_2\\;\\;\\;\\;\\;=16\\)",
+                   "\\(-3x_1-2x_2\\;\\;\\;\\;\\;\\;+P=0\\)",
+                   "\\(x_1, x_2, s_1, s_2 \\geq 0\\)",
+                   "Create the Simplex Tableau",
+                   "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>5<td>2<td>1<td>0<td>0<td class='bleft bright'>20<tr class='dashed'><td class='bleft'>3<td>2<td>0<td>1<td>0<td class='bleft bright'>16<tr><td class='bleft'>-3<td>-2<td>0<td>0<td>1<td class='bleft bright'>0</table>",
+                    "The smallest negative number in the bottom row gives you the pivot column.  In this problem the pivot column is column 1.",
+                    "To find the pivot row, divide the each of the last numbers in the tableau by the number in that same row of the pivot column.  The smallest of these gives you the pivot row.  The pivot element is the element in the intersection of the pivot row and the pivot column.",
+                    "\\(20\\div5=4\\)",
+                    "\\(16\\div 3=5.3333\\)",
+                    "Since 4 is less than 5.333, row 1 is the pivot row.",
+                    "The pivot element is at the intersection of Row 1 and Column 1, so the pivot element is the  in row 1/column 1.",
+                    "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td> <tbody><tr class='highlight'><td class='bleft'>5<td>2<td>1<td>0<td>0<td class='bleft bright'>20<tr class='dashed'><td class='highlight bleft'>3<td>2<td>0<td>1<td>0<td class='bleft bright'>16<tr><td class='highlight bleft'>-3<td>-2<td>0<td>0<td>1<td class='bleft bright'>0</table>",
+                    "Make the pivot element 1.",
+                    "\\(\\frac15R_1\\rightarrow R_1\\)",
+                    "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td> <tbody><tr><td class='highlight bleft'>1<td>\\(\\frac25\\)<td>\\(\\frac15\\)<td>0<td>0<td class='bleft bright'>4<tr class='dashed'><td class='bleft'>3<td>2<td>0<td>1<td>0<td class='bleft bright'>16<tr><td class='bleft'>-3<td>-2<td>0<td>0<td>1<td class='bleft bright'>0</table>",
+                    "Make every other element in the pivot column 0 using row operations with the pivot element.",
+                    "\\(-3R_1+R_2\\rightarrow R_2\\)",
+                    "\\(3R_1+R_3\\rightarrow R_3\\)",
+                    "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td> <tbody><tr><td class='highlight bleft'>1<td>\\(\\frac25\\)<td>\\(\\frac15\\)<td>0<td>0<td class='bleft bright'>4<tr class='dashed'><td class='bleft'>0<td>\\(\\frac45\\)<td>\\(-\\frac35\\)<td>1<td>0<td class='bleft bright'>4<tr><td class='bleft'>0<td>\\(-\\frac45\\)<td>\\(\\frac35\\)<td>0<td>1<td class='bleft bright'>12</table>",
+                    "Find your next pivot element.  The smallest negative number on the bottom row is \\(-\\frac45\\), so column 2 is your pivot column.",
+                    "To find the pivot row, divide the each of the last numbers in the tableau by the number in that same row of the pivot column.  The smallest of these gives you the pivot row.  The pivot element is the element in the intersection of the pivot row and the pivot column.",
+                    "\\(4\\div \\frac25=10\\)",
+                    "\\(4\\div\\frac45=5\\)",
+                    "Since 5 is less than 10, row 2 is the pivot row.",
+                    "The pivot element is at the intersection of Row 2 and Column 2, so the pivot element is the \\(\\frac45\\) in row 2/column 2.",
+                    "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>1<td class='highlight'>\\(\\frac25\\)<td>\\(\\frac15\\)<td>0<td>0<td class='bleft bright'>4<tr class='highlight dashed'><td class='bleft'>0<td>\\(\\frac45\\)<td>\\(-\\frac35\\)<td>1<td>0<td class='bleft bright'>4<tr><td class='bleft'>0<td class='highlight'>\\(-\\frac45\\)<td>\\(\\frac35\\)<td>0<td>1<td class='bleft bright'>12</table>",
+                    "Make the pivot element 1.",
+                    "\\(\\frac45R_2\\rightarrow R_2\\)",
+                    "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>1<td>\\(\\frac25\\)<td>\\(\\frac15\\)<td>0<td>0<td class='bleft bright'>4<tr class='dashed'><td class='bleft'>0<td class='highlight'>1<td>\\(-\\frac34\\)<td>\\(\\frac54\\)<td>0<td class='bleft bright'>5<tr><td class='bleft'>0<td>\\(-\\frac45\\)<td>\\(\\frac35\\)<td>0<td>1<td class='bleft bright'>12</table>",
+                    "Make every other element in the pivot column 0 using row operations with the pivot element.",
+                    "\\(-\\frac25R_2+R_1\\rightarrow R_1\\)",
+                    "\\(\\frac45R_2+R_3\\rightarrow R_3\\)",
+                    "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>1<td>0<td>\\(\\frac12\\)<td>\\(-\\frac12\\)<td>0<td class='bleft bright'>2<tr class='dashed'><td class='bleft'>0<td class='highlight'>1<td>\\(-\\frac34\\)<td>\\(\\frac54\\)<td>0<td class='bleft bright'>5<tr><td class='bleft'>0<td>0<td>0<td>1<td>1<td class='bleft bright'>16</table>",
+                    "When there are no more negative numbers in the bottom row, you can read your solution from the Simplex Tableau."
+                  ],
+                  "answer": {
+                    "text": "\\(x_1=2,\\; x_2=5,\\; s_1=0,\\; s_2=0,\\) and \\(Max\\; P=16\\)"
+                  }
+                },
+                {
+                  "text": "The Cannon Hill furniture Company produces tables and chairs. Each table takes four hours of labor from the carpentry department and two hours of labor from the finishing department. Each chair requires three hours of carpentry and one hour of finishing. During the current week, 240 hours of carpentry time are available and 100 hours of finishing time. Each table produced gives a profit of $70 and each chair a profit of $50. How many chairs and tables should be made?",
+                  "solutions": [
+                    "\\(x_1\\): number of tables produced",
+                    "\\(x_2\\): number of chairs produced",
+                    "Maximize: \\(P=70x_1+50x_2\\)<p>subject to: \\(4x_1+3x_2\\leq 240\\)</p><p>\\(2x_1+x_2\\leq 100\\)</p><p>\\(x_1,x_2\\geq 0\\)</p>",
+                    "Rewrite the equations using slack variables",
+                   "\\(4x_1+3x_2+s_1\\;\\;\\;\\;\\;\\;=240\\) ",
+                   "\\(2x_1+x_2\\;\\;\\;\\;\\;+s_2\\;\\;\\;\\;\\;=100\\)",
+                   "\\(-70x_1-50x_2\\;\\;\\;\\;\\;\\;+P=0\\)",
+                   "\\(x_1, x_2, s_1, s_2 \\geq 0\\)",
+                   "Create the Simplex Tableau",
+                   "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>4<td>2<td>1<td>0<td>0<td class='bleft bright'>240<tr class='dashed'><td class='bleft'>2<td>1<td>0<td>1<td>0<td class='bleft bright'>100<tr><td class='bleft'>-70<td>-50<td>0<td>0<td>1<td class='bleft bright'>0</table>",
+                    "The smallest negative number in the bottom row gives you the pivot column.  In this problem the pivot column is column 1.",
+                    "To find the pivot row, divide the each of the last numbers in the tableau by the number in that same row of the pivot column.  The smallest of these gives you the pivot row.  The pivot element is the element in the intersection of the pivot row and the pivot column.",
+                    "\\(240\\div4=60\\)",
+                    "\\(100\\div 2=50\\)",
+                    "Since 50 is less than 60, row 2 is the pivot row.",
+                    "The pivot element is at the intersection of Row 2 and Column 1, so the pivot element is the 2 in row 2/column 1.",
+                    "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td> <tbody><tr><td class='highlight bleft'>4<td>3<td>1<td>0<td>0<td class='bleft bright'>240<tr class='highlight dashed'><td class='bleft'>2<td>1<td>0<td>1<td>0<td class='bleft bright'>100<tr><td class='highlight bleft'>-70<td>-50<td>0<td>0<td>1<td class='bleft bright'>0</table>",
+                    "Make the pivot element 1.",
+                    "\\(\\frac12R_2\\rightarrow R_2\\)",
+                    "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>4<td>3<td>1<td>0<td>0<td class='bleft bright'>240<tr class='dashed'><td class='highlight bleft'>1<td>\\(\\frac12\\)<td>0<td>\\(\\frac12\\)<td>0<td class='bleft bright'>50<tr><td class='bleft'>-70<td>-50<td>0<td>0<td>1<td class='bleft bright'>0</table>",
+                    "Make every other element in the pivot column 0 using row operations with the pivot element.",
+                    "\\(-4R_2+R_1\\rightarrow R_1\\)",
+                    "\\(70R_2+R_3\\rightarrow R_3\\)",
+                    "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>0<td>1<td>1<td>-2<td>0<td class='bleft bright'>40<tr class='dashed'><td class='highlight bleft'>1<td>\\(\\frac12\\)<td>0<td>\\(\\frac12\\)<td>0<td class='bleft bright'>50<tr><td class='bleft'>0<td>-15<td>0<td>35<td>1<td class='bleft bright'>3500</table>",
+                    "Find your next pivot element.  The smallest negative number on the bottom row is -15, so column 2 is your pivot column.",
+                    "To find the pivot row, divide the each of the last numbers in the tableau by the number in that same row of the pivot column.  The smallest of these gives you the pivot row.  The pivot element is the element in the intersection of the pivot row and the pivot column.",
+                    "\\(40\\div1=40\\)",
+                    "\\(50\\div\\frac12=100\\)",
+                    "Since 40 is less than 100, row 1 is the pivot row.",
+                    "The pivot element is at the intersection of Row 1 and Column 2, so the pivot element is the 1 in row 1/column 2.",
+                    "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td> <tbody><tr class='highlight'><td class='bleft'>0<td>1<td>1<td>-2<td>0<td class='bleft bright'>40<tr class='dashed'><td class='bleft'>1<td class='highlight'>\\(\\frac12\\)<td>0<td>\\(\\frac12\\)<td>0<td class='bleft bright'>50<tr><td class='bleft'>0<td class='highlight'>-15<td>0<td>35<td>1<td class='bleft bright'>3500</table>",
+                    "The pivot element is 1.",
+                    "Make every other element in the pivot column 0 using row operations with the pivot element.",
+                    "\\(-\\frac12R_1+R_2\\rightarrow R_2\\)",
+                    "\\(15R_1+R_3\\rightarrow R_3\\)",
+                    "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>0<td class='highlight'>1<td>1<td>-2<td>0<td class='bleft bright'>40<tr class='dashed'><td class='bleft'>1<td>0<td>\\(-\\frac12\\)<td>\\(\\frac32\\)<td>0<td class='bleft bright'>30<tr><td class='bleft'>0<td>0<td>15<td>5<td>1<td class='bleft bright'>4100</table>",
+
+
+                    "When there are no more negative numbers in the bottom row, you can read your solution from the Simplex Tableau."
+                  ],
+                  "answer": {
+                    "text": "\\(x_1=30,\\; x_2=40,\\; s_1=0,\\; s_2=0,\\) and \\(Max\\; P=4100\\)<p>The company should produce 30 tables and 40 chairs per week for a maximum profit of $4100.</p>"
                   }
                 }
+
+
+
+
+
               ]
             }
           ]
         },
         {
           "title": "Simplex Method: Minimization",
-          "intro": "This is an intro",
+          "intro": "<h4>Fundamental Principle of Duality:  The minimization problem has a solution if and only if its dual maximum problem has a solution.</h4>,<p><h5>Example 1:</h5></p><p>Minimize: \\(C=16x_1+45x_2\\)</p><p>subject to: \\(2x_1+5x_2 \\geq50\\)</p><p>\\(x_1+3x_2 \\geq 27\\)</p><p>\\(x_1, x_2 \\geq 0\\)</p>",
           "problemsets": [
             {
-              "intro": "this is a problem set intro",
+              "intro": "",
               "problems": [
                 {
-                  "text": "this is problem 1 text",
+                  "text": "Form the matrix <em>A</em>.  (This is not a simplex tableau:  solid line at the bottom, no slack variables)",
                   "solutions": [
-                    "solution line 1",
-                    "solution line 2",
-                    "solution line 3"
+                  
+                   
                   ],
                   "answer": {
-                    "text": "answer to a problem in another unit"
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "another title of a unit",
-      "sections": [
-        {
-          "title": "title of the first section",
-          "intro": "This is an intro",
-          "problemsets": [
-            {
-              "intro": "this is a problem set intro",
-              "problems": [
-                {
-                  "text": "Ursula borrows $600 for 5 months at a simple interest rate of 15% per year. Find the interest, and the total amount she is obligated to pay?",
-                  "solutions": [
-                    "solution \\(x^2+14 = 2\\) line 1",
-                    "solution \\[x^2+14 = 2\\] line 2",
-                    "solution line 3"
-                  ],
-                  "answer": {
-                    "text": "answer to this problem"
+                    "text": "\\(A\\)=<table class='center'><tbody><tr><td>2<td>5<td class='bleft'>50<td><tr class='solid'><td>1<td>3<td class='bleft'>27<td><tr><td>16<td>45<td class='bleft'>1</table>"
                   }
                 },
                 {
-                  "text": "Jose deposited $2500 in an account that pays 6% simple interest. How much money will he have at the end of 3 years?",
+                  "text": "Transpose the matrix \\(A^T\\).  Row 1 becomes Column 1, Row 2 becomes Column 2, etc.",
                   "solutions": [
-                    "solution line 1",
-                    "solution line 2",
-                    "solution line 3"
+                    
+                    
                   ],
                   "answer": {
-                    "text": "answer to another problem"
+                    "text": "\\(A^T\\)=<table class='center'><tbody><tr><td>2<td>1<td class='bleft'>16<td><tr class='solid'><td>5<td>3<td class='bleft'>45<td><tr><td>50<td>27<td class='bleft'>1</table>"
+                  }
+                },
+                {
+                  "text": "Create the Dual Maximization problem from this matrix.  (Use \\(y_1\\) and \\(y_2\\) instead of \\(x's\\))",
+                  "solutions": [
+                   
+                  ],
+                  "answer": {
+                    "text": "Maximize: \\(P=50y_1+27y_2\\)<p>subject to: \\(2y_1+y_2 \\leq16\\)</p><p>\\(5y_1+3y_2 \\leq45\\)</p><p>\\(x_1, x_2, y_1, y_2 \\geq 0\\)</p>"
+                  }
+                },
+                {
+                  "text": "Look at Desmos graphs of these two problems. (We will only do this for this one problem).",
+                  "solutions": [
+                    "<p>Minimize: \\(C=16x_1+45x_2\\)</p><p>subject to: \\(2x_1+5x_2 \\geq50\\)</p><p>\\(x_1+3x_2 \\geq 27\\)</p><p>\\(x_1, x_2 \\geq 0\\)</p>",
+                    "<img src=\"./images/u3s5p1.png\" alt=\"Graphs of 2x1+5x2>=50 and x1+3x2>=27.  Both have solid lines and are shaded above the lines (to the upper right). Corner points are (0,10), (15,4) and (27,0)\">",
+                    "Corner Points: (0, 10), (15, 4), and (27, 0)",
+                    "\\(C=16(0)+45(10)=450\\)",
+                    "\\(C=16(15)+45(4)=420\\)",
+                    "\\(C=16(27)+45(0)=432\\)",
+                    "The minimum of 420 occurs at \\((15, 4)\\)",
+                    "Maximize: \\(P=50y_1+27y_2\\)<p>subject to: \\(2y_1+y_2 \\leq16\\)</p><p>\\(5y_1+3y_2 \\leq45\\)</p><p>\\(y_1, y_2 \\geq 0\\)</p>",
+                    "<img src=\"./images/u3s5p2.png\" alt=\"Graphs of 2y1+y2<=16 and 5y1+3y2<=45.  Both have solid lines and are shaded below the lines (to the lower left). Corner points are (0,15), (3,10) and (8,0)\">",
+                    "Corner Points: (0, 15), (3, 10), and (8, 0)",
+                    "\\(P=50(0)+27(15)=405\\)",
+                    "\\(P=50(3)+27(10)=420\\)",
+                    "\\(P=50(8)+27(0)=400\\)",
+                    "The maximum of 420 occurs at \\((3,10)\\)"
+                  ],
+                  "answer": {
+                    "text": "The Dual Maximization problem gives us a max of 420, which is the minimum value of the original problem."
+                  }
+                },
+                {
+                  "text": "Now instead of graphing, use the Simplex Method to Solve the Dual Problem.",
+                  "solutions": [
+                    "Rewrite the equations using slack variables",
+                   "\\(2y_1+y_2+x_1\\;\\;\\;\\;\\;\\;=16\\) ",
+                   "\\(5y_1+3y_2\\;\\;\\;\\;\\;+x_2\\;\\;\\;\\;\\;=45\\)",
+                   "\\(-50y_1-27y_2\\;\\;\\;\\;\\;\\;+P=0\\)",
+                   "\\(x_1, x_2, y_1, y_2 \\geq 0\\)",
+                    "<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(P\\)<td> <tbody><tr class='highlight'><td class='bleft'>2<td>1<td>1<td>0<td>0<td class='bleft bright'>16<tr class='dashed'><td class='highlight bleft'>5<td>3<td>0<td>1<td>0<td class='bleft bright'>45<tr><td class='highlight bleft'>-50<td>-27<td>0<td>0<td>1<td class='bleft bright'>0</table>",
+                    "\\(\\frac12R_1 \\rightarrow R_1\\)",
+                    "<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(P\\)<td> <tbody><tr><td class='highlight bleft'>1<td>\\(\\frac12\\)<td>\\(\\frac12\\)<td>0<td>0<td class='bleft bright'>8<tr class='dashed'><td class='bleft'>5<td>3<td>0<td>1<td>0<td class='bleft bright'>45<tr><td class='bleft'>-50<td>-27<td>0<td>0<td>1<td class='bleft bright'>0</table>",
+                    "\\(-5R_1+R_2 \\rightarrow R_2\\)",
+                    "\\(50R_1+R_3 \\rightarrow R_3\\)",
+                    "<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(P\\)<td> <tbody><tr><td class='highlight bleft'>1<td>\\(\\frac12\\)<td>\\(\\frac12\\)<td>0<td>0<td class='bleft bright'>8<tr class='dashed'><td class='bleft'>0<td>\\(\\frac12\\)<td>\\(-\\frac52\\)<td>1<td>0<td class='bleft bright'>5<tr><td class='bleft'>0<td>-2<td>25<td>0<td>1<td class='bleft bright'>400</table>",
+                    "Find new pivot element",
+                    "<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>1<td class='highlight'>\\(\\frac12\\)<td>\\(\\frac12\\)<td>0<td>0<td class='bleft bright'>8<tr class='highlight dashed'><td class='bleft'>0<td>\\(\\frac12\\)<td>\\(-\\frac52\\)<td>1<td>0<td class='bleft bright'>5<tr><td class='bleft'>0<td class='highlight'>-2<td>25<td>0<td>1<td class='bleft bright'>400</table>",
+                    "\\(2R_2 \\rightarrow R_2\\)",
+                    "<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>1<td>\\(\\frac12\\)<td>\\(\\frac12\\)<td>0<td>0<td class='bleft bright'>8<tr class='dashed'><td class='bleft'>0<td class='highlight'>1<td>-5<td>2<td>0<td class='bleft bright'>10<tr><td class='bleft'>0<td>-2<td>25<td>0<td>1<td class='bleft bright'>400</table>",
+                    "\\(-\\frac12R_2+R_1 \\rightarrow R_1\\)",
+                    "\\(2R_2+R_3 \\rightarrow R_3\\)"
+                  ],
+                  "answer": {
+                    "text": "<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>1<td>0<td>3<td>-1<td>0<td class='bleft bright'>3<tr class='dashed'><td class='bleft'>0<td class='highlight'>1<td>-5<td>2<td>0<td class='bleft bright'>10<tr><td class='bleft'>0<td>0<td>15<td>4<td>1<td class='bleft bright'>420</table>"
+                  }
+                },
+                {
+                  "text": "The solution to the original minimization problem is the bottom row of the Simplex Tableau (which is different than where we found the solutions in a maximization problem.",
+                  "solutions": [
+                  
+                  ],
+                  "answer": {
+                    "text": "Minimum of \\(C=420\\) at \\(x_1=15\\) and \\(x_2=4\\)"
                   }
                 }
               ]
-            }
-          ]
-        },
-        {
-          "title": "another title of a section",
-          "intro": "This is an intro",
-          "problemsets": [
+            },
             {
-              "intro": "this is a problem set intro",
+              "intro": "",
               "problems": [
                 {
-                  "text": "this is problem 1 text",
+                  "text":   "<p>Minimize: \\(C=12x_1+16x_2\\)</p><p>subject to: \\(x_1+2x_2 \\geq40\\)</p><p>\\(x_1+x_2 \\geq 30\\)</p><p>\\(x_1, x_2 \\geq 0\\)</p>",
                   "solutions": [
-                    "solution line 1",
-                    "solution line 2",
-                    "solution line 3"
+                    "\\(A\\)=<table class='center'><tbody><tr><td>1<td>2<td class='bleft'>40<td><tr class='solid'><td>1<td>1<td class='bleft'>30<td><tr><td>12<td>16<td class='bleft'>1</table>",
+                    "\\(A^T\\)=<table class='center'><tbody><tr><td>1<td>1<td class='bleft'>12<td><tr class='solid'><td>2<td>1<td class='bleft'>16<td><tr><td>40<td>30<td class='bleft'>1</table>",
+                    "Maximize: \\(P=40y_1+30y_2\\)<p>subject to: \\(y_1+y_2 \\leq12\\)</p><p>\\(2y_1+y_2 \\leq16\\)</p><p>\\(x_1, x_2, y_1, y_2 \\geq 0\\)</p>",
+                    "<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(P\\)<td> <tbody><tr><td class='highlight bleft'>1<td>1<td>1<td>0<td>0<td class='bleft bright'>12<tr class='highlight dashed'><td class='bleft'>2<td>1<td>0<td>1<td>0<td class='bleft bright'>16<tr><td class='highlight bleft'>-40<td>-30<td>0<td>0<td>1<td class='bleft bright'>0</table>",
+                    "\\(\\frac12R_2 \\rightarrow R_2\\)",
+                    "<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>1<td>1<td>1<td>0<td>0<td class='bleft bright'>12<tr class='dashed'><td class='highlight bleft'>1<td>\\(\\frac12\\)<td>0<td>\\(\\frac12\\)<td>0<td class='bleft bright'>8<tr><td class='bleft'>-40<td>-30<td>0<td>0<td>1<td class='bleft bright'>0</table>",
+                    "\\(-R_2+R_1 \\rightarrow R_1\\)",
+                    "\\(40R_2+R_3 \\rightarrow R_3\\)",
+                    "<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>0<td>\\(\\frac12\\)<td>1<td>\\(-\\frac12\\)<td>0<td class='bleft bright'>4<tr class='dashed'><td class='highlight bleft'>1<td>\\(\\frac12\\)<td>0<td>\\(\\frac12\\)<td>0<td class='bleft bright'>8<tr><td class='bleft'>0<td>-00<td>0<td>20<td>1<td class='bleft bright'>320</table>",
+                    "Find new pivot element.",
+                    "<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(P\\)<td> <tbody><tr class='highlight'><td class='bleft'>0<td>\\(\\frac12\\)<td>1<td>\\(-\\frac12\\)<td>0<td class='bleft bright'>4<tr class='dashed'><td class='bleft'>1<td class='highlight'>\\(\\frac12\\)<td>0<td>\\(\\frac12\\)<td>0<td class='bleft bright'>8<tr><td class='bleft'>0<td class='highlight'>-10<td>0<td>20<td>1<td class='bleft bright'>320</table>",
+                    "\\(2R_1 \\rightarrow R_1\\)",
+                    "<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>0<td class='highlight'>1<td>2<td>-1<td>0<td class='bleft bright'>8<tr class='dashed'><td class='bleft'>1<td>\\(\\frac12\\)<td>0<td>\\(\\frac12\\)<td>0<td class='bleft bright'>8<tr><td class='bleft'>0<td>-10<td>0<td>20<td>1<td class='bleft bright'>320</table>",
+                    "\\(-\\frac12R_1+R_2 \\rightarrow R_2\\)",
+                    "\\(10R_1+R_3 \\rightarrow R_3\\)",
+                    "<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>0<td class='highlight'>1<td>2<td>-1<td>0<td class='bleft bright'>8<tr class='dashed'><td class='bleft'>1<td>0<td>-1<td>1<td>0<td class='bleft bright'>4<tr><td class='bleft'>0<td>0<td>20<td>10<td>1<td class='bleft bright'>400</table>"
                   ],
                   "answer": {
-                    "text": "answer to a problem in another unit"
+                    "text": "Minimum of \\(C=400\\) at \\(x_1=20\\) and \\(x_2=10\\)"
+                  }
+                },
+                {
+                  "text": "A company produces three products, A, B, and C, at its two factories, Factory I and Factory II.  Daily production of each factory for each product is listed below.<table class='center'><thead><tr><th> <td>Factory 1<td>Factory 2<tbody><tr><th>Product A<td>10<td>20<tr><th>Product B<td>20<td>20<tr><th>Product C<td>20<td>20</table><p>The company must product at least 1000 units of Product A, 1600 units of Product B, and 700 units of Product C.  If the cost of operating Factory I is $4000 per day and the cost of operation Factory II is $5000, how many days should each factory operate to complete the order at a minimum cost, and what is the minimum cost?</p>",
+                  "solutions": [
+                    "\\(x_1\\): # of days Factory 1 operates",
+                    "\\(x_2\\): # of days Factory 2 operates",
+                    "<p>Minimize: \\(C=4000x_1+5000x_2\\)</p><p>subject to: \\(10x_1+20x_2 \\geq1000\\)</p><p>\\(20x_1+20x_2 \\geq 1600\\)</p><p>\\(20x_1+10x_2 \\geq 700\\)</p><p>\\(x_1, x_2 \\geq 0\\)</p>",
+                    "\\(A\\)=<table class='center'><tbody><tr><td>10<td>20<td class='bleft'>1000<td><tr><td>20<td>20<td class='bleft'>1600<td><tr class='solid'><td>20<td>10<td class='bleft'>700<td><tr><td>4000<td>5000<td class='bleft'>1</table>",
+                    "\\(A^T\\)=<table class='center'><tbody><tr><td>10<td>20<td>20<td class='bleft'>4000<td><tr class='solid'><td>20<td>20<td>10<td class='bleft'>5000<td><tr><td>1000<td>1600<td>700<td class='bleft'>1</table>",
+                    "Maximize: \\(P=1000y_1+1600y_2+700y_3\\)<p>subject to: \\(10y_1+20y_2+20y_3 \\leq4000\\)</p><p>\\(20y_1+20y_2+10y_3 \\leq5000\\)</p><p>\\(x_1, x_2, y_1, y_2 \\geq 0\\)</p>",
+                    
+                    "<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(y_3\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(P\\)<td> <tbody><tr class='highlight'><td class='bleft'>10<td>20<td>20<td>1<td>0<td>0<td class='bleft bright'>4000<tr class='dashed'><td class='bleft'>20<td class='highlight'>20<td>10<td>0<td>1<td>0<td class='bleft bright'>5000<tr><td class='bleft'>-1000<td class='highlight'>-1600<td>-700<td>0<td>0<td>1<td class='bleft bright'>0</table>",
+                    "\\(-\\frac{1}{20}R_1 \\rightarrow R_1\\)",
+                    "<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(y_3\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>\\(\\frac12\\)<td class='highlight'>1<td>1<td>\\(\\frac{1}{20}\\)<td>0<td>0<td class='bleft bright'>200<tr class='dashed'><td class='bleft'>20<td>20<td>10<td>0<td>1<td>0<td class='bleft bright'>5000<tr><td class='bleft'>-1000<td>-1600<td>-700<td>0<td>0<td>1<td class='bleft bright'>0</table>",
+                    "\\(-20R_1+R_2 \\rightarrow R_2\\)",
+                    "\\(1600R_1+R_3 \\rightarrow R_3\\)",
+                    "<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(y_3\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>\\(\\frac12\\)<td class='highlight'>1<td>1<td>\\(\\frac{1}{20}\\)<td>0<td>0<td class='bleft bright'>200<tr class='dashed'><td class='bleft'>10<td>0<td>-10<td>-1<td>1<td>0<td class='bleft bright'>1000<tr><td class='bleft'>-200<td>0<td>900<td>80<td>0<td>1<td class='bleft bright'>320,000</table>",
+                    "Find new pivot element.",
+                    "<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(y_3\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(P\\)<td> <tbody><tr><td class='highlight bleft'>\\(\\frac12\\)<td>1<td>1<td>\\(\\frac{1}{20}\\)<td>0<td>0<td class='bleft bright'>200<tr class='highlight dashed'><td class='bleft'>10<td>0<td>-10<td>-1<td>1<td>0<td class='bleft bright'>1000<tr><td class='highlight bleft'>-200<td>0<td>900<td>80<td>0<td>1<td class='bleft bright'>320,000</table>",
+                    "\\(-\\frac{1}{10}R_2 \\rightarrow R_2\\)",
+                    "<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(y_3\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>\\(\\frac12\\)<td>1<td>1<td>\\(\\frac{1}{20}\\)<td>0<td>0<td class='bleft bright'>200<tr class='dashed'><td class='highlight bleft'>1<td>0<td>-1<td>\\(-\\frac{1}{10}\\)<td>\\(\\frac{1}{10}\\)<td>0<td class='bleft bright'>100<tr><td class='bleft'>-200<td>0<td>900<td>80<td>0<td>1<td class='bleft bright'>320,000</table>",
+                    "\\(-\\frac12R_2+R_1 \\rightarrow R_1\\)",
+                    "\\(200R_2+R_3 \\rightarrow R_3\\)",
+                    "<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(y_3\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>0<td>1<td>\\(\\frac32\\)<td>\\(\\frac{1}{10}\\)<td>\\(-\\frac{1}{20}\\)<td>0<td class='bleft bright'>150<tr class='dashed'><td class='highlight bleft'>1<td>0<td>-1<td>\\(-\\frac{1}{10}\\)<td>\\(\\frac{1}{10}\\)<td>0<td class='bleft bright'>100<tr><td class='bleft'>0<td>0<td>700<td>60<td>20<td>1<td class='bleft bright'>340,000</table>"
+
+                  ],
+                  "answer": {
+                    "text": "Minimize cost at $340,000 when Factory 1 operates for 60 days and Factory 2 operates fo 20 days."
+                  }
+                },
+                {
+                  "text":  "<p>Minimize: \\(C=4x_1+3x_2\\)</p><p>subject to: \\(x_1+x_2 \\geq10\\)</p><p>\\(3x_1+2x_2 \\geq 24\\)</p><p>\\(x_1, x_2 \\geq 0\\)</p>",
+                  "solutions": [
+                    "\\(A\\)=<table class='center'><tbody><tr><td>1<td>1<td class='bleft'>10<td><tr class='solid'><td>3<td>2<td class='bleft'>24<td><tr><td>4<td>3<td class='bleft'>1</table>",
+                    "\\(A^T\\)=<table class='center'><tbody><tr><td>1<td>3<td class='bleft'>4<td><tr class='solid'><td>1<td>2<td class='bleft'>3<td><tr><td>10<td>24<td class='bleft'>1</table>",
+                    "Maximize: \\(P=10y_1+24y_2\\)<p>subject to: \\(y_1+3y_2 \\leq4\\)</p><p>\\(y_1+2y_2 \\leq3\\)</p><p>\\(x_1, x_2, y_1, y_2 \\geq 0\\)</p>",
+                    "<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(P\\)<td> <tbody><tr class='highlight'><td class=bleft'>1<td>3<td>1<td>0<td>0<td class='bleft bright'>4<tr class='dashed'><td class='bleft'>1<td class='highlight'>2<td>0<td>1<td>0<td class='bleft bright'>3<tr><td class='bleft'>-10<td class='highlight'>-24<td>0<td>0<td>1<td class='bleft bright'>0</table>",
+                    "\\(\\frac13R_1 \\rightarrow R_1\\)", 
+                    "<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>\\(\\frac13\\)<td class='highlight'>1<td>\\(\\frac13\\)<td>0<td>0<td class='bleft bright'>\\(\\frac43\\)<tr class='dashed'><td class='bleft'>1<td>2<td>0<td>1<td>0<td class='bleft bright'>3<tr><td class='bleft'>-10<td>-24<td>0<td>0<td>1<td class='bleft bright'>0</table>",
+                    "\\(-2R_1+R_2 \\rightarrow R_2\\)",
+                    "\\(24R_1+R_3 \\rightarrow R_3\\)", 
+                    "<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>\\(\\frac13\\)<td class='highlight'>1<td>\\(\\frac13\\)<td>0<td>0<td class='bleft bright'>\\(\\frac43\\)<tr class='dashed'><td class='bleft'>\\(\\frac13\\)<td>0<td>\\(-\\frac23\\)<td>1<td>0<td class='bleft bright'>\\(\\frac13\\)<tr><td class='bleft'>-2<td>0<td>8<td>0<td>1<td class='bleft bright'>32</table>",
+                    "Find the new pivot element.",
+                    "<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(P\\)<td> <tbody><tr><td class='highlight bleft'>\\(\\frac13\\)<td>1<td>\\(\\frac13\\)<td>0<td>0<td class='bleft bright'>\\(\\frac43\\)<tr class='highlight dashed'><td class='bleft'>\\(\\frac13\\)<td>0<td>\\(-\\frac23\\)<td>1<td>0<td class='bleft bright'>\\(\\frac13\\)<tr><td class='highlight bleft'>-2<td>0<td>8<td>0<td>1<td class='bleft bright'>32</table>",
+                    "\\(3R_2 \\rightarrow R_2\\)", 
+                    "<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>\\(\\frac13\\)<td>1<td>\\(\\frac13\\)<td>0<td>0<td class='bleft bright'>\\(\\frac43\\)<tr class='dashed'><td class='highlight bleft'>1<td>0<td>-2<td>3<td>0<td class='bleft bright'>1<tr><td class='bleft'>-2<td>0<td>8<td>0<td>1<td class='bleft bright'>32</table>",
+                    "\\(-\\frac13R_2+R_1 \\rightarrow R_1\\)",
+                    "\\(2R_2+R_3 \\rightarrow R_3\\)","<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>0<td>1<td>1<td>-1<td>0<td class='bleft bright'>1<tr class='dashed'><td class='highlight bleft'>1<td>0<td>-2<td>3<td>0<td class='bleft bright'>1<tr><td class='bleft'>0<td>0<td>4<td>6<td>1<td class='bleft bright'>34</table>"
+                  ],
+                  "answer": {
+                    "text": "Minimum of \\(C=34\\) at \\(x_1=4\\) and \\(x_2=6\\)"
+                  }
+                },
+                {
+                  "text": "For his classes, Professor Wright gives three types of quizzes, objective, recall, and recall-plus. To keep his students on their toes, he has decided to give at least 20 quizzes next quarter. The three types, objective, recall, and recall-plus quizzes, require the students to spend, respectively, 10 minutes, 30 minutes, and 60 minutes for preparation, and Professor Wright would like them to spend at least 12 hours(720 minutes) preparing for these quizzes above and beyond the normal study time. An average score on an objective quiz is 5, on a recall type 6, and on a recall-plus 7, and Dr. Wright would like the students to score at least 130 points on all quizzes. It takes the professor one minute to grade an objective quiz, 2 minutes to grade a recall type quiz, and 3 minutes to grade a recall-plus quiz. How many of each type should he give in order to minimize his grading time?",
+                  "solutions": [
+                    "\\(x_1\\): # of objective quizzes",
+                    "\\(x_2\\): # of recall quizzes",
+                    "\\(x_3\\): # of recall-plus quizzes",
+                    "<p>Minimize: \\(Z=x_1+2x_2+3x_3\\)</p><p>subject to: \\(x_1+x_2+x_3 \\geq20\\)</p><p>\\(10x_1+30x_2+60x_3 \\geq 720\\)</p><p>\\(5x_1+6x_2+7x_3 \\geq 130\\)</p><p>\\(x_1, x_2, x_3 \\geq 0\\)</p>",
+                    "\\(A\\)=<table class='center'><tbody><tr><td>1<td>1<td>1<td class='bleft'>20<td><tr><td>10<td>30<td>60<td class='bleft'>720<td><tr class='solid'><td>5<td>6<td>7<td class='bleft'>130<tr><td>1<td>2<td>3<td class='bleft'>1<td></table>",
+                    "\\(A^T\\)=<table class='center'><tbody><tr><td>1<td>10<td>5<td class='bleft'>1<td><tr><td>1<td>30<td>6<td class='bleft'>2<td><tr class='solid'><td>1<td>60<td>7<td class='bleft'>3<tr><td>20<td>720<td>130<td class='bleft'>1<td></table>",
+                    "<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(y_3\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(x_3\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>1<td class='highlight'>10<td>5<td>1<td>0<td>0<td>0<td class='bleft bright'>1<tr><td class='bleft'>1<td class='highlight'>30<td>6<td>0<td>1<td>0<td>0<td class='bleft bright'>2<tr class='highlight dashed'><td class='bleft'>1<td>60<td>7<td>0<td>0<td>1<td>0<td class='bleft bright'>3<tr><td class='bleft'>-20<td class='highlight'>-720<td>-130<td>0<td>0<td>0<td>1<td class='bleft bright'>0</table>",
+                    "\\(\\frac{1}{60}R_3 \\rightarrow R_3\\)",
+                    "<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(y_3\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(x_3\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>1<td>10<td>5<td>1<td>0<td>0<td>0<td class='bleft bright'>1<tr><td class='bleft'>1<td>30<td>6<td>0<td>1<td>0<td>0<td class='bleft bright'>2<tr class='dashed'><td class='bleft'>\\(\\frac{1}{60}\\)<td class='highlight'>1<td>\\(\\frac{7}{60}\\)<td>0<td>0<td>\\(\\frac{1}{60}\\)<td>0<td class='bleft bright'>\\(\\frac{1}{20}\\)<tr><td class='bleft'>-20<td>-720<td>-130<td>0<td>0<td>0<td>1<td class='bleft bright'>0</table>",
+                    "\\(-10R_3+R_1 \\rightarrow R_1\\)",
+                    "\\(-30R_3+R_2 \\rightarrow R_2\\)", 
+                    "\\(720R_3+R_4 \\rightarrow R_4\\)", 
+                    "<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(y_3\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(x_3\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>\\(\\frac{5}{6}\\)<td>0<td>\\(\\frac{23}{6}\\)<td>1<td>0<td>\\(-\\frac{1}{6}\\)<td>0<td class='bleft bright'>\\(\\frac12\\)<tr><td class='bleft'>\\(\\frac12\\)<td>0<td>\\(\\frac52\\)<td>0<td>1<td>\\(-\\frac12\\)<td>0<td class='bleft bright'>\\(\\frac12\\)<tr class='dashed'><td class='bleft'>\\(\\frac{1}{60}\\)<td class='highlight'>1<td>\\(\\frac{7}{60}\\)<td>0<td>0<td>\\(\\frac{1}{60}\\)<td>0<td class='bleft bright'>\\(\\frac{1}{20}\\)<tr><td class='bleft'>-8<td>0<td>-46<td>0<td>0<td>12<td>1<td class='bleft bright'>36</table>",
+                    "Find new pivot element.",
+                    "<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(y_3\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(x_3\\)<td>\\(P\\)<td> <tbody><tr class='highlight'><td class='bleft'>\\(\\frac{5}{6}\\)<td>0<td>\\(\\frac{23}{6}\\)<td>1<td>0<td>\\(-\\frac{1}{6}\\)<td>0<td class='bleft bright'>\\(\\frac12\\)<tr><td class='bleft'>\\(\\frac12\\)<td>0<td class='highlight'>\\(\\frac52\\)<td>0<td>1<td>\\(-\\frac12\\)<td>0<td class='bleft bright'>\\(\\frac12\\)<tr class='dashed'><td class='bleft'>\\(\\frac{1}{60}\\)<td>1<td class='highlight'>\\(\\frac{7}{60}\\)<td>0<td>0<td>\\(\\frac{1}{60}\\)<td>0<td class='bleft bright'>\\(\\frac{1}{20}\\)<tr><td class='bleft'>-8<td>0<td class='highlight'>-46<td>0<td>0<td>12<td>1<td class='bleft bright'>36</table>",
+                    "\\(\\frac{6}{23}R_1 \\rightarrow R_1\\)",
+                    "<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(y_3\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(x_3\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>\\(\\frac{5}{23}\\)<td>0<td class='highlight'>1<td>\\(\\frac{6}{23}\\)<td>0<td>\\(-\\frac{1}{23}\\)<td>0<td class='bleft bright'>\\(\\frac{3}{23}\\)<tr><td class='bleft'>\\(\\frac12\\)<td>0<td>\\(\\frac52\\)<td>0<td>1<td>\\(-\\frac12\\)<td>0<td class='bleft bright'>\\(\\frac12\\)<tr class='dashed'><td class='bleft'>\\(\\frac{1}{60}\\)<td>1<td>\\(\\frac{7}{60}\\)<td>0<td>0<td>\\(\\frac{1}{60}\\)<td>0<td class='bleft bright'>\\(\\frac{1}{20}\\)<tr><td class='bleft'>-8<td>0<td>-46<td>0<td>0<td>12<td>1<td class='bleft bright'>36</table>",
+                    "\\(-\\frac52R_1+R_2 \\rightarrow R_2\\)",
+                    "\\(-\\frac{7}{60}R_1+R_3 \\rightarrow R_3\\)", 
+                    "\\(46R_1+R_4 \\rightarrow R_4\\)", 
+                    "<table class='center'><thead><tr><td>\\(y_1\\)<td>\\(y_2\\)<td>\\(y_3\\)<td>\\(x_1\\)<td>\\(x_2\\)<td>\\(x_3\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>\\(\\frac{5}{23}\\)<td>0<td class='highlight'>1<td>\\(\\frac{6}{23}\\)<td>0<td>\\(-\\frac{1}{23}\\)<td>0<td class='bleft bright'>\\(\\frac{3}{23}\\)<tr><td class='bleft'>\\(-\\frac{1}{23}\\)<td>0<td>0<td>\\(-\\frac{15}{23}\\)<td>0<td>\\(-\\frac{9}{23}\\)<td>0<td class='bleft bright'>\\(\\frac{4}{23}\\)<tr class='dashed'><td class='bleft'>\\(-\\frac{1}{115}\\)<td>1<td>0<td>\\(-\\frac{7}{230}\\)<td>0<td>\\(\\frac{1}{46}\\)<td>0<td class='bleft bright'>\\(\\frac{4}{115}\\)<tr><td class='bleft'>2<td>0<td>0<td>12<td>0<td>10<td>1<td class='bleft bright'>42</table>"
+                    
+                  ],
+                  "answer": {
+                    "text": "In order to minimize his grading time to 42 minutes, Professor Wright should give 12 objective quizzes, 0 recall quizzes, and 10 recall-plus quizzes."
                   }
                 }
               ]
@@ -1718,5 +2918,6 @@
         }
       ]
     }
+   
   ]
 }

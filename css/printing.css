@@ -1,15 +1,49 @@
 @page {
-    margin: 0.5in !important;
-    size: letter portrait;
+    /* size: 11in 8.5in;
+    margin: 1in!important; */
+  /* margin-top: 1 */
+  /* size: letter portrait; */
 }
 
+/* @page:left{
+        padding-left: 1in;
+        padding-right: .8in;
+}
+
+@page:right{
+    padding-right: 1in;
+    padding-left: .8in;
+} */
+
 @media print {
-  html{
-    font-size: 16px;
+    
+html{
+  font-size: 14px;
+}
+
+/* body {padding: .5in;} */
+
+
+div.container {
+    padding-right: .8in;
+}
+
+
+.problem{
+    page-break-inside: avoid;
+}
+
+  .solutions, .answer{
+      visibility: hidden;
   }
-    .container {
-        margin: 0px !important;
-        padding: 0px !important;
-        page-break-after: always;
-    }
+
+  .unit, .section{
+      page-break-after: always;
+  }
+
+  li {
+    line-height: 1.6em;
+    margin-left: .75em;
+}
+
 }
