@@ -192,7 +192,7 @@
               ]
             },
             {
-              "intro": "For each of the sets of points below, find:the slope of the line, the slope intercept form of the line, and the y intercept and the x intercept of the line",
+              "intro": "For each of the sets of points below, find the slope of the line, the slope intercept form of the line, and the y intercept and the x intercept of the line",
               "problems": [
                 {
                   "text": "(3, 5) and (-1, 7)",
@@ -320,7 +320,7 @@
               "intro": "Solve the system using any method:",
               "problems": [
                 {
-                  "text": "\\(\\begin{array}{l}3x-4y=5\\\\4x-5y=6)\\end{array}\\)",
+                  "text": "\\(\\begin{array}{l}3x-4y=5\\\\4x-5y=6\\end{array}\\)",
                   "solutions": [
                     
                   ],
@@ -860,7 +860,7 @@
           "intro": "<h4>Adding, Subtracting, and Scalar Multiplication of Matrices</h4><p>Notes</p><p>We can multiply any matrix by a scalar (a constant number).</p><p>Matrices must be the same size to add or subtract.</p>",
           "problemsets": [
             {
-              "intro": "Fine Furniture Company makes chairs and tables at its San Jose, Hayward, and Oakland factories.  The total production, in hundreds, from the three factories for the years 2004 and 2005 is listed in the table below. <table class='center'><thead><tr><td><td>2014<td><td>2015<td><tr><td><td>Chairs<td>Tables<td>Chairs<td>Tables<tbody><tr><th>San Jose<td>30<td>18<td>36<td>20<tr><th>Hayward<td>20<td>12<td>24<td>18<tr><th>Oakland<td>16<td>10<td>20<td>12</table>",
+              "intro": "Fine Furniture Company makes chairs and tables at its San Jose, Hayward, and Oakland factories.  The total production, in hundreds, from the three factories for the years 2014 and 2015 is listed in the table below. <table class='center'><thead><tr><td><td>2014<td><td>2015<td><tr><td><td>Chairs<td>Tables<td>Chairs<td>Tables<tbody><tr><th>San Jose<td>30<td>18<td>36<td>20<tr><th>Hayward<td>20<td>12<td>24<td>18<tr><th>Oakland<td>16<td>10<td>20<td>12</table>",
               "problems": [
                 {
                   "text": "Represent the production for the years 2014 and 2015 as the matrices A and B.",
@@ -1767,7 +1767,7 @@
                    "\\(-70x_1-50x_2\\;\\;\\;\\;\\;\\;+P=0\\)",
                    "\\(x_1, x_2, s_1, s_2 \\geq 0\\)",
                    "Create the Simplex Tableau",
-                   "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>4<td>2<td>1<td>0<td>0<td class='bleft bright'>240<tr class='dashed'><td class='bleft'>2<td>1<td>0<td>1<td>0<td class='bleft bright'>100<tr><td class='bleft'>-70<td>-50<td>0<td>0<td>1<td class='bleft bright'>0</table>",
+                   "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>4<td>3<td>1<td>0<td>0<td class='bleft bright'>240<tr class='dashed'><td class='bleft'>2<td>1<td>0<td>1<td>0<td class='bleft bright'>100<tr><td class='bleft'>-70<td>-50<td>0<td>0<td>1<td class='bleft bright'>0</table>",
                     "The smallest negative number in the bottom row gives you the pivot column.  In this problem the pivot column is column 1.",
                     "To find the pivot row, divide the each of the last numbers in the tableau by the number in that same row of the pivot column.  The smallest of these gives you the pivot row.  The pivot element is the element in the intersection of the pivot row and the pivot column.",
                     "\\(240\\div4=60\\)",
@@ -2022,7 +2022,7 @@
     },
     {
       "title": "Finance Unit",
-      "intro": "<h3 id=\"simple-interest\">Simple Interest</h3><p>\\(I=Prt\\)</p><p>\\(A=P(1+rt)\\)</p><h3 id=\"compound-interest\">Compound Interest</h3><p>\\(A=P(1+\\frac{r}{n})^{nt}\\)</p><h3 id=\"continuous-compounding\">Continuous Compounding</h3><p>\\(A=Pe^{rt}\\)</p><h3 id=\"future-value-of-an-ordinary-annuity\">Future Value of an Ordinary Annuity</h3><p>\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\displaystyle\\frac rn}\\)</p><h3 id=\"present-value-of-an-annuity\">Present Value of an Annuity</h3><p>\\(PV=PMT\\frac{\\left[1-\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}\\right]}{\\displaystyle\\frac rn}\\)</p><p><strong>A:</strong> amount (future value)</p><p><strong>P:</strong> principal (present value)</p><p><strong>PV:</strong> preset value of all payments</p><p><strong>FV:</strong> future value of all payments</p><p><strong>PMT:</strong> periodic payments</p><p><strong>r:</strong> annual interest rate</p><p><strong>t:</strong> time in years</p><p><strong>n:</strong> numbering of compounding periods per year</p><br>",
+      "intro": "<h3 id=\"simple-interest\">Simple Interest</h3><p>\\(I=Prt\\)</p><p>\\(A=P(1+rt)\\)</p><h3 id=\"compound-interest\">Compound Interest</h3><p>\\(A=P(1+\\frac{r}{n})^{nt}\\)</p><h3 id=\"continuous-compounding\">Continuous Compounding</h3><p>\\(A=Pe^{rt}\\)</p><h3 id=\"future-value-of-an-ordinary-annuity\">Future Value of an Ordinary Annuity</h3><p>\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\displaystyle\\frac rn}\\)</p><h3 id=\"present-value-of-an-annuity\">Present Value of an Annuity</h3><p>\\(PV=PMT\\frac{\\left[1-\\left(1+{\\displaystyle\\frac rn}\\right)^{-nt}\\right]}{\\displaystyle\\frac rn}\\)</p><p><strong>A:</strong> amount (future value)</p><p><strong>P:</strong> principal (present value)</p><p><strong>PV:</strong> preset value of all payments</p><p><strong>FV:</strong> future value of all payments</p><p><strong>PMT:</strong> periodic payments</p><p><strong>r:</strong> annual interest rate</p><p><strong>t:</strong> time in years</p><p><strong>n:</strong> numbering of compounding periods per year</p><br>",
       "sections": [
         {
           "title": "Simple Interest",
@@ -2202,7 +2202,7 @@
         },
         {
           "title": "Compound and Continuous Interest",
-          "intro": " <h3>Compound Interest</h3><p>Simple interest is charged when the lending period is short and often less than a year. When the money is loaned or borrowed for a longer time period, the interest is paid (or charged) not only on the principal, but also on the past interest, and we say the interest is compounded.</p><p>Suppose $200 is deposited in an account that pays 8% interest. At the end of one year, the account will have </p><p>\\($200+$200(0.08)=$200(1+0.08/1)^{1*1}=$216\\)</p><p>Now suppose this amount, $216, remains in the account. After the second year, it will have</p><p>\\($200(1+0.08)(1+0.08)=$200(1+0.08/1)^{1*2}=$233.28\\)</p><p>After three years, it will have</p><p>\\($200(1+0.08)(1+0.08)(1+0.08)=$200(1+0.08/1)^{1*3}=$251.94\\)</p><p>at the end of 5 years, it will have</p><p>\\(200(1+0.08/1)^{1*5}=$293.87\\)</p><p>Compound Interest Formula:  </p><p>\\(A=P(1+\\frac rn)^{nt}\\)</p><img src=\"./images/u1s2i.png\" alt=\"Graph of Amount of Money in an account when compounded at various compounding frequencies.  4 graphs--one each for compounding yearly, quarterly, monthly, and continuously\"><h3><br><br><br><br><br><br>Compounding Frequency</h3><h4>Yearly:</h4><p>\\(1000(1+\\frac {0.08}1)^{1*1}=1080\\)</p><h4>Quarterly:</h4><p>\\(1000(1+\\frac {0.08}4)^{4*1}=1082.43\\)</p><h4>Monthly:</h4><p>1000(1+0.08/12)^(12*1)=1083</p><h4>Daily:</h4><p>\\(1000(1+\\frac {0.08}{365})^{365*1}=1083.28\\)</p><h4>Continuously (at every instant):</h4><p>\\(1000\\left[\\lim_{n\\rightarrow\\infty}\\;\\left(1+\\frac{0.08}n\\right)^n\\right]=1083.29\\)</p><p>And since \\(e=\\lim_{n\\rightarrow\\infty}\\;\\left(1+\\frac1n\\right)^n\\approx2.718281829\\)</p><p>The continuous compounding formula is:  \\(A=Pe^{rt}\\)</p>",
+          "intro": " <h3>Compound Interest</h3><p>Simple interest is charged when the lending period is short and often less than a year. When the money is loaned or borrowed for a longer time period, the interest is paid (or charged) not only on the principal, but also on the past interest, and we say the interest is compounded.</p><p>Suppose $200 is deposited in an account that pays 8% interest. At the end of one year, the account will have </p><p>\\($200+$200(0.08)=$200(1+0.08/1)^{1*1}=$216\\)</p><p>Now suppose this amount, $216, remains in the account. After the second year, it will have</p><p>\\($200(1+0.08)(1+0.08)=$200(1+0.08/1)^{1*2}=$233.28\\)</p><p>After three years, it will have</p><p>\\($200(1+0.08)(1+0.08)(1+0.08)=$200(1+0.08/1)^{1*3}=$251.94\\)</p><p>at the end of 5 years, it will have</p><p>\\(200(1+0.08/1)^{1*5}=$293.87\\)</p><p>Compound Interest Formula:  </p><p>\\(A=P(1+\\frac rn)^{nt}\\)</p><img src=\"./images/u1s2i.png\" alt=\"Graph of Amount of Money in an account when compounded at various compounding frequencies.  4 graphs--one each for compounding yearly, quarterly, monthly, and continuously\"><h3><br><br><br><br><br><br>Compounding Frequency</h3><h4>Yearly:</h4><p>\\(1000(1+\\frac {0.08}1)^{1*1}=1080\\)</p><h4>Quarterly:</h4><p>\\(1000(1+\\frac {0.08}4)^{4*1}=1082.43\\)</p><h4>Monthly:</h4><p>\\(1000(1+\\frac {0.08}{12})^{12*1}=1083\\)</p><h4>Daily:</h4><p>\\(1000(1+\\frac {0.08}{365})^{365*1}=1083.28\\)</p><h4>Continuously (at every instant):</h4><p>\\(1000\\left[\\lim_{n\\rightarrow\\infty}\\;\\left(1+\\frac{0.08}n\\right)^n\\right]=1083.29\\)</p><p>And since \\(e=\\lim_{n\\rightarrow\\infty}\\;\\left(1+\\frac1n\\right)^n\\approx2.718281829\\)</p><p>The continuous compounding formula is:  \\(A=Pe^{rt}\\)</p>",
           "problemsets": [
             {
               "intro": "Use a compound or continuous interest formula to answer the following questions.  Write all of your answers in complete sentences",
@@ -2222,7 +2222,7 @@
                   "text": "How much should be invested in an account paying 9% compounded daily for it to accumulate to $5,000 in five years?",
                   "solutions": [
                     "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
-                    "\\(5000=P(1+\\frac{.09}{360})^{360*5}\\)",
+                    "\\(5000=P(1+\\frac{.09}{365})^{365*5}\\)",
                     "\\(P=3188.32\\)"
                   ],
                   "answer": {
@@ -2328,7 +2328,7 @@
                   }
                 },
                 {
-                  "text": "In the same box, Mary discovers another statement for an account her grandparents opened for her when she was born. This statement shows a deposit amount of $100.00 into a 3.6%, compounded quarterly, account. How much is in this account now?",
+                  "text": "In the same box, Mary discovers another statement for an account her grandparents opened for her when she was born 50 years ago. This statement shows a deposit amount of $100.00 into a 3.6%, compounded quarterly, account. How much is in this account now?",
                   "solutions": [
                     "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
                     "\\(A=100(1+\\frac{.036}{4})^{4*50}\\)",
@@ -2512,7 +2512,7 @@
                   "solutions": [
                     "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
                     "\\(FV=100\\frac{[( 1+\\frac{.072}{12})^{12*3}-1]}{\\frac{.072}{12}}=4005.03\\)",
-                    "\\(A=P(1+\\frac{r}{n})^{nt})\\)",
+                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
                     "\\(A=4005.03(1+\\frac{.072}{12})^{12*44}=94,262.64\\)",
                     "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
                     "\\(FV=400\\frac{[( 1+\\frac{.072}{12})^{12*3}-1]}{\\frac{.072}{12}}=1,292,557.30\\)"
