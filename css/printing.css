@@ -45,5 +45,7 @@ div.container {
     line-height: 1.6em;
     margin-left: .75em;
 }
-
+#showall{
+    display: none;
+  }
 }
