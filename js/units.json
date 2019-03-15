@@ -1,904 +1,6 @@
 {
   "units": [
-    {
-      "title": "Finance Unit",
-      "intro": "<h3 id=\"simple-interest\">Simple Interest</h3><p>\\(I=Prt\\)</p><p>\\(A=P(1+rt)\\)</p><h3 id=\"compound-interest\">Compound Interest</h3><p>\\(A=P(1+\\frac{r}{n})^{nt}\\)</p><h3 id=\"continuous-compounding\">Continuous Compounding</h3><p>\\(A=Pe^{rt}\\)</p><h3 id=\"future-value-of-an-ordinary-annuity\">Future Value of an Ordinary Annuity</h3><p>\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\displaystyle\\frac rn}\\)</p><h3 id=\"present-value-of-an-annuity\">Present Value of an Annuity</h3><p>\\(PV=PMT\\frac{\\left[1-\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}\\right]}{\\displaystyle\\frac rn}\\)</p><p><strong>A:</strong> amount (future value)</p><p><strong>P:</strong> principal (present value)</p><p><strong>PV:</strong> preset value of all payments</p><p><strong>FV:</strong> future value of all payments</p><p><strong>PMT:</strong> periodic payments</p><p><strong>r:</strong> annual interest rate</p><p><strong>t:</strong> time in years</p><p><strong>n:</strong> numbering of compounding periods per year</p><br>",
-      "sections": [
-        {
-          "title": "Simple Interest",
-          "intro": "",
-          "problemsets": [
-            {
-              "intro": "Use the simple interest formulas to answer the following questions.  Write all of your answers in complete sentences.",
-              "problems": [
-                {
-                  "text": "Ursula borrows $600 for 5 months at a simple interest rate of 15% per year. Find the interest, and the total amount she is obligated to pay?",
-                  "solutions": [
-                    "\\(I=Prt\\)",
-                    " \\(I=600(0.15)(5/12)\\)",
-                    "\\(I=37.50\\)"
-                  ],
-                  "answer": {
-                    "text": "Ursula's interest will be $37.50, and the total amount she must pay is $637.50",
-                    "image": {
-                      "url": 
-                      "alt"
-                    }
-                  }
-                },
-                {
-                  "text": "Jose deposited $2500 in an account that pays 6% simple interest. How much money will he have at the end of 3 years?",
-                  "solutions": [
-                    "\\(A=P(1+rt)\\)",
-                    "\\(A=2500(1+.06*3)\\)",
-                    "\\(A=2950\\)"
-                  ],
-                  "answer": {
-                    "text": "At the end of three years, Jose will have $2950."
-                  }
-                },
-                {
-                  "text": "Darnel owes a total of $3060 which includes 12% interest for the three years he borrowed the money. How much did he originally borrow?",
-                  "solutions": [
-                    "\\(A=P(1+rt)\\)",
-                    "\\(3060=P(1+.12*3)\\)",
-                    "\\(3060=P(1.36)\\)",
-                    "\\(3060/1.36=P\\)"
-                  ],
-                  "answer": {
-                    "text": "Darnel borrowed $2250."
-                  }
-                },
-                {
-                  "text": "A Visa credit card company charges a 1.5% finance charge each month on the unpaid balance. If Martha owes $2350 and has not paid her bill for three months, how much does she owe?",
-                  "solutions": [
-                    "\\(A=P(1+rt)\\)",
-                    "\\(A=2350(1+.015*3)\\)",
-                    "\\(A=2455.75\\)"
-                  ],
-                  "answer": {
-                    "text": "Martha owes $2455.75."
-                  }
-                },
-                {
-                  "text": "If an amount of $2,000 is borrowed at a simple interest rate of 10% for 3 years, how much is the interest?",
-                  "solutions": [
-                    "\\(I=Prt\\)",
-                    "\\(I=2000(0.10)(3)\\)",
-                    "\\(I=600\\)"
-                  ],
-                  "answer": {
-                    "text": "The interest is $600."
-                  }
-                },
-                {
-                  "text": "You borrow $4,500 for six months at a simple interest rate of 8%. How much is the interest?",
-                  "solutions": [
-                    "\\(I=Prt\\)",
-                    "\\(I=4500(0.08)(1/2)\\)",
-                    "\\(I=180\\)"
-                  ],
-                  "answer": {
-                    "text": "The interest is $180."
-                  }
-                },
-                {
-                  "text": "John borrows $2400 for 3 years at 9% simple interest. How much will he owe at the end of 3 years?",
-                  "solutions": [
-                    "\\(A=P(1+rt)\\)",
-                    "\\(A=2400(1+.09*3)\\)",
-                    "\\(A=3048\\)"
-                  ],
-                  "answer": {
-                    "text": "John will owe $3048."
-                  }
-                },
-                {
-                  "text": "Jessica takes a loan of $800 for 4 months at 12% simple interest. How much does she owe at the end of the 4-month period?",
-                  "solutions": [
-                    "\\(A=P(1+rt)\\)",
-                    "\\(A=800(1+0.12*1/3)\\)",
-                    "\\(A=832\\)"
-                  ],
-                  "answer": {
-                    "text": "Jessica owes $832."
-                  }
-                },
-                {
-                  "text": "If an amount of $2,160, which includes a 10% simple interest for 2 years, is paid back, how much was borrowed 2 years earlier?",
-                  "solutions": [
-                    "\\(A=P(1+rt)\\)",
-                    "\\(2160=P(1+0.10*2)\\)",
-                    "\\(2160=P(1.20)\\)",
-                    "\\(1800=P\\)"
-                  ],
-                  "answer": {
-                    "text": "Two years earlier, $800 was borrowed."
-                  }
-                },
-                {
-                  "text": "Jamie just paid off a loan of $2,544, the principal and simple interest. If he took out the loan six months ago at 12% simple interest, what was the amount borrowed?",
-                  "solutions": [
-                    "\\(A=P(1+rt)\\)",
-                    "\\(2544=P(1+0.12*1/2)\\)",
-                    "\\(2544=P(1.06)\\)",
-                    "\\(P=2400\\)"
-                  ],
-                  "answer": {
-                    "text": "Jamie borrowed $2400."
-                  }
-                },
-                {
-                  "text": "Shanti charged $800 on her charge card and did not make a payment for six months. If there is a monthly charge of 1.5%, how much does she owe?",
-                  "solutions": [
-                    "\\(A=P(1+rt)\\)",
-                    "\\(A=800(1+0.015*6)\\)",
-                    "\\(A=872\\)"
-                  ],
-                  "answer": {
-                    "text": "Shanti owes $872."
-                  }
-                },
-                {
-                  "text": "A credit card company charges 18% interest on the unpaid balance. If you owed $2000 three months ago and have been delinquent since, how much do you owe?",
-                  "solutions": [
-                    "\\(A=P(1+rt)\\)",
-                    "\\(A=2000(1+0.18*1/4)\\)",
-                    "\\(A=2090\\)"
-                  ],
-                  "answer": {
-                    "text": "You owe $2090."
-                  }
-                },
-                {
-                  "text": "An amount of $2000 is borrowed for 3 years. At the end of the three years, $2660 is paid back. What was the simple interest rate?",
-                  "solutions": [
-                    "\\(A=P(1+rt)\\)",
-                    "\\(2660=2000(1+3r)\\)",
-                    "\\(2660=2000+60000r\\)",
-                    "\\(660=6000r\\)",
-                    "\\(0.11=r\\)"
-                  ],
-                  "answer": {
-                    "text": "The simple interest rate is 11%."
-                  }
-                },
-                {
-                  "text": "Nancy borrowed $1,800 and paid back $1,920, four months later. What was the simple interest rate?",
-                  "solutions": [
-                    "\\(A=P(1+rt)\\)",
-                    "\\(1920=1800(1+(1/3)r)\\)",
-                    "\\(1920=1800+600r\\)",
-                    "\\(120=600r\\)",
-                    "\\(0.2=r\\)"
-                  ],
-                  "answer": {
-                    "text": "The simple interest rate is 20%."
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "title": "Compound and Continuous Interest",
-          "intro": " <h3>Compound Interest</h3><p>Simple interest is charged when the lending period is short and often less than a year. When the money is loaned or borrowed for a longer time period, the interest is paid (or charged) not only on the principal, but also on the past interest, and we say the interest is compounded.</p><p>Suppose $200 is deposited in an account that pays 8% interest. At the end of one year, the account will have </p><p>\\($200+$200(0.08)=$200(1+0.08/1)^{1*1}=$216\\)</p><p>Now suppose this amount, $216, remains in the account. After the second year, it will have</p><p>\\($200(1+0.08)(1+0.08)=$200(1+0.08/1)^{1*2}=$233.28\\)</p><p>After three years, it will have</p><p>\\($200(1+0.08)(1+0.08)(1+0.08)=$200(1+0.08/1)^{1*3}=$251.94\\)</p><p>at the end of 5 years, it will have</p><p>\\(200(1+0.08/1)^{1*5}=$293.87\\)</p><p>Compound Interest Formula:  </p><p>\\(A=P(1+\\frac rn)^{nt}\\)</p><img src=\"./images/u1s2i.png\" alt=\"Graph of Amount of Money in an account when compounded at various compounding frequencies.  4 graphs--one each for compounding yearly, quarterly, monthly, and continuously\"><h3><br><br><br><br><br><br>Compounding Frequency</h3><h4>Yearly:</h4><p>\\(1000(1+\\frac {0.08}1)^{1*1}=1080\\)</p><h4>Quarterly:</h4><p>\\(1000(1+\\frac {0.08}4)^{4*1}=1082.43\\)</p><h4>Monthly:</h4><p>1000(1+0.08/12)^(12*1)=1083</p><h4>Daily:</h4><p>\\(1000(1+\\frac {0.08}{365})^{365*1}=1083.28\\)</p><h4>Continuously (at every instant):</h4><p>\\(1000\\left[\\lim_{n\\rightarrow\\infty}\\;\\left(1+\\frac{0.08}n\\right)^n\\right]=1083.29\\)</p><p>And since \\(e=\\lim_{n\\rightarrow\\infty}\\;\\left(1+\\frac1n\\right)^n\\approx2.718281829\\)</p><p>The continuous compounding formula is:  \\(A=Pe^{rt}\\)</p>",
-          "problemsets": [
-            {
-              "intro": "Use a compound or continuous interest formula to answer the following questions.  Write all of your answers in complete sentences",
-              "problems": [
-                {
-                  "text": "If $3500 is invested at 9% compounded monthly, how much will be in the account in four years?",
-                  "solutions": [
-                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
-                    "\\(A=3000(1+\\frac{.09}{12})^{12*4}\\)",
-                    "\\(A=5009.92\\)"
-                  ],
-                  "answer": {
-                    "text": "In four years, there will be $5009.92 in the account."
-                  }
-                },
-                {
-                  "text": "How much should be invested in an account paying 9% compounded daily for it to accumulate to $5,000 in five years?",
-                  "solutions": [
-                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
-                    "\\(5000=P(1+\\frac{.09}{360})^{360*5}\\)",
-                    "\\(P=3188.32\\)"
-                  ],
-                  "answer": {
-                    "text": "To accumulate $5000 in five years, $3188.32 should be invested."
-                  }
-                },
-                {
-                  "text": "If $3500 is invested at 9% compounded continuously, what will the future value be in four years?",
-                  "solutions": [
-                    "\\(A=Pe^{rt}\\)",
-                    "\\(A=3500e^{.09*4}\\)",
-                    "\\(A=5016.65\\)"
-                  ],
-                  "answer": {
-                    "text": "In four years, the account will be worth $5016.65."
-                  }
-                },
-                {
-                  "text": "If an amount is invested at 7% compounded monthly, estimate how long will it take to double if compounded monthly? (The Law of 70 (used to estimate how long it will take to double):  The number of years to double money = 70 ÷ interest rate)",
-                  "solutions": [
-                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
-                    "\\(2=1(1+\\frac{.07}{12})^{12t}\\)",
-                    "\\(2=(\\frac{1207}{1200})^{12t}\\)",
-                    "\\(ln2=ln(\\frac{1207}{1200})^{12t}\\)",
-                    "\\(ln2=12t*ln(\\frac{1207}{1200})\\)",
-                    "\\(\\frac{ln2}{12ln(\\frac{1207}{1200})}=t\\)",
-                    "\\(9.93=t\\)"
-                  ],
-                  "answer": {
-                    "text": "It will take approximately 9.93 years for the amount to double."
-                  }
-                },
-                {
-                  "text": "If, at the end of two years, a savings account has a balance of $1172.60, and the interest rate is compounded monthly at 3.2%, then what is the original amount deposited two years ago?",
-                  "solutions": [
-                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
-                    "\\(1172.60=P(1+\\frac{.032}{12})^{12*2}\\)",
-                    "\\(1172.60=P(1.066001591....)\\)",
-                    "\\(P=1100\\)"
-                  ],
-                  "answer": {
-                    "text": "The original amount deposited two years ago was $1100."
-                  }
-                },
-                {
-                  "text": "An initial deposit of $5,000.00 is made into a savings account that compounds 7.1% interest annually. How much is in the account at the end of five years?",
-                  "solutions": [
-                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
-                    "\\(A=5000(1+\\frac{.071}{1})^{1*5}\\)",
-                    "\\(A=7045.59\\)"
-                  ],
-                  "answer": {
-                    "text": "At the end of 5 years, there is $7045.59 in the account."
-                  }
-                },
-                {
-                  "text": "After 80 years of 5.8% interest compounded monthly, an account has $102,393.44. What was the original deposit amount?",
-                  "solutions": [
-                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
-                    "\\(102,393.44=P(1+\\frac{.058}{12})^{12*80}\\)",
-                    "\\(102,393.44=P(102.393....)\\)",
-                    "\\(P=1000\\)"
-                  ],
-                  "answer": {
-                    "text": "The original amount deposited into the account 80 years ago was $1000."
-                  }
-                },
-                {
-                  "text": "Bank A is offering a 2.7%, compounded annually, savings account guaranteed for three years. Bank B is offering a 1.9%, compounded monthly, savings account guaranteed for two years. Which bank would yield the most on a principal of $500.00? What is the dollar amount difference between the two bank accounts?",
-                  "solutions": [
-                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
-                    "\\(A=500(1+\\frac{.027}{1})^{1*3}\\)",
-                    "\\(A=541.60\\)",
-                    "\\(A=P(1+\\frac{r}{n})^{nt})\\)",
-                    "\\(A=500(1+\\frac{.019}{12})^{12*2}\\)",
-                    "\\(A=519.35\\)"
-                  ],
-                  "answer": {
-                    "text": "The difference between the accounts is $22.25."
-                  }
-                },
-                {
-                  "text": "How much would need to be deposited into an account earning 4.7%, compounded quarterly, so that the balance will be $1,000,000.00 in 20 years?",
-                  "solutions": [
-                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
-                    "\\(1,000,000=P(1+\\frac{.047}{4})^{4*20})\\)",
-                    "\\(1,000,000=P(2.545....)\\)",
-                    "\\(P=392,774.20\\)"
-                  ],
-                  "answer": {
-                    "text": "To have $1,000,000 in 20 years, $392,774.20 should be deposited."
-                  }
-                },
-                {
-                  "text": "Mary discovers a bank account her parents left for her that was opened when she was born 50 years ago. The statement she found states the deposit amount of $100.00 into an account earning 1.8% compounded quarterly. What is the balance of her account now?",
-                  "solutions": [
-                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
-                    "\\(A=100(1+\\frac{.018}{4})^{4*50}\\)",
-                    "\\(A=245.46\\)"
-                  ],
-                  "answer": {
-                    "text": "The balance in the account is $245.46."
-                  }
-                },
-                {
-                  "text": "In the same box, Mary discovers another statement for an account her grandparents opened for her when she was born. This statement shows a deposit amount of $100.00 into a 3.6%, compounded quarterly, account. How much is in this account now?",
-                  "solutions": [
-                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
-                    "\\(A=100(1+\\frac{.036}{4})^{4*50}\\)",
-                    "\\(A=600.11\\)"
-                  ],
-                  "answer": {
-                    "text": "The balance in the account is $600.11."
-                  }
-                },
-                {
-                  "text": "Luckily, Mary finds a third statement for an account her Aunt opened for her. This was also $100.00 at 1.8%, but it is compounded monthly. How much is in this account now? Based on the answers for each of the accounts Mary discovered, is it better to compound more often or earn a higher interest rate?",
-                  "solutions": [
-                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
-                    "\\(A=100(1+\\frac{.018}{12})^{12*50}\\)",
-                    "\\(A=245.79\\)"
-                  ],
-                  "answer": {
-                    "text": "It is better to earn a higher interest rate."
-                  }
-                },
-                {
-                  "text": "An account earning 6.6% interest compounded continuously for 10 years would have a balance of how much if the principal was $550.00?",
-                  "solutions": [
-                    "\\(A=Pe^{rt}\\)",
-                    "\\(A=550e^{.066*10}\\)",
-                    "\\(A=1064.14\\)"
-                  ],
-                  "answer": {
-                    "text": "The balance after 10 years would be $1064.14."
-                  }
-                },
-                {
-                  "text": "What was the principal for a continuously compounded account earning 3.9% for 15 years that now has a balance of $2,500,000.00?",
-                  "solutions": [
-                    "\\(A=Pe^{rt}\\)",
-                    "\\(2,500,000=Pe^{.039*15}\\)",
-                    "\\(\\frac{2500000}{e^{.039*15}}=P\\)",
-                    "\\(P=1,392,764,66\\)"
-                  ],
-                  "answer": {
-                    "text": "The principal invested 15 years ago was $1,392,764.66."
-                  }
-                },
-                {
-                  "text": "A teenager saved small dollar amounts throughout the school year and now has $712.00. He can choose from two bank offers. The first is 5.3% compounded continuously for six years. The second is compounded quarterly for five years at 6.0%. Which account will yield the most money? What is the dollar amount difference between the accounts at the end of their terms?",
-                  "solutions": [
-                    "\\(A=Pe^{rt}\\)",
-                    "\\(A=712e^{.053*6t}\\)",
-                    "\\(A=978.56\\)",
-                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
-                    "\\(A=712(1+\\frac{.06}{4})^{4*5}\\)",
-                    "\\(A=958.96\\)"
-                  ],
-                  "answer": {
-                    "text": "The difference in the accounts at the end of their terms is $19.60."
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "title": "Future Value of an Annuity",
-          "intro": "<h3>Definitions:</h3><p><strong>Annuity:</strong>  sequence of equal periodic payments</p><p><strong>Ordinary Annuity:</strong> payments made at the end of the period</p><p><strong>Annuity Due:</strong> payments made at the beginning of the period</p><p><strong>Sinking Fund:</strong> an annuity established for accumulating funds to meet future obligations</p><h4>Future Value Annuity Formula:</h4><p>\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)</p>",
-          "problemsets": [
-            {
-              "intro": "Use an Annuity formula to answer the following questions.  Write all of your answers in complete sentences.",
-              "problems": [
-                {
-                  "text": "If at the end of each month a deposit of $500 is made in an account that pays 8% compounded monthly, what will the final amount be after five years?",
-                  "solutions": [
-                    "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
-                    "\\(FV=500\\frac{\\left[\\left(1+{\\displaystyle\\frac{.08}{12}}\\right)^{12\\ast5}-1\\right]}{\\displaystyle\\frac{.08}{12}}\\)"
-                  ],
-                  "answer": {
-                    "text": "After five years, there will be $36,738.43."
-                  }
-                },
-                {
-                  "text": "Tanya deposits $300 at the end of each quarter in her savings account. If the account earns 5.75%, how much money will she have in 4 years?",
-                  "solutions": [
-                    "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
-                    "\\(FV=300\\frac{\\left[\\left(1+{\\displaystyle\\frac{.0575}{4}}\\right)^{4\\ast4}-1\\right]}{\\displaystyle\\frac{.0575}{4}}\\)"
-                  ],
-                  "answer": {
-                    "text": "Tanya will have $5353.89 in four years."
-                  }
-                },
-                {
-                  "text": "Robert needs $5000 in three years. How much should he deposit each month in an account that pays 8% in order to achieve his goal?",
-                  "solutions": [
-                    "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
-                    "\\(5000=PMT\\frac{[( 1+\\frac{.08}{12})^{12*3}-1]}{\\frac{.08}{12}}\\)"
-                  ],
-                  "answer": {
-                    "text": "Robert needs to deposit $123.35 each month."
-                  }
-                },
-                {
-                  "text": "A business needs $450,000 in five years. How much should be deposited each quarter in a sinking fund that earns 9% to have this amount in five years?",
-                  "solutions": [
-                    "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
-                    "\\(450,000=PMT\\frac{[( 1+\\frac{.09}{4})^{4*5}-1]}{\\frac{.09}{4}}\\)"
-                  ],
-                  "answer": {
-                    "text": "The business should deposit $18,063.93 each quarter."
-                  }
-                },
-                {
-                  "text": "Find the future value of an annuity of $200 per month for 5 years at 6% compounded monthly.",
-                  "solutions": [
-                    "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
-                    "\\(FV=200\\frac{[( 1+\\frac{.06}{12})^{12*5}-1]}{\\frac{.06}{12}}\\)"
-                  ],
-                  "answer": {
-                    "text": "The future value is $13,954.01."
-                  }
-                },
-                {
-                  "text": "How much money should be deposited at the end of each month in an account paying 7.5% for it to amount to $10,000 in 5 years?",
-                  "solutions": [
-                    "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
-                    "\\(10,000=PMT\\frac{[( 1+\\frac{.075}{12})^{12*5}-1]}{\\frac{.075}{12}}\\)"
-                  ],
-                  "answer": {
-                    "text": "To accumulate $10,000 in five years, $137.88 should be deposited each month."
-                  }
-                },
-                {
-                  "text": "At the end of each month Rita deposits $300 in an account that pays 5%. What will the final amount be in 4 years?",
-                  "solutions": [
-                    "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
-                    "\\(FV=300\\frac{[( 1+\\frac{.05}{12})^{12*4}-1]}{\\frac{.05}{12}}\\)"
-                  ],
-                  "answer": {
-                    "text": "In four years, Rita will have $15,904.47 in her account."
-                  }
-                },
-                {
-                  "text": "Mr. Chang wants to retire in 10 years and can save $650 every three months. If the interest rate is 7.8%, how much will he have at the end of 5 years?",
-                  "solutions": [
-                    "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
-                    "\\(FV=650\\frac{[( 1+\\frac{.078}{4})^{4*5}-1]}{\\frac{.078}{4}}\\)"
-                  ],
-                  "answer": {
-                    "text": "At the end of five years, Mr. Chang will have $15,714.90"
-                  }
-                },
-                {
-                  "text": "A firm needs to replace most of its machinery in five years at a cost of $500,000. The company wishes to create a sinking fund to have this money available in five years. How much should the quarterly deposits be if the fund earns 8%?",
-                  "solutions": [
-                    "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
-                    "\\(500,000=PMT\\frac{[( 1+\\frac{.08}{4})^{4*5}-1]}{\\frac{.08}{4}}\\)"
-                  ],
-                  "answer": {
-                    "text": "The quarterly deposits should be $20,578.36."
-                  }
-                },
-                {
-                  "text": "Ms. Brown needs $5,000 in three years. If the interest rate is 9%, how much should she save at the end of each month to have that amount in three years?",
-                  "solutions": [
-                    "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
-                    "\\(5,000=PMT\\frac{[( 1+\\frac{.09}{12})^{12*3}-1]}{\\frac{.09}{12}}\\)"
-                  ],
-                  "answer": {
-                    "text": "Ms. Brown needs to save $121.50 each month."
-                  }
-                },
-                {
-                  "text": "A company has a $120,000 note due in 4 years. How much should be deposited at the end of each quarter in a sinking fund to pay off the note in four years if the interest rate is 8%?",
-                  "solutions": [
-                    "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
-                    "\\(120,000=PMT\\frac{[( 1+\\frac{.08}{4})^{4*4}-1]}{\\frac{.08}{4}}\\)"
-                  ],
-                  "answer": {
-                    "text": "To payoff the note in four years, $6438.02 should be deposited each month."
-                  }
-                },
-                {
-                  "text": "You are now 20 years of age and decide to save $100 at the end of each month until you are 23, when you graduate from college and start your career.  You do not save anything for 2 years while you pay down your student loans.  You begin saving again when you are 25, and you save $400 at the end of each month until you retire at 67. If the interest rate is 7.2%, how much money will you have when you are 67? ",
-                  "solutions": [
-                    "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
-                    "\\(FV=100\\frac{[( 1+\\frac{.072}{12})^{12*3}-1]}{\\frac{.072}{12}}=4005.03\\)",
-                    "\\(A=P(1+\\frac{r}{n})^{nt})\\)",
-                    "\\(A=4005.03(1+\\frac{.072}{12})^{12*44}=94,262.64\\)",
-                    "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
-                    "\\(FV=400\\frac{[( 1+\\frac{.072}{12})^{12*3}-1]}{\\frac{.072}{12}}=1,292,557.30\\)"
-                  ],
-                  "answer": {
-                    "text": "You will have $1,386,819.94 when you retire."
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "title": "Present Value of an Annuity",
-          "intro": "<h4>Present Value of an Annuity Formula:</h4>\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
-          "problemsets": [
-            {
-              "intro": "Use an Annuity formula to answer the following questions.  Write all answers in complete sentences.",
-              "problems": [
-                {
-                  "text": "Suppose you have won a lottery that pays $1,000 per month for the next 20 years, but you prefer to have the entire amount now. If the interest rate is 8%, how much will you accept?",
-                  "solutions": [
-                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
-                    "\\(PV=1000\\;\\left[\\frac{1-\\left(1+\\frac {.08}{12}\\right)^{-12*20}}{\\displaystyle\\frac {.08}{12}}\\right]\\)"
-                  ],
-                  "answer": {
-                    "text": "Your lump sum payment will be $119,554.29."
-                  }
-                },
-                {
-                  "text": "Find the monthly payment for a car costing $15,000 if the loan is amortized over five years at an interest rate of 9%.",
-                  "solutions": [
-                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
-                    "\\(15,000=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.09}{12}\\right)^{-12*5}}{\\displaystyle\\frac {.09}{12}}\\right]\\)"
-                  ],
-                  "answer": {
-                    "text": "The monthly payment is $311.38."
-                  }
-                },
-                {
-                  "text": "Mr. Jackson bought his house in 1975, and financed the loan for 30 years at an interest rate of 9.8%. His monthly payment was $1260. In 1995, Mr. Jackson decided to pay off the loan. Find the balance of the loan he still owes.",
-                  "solutions": [
-                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
-                    "\\(PV=1260\\;\\left[\\frac{1-\\left(1+\\frac {.098}{12}\\right)^{-12*10}}{\\displaystyle\\frac {.098}{12}}\\right]\\)"
-                  ],
-                  "answer": {
-                    "text": "Mr. Jackson still owes $96,149.65."
-                  }
-                },
-                {
-                  "text": "The Orange computer company needs to raise money to expand. It issues a 10-year $1,000 bond that pays $30 every six months. If the current market interest rate is 7%, what is the fair market value of the bond?",
-                  "solutions": [
-                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
-                    "\\(PV=30\\;\\left[\\frac{1-\\left(1+\\frac {.07}{2}\\right)^{-2*10}}{\\displaystyle\\frac {.07}{2}}\\right]\\)"
-                  ],
-                  "answer": {
-                    "text": "The fair market value of the bond is $426.37."
-                  }
-                },
-                {
-                  "text": "Shawn has won a lottery paying him $10,000 per month for the next 20 years. He'd rather have the whole amount in one lump sum today. If the current interest rate is 8.2%, how much money can he hope to get?",
-                  "solutions": [
-                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
-                    "\\(PV=10,000\\;\\left[\\frac{1-\\left(1+\\frac {.082}{12}\\right)^{-12*20}}{\\displaystyle\\frac {.082}{12}}\\right]\\)"
-                  ],
-                  "answer": {
-                    "text": "The lump sum amount would be $1,177,953.55."
-                  }
-                },
-                {
-                  "text": "Sonya bought a car for $15,000. Find the monthly payment if the loan is to be amortized over 5 years at a rate of 10.1%.",
-                  "solutions": [
-                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
-                    "\\(15,000=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.101}{12}\\right)^{-12*5}}{\\displaystyle\\frac {.101}{12}}\\right]\\)"
-                  ],
-                  "answer": {
-                    "text": "Sonya's monthly payment will be $319.44."
-                  }
-                },
-                {
-                  "text": "You determine that you can afford $250 per month for a car. What is the maximum amount you can afford to pay for a car if the interest rate is 9% and you want to repay the loan in 5 years?",
-                  "solutions": [
-                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
-                    "\\(PV=250\\;\\left[\\frac{1-\\left(1+\\frac {.09}{12}\\right)^{-12*5}}{\\displaystyle\\frac {.09}{12}}\\right]\\)"
-                  ],
-                  "answer": {
-                    "text": "You can afford a car that costs $12,043.34."
-                  }
-                },
-                {
-                  "text": "Compute the monthly payment for a house loan of $200,000 to be financed over 30 years at an interest rate of 10%.",
-                  "solutions": [
-                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
-                    "\\(200,000=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.10}{12}\\right)^{-12*30}}{\\displaystyle\\frac {.10}{12}}\\right]\\)"
-                  ],
-                  "answer": {
-                    "text": "The monthly payment will be $1755.14."
-                  }
-                },
-                {
-                  "text": "If the $200,000 loan in the previous problem is financed over 15 years rather than 30 years at 10%, what will the monthly payment be?",
-                  "solutions": [
-                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
-                    "\\(200,000=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.10}{12}\\right)^{-12*15}}{\\displaystyle\\frac {.10}{12}}\\right]\\)"
-                  ],
-                  "answer": {
-                    "text": "The monthly payment will be $2149.21."
-                  }
-                },
-                {
-                  "text": "What is the total amount paid for the house over 30 years? Over 15 years?",
-                  "solutions": [
-                    "\\(1755.14*12*30=631,850.40\\)",
-                    "\\(2149.21*12*15=386,857.84\\)"
-                  ],
-                  "answer": {
-                    "text": "The total amount for the 30-year loan is $631,850.40, and the total amount for the 15-year loan is $386,857.84."
-                  }
-                },
-                {
-                  "text": "Friendly Auto offers Jennifer a car for $2000 down and $300 per month for 5 years. Jason wants to buy the same car but wants to pay cash. How much must Jason pay if the interest rate is 9.4%?",
-                  "solutions": [
-                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
-                    "\\(PV=300\\;\\left[\\frac{1-\\left(1+\\frac {.094}{12}\\right)^{-12*5}}{\\displaystyle\\frac {.094}{12}}\\right]\\)",
-                    "\\(PV=14,317.74\\)",
-                    "\\(14,317.74+2,000=16,317.74\\)"
-                  ],
-                  "answer": {
-                    "text": "Jason would pay $16,317.74 for the car."
-                  }
-                },
-                {
-                  "text": "The Gomez family bought a house for $175,000. They paid 20% down and amortized the rest at 11.2% over a 30-year period. Find their monthly payment.",
-                  "solutions": [
-                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
-                    "\\(140,000=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.112}{12}\\right)^{-12*30}}{\\displaystyle\\frac {.112}{12}}\\right]\\)"
-                  ],
-                  "answer": {
-                    "text": "The monthly payment is $1354.45."
-                  }
-                },
-                {
-                  "text": "Mr. and Mrs. Wong purchased their new house for $350,000. They made a down payment of 15%, and amortized the rest over 30 years. If the interest rate is 9%, find their monthly payment.",
-                  "solutions": [
-                    "Down Payment: \\(350,000*0.15=52,500\\)",
-                    "Amount financed: \\(350,000-52,500=297,500\\)",
-                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
-                    "\\(297,500=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.09}{12}\\right)^{-12*30}}{\\displaystyle\\frac {.09}{12}}\\right]\\)"
-                  ],
-                  "answer": {
-                    "text": "The Wong's monthly payment is $2393.75."
-                  }
-                },
-                {
-                  "text": "A firm needs a piece of machinery that has a useful life of 5 years. It has an option of leasing it for $10,000 a year, or buying it for $40,000 cash. If the interest rate is 10%, which choice is better?",
-                  "solutions": [
-                    "\\(10,000*5=50,000\\)",
-                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
-                    "\\(40,000=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.10}{1}\\right)^{-1*5}}{\\displaystyle\\frac {.10}{1}}\\right]\\)",
-                    "\\(PMT=10,551.90\\)",
-                    "\\(10,551.90*5=52,759.50\\)"
-                  ],
-                  "answer": {
-                    "text": "Leasing is a better choice."
-                  }
-                },
-                {
-                  "text": "Jackie wants to buy a $19,000 car, but she can afford to pay only $300 per month for 5 years. If the interest rate is 6%, how much does she need to put down?",
-                  "solutions": [
-                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
-                    "\\(PV=300\\;\\left[\\frac{1-\\left(1+\\frac {.06}{12}\\right)^{-12*51}}{\\displaystyle\\frac {.06}{12}}\\right]\\)",
-                    "\\(PV=15,517.69\\)",
-                    "\\(19,000-15,517.69=3482.31\\)"
-                  ],
-                  "answer": {
-                    "text": "Jackie needs a down payment of $3482.31"
-                  }
-                },
-                {
-                  "text": "Vijay's tuition at Stanford for the next year is $32,000. His parents have decided to pay the tuition by making nine monthly payments. If the interest rate is 9%, what is the monthly payment?",
-                  "solutions": [
-                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
-                    "\\(32,000=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.09}{12}\\right)^{-12*.75}}{\\displaystyle\\frac {.09}{12}}\\right]\\)"
-                  ],
-                  "answer": {
-                    "text": "The monthly payment is $3690.22."
-                  }
-                },
-                {
-                  "text": "Glen borrowed $10,000 for his college education at 8% compounded quarterly. Three years later, after graduating and finding a job, he decided to start paying off his loan. If the loan is amortized over five years at 9%, find his monthly payment for the next five years.",
-                  "solutions": [
-                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
-                    "\\(A=10,000(1+\\frac{.08}{4})^{4*3}\\)",
-                    "\\(A=12,682.48\\)",
-                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
-                    "\\(12,682.48=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.09}{12}\\right)^{-12*5}}{\\displaystyle\\frac {.09}{12}}\\right]\\)"
-                  ],
-                  "answer": {
-                    "text": "Glen's monthly payment is $263.27."
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "title": "Retirement Problem",
-          "intro": "",
-          "problemsets": [
-            {
-              "intro": "",
-              "problems": [
-                {
-                  "text": "I am looking ahead to my retirement.  I plan to retire at 70 and hope to live to 95 with an income of $3200 a month from an account compounding monthly at 4.5%. I am currently 27, and I am going to deposit $350 at the end of each quarter until I am 70.   This account pays 8.5% that is compounded quarterly.  Will I have enough to make it happen and by how much am I above or below? Find the amount I need to support those requirements from age 70 to 95",
-                  "solutions": [
-                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
-                    "\\(PV=3200\\;\\left[\\frac{1-\\left(1+\\frac {.045}{12}\\right)^{-12*25}}{\\displaystyle\\frac {.045}{12}}\\right]\\)",
-                    "\\(PV=575,713.03\\)",
-                    "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
-                    "\\(FV=350\\frac{[( 1+\\frac{.085}{4})^{4*43}-1]}{\\frac{.085}{4}}\\)",
-                    "\\(FV=596,479.44\\)",
-                    "\\(596,479.44-575,713.03=20,766.41\\)"
-                  ],
-                  "answer": {
-                    "text": "I will have $20,766.41 more than I need to retire."
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "title": "Amortization",
-          "intro": "",
-          "problemsets": [
-            {
-              "intro": "The Federal Reserve Bank of St. Louis reports that in November 2017, the median sale price of an existing home in the United States was $248,800.  The average interest rate on a 30- year fixed-rate mortgage was approximately 3.95%.  The median interest rate on a 15-year fixed-rate mortgage was about 3.38%.",
-              "citation": "https://fred.stlouisfed.org/series/HSFMEDUSM052N",
-              "problems": [
-                {
-                  "text": "Imagine you are an average consumer and you’re going to buy a home.  You’ll make a down payment of 20% of the home’s value on a 30-year loan. What are your scheduled monthly payments?",
-                  "solutions": [
-                    "\\(248,800*0.20=49,760\\) for the down payment",
-                    "\\(248,800-49,760=199,040\\) amount financed",
-                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
-                    "\\(199,040=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.0395}{12}\\right)^{-12*30}}{\\displaystyle\\frac {.0395}{12}}\\right]\\)",
-                    "\\(199,040=PMT(210.73....)\\)",
-                    "\\(PMT=944.52\\)"
-                  ],
-                  "answer": {
-                    "text": "The monthly payment is $944.52."
-                  }
-                },
-                {
-                  "text": "Complete the amortization schedule for the first 6 months of your loan.<p><table class=\"table table-bordered table-sm\"><caption>Amortization Schedule for Home Loan</caption><tbody><tr><td><br /><p></p></td><th scope=\"col\"><p>Payment</p></th><th scope=\"col\"><p>Amount going toward interest</p></th><th scope=\"col\"><p>Amount going toward unpaid balance</p></th><th scope=\"col\"><p>Unpaid Balance</p></th></tr><tr><th scope=\"row\"><p>Payment 0</p></th><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment 1</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment 2</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment 3</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment 4</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment 5</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment 6</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Totals</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td class=\"table-dark\"><p>N/A</p></td></tr></tbody></table></p>",
-                  "solutions": [],
-                  "answer": {
-                    "text": "<table class=\"table table-bordered table-sm\"><caption>Amortization Schedule for Home Loan</caption><tbody><tr><td><br /><p></p></td><th scope=\"col\"><p>Payment</p></th><th scope=\"col\"><p>Amount going toward interest</p></th><th scope=\"col\"><p>Amount going toward unpaid balance</p></th><th scope=\"col\"><p>Unpaid Balance</p></th></tr><tr><th scope=\"row\"><p>Payment 0</p></th><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td><p>199,040</p></td></tr><tr><th scope=\"row\"><p>Payment 1</p></th><td><p>944.52</p></td><td><p>655.17</p></td><td><p>289.35</p></td><td><p>198,750.62</p></td></tr><tr><th scope=\"row\"><p>Payment 2</p></th><td><p>944.52</p></td><td><p>654.22</p></td><td><p>290.30</p></td><td><p>198,460.35</p></td></tr><tr><th scope=\"row\"><p>Payment 3</p></th><td><p>944.52</p></td><td><p>653.27</p></td><td><p>291.25</p></td><td><p>198,169.10</p></td></tr><tr><th scope=\"row\"><p>Payment 4</p></th><td><p>944.52</p></td><td><p>652.31</p></td><td><p>292.21</p></td><td><p>197,876.89</p></td></tr><tr><th scope=\"row\"><p>Payment 5</p></th><td><p>944.52</p></td><td><p>651.34</p></td><td><p>293.18</p></td><td><p>197,583.71</p></td></tr><tr><th scope=\"row\"><p>Payment 6</p></th><td><p>944.52</p></td><td><p>650.38</p></td><td><p>294.14</p></td><td><p>197,289.57</p></td></tr><tr><th scope=\"row\"><p>Totals</p></th><td><p>5667.12</p></td><td><p>3916.69</p></td><td><p>1750.43</p></td><td class=\"table-dark\"><p>N/A</p></td></tr></tbody></table>"
-                  }
-                },
-                {
-                  "text": "What is the total amount you pay for your house?",
-                  "solutions": [
-                    "\\(944.52*12*30=340,027.20+49,760.00=389,787.20\\)"
-                  ],
-                  "answer": {
-                    "text": "The total amount paid for the house is $389787.20"
-                  }
-                },
-                {
-                  "text": "How much do you pay in interest?",
-                  "solutions": [
-                    "\\(389,787.20-248,800=140,987.20\\)"
-                  ],
-                  "answer": {
-                    "text": "The total amount of interest paid is $140,987.20"
-                  }
-                },
-                {
-                  "text": "You talk to your friend who tells you to make a down payment of only 10% (after all, you’ll need some cash to buy some nice new furniture for your house), and you decided to get a 15-year loan at 3.38% interest.  What are your scheduled monthly payments?",
-                  "solutions": [
-                    "\\(248,800*0.10=24,880\\) for the down payment",
-                    "\\(248,800-24,880=223,920\\) amount financed",
-                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
-                    "\\(223,920=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.0338}{12}\\right)^{-12*15}}{\\displaystyle\\frac {.0338}{12}}\\right]\\)",
-                    "\\(223,920=PMT(141.04....)\\)",
-                    "\\(PMT=1587.60\\)"
-                  ],
-                  "answer": {
-                    "text": "The monthly payment for the 15-year loan is $1587.60"
-                  }
-                },
-                {
-                  "text": "Complete the amortization schedule for the first 6 months of your loan.<table class=\"table table-bordered table-sm\"><caption>Amortization Schedule for Home Loan</caption><tbody><tr><td><br /></td><th scope=\"col\">Payment</th><th scope=\"col\">Amount going toward interest</th><th scope=\"col\">Amount going toward unpaid balance</th><th scope=\"col\">Unpaid Balance</th></tr><tr><th scope=\"row\">Payment  0</th><td class=\"table-dark\">N/A</td><td class=\"table-dark\">N/A</td><td class=\"table-dark\">N/A</td><td></td></tr><tr><th scope=\"row\">Payment 1</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Payment 2</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Payment 3</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Payment 4</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Payment 5</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Payment 6</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Totals</th><td></td><td></td><td></td><td class=\"table-dark\">N/A</td></tr></tbody></table>",
-                  "solutions": [],
-                  "answer": {
-                    "text": "<table class=\"table table-bordered table-sm\"><caption>Amortization Schedule for Home Loan</caption><tbody><tr><td><br /><p></p></td><th scope=\"col\"><p>Payment</p></th><th scope=\"col\"><p>Amount going toward interest</p></th><th scope=\"col\"><p>Amount going toward unpaid balance</p></th><th scope=\"col\"><p>Unpaid Balance</p></th></tr><tr><th scope=\"row\"><p>Payment 0</p></th><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td><p>223,920</p></td></tr><tr><th scope=\"row\"><p>Payment 1</p></th><td><p>1587.60</p></td><td><p>630.71</p></td><td><p>956.89</p></td><td><p>222,963.11</p></td></tr><tr><th scope=\"row\"><p>Payment 2</p></th><td><p>1587.60</p></td><td><p>628.01</p></td><td><p>959.59</p></td><td><p>222,003.52</p></td></tr><tr><th scope=\"row\"><p>Payment 3</p></th><td><p>1587.60</p></td><td><p>625.31</p></td><td><p>962.29</p></td><td><p>221,041.23</p></td></tr><tr><th scope=\"row\"><p>Payment 4</p></th><td><p>1587.60</p></td><td><p>622.60</p></td><td><p>965.00</p></td><td><p>220,076.23</p></td></tr><tr><th scope=\"row\"><p>Payment 5</p></th><td><p>1587.60</p></td><td><p>619.88</p></td><td><p>967.72</p></td><td><p>219,108.51</p></td></tr><tr><th scope=\"row\"><p>Payment 6</p></th><td><p>1587.60</p></td><td><p>617.16</p></td><td><p>970.44</p></td><td><p>218,138.07</p></td></tr><tr><th scope=\"row\"><p>Totals</p></th><td><p>9525.60</p></td><td><p>3743.67</p></td><td>5781.93</td><td class=\"table-dark\"><p>N/A</p></td></tr></tbody></table>"
-                  }
-                },
-                {
-                  "text": "What is the total amount you pay for your house?",
-                  "solutions": [
-                    "\\(1587.60*12*15=285,768+24,880=310,648\\)"
-                  ],
-                  "answer": {
-                    "text": "the total amount paid for the house is $310,648."
-                  }
-                },
-                {
-                  "text": "How much do you pay in interest?",
-                  "solutions": [
-                    "\\(310,648-248,800=61,848\\)"
-                  ],
-                  "answer": {
-                    "text": "the total amount of interest paid is ^61,848."
-                  }
-                },
-                {
-                  "text": "Why would you choose one loan over the other?",
-                  "solutions": [],
-                  "answer": {
-                    "text": "You will pay less overall for the 15-year loan, but you might not be able to afford the higher monthly payments."
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "title": "Financial Decisions Activity",
-          "intro": "As an adult you are constantly faced with financial choices.  It is up to you to make informed decisions.<p>Do work & answer questions on your own paper and attach to this sheet.</p><p>All numbers must be justified.  If formulas are needed, you must write the formula and show substitutions.</p><p>Answers should be labeled and clearly written.</p><p>Work must be labeled and easy to follow.  Any explanations need to be thorough.</p>",
-          "problemsets": [
-            {
-              "intro": "this is a problem set intro",
-              "problems": [
-                {
-                  "text": "Car purchase options:<p>Option 1:  Purchase price is $23,500 and you are offered 4.2% financing for 60 months if you put $5,000 down.</p><p>Option 2:  Purchase price of $23,500 and you are offered 3.75% financing for 72 months with $0 down.<p>Which option would you choose and why?</p>  </p><p>For each option, determine the following:</p><table class=\"table table-bordered table-sm\"><tbody><tr><td width=\"189\"> </td><th scope=\"col\" width=\"235\">Option 1</th><th scope=\"col\" width=\"235\">Option 2</th></tr><tr><th scope=\"row\" width=\"189\">Purchase Price</th><td width=\"235\"> </td><td width=\"235\"> </td></tr><tr><th scope=\"row\" width=\"189\">Amount of Down Payment</th><td width=\"235\"> </td><td width=\"235\"> </td></tr><tr><th scope=\"row\" width=\"189\">Amount to be Financed</th><td width=\"235\"> </td><td width=\"235\"> </td></tr><tr><th scope=\"row\" width=\"189\">Monthly Payment</th><td width=\"235\"> </td><td width=\"235\"> </td></tr><tr><th scope=\"row\" width=\"189\">Total Paid for the Car</th><td width=\"235\"> </td><td width=\"235\"> </td></tr><tr><th scope=\"row\" width=\"189\">Total Paid in Interest</th><td width=\"235\"> </td><td width=\"235\"> </td></tr></tbody></table>",
-                  "solutions": [
-                    "Option 1:",
-                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
-                    "\\(18,500=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.042}{12}\\right)^{-12*5}}{\\displaystyle\\frac {.042}{12}}\\right]\\)",
-                    "\\(PMT=342.38\\)",
-                    "Option 2:",
-                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
-                    "\\(23,500=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.0375}{12}\\right)^{-12*6}}{\\displaystyle\\frac {.0375}{12}}\\right]\\)",
-                    "\\(PMT=364.99\\)"
-                  ],
-                  "answer": {
-                    "text": "<table class=\"table table-bordered table-sm\"><tbody><tr><td width=\"189\"> </td><th scope=\"col\" width=\"235\">Option 1</th><th scope=\"col\" width=\"235\">Option 2</th></tr><tr><th scope=\"row\" width=\"189\">Purchase Price</th><td width=\"235\"> 23,500</td><td width=\"235\"> 23,500</td></tr><tr><th scope=\"row\" width=\"189\">Amount of Down Payment</th><td width=\"235\"> 5000</td><td width=\"235\">0</td></tr><tr><th scope=\"row\" width=\"189\">Amount to be Financed</th><td width=\"235\"> 18,500</td><td width=\"235\">23,500</td></tr><tr><th scope=\"row\" width=\"189\">Monthly Payment</th><td width=\"235\"> 342.38</td><td width=\"235\"> 364.99</td></tr><tr><th scope=\"row\" width=\"189\">Total Paid for the Car</th><td width=\"235\"> 25,542.80</td><td width=\"235\"> 26,279.28</td></tr><tr><th scope=\"row\" width=\"189\">Total Paid in Interest</th><td width=\"235\"> 2042.80</td><td width=\"235\"> 2779.28</td></tr></tbody></table>"
-                  }
-                },
-                {
-                  "text": "As a graduation gift, grandma said she will be sending you a very large check and told you to use it well.  You plan to invest it and have researched and found these three options:<p>Option 1:  3% compounded quarterly</p><p>Option 2:  3.15% compounded annually</p><p>Option 3:  2.8% compounded continuously</p><p>Which should you chose and why?",
-                  "solutions": [
-                    "Option1:1",
-                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
-                    "\\(A=P(1+\\frac{.03}{4})^{4*t}\\)",
-                    "Option 2",
-                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
-                    "\\(A=P(1+\\frac{.0315}{1})^{1*t}\\)",
-                    "Option 3",
-                    "\\(A=Pe^{rt}\\)",
-                    "\\(A=Pe^{.028t}\\)"
-                  ],
-                  "answer": {
-                    "text": "You should chose option 2 because it has the highest interest rate."
-                  }
-                },
-                {
-                  "text": "You made a mistake with your bank account and find you are a little short this month.  You are considering going to a payday lender to borrow the money.  You are told that if you borrow $500 for 2 weeks, you must repay $591.36 at the end of the 2 weeks. Interest is compounded continuously.  Find the interest rate you will be paying. Write answer to the nearest hundredth of a percent.",
-                  "solutions": [
-                    "\\(A=Pe^{rt}\\)",
-                    "\\(591.36=500e^{\\frac{1}{26}*r}\\)",
-                    "\\(\\frac{591.36}{500}=e^{\\frac{1}{26}*r}\\)",
-                    "\\(ln\\frac{591.36}{500}=\\frac{1}{26}rlne\\)",
-                    "\\(r=26ln\\frac{591.36}{500}\\)",
-                    "\\(r=4.3632\\)"
-                  ],
-                  "answer": {
-                    "text": "You will be paying 436.32% interest on your payday loan."
-                  }
-                },
-                {
-                  "text": "Rental costs for office space have been going up at 4.8% per year compounded annually for the past 5 years.  If office space rent is now $25 per square foot per month, what were the rental rates 5 years ago? ?",
-                  "solutions": [
-                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
-                    "\\(25=P(1+\\frac{.048}{1})^{1*5}\\)",
-                    "\\(P=19.78\\)"
-                  ],
-                  "answer": {
-                    "text": "Five years ago the rental rates were $19.78 per square foot per month."
-                  }
-                },
-                {
-                  "text": "Complete the following amortization schedule for a $1,000 debt that is to be amortized in six monthly payments at 1.25% interest per month. Use the numbered hints to get you started.<ol><li>What is the unpaid balance to begin?</li><li>Find the monthly payment and record that amount. In theory, all payments will be the same amount.</li><li>Amount of payment going toward interest:  (Unpaid Balance) x (the interest rate per month)</li><li>Amount of payment going toward unpaid balance:  (payment) – (amount going toward interest)</li><li>Updated Unpaid Balance:  (previous unpaid balance) – (most recent amount going toward unpaid balance)</li><li>Follow pattern above to complete for Payment Number 2, etc.</li><li>Find the totals for the columns.</li></ol><table class=\"table-bordered table-sm\"><tbody><tr><td width=\"71\"> </td><th scope=\"col\" width=\"118\"> Payment </th><th scope=\"col\" width=\"122\">Amount going toward interest</th><th scope=\"col\" width=\"131\">Amount going toward unpaid balance</th><th scope=\"col\" width=\"133\"> Unpaid Balance</th></tr><tr><th scope=\"row\" width=\"71\">  Payment 0</th><td width=\"118\" class=\"table-dark\"><p>N/A</p> </td><td width=\"122\" class=\"table-dark\"><p>N/A</p> </td><td width=\"131\" class=\"table-dark\"><p>N/A</p> </td><td width=\"133\">(1)</td></tr><tr><th scope=\"row\" width=\"71\">  Payment 1</th><td width=\"118\">(2)</td><td width=\"122\">(3)</td><td width=\"131\">(4)</td><td width=\"133\">(5)</td></tr><tr><th scope=\"row\" width=\"71\">  Payment 2</th><td width=\"118\">(6)</td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\"> </td></tr><tr><th scope=\"row\" width=\"71\">  Payment 3</th><td width=\"118\"> </td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\"> </td></tr><tr><th scope=\"row\" width=\"71\">  Payment 4</th><td width=\"118\"> </td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\"> </td></tr><tr><th scope=\"row\" width=\"71\">  Payment 5</th><td width=\"118\"> </td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\"> </td></tr><tr><th scope=\"row\" width=\"71\">  Payment 6</th><td width=\"118\"> </td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\"> </td></tr><tr><th scope=\"row\" width=\"71\">Totals</th><td width=\"118\">(7)</td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\" class=\"table-dark\"><p>N/A</p> </td></tr></tbody></table>",
-                  "solutions": [],
-                  "answer": {
-                    "text": "<table class=\"table-bordered table-sm\"><tbody><tr><td width=\"71\"> </td><th scope=\"col\" width=\"118\">  Payment  </th><th scope=\"col\" width=\"122\">Amount going toward interest</th><th scope=\"col\" width=\"131\">Amount going toward unpaid balance</th><th scope=\"col\" width=\"133\">  Unpaid Balance</th></tr><tr><th scope=\"row\" width=\"71\">    Payment 0</th><td width=\"118\" class=\"table-dark\"><p>N/A</p> </td><td width=\"122\" class=\"table-dark\"><p>N/A</p> </td><td width=\"131\" class=\"table-dark\"><p>N/A</p> </td><td width=\"133\">(1) 1000</td></tr><tr><th scope=\"row\" width=\"71\">    Payment 1</th><td width=\"118\">(2) 174.03</td><td width=\"122\">(3) 12.50</td><td width=\"131\">(4) 161.53</td><td width=\"133\">(5) 838.47</td></tr><tr><th scope=\"row\" width=\"71\">    Payment 2</th><td width=\"118\">(6) 174.03</td><td width=\"122\"> 10.48</td><td width=\"131\"> 163.55</td><td width=\"133\"> 674.92</td></tr><tr><th scope=\"row\" width=\"71\">    Payment 3</th><td width=\"118\"> 174.03</td><td width=\"122\"> 8.44</td><td width=\"131\"> 165.59</td><td width=\"133\"> 509.33</td></tr><tr><th scope=\"row\" width=\"71\">    Payment 4</th><td width=\"118\"> 174.03</td><td width=\"122\"> 6.37</td><td width=\"131\"> 167.66</td><td width=\"133\"> 341.67</td></tr><tr><th scope=\"row\" width=\"71\">    Payment 5</th><td width=\"118\"> 174.03</td><td width=\"122\"> 4.27</td><td width=\"131\"> 169.76</td><td width=\"133\"> 171.91</td></tr><tr><th scope=\"row\" width=\"71\">    Payment 6</th><td width=\"118\"> 174.03</td><td width=\"122\"> 2.15</td><td width=\"131\"> 171.88</td><td width=\"133\"> 0.03</td></tr><tr><th scope=\"row\" width=\"71\">Totals</th><td width=\"118\">(7) 1044.18</td><td width=\"122\"> 44.21</td><td width=\"131\"> 999.97</td><td width=\"133\" class=\"table-dark\"><p>N/A</p> </td></tr></tbody></table>"
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
+    
     {
       "title": "Matrices",
       "sections": [
@@ -1090,7 +192,7 @@
               ]
             },
             {
-              "intro": "For each of the sets of points below, find:the slope of the line, the slope intercept form of the line, and the y intercept and the x intercept of the line",
+              "intro": "For each of the sets of points below, find the slope of the line, the slope intercept form of the line, and the y intercept and the x intercept of the line",
               "problems": [
                 {
                   "text": "(3, 5) and (-1, 7)",
@@ -1218,7 +320,7 @@
               "intro": "Solve the system using any method:",
               "problems": [
                 {
-                  "text": "\\(\\begin{array}{l}3x-4y=5\\\\4x-5y=6)\\end{array}\\)",
+                  "text": "\\(\\begin{array}{l}3x-4y=5\\\\4x-5y=6\\end{array}\\)",
                   "solutions": [
                     
                   ],
@@ -1758,7 +860,7 @@
           "intro": "<h4>Adding, Subtracting, and Scalar Multiplication of Matrices</h4><p>Notes</p><p>We can multiply any matrix by a scalar (a constant number).</p><p>Matrices must be the same size to add or subtract.</p>",
           "problemsets": [
             {
-              "intro": "Fine Furniture Company makes chairs and tables at its San Jose, Hayward, and Oakland factories.  The total production, in hundreds, from the three factories for the years 2004 and 2005 is listed in the table below. <table class='center'><thead><tr><td><td>2014<td><td>2015<td><tr><td><td>Chairs<td>Tables<td>Chairs<td>Tables<tbody><tr><th>San Jose<td>30<td>18<td>36<td>20<tr><th>Hayward<td>20<td>12<td>24<td>18<tr><th>Oakland<td>16<td>10<td>20<td>12</table>",
+              "intro": "Fine Furniture Company makes chairs and tables at its San Jose, Hayward, and Oakland factories.  The total production, in hundreds, from the three factories for the years 2014 and 2015 is listed in the table below. <table class='center'><thead><tr><td><td>2014<td><td>2015<td><tr><td><td>Chairs<td>Tables<td>Chairs<td>Tables<tbody><tr><th>San Jose<td>30<td>18<td>36<td>20<tr><th>Hayward<td>20<td>12<td>24<td>18<tr><th>Oakland<td>16<td>10<td>20<td>12</table>",
               "problems": [
                 {
                   "text": "Represent the production for the years 2014 and 2015 as the matrices A and B.",
@@ -2665,7 +1767,7 @@
                    "\\(-70x_1-50x_2\\;\\;\\;\\;\\;\\;+P=0\\)",
                    "\\(x_1, x_2, s_1, s_2 \\geq 0\\)",
                    "Create the Simplex Tableau",
-                   "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>4<td>2<td>1<td>0<td>0<td class='bleft bright'>240<tr class='dashed'><td class='bleft'>2<td>1<td>0<td>1<td>0<td class='bleft bright'>100<tr><td class='bleft'>-70<td>-50<td>0<td>0<td>1<td class='bleft bright'>0</table>",
+                   "<table class='center'><thead><tr><td>\\(x_1\\)<td>\\(x_2\\)<td>\\(s_1\\)<td>\\(s_2\\)<td>\\(P\\)<td> <tbody><tr><td class='bleft'>4<td>3<td>1<td>0<td>0<td class='bleft bright'>240<tr class='dashed'><td class='bleft'>2<td>1<td>0<td>1<td>0<td class='bleft bright'>100<tr><td class='bleft'>-70<td>-50<td>0<td>0<td>1<td class='bleft bright'>0</table>",
                     "The smallest negative number in the bottom row gives you the pivot column.  In this problem the pivot column is column 1.",
                     "To find the pivot row, divide the each of the last numbers in the tableau by the number in that same row of the pivot column.  The smallest of these gives you the pivot row.  The pivot element is the element in the intersection of the pivot row and the pivot column.",
                     "\\(240\\div4=60\\)",
@@ -2910,6 +2012,905 @@
                   ],
                   "answer": {
                     "text": "In order to minimize his grading time to 42 minutes, Professor Wright should give 12 objective quizzes, 0 recall quizzes, and 10 recall-plus quizzes."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Finance Unit",
+      "intro": "<h3 id=\"simple-interest\">Simple Interest</h3><p>\\(I=Prt\\)</p><p>\\(A=P(1+rt)\\)</p><h3 id=\"compound-interest\">Compound Interest</h3><p>\\(A=P(1+\\frac{r}{n})^{nt}\\)</p><h3 id=\"continuous-compounding\">Continuous Compounding</h3><p>\\(A=Pe^{rt}\\)</p><h3 id=\"future-value-of-an-ordinary-annuity\">Future Value of an Ordinary Annuity</h3><p>\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\displaystyle\\frac rn}\\)</p><h3 id=\"present-value-of-an-annuity\">Present Value of an Annuity</h3><p>\\(PV=PMT\\frac{\\left[1-\\left(1+{\\displaystyle\\frac rn}\\right)^{-nt}\\right]}{\\displaystyle\\frac rn}\\)</p><p><strong>A:</strong> amount (future value)</p><p><strong>P:</strong> principal (present value)</p><p><strong>PV:</strong> preset value of all payments</p><p><strong>FV:</strong> future value of all payments</p><p><strong>PMT:</strong> periodic payments</p><p><strong>r:</strong> annual interest rate</p><p><strong>t:</strong> time in years</p><p><strong>n:</strong> numbering of compounding periods per year</p><br>",
+      "sections": [
+        {
+          "title": "Simple Interest",
+          "intro": "",
+          "problemsets": [
+            {
+              "intro": "Use the simple interest formulas to answer the following questions.  Write all of your answers in complete sentences.",
+              "problems": [
+                {
+                  "text": "Ursula borrows $600 for 5 months at a simple interest rate of 15% per year. Find the interest, and the total amount she is obligated to pay?",
+                  "solutions": [
+                    "\\(I=Prt\\)",
+                    " \\(I=600(0.15)(5/12)\\)",
+                    "\\(I=37.50\\)"
+                  ],
+                  "answer": {
+                    "text": "Ursula's interest will be $37.50, and the total amount she must pay is $637.50",
+                    "image": {
+                      "url": 
+                      "alt"
+                    }
+                  }
+                },
+                {
+                  "text": "Jose deposited $2500 in an account that pays 6% simple interest. How much money will he have at the end of 3 years?",
+                  "solutions": [
+                    "\\(A=P(1+rt)\\)",
+                    "\\(A=2500(1+.06*3)\\)",
+                    "\\(A=2950\\)"
+                  ],
+                  "answer": {
+                    "text": "At the end of three years, Jose will have $2950."
+                  }
+                },
+                {
+                  "text": "Darnel owes a total of $3060 which includes 12% interest for the three years he borrowed the money. How much did he originally borrow?",
+                  "solutions": [
+                    "\\(A=P(1+rt)\\)",
+                    "\\(3060=P(1+.12*3)\\)",
+                    "\\(3060=P(1.36)\\)",
+                    "\\(3060/1.36=P\\)"
+                  ],
+                  "answer": {
+                    "text": "Darnel borrowed $2250."
+                  }
+                },
+                {
+                  "text": "A Visa credit card company charges a 1.5% finance charge each month on the unpaid balance. If Martha owes $2350 and has not paid her bill for three months, how much does she owe?",
+                  "solutions": [
+                    "\\(A=P(1+rt)\\)",
+                    "\\(A=2350(1+.015*3)\\)",
+                    "\\(A=2455.75\\)"
+                  ],
+                  "answer": {
+                    "text": "Martha owes $2455.75."
+                  }
+                },
+                {
+                  "text": "If an amount of $2,000 is borrowed at a simple interest rate of 10% for 3 years, how much is the interest?",
+                  "solutions": [
+                    "\\(I=Prt\\)",
+                    "\\(I=2000(0.10)(3)\\)",
+                    "\\(I=600\\)"
+                  ],
+                  "answer": {
+                    "text": "The interest is $600."
+                  }
+                },
+                {
+                  "text": "You borrow $4,500 for six months at a simple interest rate of 8%. How much is the interest?",
+                  "solutions": [
+                    "\\(I=Prt\\)",
+                    "\\(I=4500(0.08)(1/2)\\)",
+                    "\\(I=180\\)"
+                  ],
+                  "answer": {
+                    "text": "The interest is $180."
+                  }
+                },
+                {
+                  "text": "John borrows $2400 for 3 years at 9% simple interest. How much will he owe at the end of 3 years?",
+                  "solutions": [
+                    "\\(A=P(1+rt)\\)",
+                    "\\(A=2400(1+.09*3)\\)",
+                    "\\(A=3048\\)"
+                  ],
+                  "answer": {
+                    "text": "John will owe $3048."
+                  }
+                },
+                {
+                  "text": "Jessica takes a loan of $800 for 4 months at 12% simple interest. How much does she owe at the end of the 4-month period?",
+                  "solutions": [
+                    "\\(A=P(1+rt)\\)",
+                    "\\(A=800(1+0.12*1/3)\\)",
+                    "\\(A=832\\)"
+                  ],
+                  "answer": {
+                    "text": "Jessica owes $832."
+                  }
+                },
+                {
+                  "text": "If an amount of $2,160, which includes a 10% simple interest for 2 years, is paid back, how much was borrowed 2 years earlier?",
+                  "solutions": [
+                    "\\(A=P(1+rt)\\)",
+                    "\\(2160=P(1+0.10*2)\\)",
+                    "\\(2160=P(1.20)\\)",
+                    "\\(1800=P\\)"
+                  ],
+                  "answer": {
+                    "text": "Two years earlier, $800 was borrowed."
+                  }
+                },
+                {
+                  "text": "Jamie just paid off a loan of $2,544, the principal and simple interest. If he took out the loan six months ago at 12% simple interest, what was the amount borrowed?",
+                  "solutions": [
+                    "\\(A=P(1+rt)\\)",
+                    "\\(2544=P(1+0.12*1/2)\\)",
+                    "\\(2544=P(1.06)\\)",
+                    "\\(P=2400\\)"
+                  ],
+                  "answer": {
+                    "text": "Jamie borrowed $2400."
+                  }
+                },
+                {
+                  "text": "Shanti charged $800 on her charge card and did not make a payment for six months. If there is a monthly charge of 1.5%, how much does she owe?",
+                  "solutions": [
+                    "\\(A=P(1+rt)\\)",
+                    "\\(A=800(1+0.015*6)\\)",
+                    "\\(A=872\\)"
+                  ],
+                  "answer": {
+                    "text": "Shanti owes $872."
+                  }
+                },
+                {
+                  "text": "A credit card company charges 18% interest on the unpaid balance. If you owed $2000 three months ago and have been delinquent since, how much do you owe?",
+                  "solutions": [
+                    "\\(A=P(1+rt)\\)",
+                    "\\(A=2000(1+0.18*1/4)\\)",
+                    "\\(A=2090\\)"
+                  ],
+                  "answer": {
+                    "text": "You owe $2090."
+                  }
+                },
+                {
+                  "text": "An amount of $2000 is borrowed for 3 years. At the end of the three years, $2660 is paid back. What was the simple interest rate?",
+                  "solutions": [
+                    "\\(A=P(1+rt)\\)",
+                    "\\(2660=2000(1+3r)\\)",
+                    "\\(2660=2000+60000r\\)",
+                    "\\(660=6000r\\)",
+                    "\\(0.11=r\\)"
+                  ],
+                  "answer": {
+                    "text": "The simple interest rate is 11%."
+                  }
+                },
+                {
+                  "text": "Nancy borrowed $1,800 and paid back $1,920, four months later. What was the simple interest rate?",
+                  "solutions": [
+                    "\\(A=P(1+rt)\\)",
+                    "\\(1920=1800(1+(1/3)r)\\)",
+                    "\\(1920=1800+600r\\)",
+                    "\\(120=600r\\)",
+                    "\\(0.2=r\\)"
+                  ],
+                  "answer": {
+                    "text": "The simple interest rate is 20%."
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Compound and Continuous Interest",
+          "intro": " <h3>Compound Interest</h3><p>Simple interest is charged when the lending period is short and often less than a year. When the money is loaned or borrowed for a longer time period, the interest is paid (or charged) not only on the principal, but also on the past interest, and we say the interest is compounded.</p><p>Suppose $200 is deposited in an account that pays 8% interest. At the end of one year, the account will have </p><p>\\($200+$200(0.08)=$200(1+0.08/1)^{1*1}=$216\\)</p><p>Now suppose this amount, $216, remains in the account. After the second year, it will have</p><p>\\($200(1+0.08)(1+0.08)=$200(1+0.08/1)^{1*2}=$233.28\\)</p><p>After three years, it will have</p><p>\\($200(1+0.08)(1+0.08)(1+0.08)=$200(1+0.08/1)^{1*3}=$251.94\\)</p><p>at the end of 5 years, it will have</p><p>\\(200(1+0.08/1)^{1*5}=$293.87\\)</p><p>Compound Interest Formula:  </p><p>\\(A=P(1+\\frac rn)^{nt}\\)</p><img src=\"./images/u1s2i.png\" alt=\"Graph of Amount of Money in an account when compounded at various compounding frequencies.  4 graphs--one each for compounding yearly, quarterly, monthly, and continuously\"><h3><br><br><br><br><br><br>Compounding Frequency</h3><h4>Yearly:</h4><p>\\(1000(1+\\frac {0.08}1)^{1*1}=1080\\)</p><h4>Quarterly:</h4><p>\\(1000(1+\\frac {0.08}4)^{4*1}=1082.43\\)</p><h4>Monthly:</h4><p>\\(1000(1+\\frac {0.08}{12})^{12*1}=1083\\)</p><h4>Daily:</h4><p>\\(1000(1+\\frac {0.08}{365})^{365*1}=1083.28\\)</p><h4>Continuously (at every instant):</h4><p>\\(1000\\left[\\lim_{n\\rightarrow\\infty}\\;\\left(1+\\frac{0.08}n\\right)^n\\right]=1083.29\\)</p><p>And since \\(e=\\lim_{n\\rightarrow\\infty}\\;\\left(1+\\frac1n\\right)^n\\approx2.718281829\\)</p><p>The continuous compounding formula is:  \\(A=Pe^{rt}\\)</p>",
+          "problemsets": [
+            {
+              "intro": "Use a compound or continuous interest formula to answer the following questions.  Write all of your answers in complete sentences",
+              "problems": [
+                {
+                  "text": "If $3500 is invested at 9% compounded monthly, how much will be in the account in four years?",
+                  "solutions": [
+                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
+                    "\\(A=3000(1+\\frac{.09}{12})^{12*4}\\)",
+                    "\\(A=5009.92\\)"
+                  ],
+                  "answer": {
+                    "text": "In four years, there will be $5009.92 in the account."
+                  }
+                },
+                {
+                  "text": "How much should be invested in an account paying 9% compounded daily for it to accumulate to $5,000 in five years?",
+                  "solutions": [
+                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
+                    "\\(5000=P(1+\\frac{.09}{365})^{365*5}\\)",
+                    "\\(P=3188.32\\)"
+                  ],
+                  "answer": {
+                    "text": "To accumulate $5000 in five years, $3188.32 should be invested."
+                  }
+                },
+                {
+                  "text": "If $3500 is invested at 9% compounded continuously, what will the future value be in four years?",
+                  "solutions": [
+                    "\\(A=Pe^{rt}\\)",
+                    "\\(A=3500e^{.09*4}\\)",
+                    "\\(A=5016.65\\)"
+                  ],
+                  "answer": {
+                    "text": "In four years, the account will be worth $5016.65."
+                  }
+                },
+                {
+                  "text": "If an amount is invested at 7% compounded monthly, estimate how long will it take to double if compounded monthly? (The Law of 70 (used to estimate how long it will take to double):  The number of years to double money = 70 ÷ interest rate)",
+                  "solutions": [
+                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
+                    "\\(2=1(1+\\frac{.07}{12})^{12t}\\)",
+                    "\\(2=(\\frac{1207}{1200})^{12t}\\)",
+                    "\\(ln2=ln(\\frac{1207}{1200})^{12t}\\)",
+                    "\\(ln2=12t*ln(\\frac{1207}{1200})\\)",
+                    "\\(\\frac{ln2}{12ln(\\frac{1207}{1200})}=t\\)",
+                    "\\(9.93=t\\)"
+                  ],
+                  "answer": {
+                    "text": "It will take approximately 9.93 years for the amount to double."
+                  }
+                },
+                {
+                  "text": "If, at the end of two years, a savings account has a balance of $1172.60, and the interest rate is compounded monthly at 3.2%, then what is the original amount deposited two years ago?",
+                  "solutions": [
+                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
+                    "\\(1172.60=P(1+\\frac{.032}{12})^{12*2}\\)",
+                    "\\(1172.60=P(1.066001591....)\\)",
+                    "\\(P=1100\\)"
+                  ],
+                  "answer": {
+                    "text": "The original amount deposited two years ago was $1100."
+                  }
+                },
+                {
+                  "text": "An initial deposit of $5,000.00 is made into a savings account that compounds 7.1% interest annually. How much is in the account at the end of five years?",
+                  "solutions": [
+                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
+                    "\\(A=5000(1+\\frac{.071}{1})^{1*5}\\)",
+                    "\\(A=7045.59\\)"
+                  ],
+                  "answer": {
+                    "text": "At the end of 5 years, there is $7045.59 in the account."
+                  }
+                },
+                {
+                  "text": "After 80 years of 5.8% interest compounded monthly, an account has $102,393.44. What was the original deposit amount?",
+                  "solutions": [
+                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
+                    "\\(102,393.44=P(1+\\frac{.058}{12})^{12*80}\\)",
+                    "\\(102,393.44=P(102.393....)\\)",
+                    "\\(P=1000\\)"
+                  ],
+                  "answer": {
+                    "text": "The original amount deposited into the account 80 years ago was $1000."
+                  }
+                },
+                {
+                  "text": "Bank A is offering a 2.7%, compounded annually, savings account guaranteed for three years. Bank B is offering a 1.9%, compounded monthly, savings account guaranteed for two years. Which bank would yield the most on a principal of $500.00? What is the dollar amount difference between the two bank accounts?",
+                  "solutions": [
+                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
+                    "\\(A=500(1+\\frac{.027}{1})^{1*3}\\)",
+                    "\\(A=541.60\\)",
+                    "\\(A=P(1+\\frac{r}{n})^{nt})\\)",
+                    "\\(A=500(1+\\frac{.019}{12})^{12*2}\\)",
+                    "\\(A=519.35\\)"
+                  ],
+                  "answer": {
+                    "text": "The difference between the accounts is $22.25."
+                  }
+                },
+                {
+                  "text": "How much would need to be deposited into an account earning 4.7%, compounded quarterly, so that the balance will be $1,000,000.00 in 20 years?",
+                  "solutions": [
+                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
+                    "\\(1,000,000=P(1+\\frac{.047}{4})^{4*20})\\)",
+                    "\\(1,000,000=P(2.545....)\\)",
+                    "\\(P=392,774.20\\)"
+                  ],
+                  "answer": {
+                    "text": "To have $1,000,000 in 20 years, $392,774.20 should be deposited."
+                  }
+                },
+                {
+                  "text": "Mary discovers a bank account her parents left for her that was opened when she was born 50 years ago. The statement she found states the deposit amount of $100.00 into an account earning 1.8% compounded quarterly. What is the balance of her account now?",
+                  "solutions": [
+                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
+                    "\\(A=100(1+\\frac{.018}{4})^{4*50}\\)",
+                    "\\(A=245.46\\)"
+                  ],
+                  "answer": {
+                    "text": "The balance in the account is $245.46."
+                  }
+                },
+                {
+                  "text": "In the same box, Mary discovers another statement for an account her grandparents opened for her when she was born 50 years ago. This statement shows a deposit amount of $100.00 into a 3.6%, compounded quarterly, account. How much is in this account now?",
+                  "solutions": [
+                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
+                    "\\(A=100(1+\\frac{.036}{4})^{4*50}\\)",
+                    "\\(A=600.11\\)"
+                  ],
+                  "answer": {
+                    "text": "The balance in the account is $600.11."
+                  }
+                },
+                {
+                  "text": "Luckily, Mary finds a third statement for an account her Aunt opened for her. This was also $100.00 at 1.8%, but it is compounded monthly. How much is in this account now? Based on the answers for each of the accounts Mary discovered, is it better to compound more often or earn a higher interest rate?",
+                  "solutions": [
+                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
+                    "\\(A=100(1+\\frac{.018}{12})^{12*50}\\)",
+                    "\\(A=245.79\\)"
+                  ],
+                  "answer": {
+                    "text": "It is better to earn a higher interest rate."
+                  }
+                },
+                {
+                  "text": "An account earning 6.6% interest compounded continuously for 10 years would have a balance of how much if the principal was $550.00?",
+                  "solutions": [
+                    "\\(A=Pe^{rt}\\)",
+                    "\\(A=550e^{.066*10}\\)",
+                    "\\(A=1064.14\\)"
+                  ],
+                  "answer": {
+                    "text": "The balance after 10 years would be $1064.14."
+                  }
+                },
+                {
+                  "text": "What was the principal for a continuously compounded account earning 3.9% for 15 years that now has a balance of $2,500,000.00?",
+                  "solutions": [
+                    "\\(A=Pe^{rt}\\)",
+                    "\\(2,500,000=Pe^{.039*15}\\)",
+                    "\\(\\frac{2500000}{e^{.039*15}}=P\\)",
+                    "\\(P=1,392,764,66\\)"
+                  ],
+                  "answer": {
+                    "text": "The principal invested 15 years ago was $1,392,764.66."
+                  }
+                },
+                {
+                  "text": "A teenager saved small dollar amounts throughout the school year and now has $712.00. He can choose from two bank offers. The first is 5.3% compounded continuously for six years. The second is compounded quarterly for five years at 6.0%. Which account will yield the most money? What is the dollar amount difference between the accounts at the end of their terms?",
+                  "solutions": [
+                    "\\(A=Pe^{rt}\\)",
+                    "\\(A=712e^{.053*6t}\\)",
+                    "\\(A=978.56\\)",
+                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
+                    "\\(A=712(1+\\frac{.06}{4})^{4*5}\\)",
+                    "\\(A=958.96\\)"
+                  ],
+                  "answer": {
+                    "text": "The difference in the accounts at the end of their terms is $19.60."
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Future Value of an Annuity",
+          "intro": "<h3>Definitions:</h3><p><strong>Annuity:</strong>  sequence of equal periodic payments</p><p><strong>Ordinary Annuity:</strong> payments made at the end of the period</p><p><strong>Annuity Due:</strong> payments made at the beginning of the period</p><p><strong>Sinking Fund:</strong> an annuity established for accumulating funds to meet future obligations</p><h4>Future Value Annuity Formula:</h4><p>\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)</p>",
+          "problemsets": [
+            {
+              "intro": "Use an Annuity formula to answer the following questions.  Write all of your answers in complete sentences.",
+              "problems": [
+                {
+                  "text": "If at the end of each month a deposit of $500 is made in an account that pays 8% compounded monthly, what will the final amount be after five years?",
+                  "solutions": [
+                    "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
+                    "\\(FV=500\\frac{\\left[\\left(1+{\\displaystyle\\frac{.08}{12}}\\right)^{12\\ast5}-1\\right]}{\\displaystyle\\frac{.08}{12}}\\)"
+                  ],
+                  "answer": {
+                    "text": "After five years, there will be $36,738.43."
+                  }
+                },
+                {
+                  "text": "Tanya deposits $300 at the end of each quarter in her savings account. If the account earns 5.75%, how much money will she have in 4 years?",
+                  "solutions": [
+                    "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
+                    "\\(FV=300\\frac{\\left[\\left(1+{\\displaystyle\\frac{.0575}{4}}\\right)^{4\\ast4}-1\\right]}{\\displaystyle\\frac{.0575}{4}}\\)"
+                  ],
+                  "answer": {
+                    "text": "Tanya will have $5353.89 in four years."
+                  }
+                },
+                {
+                  "text": "Robert needs $5000 in three years. How much should he deposit each month in an account that pays 8% in order to achieve his goal?",
+                  "solutions": [
+                    "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
+                    "\\(5000=PMT\\frac{[( 1+\\frac{.08}{12})^{12*3}-1]}{\\frac{.08}{12}}\\)"
+                  ],
+                  "answer": {
+                    "text": "Robert needs to deposit $123.35 each month."
+                  }
+                },
+                {
+                  "text": "A business needs $450,000 in five years. How much should be deposited each quarter in a sinking fund that earns 9% to have this amount in five years?",
+                  "solutions": [
+                    "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
+                    "\\(450,000=PMT\\frac{[( 1+\\frac{.09}{4})^{4*5}-1]}{\\frac{.09}{4}}\\)"
+                  ],
+                  "answer": {
+                    "text": "The business should deposit $18,063.93 each quarter."
+                  }
+                },
+                {
+                  "text": "Find the future value of an annuity of $200 per month for 5 years at 6% compounded monthly.",
+                  "solutions": [
+                    "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
+                    "\\(FV=200\\frac{[( 1+\\frac{.06}{12})^{12*5}-1]}{\\frac{.06}{12}}\\)"
+                  ],
+                  "answer": {
+                    "text": "The future value is $13,954.01."
+                  }
+                },
+                {
+                  "text": "How much money should be deposited at the end of each month in an account paying 7.5% for it to amount to $10,000 in 5 years?",
+                  "solutions": [
+                    "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
+                    "\\(10,000=PMT\\frac{[( 1+\\frac{.075}{12})^{12*5}-1]}{\\frac{.075}{12}}\\)"
+                  ],
+                  "answer": {
+                    "text": "To accumulate $10,000 in five years, $137.88 should be deposited each month."
+                  }
+                },
+                {
+                  "text": "At the end of each month Rita deposits $300 in an account that pays 5%. What will the final amount be in 4 years?",
+                  "solutions": [
+                    "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
+                    "\\(FV=300\\frac{[( 1+\\frac{.05}{12})^{12*4}-1]}{\\frac{.05}{12}}\\)"
+                  ],
+                  "answer": {
+                    "text": "In four years, Rita will have $15,904.47 in her account."
+                  }
+                },
+                {
+                  "text": "Mr. Chang wants to retire in 10 years and can save $650 every three months. If the interest rate is 7.8%, how much will he have at the end of 5 years?",
+                  "solutions": [
+                    "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
+                    "\\(FV=650\\frac{[( 1+\\frac{.078}{4})^{4*5}-1]}{\\frac{.078}{4}}\\)"
+                  ],
+                  "answer": {
+                    "text": "At the end of five years, Mr. Chang will have $15,714.90"
+                  }
+                },
+                {
+                  "text": "A firm needs to replace most of its machinery in five years at a cost of $500,000. The company wishes to create a sinking fund to have this money available in five years. How much should the quarterly deposits be if the fund earns 8%?",
+                  "solutions": [
+                    "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
+                    "\\(500,000=PMT\\frac{[( 1+\\frac{.08}{4})^{4*5}-1]}{\\frac{.08}{4}}\\)"
+                  ],
+                  "answer": {
+                    "text": "The quarterly deposits should be $20,578.36."
+                  }
+                },
+                {
+                  "text": "Ms. Brown needs $5,000 in three years. If the interest rate is 9%, how much should she save at the end of each month to have that amount in three years?",
+                  "solutions": [
+                    "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
+                    "\\(5,000=PMT\\frac{[( 1+\\frac{.09}{12})^{12*3}-1]}{\\frac{.09}{12}}\\)"
+                  ],
+                  "answer": {
+                    "text": "Ms. Brown needs to save $121.50 each month."
+                  }
+                },
+                {
+                  "text": "A company has a $120,000 note due in 4 years. How much should be deposited at the end of each quarter in a sinking fund to pay off the note in four years if the interest rate is 8%?",
+                  "solutions": [
+                    "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
+                    "\\(120,000=PMT\\frac{[( 1+\\frac{.08}{4})^{4*4}-1]}{\\frac{.08}{4}}\\)"
+                  ],
+                  "answer": {
+                    "text": "To payoff the note in four years, $6438.02 should be deposited each month."
+                  }
+                },
+                {
+                  "text": "You are now 20 years of age and decide to save $100 at the end of each month until you are 23, when you graduate from college and start your career.  You do not save anything for 2 years while you pay down your student loans.  You begin saving again when you are 25, and you save $400 at the end of each month until you retire at 67. If the interest rate is 7.2%, how much money will you have when you are 67? ",
+                  "solutions": [
+                    "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
+                    "\\(FV=100\\frac{[( 1+\\frac{.072}{12})^{12*3}-1]}{\\frac{.072}{12}}=4005.03\\)",
+                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
+                    "\\(A=4005.03(1+\\frac{.072}{12})^{12*44}=94,262.64\\)",
+                    "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
+                    "\\(FV=400\\frac{[( 1+\\frac{.072}{12})^{12*3}-1]}{\\frac{.072}{12}}=1,292,557.30\\)"
+                  ],
+                  "answer": {
+                    "text": "You will have $1,386,819.94 when you retire."
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Present Value of an Annuity",
+          "intro": "<h4>Present Value of an Annuity Formula:</h4>\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
+          "problemsets": [
+            {
+              "intro": "Use an Annuity formula to answer the following questions.  Write all answers in complete sentences.",
+              "problems": [
+                {
+                  "text": "Suppose you have won a lottery that pays $1,000 per month for the next 20 years, but you prefer to have the entire amount now. If the interest rate is 8%, how much will you accept?",
+                  "solutions": [
+                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
+                    "\\(PV=1000\\;\\left[\\frac{1-\\left(1+\\frac {.08}{12}\\right)^{-12*20}}{\\displaystyle\\frac {.08}{12}}\\right]\\)"
+                  ],
+                  "answer": {
+                    "text": "Your lump sum payment will be $119,554.29."
+                  }
+                },
+                {
+                  "text": "Find the monthly payment for a car costing $15,000 if the loan is amortized over five years at an interest rate of 9%.",
+                  "solutions": [
+                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
+                    "\\(15,000=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.09}{12}\\right)^{-12*5}}{\\displaystyle\\frac {.09}{12}}\\right]\\)"
+                  ],
+                  "answer": {
+                    "text": "The monthly payment is $311.38."
+                  }
+                },
+                {
+                  "text": "Mr. Jackson bought his house in 1975, and financed the loan for 30 years at an interest rate of 9.8%. His monthly payment was $1260. In 1995, Mr. Jackson decided to pay off the loan. Find the balance of the loan he still owes.",
+                  "solutions": [
+                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
+                    "\\(PV=1260\\;\\left[\\frac{1-\\left(1+\\frac {.098}{12}\\right)^{-12*10}}{\\displaystyle\\frac {.098}{12}}\\right]\\)"
+                  ],
+                  "answer": {
+                    "text": "Mr. Jackson still owes $96,149.65."
+                  }
+                },
+                {
+                  "text": "The Orange computer company needs to raise money to expand. It issues a 10-year $1,000 bond that pays $30 every six months. If the current market interest rate is 7%, what is the fair market value of the bond?",
+                  "solutions": [
+                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
+                    "\\(PV=30\\;\\left[\\frac{1-\\left(1+\\frac {.07}{2}\\right)^{-2*10}}{\\displaystyle\\frac {.07}{2}}\\right]\\)"
+                  ],
+                  "answer": {
+                    "text": "The fair market value of the bond is $426.37."
+                  }
+                },
+                {
+                  "text": "Shawn has won a lottery paying him $10,000 per month for the next 20 years. He'd rather have the whole amount in one lump sum today. If the current interest rate is 8.2%, how much money can he hope to get?",
+                  "solutions": [
+                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
+                    "\\(PV=10,000\\;\\left[\\frac{1-\\left(1+\\frac {.082}{12}\\right)^{-12*20}}{\\displaystyle\\frac {.082}{12}}\\right]\\)"
+                  ],
+                  "answer": {
+                    "text": "The lump sum amount would be $1,177,953.55."
+                  }
+                },
+                {
+                  "text": "Sonya bought a car for $15,000. Find the monthly payment if the loan is to be amortized over 5 years at a rate of 10.1%.",
+                  "solutions": [
+                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
+                    "\\(15,000=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.101}{12}\\right)^{-12*5}}{\\displaystyle\\frac {.101}{12}}\\right]\\)"
+                  ],
+                  "answer": {
+                    "text": "Sonya's monthly payment will be $319.44."
+                  }
+                },
+                {
+                  "text": "You determine that you can afford $250 per month for a car. What is the maximum amount you can afford to pay for a car if the interest rate is 9% and you want to repay the loan in 5 years?",
+                  "solutions": [
+                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
+                    "\\(PV=250\\;\\left[\\frac{1-\\left(1+\\frac {.09}{12}\\right)^{-12*5}}{\\displaystyle\\frac {.09}{12}}\\right]\\)"
+                  ],
+                  "answer": {
+                    "text": "You can afford a car that costs $12,043.34."
+                  }
+                },
+                {
+                  "text": "Compute the monthly payment for a house loan of $200,000 to be financed over 30 years at an interest rate of 10%.",
+                  "solutions": [
+                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
+                    "\\(200,000=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.10}{12}\\right)^{-12*30}}{\\displaystyle\\frac {.10}{12}}\\right]\\)"
+                  ],
+                  "answer": {
+                    "text": "The monthly payment will be $1755.14."
+                  }
+                },
+                {
+                  "text": "If the $200,000 loan in the previous problem is financed over 15 years rather than 30 years at 10%, what will the monthly payment be?",
+                  "solutions": [
+                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
+                    "\\(200,000=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.10}{12}\\right)^{-12*15}}{\\displaystyle\\frac {.10}{12}}\\right]\\)"
+                  ],
+                  "answer": {
+                    "text": "The monthly payment will be $2149.21."
+                  }
+                },
+                {
+                  "text": "What is the total amount paid for the house over 30 years? Over 15 years?",
+                  "solutions": [
+                    "\\(1755.14*12*30=631,850.40\\)",
+                    "\\(2149.21*12*15=386,857.84\\)"
+                  ],
+                  "answer": {
+                    "text": "The total amount for the 30-year loan is $631,850.40, and the total amount for the 15-year loan is $386,857.84."
+                  }
+                },
+                {
+                  "text": "Friendly Auto offers Jennifer a car for $2000 down and $300 per month for 5 years. Jason wants to buy the same car but wants to pay cash. How much must Jason pay if the interest rate is 9.4%?",
+                  "solutions": [
+                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
+                    "\\(PV=300\\;\\left[\\frac{1-\\left(1+\\frac {.094}{12}\\right)^{-12*5}}{\\displaystyle\\frac {.094}{12}}\\right]\\)",
+                    "\\(PV=14,317.74\\)",
+                    "\\(14,317.74+2,000=16,317.74\\)"
+                  ],
+                  "answer": {
+                    "text": "Jason would pay $16,317.74 for the car."
+                  }
+                },
+                {
+                  "text": "The Gomez family bought a house for $175,000. They paid 20% down and amortized the rest at 11.2% over a 30-year period. Find their monthly payment.",
+                  "solutions": [
+                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
+                    "\\(140,000=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.112}{12}\\right)^{-12*30}}{\\displaystyle\\frac {.112}{12}}\\right]\\)"
+                  ],
+                  "answer": {
+                    "text": "The monthly payment is $1354.45."
+                  }
+                },
+                {
+                  "text": "Mr. and Mrs. Wong purchased their new house for $350,000. They made a down payment of 15%, and amortized the rest over 30 years. If the interest rate is 9%, find their monthly payment.",
+                  "solutions": [
+                    "Down Payment: \\(350,000*0.15=52,500\\)",
+                    "Amount financed: \\(350,000-52,500=297,500\\)",
+                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
+                    "\\(297,500=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.09}{12}\\right)^{-12*30}}{\\displaystyle\\frac {.09}{12}}\\right]\\)"
+                  ],
+                  "answer": {
+                    "text": "The Wong's monthly payment is $2393.75."
+                  }
+                },
+                {
+                  "text": "A firm needs a piece of machinery that has a useful life of 5 years. It has an option of leasing it for $10,000 a year, or buying it for $40,000 cash. If the interest rate is 10%, which choice is better?",
+                  "solutions": [
+                    "\\(10,000*5=50,000\\)",
+                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
+                    "\\(40,000=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.10}{1}\\right)^{-1*5}}{\\displaystyle\\frac {.10}{1}}\\right]\\)",
+                    "\\(PMT=10,551.90\\)",
+                    "\\(10,551.90*5=52,759.50\\)"
+                  ],
+                  "answer": {
+                    "text": "Leasing is a better choice."
+                  }
+                },
+                {
+                  "text": "Jackie wants to buy a $19,000 car, but she can afford to pay only $300 per month for 5 years. If the interest rate is 6%, how much does she need to put down?",
+                  "solutions": [
+                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
+                    "\\(PV=300\\;\\left[\\frac{1-\\left(1+\\frac {.06}{12}\\right)^{-12*51}}{\\displaystyle\\frac {.06}{12}}\\right]\\)",
+                    "\\(PV=15,517.69\\)",
+                    "\\(19,000-15,517.69=3482.31\\)"
+                  ],
+                  "answer": {
+                    "text": "Jackie needs a down payment of $3482.31"
+                  }
+                },
+                {
+                  "text": "Vijay's tuition at Stanford for the next year is $32,000. His parents have decided to pay the tuition by making nine monthly payments. If the interest rate is 9%, what is the monthly payment?",
+                  "solutions": [
+                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
+                    "\\(32,000=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.09}{12}\\right)^{-12*.75}}{\\displaystyle\\frac {.09}{12}}\\right]\\)"
+                  ],
+                  "answer": {
+                    "text": "The monthly payment is $3690.22."
+                  }
+                },
+                {
+                  "text": "Glen borrowed $10,000 for his college education at 8% compounded quarterly. Three years later, after graduating and finding a job, he decided to start paying off his loan. If the loan is amortized over five years at 9%, find his monthly payment for the next five years.",
+                  "solutions": [
+                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
+                    "\\(A=10,000(1+\\frac{.08}{4})^{4*3}\\)",
+                    "\\(A=12,682.48\\)",
+                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
+                    "\\(12,682.48=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.09}{12}\\right)^{-12*5}}{\\displaystyle\\frac {.09}{12}}\\right]\\)"
+                  ],
+                  "answer": {
+                    "text": "Glen's monthly payment is $263.27."
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Retirement Problem",
+          "intro": "",
+          "problemsets": [
+            {
+              "intro": "",
+              "problems": [
+                {
+                  "text": "I am looking ahead to my retirement.  I plan to retire at 70 and hope to live to 95 with an income of $3200 a month from an account compounding monthly at 4.5%. I am currently 27, and I am going to deposit $350 at the end of each quarter until I am 70.   This account pays 8.5% that is compounded quarterly.  Will I have enough to make it happen and by how much am I above or below? Find the amount I need to support those requirements from age 70 to 95",
+                  "solutions": [
+                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
+                    "\\(PV=3200\\;\\left[\\frac{1-\\left(1+\\frac {.045}{12}\\right)^{-12*25}}{\\displaystyle\\frac {.045}{12}}\\right]\\)",
+                    "\\(PV=575,713.03\\)",
+                    "\\(FV=PMT\\frac{\\left[\\left(1+{\\displaystyle\\frac rn}\\right)^{nt}-1\\right]}{\\left({\\displaystyle\\frac rn}\\right)}\\)",
+                    "\\(FV=350\\frac{[( 1+\\frac{.085}{4})^{4*43}-1]}{\\frac{.085}{4}}\\)",
+                    "\\(FV=596,479.44\\)",
+                    "\\(596,479.44-575,713.03=20,766.41\\)"
+                  ],
+                  "answer": {
+                    "text": "I will have $20,766.41 more than I need to retire."
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Amortization",
+          "intro": "",
+          "problemsets": [
+            {
+              "intro": "The Federal Reserve Bank of St. Louis reports that in November 2017, the median sale price of an existing home in the United States was $248,800.  The average interest rate on a 30- year fixed-rate mortgage was approximately 3.95%.  The median interest rate on a 15-year fixed-rate mortgage was about 3.38%.",
+              "citation": "https://fred.stlouisfed.org/series/HSFMEDUSM052N",
+              "problems": [
+                {
+                  "text": "Imagine you are an average consumer and you’re going to buy a home.  You’ll make a down payment of 20% of the home’s value on a 30-year loan. What are your scheduled monthly payments?",
+                  "solutions": [
+                    "\\(248,800*0.20=49,760\\) for the down payment",
+                    "\\(248,800-49,760=199,040\\) amount financed",
+                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
+                    "\\(199,040=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.0395}{12}\\right)^{-12*30}}{\\displaystyle\\frac {.0395}{12}}\\right]\\)",
+                    "\\(199,040=PMT(210.73....)\\)",
+                    "\\(PMT=944.52\\)"
+                  ],
+                  "answer": {
+                    "text": "The monthly payment is $944.52."
+                  }
+                },
+                {
+                  "text": "Complete the amortization schedule for the first 6 months of your loan.<p><table class=\"table table-bordered table-sm\"><caption>Amortization Schedule for Home Loan</caption><tbody><tr><td><br /><p></p></td><th scope=\"col\"><p>Payment</p></th><th scope=\"col\"><p>Amount going toward interest</p></th><th scope=\"col\"><p>Amount going toward unpaid balance</p></th><th scope=\"col\"><p>Unpaid Balance</p></th></tr><tr><th scope=\"row\"><p>Payment 0</p></th><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment 1</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment 2</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment 3</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment 4</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment 5</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Payment 6</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><th scope=\"row\"><p>Totals</p></th><td><p></p></td><td><p></p></td><td><p></p></td><td class=\"table-dark\"><p>N/A</p></td></tr></tbody></table></p>",
+                  "solutions": [],
+                  "answer": {
+                    "text": "<table class=\"table table-bordered table-sm\"><caption>Amortization Schedule for Home Loan</caption><tbody><tr><td><br /><p></p></td><th scope=\"col\"><p>Payment</p></th><th scope=\"col\"><p>Amount going toward interest</p></th><th scope=\"col\"><p>Amount going toward unpaid balance</p></th><th scope=\"col\"><p>Unpaid Balance</p></th></tr><tr><th scope=\"row\"><p>Payment 0</p></th><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td><p>199,040</p></td></tr><tr><th scope=\"row\"><p>Payment 1</p></th><td><p>944.52</p></td><td><p>655.17</p></td><td><p>289.35</p></td><td><p>198,750.62</p></td></tr><tr><th scope=\"row\"><p>Payment 2</p></th><td><p>944.52</p></td><td><p>654.22</p></td><td><p>290.30</p></td><td><p>198,460.35</p></td></tr><tr><th scope=\"row\"><p>Payment 3</p></th><td><p>944.52</p></td><td><p>653.27</p></td><td><p>291.25</p></td><td><p>198,169.10</p></td></tr><tr><th scope=\"row\"><p>Payment 4</p></th><td><p>944.52</p></td><td><p>652.31</p></td><td><p>292.21</p></td><td><p>197,876.89</p></td></tr><tr><th scope=\"row\"><p>Payment 5</p></th><td><p>944.52</p></td><td><p>651.34</p></td><td><p>293.18</p></td><td><p>197,583.71</p></td></tr><tr><th scope=\"row\"><p>Payment 6</p></th><td><p>944.52</p></td><td><p>650.38</p></td><td><p>294.14</p></td><td><p>197,289.57</p></td></tr><tr><th scope=\"row\"><p>Totals</p></th><td><p>5667.12</p></td><td><p>3916.69</p></td><td><p>1750.43</p></td><td class=\"table-dark\"><p>N/A</p></td></tr></tbody></table>"
+                  }
+                },
+                {
+                  "text": "What is the total amount you pay for your house?",
+                  "solutions": [
+                    "\\(944.52*12*30=340,027.20+49,760.00=389,787.20\\)"
+                  ],
+                  "answer": {
+                    "text": "The total amount paid for the house is $389787.20"
+                  }
+                },
+                {
+                  "text": "How much do you pay in interest?",
+                  "solutions": [
+                    "\\(389,787.20-248,800=140,987.20\\)"
+                  ],
+                  "answer": {
+                    "text": "The total amount of interest paid is $140,987.20"
+                  }
+                },
+                {
+                  "text": "You talk to your friend who tells you to make a down payment of only 10% (after all, you’ll need some cash to buy some nice new furniture for your house), and you decided to get a 15-year loan at 3.38% interest.  What are your scheduled monthly payments?",
+                  "solutions": [
+                    "\\(248,800*0.10=24,880\\) for the down payment",
+                    "\\(248,800-24,880=223,920\\) amount financed",
+                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
+                    "\\(223,920=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.0338}{12}\\right)^{-12*15}}{\\displaystyle\\frac {.0338}{12}}\\right]\\)",
+                    "\\(223,920=PMT(141.04....)\\)",
+                    "\\(PMT=1587.60\\)"
+                  ],
+                  "answer": {
+                    "text": "The monthly payment for the 15-year loan is $1587.60"
+                  }
+                },
+                {
+                  "text": "Complete the amortization schedule for the first 6 months of your loan.<table class=\"table table-bordered table-sm\"><caption>Amortization Schedule for Home Loan</caption><tbody><tr><td><br /></td><th scope=\"col\">Payment</th><th scope=\"col\">Amount going toward interest</th><th scope=\"col\">Amount going toward unpaid balance</th><th scope=\"col\">Unpaid Balance</th></tr><tr><th scope=\"row\">Payment  0</th><td class=\"table-dark\">N/A</td><td class=\"table-dark\">N/A</td><td class=\"table-dark\">N/A</td><td></td></tr><tr><th scope=\"row\">Payment 1</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Payment 2</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Payment 3</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Payment 4</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Payment 5</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Payment 6</th><td></td><td></td><td></td><td></td></tr><tr><th scope=\"row\">Totals</th><td></td><td></td><td></td><td class=\"table-dark\">N/A</td></tr></tbody></table>",
+                  "solutions": [],
+                  "answer": {
+                    "text": "<table class=\"table table-bordered table-sm\"><caption>Amortization Schedule for Home Loan</caption><tbody><tr><td><br /><p></p></td><th scope=\"col\"><p>Payment</p></th><th scope=\"col\"><p>Amount going toward interest</p></th><th scope=\"col\"><p>Amount going toward unpaid balance</p></th><th scope=\"col\"><p>Unpaid Balance</p></th></tr><tr><th scope=\"row\"><p>Payment 0</p></th><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td class=\"table-dark\"><p>N/A</p></td><td><p>223,920</p></td></tr><tr><th scope=\"row\"><p>Payment 1</p></th><td><p>1587.60</p></td><td><p>630.71</p></td><td><p>956.89</p></td><td><p>222,963.11</p></td></tr><tr><th scope=\"row\"><p>Payment 2</p></th><td><p>1587.60</p></td><td><p>628.01</p></td><td><p>959.59</p></td><td><p>222,003.52</p></td></tr><tr><th scope=\"row\"><p>Payment 3</p></th><td><p>1587.60</p></td><td><p>625.31</p></td><td><p>962.29</p></td><td><p>221,041.23</p></td></tr><tr><th scope=\"row\"><p>Payment 4</p></th><td><p>1587.60</p></td><td><p>622.60</p></td><td><p>965.00</p></td><td><p>220,076.23</p></td></tr><tr><th scope=\"row\"><p>Payment 5</p></th><td><p>1587.60</p></td><td><p>619.88</p></td><td><p>967.72</p></td><td><p>219,108.51</p></td></tr><tr><th scope=\"row\"><p>Payment 6</p></th><td><p>1587.60</p></td><td><p>617.16</p></td><td><p>970.44</p></td><td><p>218,138.07</p></td></tr><tr><th scope=\"row\"><p>Totals</p></th><td><p>9525.60</p></td><td><p>3743.67</p></td><td>5781.93</td><td class=\"table-dark\"><p>N/A</p></td></tr></tbody></table>"
+                  }
+                },
+                {
+                  "text": "What is the total amount you pay for your house?",
+                  "solutions": [
+                    "\\(1587.60*12*15=285,768+24,880=310,648\\)"
+                  ],
+                  "answer": {
+                    "text": "the total amount paid for the house is $310,648."
+                  }
+                },
+                {
+                  "text": "How much do you pay in interest?",
+                  "solutions": [
+                    "\\(310,648-248,800=61,848\\)"
+                  ],
+                  "answer": {
+                    "text": "the total amount of interest paid is ^61,848."
+                  }
+                },
+                {
+                  "text": "Why would you choose one loan over the other?",
+                  "solutions": [],
+                  "answer": {
+                    "text": "You will pay less overall for the 15-year loan, but you might not be able to afford the higher monthly payments."
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Financial Decisions Activity",
+          "intro": "As an adult you are constantly faced with financial choices.  It is up to you to make informed decisions.<p>Do work & answer questions on your own paper and attach to this sheet.</p><p>All numbers must be justified.  If formulas are needed, you must write the formula and show substitutions.</p><p>Answers should be labeled and clearly written.</p><p>Work must be labeled and easy to follow.  Any explanations need to be thorough.</p>",
+          "problemsets": [
+            {
+              "intro": "this is a problem set intro",
+              "problems": [
+                {
+                  "text": "Car purchase options:<p>Option 1:  Purchase price is $23,500 and you are offered 4.2% financing for 60 months if you put $5,000 down.</p><p>Option 2:  Purchase price of $23,500 and you are offered 3.75% financing for 72 months with $0 down.<p>Which option would you choose and why?</p>  </p><p>For each option, determine the following:</p><table class=\"table table-bordered table-sm\"><tbody><tr><td width=\"189\"> </td><th scope=\"col\" width=\"235\">Option 1</th><th scope=\"col\" width=\"235\">Option 2</th></tr><tr><th scope=\"row\" width=\"189\">Purchase Price</th><td width=\"235\"> </td><td width=\"235\"> </td></tr><tr><th scope=\"row\" width=\"189\">Amount of Down Payment</th><td width=\"235\"> </td><td width=\"235\"> </td></tr><tr><th scope=\"row\" width=\"189\">Amount to be Financed</th><td width=\"235\"> </td><td width=\"235\"> </td></tr><tr><th scope=\"row\" width=\"189\">Monthly Payment</th><td width=\"235\"> </td><td width=\"235\"> </td></tr><tr><th scope=\"row\" width=\"189\">Total Paid for the Car</th><td width=\"235\"> </td><td width=\"235\"> </td></tr><tr><th scope=\"row\" width=\"189\">Total Paid in Interest</th><td width=\"235\"> </td><td width=\"235\"> </td></tr></tbody></table>",
+                  "solutions": [
+                    "Option 1:",
+                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
+                    "\\(18,500=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.042}{12}\\right)^{-12*5}}{\\displaystyle\\frac {.042}{12}}\\right]\\)",
+                    "\\(PMT=342.38\\)",
+                    "Option 2:",
+                    "\\(PV=PMT\\;\\left[\\frac{1-\\left(1+\\frac rn\\right)^{-nt}}{\\displaystyle\\frac rn}\\right]\\)",
+                    "\\(23,500=PMT\\;\\left[\\frac{1-\\left(1+\\frac {.0375}{12}\\right)^{-12*6}}{\\displaystyle\\frac {.0375}{12}}\\right]\\)",
+                    "\\(PMT=364.99\\)"
+                  ],
+                  "answer": {
+                    "text": "<table class=\"table table-bordered table-sm\"><tbody><tr><td width=\"189\"> </td><th scope=\"col\" width=\"235\">Option 1</th><th scope=\"col\" width=\"235\">Option 2</th></tr><tr><th scope=\"row\" width=\"189\">Purchase Price</th><td width=\"235\"> 23,500</td><td width=\"235\"> 23,500</td></tr><tr><th scope=\"row\" width=\"189\">Amount of Down Payment</th><td width=\"235\"> 5000</td><td width=\"235\">0</td></tr><tr><th scope=\"row\" width=\"189\">Amount to be Financed</th><td width=\"235\"> 18,500</td><td width=\"235\">23,500</td></tr><tr><th scope=\"row\" width=\"189\">Monthly Payment</th><td width=\"235\"> 342.38</td><td width=\"235\"> 364.99</td></tr><tr><th scope=\"row\" width=\"189\">Total Paid for the Car</th><td width=\"235\"> 25,542.80</td><td width=\"235\"> 26,279.28</td></tr><tr><th scope=\"row\" width=\"189\">Total Paid in Interest</th><td width=\"235\"> 2042.80</td><td width=\"235\"> 2779.28</td></tr></tbody></table>"
+                  }
+                },
+                {
+                  "text": "As a graduation gift, grandma said she will be sending you a very large check and told you to use it well.  You plan to invest it and have researched and found these three options:<p>Option 1:  3% compounded quarterly</p><p>Option 2:  3.15% compounded annually</p><p>Option 3:  2.8% compounded continuously</p><p>Which should you chose and why?",
+                  "solutions": [
+                    "Option1:1",
+                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
+                    "\\(A=P(1+\\frac{.03}{4})^{4*t}\\)",
+                    "Option 2",
+                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
+                    "\\(A=P(1+\\frac{.0315}{1})^{1*t}\\)",
+                    "Option 3",
+                    "\\(A=Pe^{rt}\\)",
+                    "\\(A=Pe^{.028t}\\)"
+                  ],
+                  "answer": {
+                    "text": "You should chose option 2 because it has the highest interest rate."
+                  }
+                },
+                {
+                  "text": "You made a mistake with your bank account and find you are a little short this month.  You are considering going to a payday lender to borrow the money.  You are told that if you borrow $500 for 2 weeks, you must repay $591.36 at the end of the 2 weeks. Interest is compounded continuously.  Find the interest rate you will be paying. Write answer to the nearest hundredth of a percent.",
+                  "solutions": [
+                    "\\(A=Pe^{rt}\\)",
+                    "\\(591.36=500e^{\\frac{1}{26}*r}\\)",
+                    "\\(\\frac{591.36}{500}=e^{\\frac{1}{26}*r}\\)",
+                    "\\(ln\\frac{591.36}{500}=\\frac{1}{26}rlne\\)",
+                    "\\(r=26ln\\frac{591.36}{500}\\)",
+                    "\\(r=4.3632\\)"
+                  ],
+                  "answer": {
+                    "text": "You will be paying 436.32% interest on your payday loan."
+                  }
+                },
+                {
+                  "text": "Rental costs for office space have been going up at 4.8% per year compounded annually for the past 5 years.  If office space rent is now $25 per square foot per month, what were the rental rates 5 years ago? ?",
+                  "solutions": [
+                    "\\(A=P(1+\\frac{r}{n})^{nt}\\)",
+                    "\\(25=P(1+\\frac{.048}{1})^{1*5}\\)",
+                    "\\(P=19.78\\)"
+                  ],
+                  "answer": {
+                    "text": "Five years ago the rental rates were $19.78 per square foot per month."
+                  }
+                },
+                {
+                  "text": "Complete the following amortization schedule for a $1,000 debt that is to be amortized in six monthly payments at 1.25% interest per month. Use the numbered hints to get you started.<ol><li>What is the unpaid balance to begin?</li><li>Find the monthly payment and record that amount. In theory, all payments will be the same amount.</li><li>Amount of payment going toward interest:  (Unpaid Balance) x (the interest rate per month)</li><li>Amount of payment going toward unpaid balance:  (payment) – (amount going toward interest)</li><li>Updated Unpaid Balance:  (previous unpaid balance) – (most recent amount going toward unpaid balance)</li><li>Follow pattern above to complete for Payment Number 2, etc.</li><li>Find the totals for the columns.</li></ol><table class=\"table-bordered table-sm\"><tbody><tr><td width=\"71\"> </td><th scope=\"col\" width=\"118\"> Payment </th><th scope=\"col\" width=\"122\">Amount going toward interest</th><th scope=\"col\" width=\"131\">Amount going toward unpaid balance</th><th scope=\"col\" width=\"133\"> Unpaid Balance</th></tr><tr><th scope=\"row\" width=\"71\">  Payment 0</th><td width=\"118\" class=\"table-dark\"><p>N/A</p> </td><td width=\"122\" class=\"table-dark\"><p>N/A</p> </td><td width=\"131\" class=\"table-dark\"><p>N/A</p> </td><td width=\"133\">(1)</td></tr><tr><th scope=\"row\" width=\"71\">  Payment 1</th><td width=\"118\">(2)</td><td width=\"122\">(3)</td><td width=\"131\">(4)</td><td width=\"133\">(5)</td></tr><tr><th scope=\"row\" width=\"71\">  Payment 2</th><td width=\"118\">(6)</td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\"> </td></tr><tr><th scope=\"row\" width=\"71\">  Payment 3</th><td width=\"118\"> </td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\"> </td></tr><tr><th scope=\"row\" width=\"71\">  Payment 4</th><td width=\"118\"> </td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\"> </td></tr><tr><th scope=\"row\" width=\"71\">  Payment 5</th><td width=\"118\"> </td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\"> </td></tr><tr><th scope=\"row\" width=\"71\">  Payment 6</th><td width=\"118\"> </td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\"> </td></tr><tr><th scope=\"row\" width=\"71\">Totals</th><td width=\"118\">(7)</td><td width=\"122\"> </td><td width=\"131\"> </td><td width=\"133\" class=\"table-dark\"><p>N/A</p> </td></tr></tbody></table>",
+                  "solutions": [],
+                  "answer": {
+                    "text": "<table class=\"table-bordered table-sm\"><tbody><tr><td width=\"71\"> </td><th scope=\"col\" width=\"118\">  Payment  </th><th scope=\"col\" width=\"122\">Amount going toward interest</th><th scope=\"col\" width=\"131\">Amount going toward unpaid balance</th><th scope=\"col\" width=\"133\">  Unpaid Balance</th></tr><tr><th scope=\"row\" width=\"71\">    Payment 0</th><td width=\"118\" class=\"table-dark\"><p>N/A</p> </td><td width=\"122\" class=\"table-dark\"><p>N/A</p> </td><td width=\"131\" class=\"table-dark\"><p>N/A</p> </td><td width=\"133\">(1) 1000</td></tr><tr><th scope=\"row\" width=\"71\">    Payment 1</th><td width=\"118\">(2) 174.03</td><td width=\"122\">(3) 12.50</td><td width=\"131\">(4) 161.53</td><td width=\"133\">(5) 838.47</td></tr><tr><th scope=\"row\" width=\"71\">    Payment 2</th><td width=\"118\">(6) 174.03</td><td width=\"122\"> 10.48</td><td width=\"131\"> 163.55</td><td width=\"133\"> 674.92</td></tr><tr><th scope=\"row\" width=\"71\">    Payment 3</th><td width=\"118\"> 174.03</td><td width=\"122\"> 8.44</td><td width=\"131\"> 165.59</td><td width=\"133\"> 509.33</td></tr><tr><th scope=\"row\" width=\"71\">    Payment 4</th><td width=\"118\"> 174.03</td><td width=\"122\"> 6.37</td><td width=\"131\"> 167.66</td><td width=\"133\"> 341.67</td></tr><tr><th scope=\"row\" width=\"71\">    Payment 5</th><td width=\"118\"> 174.03</td><td width=\"122\"> 4.27</td><td width=\"131\"> 169.76</td><td width=\"133\"> 171.91</td></tr><tr><th scope=\"row\" width=\"71\">    Payment 6</th><td width=\"118\"> 174.03</td><td width=\"122\"> 2.15</td><td width=\"131\"> 171.88</td><td width=\"133\"> 0.03</td></tr><tr><th scope=\"row\" width=\"71\">Totals</th><td width=\"118\">(7) 1044.18</td><td width=\"122\"> 44.21</td><td width=\"131\"> 999.97</td><td width=\"133\" class=\"table-dark\"><p>N/A</p> </td></tr></tbody></table>"
                   }
                 }
               ]
